@@ -133,3 +133,8 @@ For first-use guidance and real examples, read `START-HERE.md` and
 `WORKED-EXAMPLES.md`. Saved examples teach the workflow; do not represent them as
 fresh executions. A bounded functional pass is not a cross-platform AI accuracy
 measurement or independent scholarly validation.
+
+
+## Assess academic claims critically
+
+Read `references/academic-audit-2026-10-20.md` and its linked frozen review when assessing critical-edition, independence, linguistic-inference or AI-accuracy claims. Preserve its distinction between source fidelity and scholarly correctness. Treat its post hoc diagnostics as exploratory methodological probes, never canonical object joins, new linguistic results or independent expert acceptance. Prefer current native source/review gates over the audit when later evidence changes. If the reference is unavailable, disclose that limitation and retrieve the linked published report before relying on its findings.
