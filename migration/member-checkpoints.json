@@ -3,75 +3,75 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "commit": "c6ba49b8752e123f1d0a778d32a836335df352bc"
+      "commit": "d0e2ca335230c358cb0d95e6ddd188dd2455ca8d"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
-      "commit": "6f15f3bee81a21d2514d33e7baf8fcb11ae66829"
+      "commit": "185ef0a44222281fbde53589185f8b647ad85313"
     },
     {
       "repository": "hawkinsnick/Linear-B",
-      "commit": "19afd3611d3e108de09714105db705251253f89f"
+      "commit": "314638026db8eac689e10b0a7193ffef0d996a07"
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
-      "commit": "eebb2a7f3711113f2ae47990ed8303bd63ec9f5c"
+      "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
-      "commit": "dad16c370e378cbadb19e3ef3d51b11557fd8cf7"
+      "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722"
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
-      "commit": "d2b01d679472d45027c9c99edcbeebbbe6927f23"
+      "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
-      "commit": "08522e25e7fd5244a147bf42d486e00d4eab8541"
+      "commit": "148e335c3f68c790b5850fea75c7fa37835d971c"
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
-      "commit": "d00d178d04b344705f25ab49afd4d9c1827993cc"
+      "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b"
     },
     {
       "repository": "hawkinsnick/Eteocretan",
-      "commit": "4987454ff9fe221aa4e6b8d493c3bd4b2b318aae"
+      "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3"
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
-      "commit": "ff80a908914864ded0c5a66d7db7ca5f5c801ab9"
+      "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea"
     },
     {
       "repository": "hawkinsnick/Phrygian",
-      "commit": "98692334bed43e23692dbfe86c7c1d7c9c43a0a7"
+      "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3"
     },
     {
       "repository": "hawkinsnick/Anatolian-Hieroglyphic",
-      "commit": "3209baba600592497e68a554c2d290b96fd466f3"
+      "commit": "064f948408983abc5581a816649a8ca949466674"
     },
     {
       "repository": "hawkinsnick/Archanes-Script",
-      "commit": "3a421d838a27e056eb32232a1fdb1685ffa17d88"
+      "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395"
     },
     {
       "repository": "hawkinsnick/Aegean-anomalous",
-      "commit": "73eb3dafe923b08e9fb027b5cda34e16013960e8"
+      "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b"
     },
     {
       "repository": "hawkinsnick/Lydian",
-      "commit": "f8d781267fe002aed607b562dc1dfe537cb7b217"
+      "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70"
     },
     {
       "repository": "hawkinsnick/Sidetic",
-      "commit": "52825f7d2d7a0a899e810d25b8711e8b9ee06f9c"
+      "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa"
     },
     {
       "repository": "hawkinsnick/Pisidian",
-      "commit": "cb3d25674ab8569d3f534e3b4fc99607ab019adf"
+      "commit": "23925bd586857b13715a11d7a38aea3a78d8e307"
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
-      "commit": "5c84a74a513df72ab9644bd88d45702ebcd4288b"
+      "commit": "b0ee68112c25f89891bd2ba05c5830d816608975"
     }
   ],
   "scientific_approval_granted": false
