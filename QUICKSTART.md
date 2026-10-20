@@ -1,5 +1,7 @@
 # Combined Corpus Research AI — Researcher Quickstart
 
+**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Doctoral research examples for all 18 corpora](PHD-RESEARCH-EXAMPLES.md).
+
 **New: [Follow three worked examples](WORKED-EXAMPLES.md)** — trace a real record, assess an unresolved comparison, and reproduce a calculation. Browser-only and optional AI/Python routes include verified results.
 
 This guide explains the research workflow after setup. For downloads and upload instructions, begin with [Start here](START-HERE.md). You can start with one text file, without Git or Python.

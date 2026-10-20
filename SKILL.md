@@ -129,8 +129,10 @@ uncertainty and exact method for new calculations. Keep unknowns unknown; do not
 manufacture restorations, translations, physical identity or independent witnesses.
 Give the next admissible research step when a claim is blocked.
 
-For first-use guidance and real examples, read `START-HERE.md` and
-`WORKED-EXAMPLES.md`. Saved examples teach the workflow; do not represent them as
+For setup and dissertation research workflows, read `USER-GUIDE.md` and
+`PHD-RESEARCH-EXAMPLES.md`. Treat their proposed studies as research designs,
+not executed results or evidence of native coverage. For saved executed examples,
+read `WORKED-EXAMPLES.md`. Saved examples teach the workflow; do not represent them as
 fresh executions. A bounded functional pass is not a cross-platform AI accuracy
 measurement or independent scholarly validation.
 

@@ -1,5 +1,7 @@
 # A researcher's first session: three worked examples
 
+**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Doctoral research examples for all 18 corpora](PHD-RESEARCH-EXAMPLES.md).
+
 Start here if you want to see what the corpus can do before installing anything.
 These examples use Linear A to teach source tracing, assessment of an unresolved
 comparison, and reproducible counting. Other languages use their own evidence

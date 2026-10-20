@@ -7,8 +7,8 @@
       "source_path": "combined-ai-skill/QUICKSTART.md",
       "source_sha256": "1ecdc2ce76b659cdd42c1d4dd6328caaca6b1ff3ad92e31cc755097a4dff94aa",
       "destination_path": "QUICKSTART.md",
-      "destination_sha256": "7c0225635e44d65332aacdc2508f6ad926500176443adcabe6969b56b3deec25",
-      "transformation": "Rebase Markdown routes; point setup and starter links at this standalone package."
+      "destination_sha256": "8d1cd07660fcca5db5b52e9e4a678143f8a2db004689bf1d9ba4f254320f4b27",
+      "transformation": "Rebase Markdown routes; point setup and starter links at this standalone package. Add navigation to researcher user guide and doctoral example collection; preserve historical teaching results."
     },
     {
       "source_path": "combined-ai-skill/PROMPTS.md",
@@ -20,7 +20,8 @@
       "source_path": "combined-ai-skill/WORKED-EXAMPLES.md",
       "source_sha256": "548d6231b3549e1c67c83fe173cb561b3aacd32bbca2baf178b05f4cd5677ea8",
       "destination_path": "WORKED-EXAMPLES.md",
-      "destination_sha256": "cbde6b0728776a9ff3a0b37fe960b7a16b1ccedcd5d5fb36ec79b8cb6e60c526"
+      "destination_sha256": "bc4f16f767e2345690e234099fd18526772d09766ca563e10bbff9759b705946",
+      "transformation": "Rebase standalone links. Add navigation to researcher user guide and doctoral example collection; preserve historical teaching results."
     },
     {
       "source_path": "combined-ai-skill/EXPERT-REVIEW.md",

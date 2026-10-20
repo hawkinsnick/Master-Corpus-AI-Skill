@@ -1,5 +1,7 @@
 # Start a research session
 
+**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Doctoral research examples for all 18 corpora](PHD-RESEARCH-EXAMPLES.md).
+
 1. Start with [the canonical master instructions](SKILL.md) in this dedicated
    repository. Check [README.md](README.md) for scope and source boundaries.
 2. Download [the starter text](downloads/Master-Corpus-AI-Skill-Starter.txt) and

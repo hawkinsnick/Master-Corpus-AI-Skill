@@ -1,5 +1,7 @@
 # Master Corpus AI Skill
 
+**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Doctoral research examples for all 18 corpora](PHD-RESEARCH-EXAMPLES.md).
+
 A dedicated home for the master research skill coordinating 18 ancient-script
 corpus projects. Begin with [SKILL.md](SKILL.md), the
 [researcher walkthrough](START-HERE.md), or the

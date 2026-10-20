@@ -67,34 +67,44 @@
       "bytes": 497
     },
     {
+      "path": "PHD-RESEARCH-EXAMPLES.md",
+      "sha256": "d862d0612bb8f2efb70a58cf1702abc18b855853f3a0b669279418a3268270a5",
+      "bytes": 28011
+    },
+    {
       "path": "PROMPTS.md",
       "sha256": "143e7b1fc0b30498cb4e0b682791729663c5185ad4c1f868bdd7aabaa3f0405f",
       "bytes": 2912
     },
     {
       "path": "QUICKSTART.md",
-      "sha256": "7c0225635e44d65332aacdc2508f6ad926500176443adcabe6969b56b3deec25",
-      "bytes": 5105
+      "sha256": "8d1cd07660fcca5db5b52e9e4a678143f8a2db004689bf1d9ba4f254320f4b27",
+      "bytes": 5248
     },
     {
       "path": "README.md",
-      "sha256": "78a171393e9b5fb2df4472575d91077d0f00daee3ecdcc19fb0263e9088cd950",
-      "bytes": 1724
+      "sha256": "66206e6fc737bd1f80960cd487cb508a684a59a29f71c8beff5d7b4b2a07a43f",
+      "bytes": 1867
     },
     {
       "path": "SKILL.md",
-      "sha256": "8b26bfe07faf5b20feb026f66847ca2b604479f8ebc6e61a22d3e3e1e99693d9",
-      "bytes": 7909
+      "sha256": "a09deb43eea359ef06cb017944eede075453b0af63c1b8ed12555e24c8468fef",
+      "bytes": 8079
     },
     {
       "path": "START-HERE.md",
-      "sha256": "be35af7fd27836a74c006e9ccd8e78ff126d4ef5511ef4841e8651716c9917d6",
-      "bytes": 1578
+      "sha256": "b3a375db4e9301568f57aeafb1ce4124bc464d48d38a2863ec5b6c23c56c931b",
+      "bytes": 1721
+    },
+    {
+      "path": "USER-GUIDE.md",
+      "sha256": "380a5c87b7a0887ddd4e849098e021480e9bb1d7a51a77a9d1cc7f19029ea34e",
+      "bytes": 16523
     },
     {
       "path": "WORKED-EXAMPLES.md",
-      "sha256": "cbde6b0728776a9ff3a0b37fe960b7a16b1ccedcd5d5fb36ec79b8cb6e60c526",
-      "bytes": 12855
+      "sha256": "bc4f16f767e2345690e234099fd18526772d09766ca563e10bbff9759b705946",
+      "bytes": 12998
     },
     {
       "path": "manifest.json",
@@ -118,8 +128,8 @@
     },
     {
       "path": "migration/origin.json",
-      "sha256": "fbb2806fdb74031f1cd7fa076b6651f6d65dd9cd7d7c36df219a5ec51356297a",
-      "bytes": 4093
+      "sha256": "ede2daa7c4ae59d4552c8d8475383db38a6989fa0c92d8ab8fabeb630583f745",
+      "bytes": 4367
     },
     {
       "path": "references/academic-audit-2026-10-20.md",
@@ -153,8 +163,8 @@
     },
     {
       "path": "scripts/build_starter.py",
-      "sha256": "a2b0581d5dc3aa4891d6b2b972e9ec0874cc401b7a8db0380ba2b8e026ccfe82",
-      "bytes": 2954
+      "sha256": "9fe1c14817ad0b237d6c449625f4008a36c3895e792bd2f526ff9acbb204e737",
+      "bytes": 2997
     },
     {
       "path": "scripts/common.py",
@@ -204,7 +214,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "d93a764ffeeb40beb3b841c60182acb60c065531a32bd62f137a08cf95f8574f",
-    "bytes": 98982
+    "sha256": "65022f5198052da124ddc137ec2ebeed3ed73bed92b07e21ef866e742e734694",
+    "bytes": 99295
   }
 }
