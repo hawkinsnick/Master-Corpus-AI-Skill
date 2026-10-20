@@ -1,0 +1,75 @@
+{
+  "repository": "hawkinsnick/Linear-A",
+  "commit": "61f1cd73ae66fd6a5f98d03f2f5694b05bf11d18",
+  "directory": "combined-ai-skill",
+  "migrated_files": [
+    {
+      "source_path": "combined-ai-skill/QUICKSTART.md",
+      "source_sha256": "1ecdc2ce76b659cdd42c1d4dd6328caaca6b1ff3ad92e31cc755097a4dff94aa",
+      "destination_path": "QUICKSTART.md",
+      "destination_sha256": "7c0225635e44d65332aacdc2508f6ad926500176443adcabe6969b56b3deec25",
+      "transformation": "Rebase Markdown routes; point setup and starter links at this standalone package."
+    },
+    {
+      "source_path": "combined-ai-skill/PROMPTS.md",
+      "source_sha256": "143e7b1fc0b30498cb4e0b682791729663c5185ad4c1f868bdd7aabaa3f0405f",
+      "destination_path": "PROMPTS.md",
+      "destination_sha256": "143e7b1fc0b30498cb4e0b682791729663c5185ad4c1f868bdd7aabaa3f0405f"
+    },
+    {
+      "source_path": "combined-ai-skill/WORKED-EXAMPLES.md",
+      "source_sha256": "548d6231b3549e1c67c83fe173cb561b3aacd32bbca2baf178b05f4cd5677ea8",
+      "destination_path": "WORKED-EXAMPLES.md",
+      "destination_sha256": "cbde6b0728776a9ff3a0b37fe960b7a16b1ccedcd5d5fb36ec79b8cb6e60c526"
+    },
+    {
+      "source_path": "combined-ai-skill/EXPERT-REVIEW.md",
+      "source_sha256": "1d92abd5169fa3d0ffbbc1ac08b23482624a53bc9f78cb57191a16d3b0ab9878",
+      "destination_path": "EXPERT-REVIEW.md",
+      "destination_sha256": "1d92abd5169fa3d0ffbbc1ac08b23482624a53bc9f78cb57191a16d3b0ab9878"
+    },
+    {
+      "source_path": "combined-ai-skill/CORPUS-DOWNLOADS.md",
+      "source_sha256": "32fe0005ea5261bb76aee11c2f11306458cbd0edd34398edab086479f74eff6f",
+      "destination_path": "CORPUS-DOWNLOADS.md",
+      "destination_sha256": "2accf129ed1d0524de26bd0d62ea5a61ac9961ba422e8ef1c8228aa8f5dbd14a",
+      "transformation": "Rebase Markdown routes; point setup and starter links at this standalone package."
+    },
+    {
+      "source_path": "combined-ai-skill/references/comparability-matrix.md",
+      "source_sha256": "e7ed83a62d4728d4f183c306ce57ace2a58bf682cba85cb4a98979222c234f30",
+      "destination_path": "references/comparability-matrix.md",
+      "destination_sha256": "e7ed83a62d4728d4f183c306ce57ace2a58bf682cba85cb4a98979222c234f30"
+    },
+    {
+      "source_path": "combined-ai-skill/references/pre-expert-standing-order.md",
+      "source_sha256": "e84c09d4b4e812f08f57114348812525b0f715fe6387ca9498193f6166deabe9",
+      "destination_path": "references/pre-expert-standing-order.md",
+      "destination_sha256": "e84c09d4b4e812f08f57114348812525b0f715fe6387ca9498193f6166deabe9"
+    },
+    {
+      "source_path": "combined-ai-skill/tests/adversarial-cases.json",
+      "source_sha256": "33b458f7cb372c8d00d5576ee111894424f77cbd59b58c8aed6837a6b70df280",
+      "destination_path": "tests/adversarial-cases.json",
+      "destination_sha256": "33b458f7cb372c8d00d5576ee111894424f77cbd59b58c8aed6837a6b70df280"
+    },
+    {
+      "source_path": "combined-ai-skill/registry/corpus-projects.json",
+      "source_sha256": "51942e8989e847dd7802741531c8d67c18f14bde59a596bbcbfdcb67635a8406",
+      "destination_path": "registry/corpus-projects.json",
+      "destination_sha256": "51942e8989e847dd7802741531c8d67c18f14bde59a596bbcbfdcb67635a8406"
+    },
+    {
+      "source_path": "combined-ai-skill/SKILL.md",
+      "source_sha256": "83e8a48e27e76772fc3b6e9b2d5d9b9f162feea261d8cb3076553051c473e441",
+      "destination_path": "references/native-routing.md",
+      "destination_sha256": "0b610a4f735b0778e36169aba7dcb631dbb16e7d28614c32e69223f175530ad2",
+      "transformation": "Rebase own-directory references and explicitly namespace Linear-A factory paths; preserve dated narrative as reference."
+    }
+  ],
+  "status": "CANONICAL_PUBLISHED",
+  "intended_destination": "hawkinsnick/Master-Corpus-AI-Skill",
+  "cutover_policy": "Do not redirect active corpus entry points until the dedicated destination exists and its hosted checks pass.",
+  "canonical_repository": "hawkinsnick/Master-Corpus-AI-Skill",
+  "legacy_entrypoint": "https://github.com/hawkinsnick/Linear-A/blob/main/combined-ai-skill/SKILL.md"
+}

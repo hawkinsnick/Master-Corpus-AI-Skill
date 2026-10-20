@@ -1,0 +1,205 @@
+{
+  "format": "standalone-master-source-index-v1",
+  "version": "1.4.0",
+  "migration_status": "CANONICAL_PUBLISHED",
+  "origin_repository": "hawkinsnick/Linear-A",
+  "origin_commit": "61f1cd73ae66fd6a5f98d03f2f5694b05bf11d18",
+  "native_corpus_payload_included": false,
+  "files": [
+    {
+      "path": ".github/workflows/sync-members.yml",
+      "sha256": "3bc97316795d8d3ec5f211d88f5cff504a7fd688f1985d9463062c137df87a14",
+      "bytes": 1328
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "006908a3b1c49e73cf299027c7657dd38fc3b61f4793ab41cacf3b44cbd4f17b",
+      "bytes": 1910
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "0ad7a9ba7d95f19466e5975f5f1d12bb1b43e1878e308b39432ce1e18edf8b5b",
+      "bytes": 31
+    },
+    {
+      "path": "AUTO-SYNC.md",
+      "sha256": "af66b1cb0a5c1ac8578212074eb39055454e170228979075f287181ad5413213",
+      "bytes": 2523
+    },
+    {
+      "path": "CORPUS-DOWNLOADS.md",
+      "sha256": "2accf129ed1d0524de26bd0d62ea5a61ac9961ba422e8ef1c8228aa8f5dbd14a",
+      "bytes": 5236
+    },
+    {
+      "path": "EXPERT-REVIEW.md",
+      "sha256": "1d92abd5169fa3d0ffbbc1ac08b23482624a53bc9f78cb57191a16d3b0ab9878",
+      "bytes": 4219
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "af737cfa218f4d684bb13f5434d1756975b296dac479e0ebdc2da0dd9ed2f35c",
+      "bytes": 261
+    },
+    {
+      "path": "LICENSE-CODE",
+      "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+      "bytes": 444
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+      "bytes": 969
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "28496cddc6a99fbd573081552faccffb6d78ab696c63b86b1554872894492f6f",
+      "bytes": 744
+    },
+    {
+      "path": "MEMBER-STATUS.md",
+      "sha256": "66c04b65c54f813ee2d4f1f643b9a59bb82b65d4ba668309c0cf1692007e07d6",
+      "bytes": 170
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "41860a7e01548b6935b4820233edf30ded2510d83290f30785e98c9302dffbee",
+      "bytes": 497
+    },
+    {
+      "path": "PROMPTS.md",
+      "sha256": "143e7b1fc0b30498cb4e0b682791729663c5185ad4c1f868bdd7aabaa3f0405f",
+      "bytes": 2912
+    },
+    {
+      "path": "QUICKSTART.md",
+      "sha256": "7c0225635e44d65332aacdc2508f6ad926500176443adcabe6969b56b3deec25",
+      "bytes": 5105
+    },
+    {
+      "path": "README.md",
+      "sha256": "78a171393e9b5fb2df4472575d91077d0f00daee3ecdcc19fb0263e9088cd950",
+      "bytes": 1724
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "0dcd4ed4512804cdd38a66b87ba9c2282c5a7d1baea4ec0068db928ec1f40f34",
+      "bytes": 7253
+    },
+    {
+      "path": "START-HERE.md",
+      "sha256": "be35af7fd27836a74c006e9ccd8e78ff126d4ef5511ef4841e8651716c9917d6",
+      "bytes": 1578
+    },
+    {
+      "path": "WORKED-EXAMPLES.md",
+      "sha256": "cbde6b0728776a9ff3a0b37fe960b7a16b1ccedcd5d5fb36ec79b8cb6e60c526",
+      "bytes": 12855
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "b34c1aa72bb69037e791dbd95e3c6c7f1f44b3706eb58343a07e7324f0fe5770",
+      "bytes": 1478
+    },
+    {
+      "path": "migration/CUTOVER.md",
+      "sha256": "53be92553f7889f2f49b2cc158f853617da8773d9b4737fad7b6b94402296e18",
+      "bytes": 1995
+    },
+    {
+      "path": "migration/VALIDATION.md",
+      "sha256": "7c553585264736050128c32efcf0ca879b3acbf468e6e7226e07befaeaccaae8",
+      "bytes": 1898
+    },
+    {
+      "path": "migration/member-checkpoints.json",
+      "sha256": "241e1671eb44fd427a47030dd3ad5fa568fd4c1aa4259b2367cc2629eb212c57",
+      "bytes": 2371
+    },
+    {
+      "path": "migration/origin.json",
+      "sha256": "fbb2806fdb74031f1cd7fa076b6651f6d65dd9cd7d7c36df219a5ec51356297a",
+      "bytes": 4093
+    },
+    {
+      "path": "references/comparability-matrix.md",
+      "sha256": "e7ed83a62d4728d4f183c306ce57ace2a58bf682cba85cb4a98979222c234f30",
+      "bytes": 1457
+    },
+    {
+      "path": "references/native-routing.md",
+      "sha256": "0b610a4f735b0778e36169aba7dcb631dbb16e7d28614c32e69223f175530ad2",
+      "bytes": 70015
+    },
+    {
+      "path": "references/pre-expert-standing-order.md",
+      "sha256": "e84c09d4b4e812f08f57114348812525b0f715fe6387ca9498193f6166deabe9",
+      "bytes": 5919
+    },
+    {
+      "path": "registry/corpus-projects.json",
+      "sha256": "51942e8989e847dd7802741531c8d67c18f14bde59a596bbcbfdcb67635a8406",
+      "bytes": 68067
+    },
+    {
+      "path": "registry/member-state.json",
+      "sha256": "069061e42a1856dafd6d26b96df9050da0e8b88289bba359c904762e51649ba0",
+      "bytes": 3148
+    },
+    {
+      "path": "scripts/build_starter.py",
+      "sha256": "a2b0581d5dc3aa4891d6b2b972e9ec0874cc401b7a8db0380ba2b8e026ccfe82",
+      "bytes": 2954
+    },
+    {
+      "path": "scripts/common.py",
+      "sha256": "0d3e2f85c3c69de1ce448b77836c0a7eed558e2ca1ad764907aca4ac820845f4",
+      "bytes": 3057
+    },
+    {
+      "path": "scripts/publish_member_sync.py",
+      "sha256": "341e3a2da246ba4a175531473aba2eec952cbe11686f70edec99a893536c26d0",
+      "bytes": 1734
+    },
+    {
+      "path": "scripts/query.py",
+      "sha256": "00901b1a4d8aaf63b96274314819e1a1f3dfb513982dd398febca39e056fdce8",
+      "bytes": 3244
+    },
+    {
+      "path": "scripts/sync_members.py",
+      "sha256": "7d44828a1a948374abe6d44b758e18d63137e81f15a43aaa4c62afbbbea7723a",
+      "bytes": 6808
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "6c200d9246cb889c76bb2c5b9b0ee20d82e392421f8497c44b2f193c2a20bac3",
+      "bytes": 5461
+    },
+    {
+      "path": "tests/adversarial-cases.json",
+      "sha256": "33b458f7cb372c8d00d5576ee111894424f77cbd59b58c8aed6837a6b70df280",
+      "bytes": 7514
+    },
+    {
+      "path": "tests/test_publish_member_sync.py",
+      "sha256": "980fbda0eef67616a4dfb5c312a4ce44a92e3847bb86cc31650e3bc5bea4aecf",
+      "bytes": 3549
+    },
+    {
+      "path": "tests/test_standalone.py",
+      "sha256": "5e67cd3e40dd77c18e904da32e9ed15b4e8acd9aa95889341e3e21c249548603",
+      "bytes": 4814
+    },
+    {
+      "path": "tests/test_sync_members.py",
+      "sha256": "cc3ce8bf16fdb7df110de68d2dac77c78a660bcd375ad5335c5434c6b57e959b",
+      "bytes": 3690
+    }
+  ],
+  "starter": {
+    "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
+    "sha256": "9bf02f67e265a2f4204965a864be513a8b36cddb727bbb23080b5bac1b009003",
+    "bytes": 82024
+  }
+}

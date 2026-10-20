@@ -1,0 +1,1322 @@
+Master Corpus AI Skill — instruction-only starter
+Migration status: CANONICAL_PUBLISHED
+Native evidence must be supplied separately.
+
+
+===== SKILL.md =====
+---
+name: combined-corpus-research
+description: Coordinate evidence-first research across the registered ancient-script corpora. Use for choosing a corpus, tracing source records, comparing native evidence, assessing coverage or preparing reproducible cross-corpus research while preserving uncertainty, source dependence and component rights.
+---
+
+# Master Corpus AI Skill — 1.4.0
+
+## Establish the available evidence
+
+Read `manifest.json` and `registry/corpus-projects.json`. This master coordinates
+18 independent corpus projects. Egyptian Hieroglyphic Corpus remains a separate
+acquisition project; exclude photography and endurance projects. Do not merge
+native evidence models or treat repository membership as linguistic evidence.
+
+Read `migration/origin.json` for the exact extraction source and provenance.
+The canonical published home is `hawkinsnick/Master-Corpus-AI-Skill`, with
+`SKILL.md` at the repository root. The Linear-A combined-ai-skill entry is a
+compatibility route. Supplying a URL does not install a skill or grant file access.
+Identify which instructions, native files and scripts are actually accessible.
+State any unexecuted check or unavailable source explicitly.
+
+Resolve master paths relative to this repository. Resolve paths declared in a
+member's registry entry relative to THAT member repository. `Linear-A/...` paths
+in the routing reference identify the external Linear-A checkout. Never search
+this master repository for native inscription data or invent missing files.
+
+## Refresh and inspect native corpus state
+
+Read `registry/member-state.json`, `MEMBER-STATUS.md` and `AUTO-SYNC.md` before
+current coverage/readiness claims. The master automatically checks registered
+native main revisions on a five-minute schedule and on master pushes. Only
+validated, stable revisions advance accepted checkpoints; failed/racing updates
+retain the previous accepted snapshot and are visibly pending. Scheduled delivery
+can be delayed by GitHub. This refresh changes integrity/status metadata and the
+starter, not scholarly readings, permissions, source independence or expert gates.
+If the observed head differs from the accepted head, disclose that difference
+and validate current native evidence before using it. No data from excluded
+projects is admitted by synchronization.
+
+## Route the research question
+
+1. Select the member repositories whose stated scope can answer the question.
+2. Load each selected member's `individual_skill_path`, `authority_profile_path`
+   and `bundle_index_path`. Read its current native evidence and rights guides.
+3. Prefer the native current authorities over dated registry summaries or saved
+   worked examples. Treat inherited admission fields as declarations requiring
+   validation, not independent scientific acceptance or permission.
+4. Retrieve exact IDs within a repository and collection namespace. Retain the
+   source path, JSON pointer or other locus, SHA-256, original attribution,
+   editorial notation, uncertainty, exclusions and component rights.
+5. For one member, follow that member's research workflow. For multiple members,
+   retrieve their evidence separately before considering a comparison.
+
+Use `references/native-routing.md` for specialist source/review routes and
+historical checkpoints. Read the current native files before adopting any count,
+readiness status, reading, source-access claim or dated instruction from it.
+
+## Execute the standalone workflows when available
+
+Use Python 3.10+ and the standard library. No native corpus checkout is needed to
+check the master instruction bundle:
+
+```sh
+python scripts/validate.py
+```
+
+With native checkouts in one parent directory, validate the selected/current
+member workflows and produce scoped receipts:
+
+```sh
+python scripts/validate.py --checkouts /path/to/corpora --output member-checks.json
+```
+
+Discover native collections and then retrieve an exact ID:
+
+```sh
+python scripts/query.py --checkouts /path/to/corpora --repository hawkinsnick/Linear-A --coverage
+python scripts/query.py --checkouts /path/to/corpora --repository hawkinsnick/Linear-A --id "ARKH 1a" --collection source-documents
+```
+
+Search literal text across registered native views without pooling their counts:
+
+```sh
+python scripts/query.py --checkouts /path/to/corpora --search "?" --limit 3
+```
+
+A literal question mark is a retrieval term; it is not a universal classification
+of damage or uncertainty. Report truncation and missing collections explicitly.
+Unknown IDs mean absent from the selected view; never infer global absence.
+
+Optional deeper federation, frozen-source replay and private research packaging
+remain maintained tools of Linear-A. Run those from its checkout using its own
+current guides and exact source checkpoints. This master does not duplicate
+native code or acquire restricted datasets to imitate those workflows.
+
+## Apply the comparison gate
+
+Read `references/comparability-matrix.md`. State the question, native unit in each
+member, included/excluded population, representation layer, counting denominator,
+source dependence, uncertainty and relevant rights. If comparability is unknown,
+limit the answer to a descriptive side-by-side account and mark inference BLOCKED.
+
+Never infer sign values, phonetic equivalence, language family, borrowing,
+chronology, morphology, decipherment or independent replication from visual/string
+similarity, interoperability, shared tooling or duplicated source witnesses.
+Do not transfer Linear B values into undeciphered scripts as established readings.
+Preserve quarantined/superseded analyses as non-supporting where the native rules
+require. Distinguish observed/source text, editorial reconstruction, normalized
+representation, computation, scholarly interpretation and AI inference.
+
+## Preserve source rights and scientific gates
+
+Keep component terms and attribution intact. A public URL, purchased copy,
+uploaded PDF or downstream reproduction grants no new redistribution permission.
+Preserve GORILA restrictions and route growth to admissible sources. Do not
+reconstruct restricted datasets indirectly. Upstream CC0/CC-BY/CC-BY-SA rights
+remain applicable rather than inheriting project-original noncommercial terms.
+
+Software integrity and source replay establish neither accepted readings nor
+expert acceptance. Prepared review forms are not completed reviews. Missing gold,
+annotations, source alignment, access or permissions remain distinct prerequisites.
+Do not treat Linear B calibration as executed when its native gates remain open.
+
+## Answer with inspectable evidence
+
+Lead with the supported finding. Include native repository/collection/record IDs,
+source citation/locus and path/hash/pointer, evidentiary category, source dependence,
+uncertainty and exact method for new calculations. Keep unknowns unknown; do not
+manufacture restorations, translations, physical identity or independent witnesses.
+Give the next admissible research step when a claim is blocked.
+
+For first-use guidance and real examples, read `START-HERE.md` and
+`WORKED-EXAMPLES.md`. Saved examples teach the workflow; do not represent them as
+fresh executions. A bounded functional pass is not a cross-platform AI accuracy
+measurement or independent scholarly validation.
+
+
+===== registry/corpus-projects.json =====
+{
+  "schema_version": "1.0.0",
+  "registry_version": "2.0.0",
+  "name": "Corpus Projects Registry",
+  "policy": "Members are independent corpus projects. Membership and interoperability do not imply linguistic, chronological, graphical, or genetic relationship.",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "label": "Linear A",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM is a scoped tooling baseline, not human-only readiness; acquisition, source reconciliation, primary collation, calibration and expert gates remain distinct; 802 public authenticated source entries / 5,144 slots / 1,401 editorial groups / 376 source sign entries; ten-entry critical pilot with 51 attributed assertions and 41 qualified amount components; 135 acquired GORILA page routes linked to 222 entries, no automatic reading verification. Raison–Pope entry joins and physical identities remain unresolved; expert review remains open. Saved-page review: 135 inspected pages / 222 linked source entries / 220 confirmed target headings / two HT 53 route mismatches / 167 confirmed edition parent units. Inventory-label and dimension fields/status reviewed on all 135 acquired pages; 167 label rows, 148 dimension-expression rows, 50 shared-face caption relations and four edition-caption fields resolved by saved-pixel reinspection. Selected qualifiers retained; not a full caption-text or critical-sign transcription. No physical identity certification or sign adjudication. Legacy case membership: ten exact IDs, one composite with two separate source records, three IDs absent from the pinned derivative and one interpretation-only case; no new physical joins. Four museum/project catalogue candidates with exact URLs and source-specific image/model rights; no certified crosswalk or source-independence promotion. Bounded joined-case attribution pass: ten cases/twenty queued alternatives, three qualified publication contexts, explicit evidence gaps in all ten; no fully attributed same-locus competing pair, new reading or expert acceptance. Current attribution audit qualifies unsupported older project register claims.",
+      "source_audit_path": "analysis/pre-expert-source-audit.json",
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
+      "critical_pilot_audit_path": "analysis/critical-pilot-audit.json",
+      "critical_pilot_guide_path": "docs/CRITICAL-PILOT.md",
+      "public_source_layer_audit_path": "analysis/public-sigla-layer-audit.json",
+      "gorila_route_audit_path": "analysis/gorila-route-audit.json",
+      "edition_catalogue_audit_path": "analysis/edition-catalogue-pilot-audit.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "legacy_attribution_path": "research/legacy-case-attribution.json",
+      "legacy_attribution_audit_path": "analysis/legacy-case-attribution-audit.json",
+      "legacy_attribution_guide_path": "docs/LEGACY-CASE-ATTRIBUTION.md",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py",
+      "source_study_path": "research/source-study-2026-10-17.json",
+      "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "source_study_review_packet_path": "review/source-study-packet.json",
+      "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/pkzb21-page-access-2026-10-18.json",
+      "source_page_check_guide_path": "docs/PK-ZB21-PAGE-ACCESS-2026-10-18.md",
+      "source_page_check_collection": "pkzb21-page-access"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "label": "Cypro-Minoan",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_OCCURRENCE_VERIFICATION",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Current CMOC-0209 checkpoint, 2026-10-14: 28 source assertions on 13/21 rich records, eight without encoded positions; six primary-publication and 22 dependent-secondary assertions. Two isolated CM209 positions only; one uncertain; prior 26 preserved. Reported originals retained; internal 09/10 discrepancy unresolved with neither admitted. Full-tablet coverage, direct Olivier collation, independent review and corpus-wide frequency remain open/blocked. The 254 catalogue slots and 21 rich records are separate units. Historical snapshots retain their dated scope.",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "context_coverage_path": "analysis/context-coverage-v1.json",
+      "record_dossiers_path": "research/record-dossiers.json",
+      "context_guide_path": "docs/CONTEXT-AND-DOSSIERS.md",
+      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "epidoc_validation_boundary": "Current 28-assertion partial pilot preserves native uncertainty and editorial notes; pinned RNG and embedded upstream Schematron validation are interchange checks, not epigraphic acceptance.",
+      "upstream_epidoc_validation_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
+      "catalogue_concordance_path": "catalogues/source-located-concordance.json",
+      "catalogue_mapping_audit_path": "analysis/catalogue-mapping-audit.json",
+      "catalogue_mapping_guide_path": "docs/CATALOGUE-CONCORDANCE.md",
+      "catalogue_mapping_commit": "43def2a2d2728735ccbd0464f88d07d8fc8fba34",
+      "uncovered_record_review_controls_path": "research/uncovered-record-review-controls.json",
+      "open_image_controls_path": "research/met-open-image-controls.json",
+      "uncovered_record_review_guide_path": "docs/UNCOVERED-RECORD-REVIEW.md",
+      "uncovered_record_review_commit": "d2a6789653b10cadc3457739818fcc9b46ee6c2f",
+      "source_expansion_path": "research/source-check-2026-10-11.json",
+      "source_reconciliation_path": "research/source-reconciliation.json",
+      "coverage_denominators_path": "research/coverage-denominators.json",
+      "source_expansion_commit": "fee79ff1a8ab09a1b99fd0bf306b366752dc4790",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_reconciliation_commit": "af07132a0e8ce52a37a1303af31045765ac49dec",
+      "existing_assertion_check_path": "research/donnelly-existing-assertion-check.json",
+      "finite_source_growth_path": "research/source-growth-2026-10-14.json",
+      "CM209_source_check_path": "research/source-check-CMOC-0209-2026-10-14.json",
+      "CM209_source_guide_path": "docs/CMOC-0209-SOURCE-CHECK.md",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "label": "Linear B",
+      "status": "deciphered Mycenaean Greek control corpus",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM standing order; authenticated local record materialization and aggregate source audit complete. Primary-collation/aligned-gold scientific gates remain explicit; no expert-validation claim. Current 2026-10-14 private pre-reveal byte binding is implemented; no semantic verification, authority/rights acceptance, gold reveal or calibration result. Linked source annotations and certified graphics remain missing. Current 2026-10-14 appendix ID checkpoint: one published item and seven units (five lexical, one logogram, one numeral); publication example only, not current same-version word crosswalk, gold or graphical certification. Delivery still open; no calibration or correspondence.",
+      "source_audit_path": "analysis/pre-expert-source-audit.json",
+      "review_handoff_path": "docs/PRE-EXPERT-HANDOFF.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "calibration_freeze_guide_path": "docs/CALIBRATION-FREEZE-2026-10-14.md",
+      "input_reconciliation_20261014_path": "research/damos-published-id-example-2026-10-14.json",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py",
+      "source_study_path": "research/source-study-2026-10-17.json",
+      "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "source_study_review_packet_path": "review/source-study-packet.json",
+      "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/damos-supplied-structure-2026-10-18.json",
+      "source_page_check_guide_path": "docs/DAMOS-SUPPLIED-STRUCTURE-2026-10-18.md",
+      "source_page_check_collection": "damos-supplied-structure",
+      "public_source_route_path": "research/damos-public-routes-2026-10-19.json",
+      "public_source_route_guide_path": "docs/DAMOS-PUBLIC-ROUTES-2026-10-19.md",
+      "public_source_route_collection": "damos-public-routes"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "label": "Cretan Hieroglyphic",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM target remains open. Existing evidence reconciliation: 13 fixed reading versions on six of 331 catalogue identities. Eight digital versions collated numerically against primary pages; #252 γ omits three unidentified marks and membership uncertainty; #328 matches labels but needs damage/conditional-065 apparatus. Two material conflicts remain unresolved; no independent review or physical certification. All 331 identities have namespace-qualified dispositions. The 2026-10-13 primary H/Y supplement closes the bounded 127-route discovery gap through historical museum/provenance/type assertions; three-route union 331/331, reading coverage unchanged. Vrysinas text comparisons await primary visual collation; CMS comparands remain script-unassigned.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "context_coverage_path": "analysis/context-coverage-v1.json",
+      "record_dossiers_path": "research/record-dossiers.json",
+      "context_guide_path": "docs/CONTEXT-AND-DOSSIERS.md",
+      "readable_dossiers_path": "docs/RECORD-DOSSIERS.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "source_expansion_path": "research/source-check-2026-10-11.json",
+      "source_reconciliation_path": "research/source-reconciliation.json",
+      "coverage_denominators_path": "research/coverage-denominators.json",
+      "source_expansion_commit": "9019ae8ab2bf0e1cd4eaf13df4c30ae172b9a5db",
+      "existing_reference_reconciliation_path": "research/reference-reconciliation-v2.json",
+      "existing_identity_reconciliation_path": "research/identity-reconciliation-v2.json",
+      "existing_reconciliation_commit": "3c7be167741a108e00d70915ca39b54da4083126",
+      "hy_frontier_guide_path": "docs/HY-FRONTIER-2026-10-13.md",
+      "hy_frontier_receipt_path": "analysis/hy-frontier-2026-10-13.json",
+      "hy_frontier_commit": "6de5e7bb6e3cbb28e73e4d991af18bb38add7adc",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "label": "Phaistos Disc",
+      "status": "undeciphered/unique artifact",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "label": "Byblos syllabary",
+      "status": "undeciphered",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM work checkpoint: Agreed final Byblos pass complete; scoped pause, not terminal pre-expert readiness. 123 earlier drawing comparisons; ten broad dependent later-stele line correspondences and four focused targets. 32/92 and ordinal-27 hypotheses remain unadopted. Historical register: 103 display targets = 98 horizontal bands + five columns across fifteen panels, not canonical lines or faces. Six count-policy review questions; no direct 1945 book pages, verified sequences or independent approvals. Further source/identity work remains open. Current 2026-10-14 source partition: 123 ordinals =119 form-bearing depictions +3 minimal-mark +1 edge-only; not certified ancient surviving/lost categories. Literal assignments 114 single, one collision, eight unassigned. 32-to-92 unadopted; primary1945/1978 access and independent review remain open; zero new canonical sequences.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "source_audit_path": "research/source-comparison-audit.json",
+      "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
+      "source_reconciliation_checkpoint": {
+        "date": "2026-10-05",
+        "source_commit": "05a008e4cc0906c7392ea06560ce843ee4fff722",
+        "published_commit": "eaafec0dc0343ebd7b9a2af5c4cf43328759ecd7",
+        "status": "AGREED_FINAL_PASS_COMPLETE_SCOPED_PAUSE_NOT_TERMINAL_READINESS",
+        "pull_request": "https://github.com/hawkinsnick/Byblos-syllabary/pull/10"
+      },
+      "current_status_path": "analysis/current-status.json",
+      "primary_numbering_audit_path": "research/stele-a-numbering-audit.json",
+      "primary_numeric_table_path": "research/stele-a-type-table.json",
+      "primary_numeric_table_audit_path": "research/stele-a-type-table-audit.json",
+      "facsimile_number_index_path": "research/stele-a-facsimile-number-index.json",
+      "facsimile_review_path": "research/stele-a-facsimile-ordinal-review.json",
+      "facsimile_review_audit_path": "research/stele-a-facsimile-review-audit.json",
+      "historical_source_joins_path": "research/dhorme-1946-source-joins.json",
+      "historical_source_audit_path": "research/dhorme-1946-source-audit.json",
+      "final_source_pass_audit_path": "research/final-source-pass-audit.json",
+      "historical_layout_targets_path": "research/historical-layout-targets.json",
+      "dependent_drawing_comparison_path": "research/stele-a-dependent-drawing-comparison.json",
+      "expert_review_handoff_path": "docs/EXPERT-REVIEW-HANDOFF.md",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "input_reconciliation_20261014_path": "research/count-assignment-checkpoint-2026-10-14.json",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "label": "Cypriot syllabic Greek",
+      "status": "deciphered script / Greek subset",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; frozen IG XV 1 snapshot is reproducible while expansion sources and concordances remain non-expert work",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "label": "Eteocypriot",
+      "status": "poorly understood language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM is scoped checkpoint work, not whole-corpus exhaustion: 26 frozen candidates / 25 parsed entries / 29 components / 17 source-attributed entries. Source register replay is exact; seven historical correspondence candidates, two Louvre metadata anchors, four source conflicts, six critical-reading questions and eight discovery leads remain qualified. Thirty-two historical views were acquired privately; thirteen selected text-page images were inspected. Eight licensed official IG coin XML comparison sources remain outside native admission; legend-type correspondence does not certify language or specimen identity. Physical object count remains unknown and independent review remains zero. Expansion, edition reconciliation and identity work remain open.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "source_route_recheck_path": "research/source-route-recheck-2026-10-05.json",
+      "source_route_checkpoint": {
+        "date": "2026-10-05",
+        "source_commit": "e162c9f2ed9e899aadbf4b10fc1fe49f3e703621",
+        "published_commit": "b9314b51150d9e619bb8a9f2016734384a018029",
+        "status": "INITIAL_PIVOT_AUDIT_COMPLETE_DISCOVERY_AND_IDENTITY_WORK_OPEN",
+        "pull_request": "https://github.com/hawkinsnick/Eteocypriot/pull/7"
+      },
+      "source_concordance_register_path": "research/source-concordance-register.json",
+      "source_concordance_audit_path": "research/source-concordance-audit.json",
+      "historical_concordance_path": "research/historical-concordance.json",
+      "coin_source_comparison_path": "research/coin-source-comparison.json",
+      "source_reconciliation_handoff_path": "docs/SOURCE-RECONCILIATION.md",
+      "source_concordance_checkpoint": {
+        "date": "2026-10-05",
+        "source_commit": "9aa7cb114aec6be4ce6fc36b9dcf363475ac38d2",
+        "published_commit": "549d6609e32211b6265abb4f6b5e65acfe6f21e7",
+        "status": "SOURCE_CONCORDANCE_CHECKPOINT_COMPLETE_EXPANSION_AND_IDENTITY_WORK_OPEN",
+        "pull_request": "https://github.com/hawkinsnick/Eteocypriot/pull/8"
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "label": "Eteocretan",
+      "status": "poorly understood language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_PRIMARY_COLLATION",
+      "current_gate": "PRE_EXPERT_MAXIMUM checkpoint: Azoria Figure 42 / 06-0334 (D346.1) linked to upper bin-lining handle by primary article indexed text; same-pithos hypothesis remains qualified, figures and museum identities unverified; room/site sherd counts are not Eteocretan text counts.",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "source_audit_path": "analysis/source-critical-dossier.json",
+      "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
+      "source_reconciliation_checkpoint": {
+        "date": "2026-10-04",
+        "source_commit": "9164374574489148d63d9af30f5c1a311c5439c0",
+        "published_commit": "9164374574489148d63d9af30f5c1a311c5439c0",
+        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "label": "Lycian, Carian and Milyan",
+      "status": "multi-partition corpus",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "PRE_EXPERT_MAXIMUM contract active; 453-record eDiAna snapshot precedes object concordance and edition comparison",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "label": "Phrygian",
+      "status": "attested Indo-European language",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "ACCELERATING_SOURCE_ACQUISITION",
+      "current_gate": "PRE_EXPERT_MAXIMUM tracked gate (not an exhaustion claim): Primary PDF replay locates TM1002268 full string in Anfosso p. 112 general formula, not the p. 113 fragment; object-specific reading support excluded. External catalogue bridge and upstream intent unresolved. TM1002269 short edition text matches, with longer alternative retained. Three dependent lineages; 159 unjoined TM groups; no independent collation or canonical admission.",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true
+      },
+      "source_audit_path": "analysis/new-primary-comparison.json",
+      "review_handoff_path": "docs/SOURCE-RECONCILIATION.md",
+      "source_reconciliation_checkpoint": {
+        "date": "2026-10-04",
+        "source_commit": "756493cd9aff743fbb70417000b1d6a675356b56",
+        "published_commit": "eab6eeadbf6e9d66da25a6b78715d77a22151889",
+        "status": "TESTED_SCOPED_EVIDENCE_GROWTH_NOT_EXPERT_CERTIFICATION"
+      },
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "interchange_manifest_path": "interchange/export-manifest.json",
+      "interoperability_identity_graph_path": "research/interoperability-identity-graph.json",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "k01_catalogue_concordance_path": "research/k01-catalogue-concordance.json",
+      "upstream_epidoc_validation_commit": "6f0be30df492acdb6b07c05507d9e3f991156314",
+      "interoperability_scope": "203 frozen UD source records; all native fields round-trip; 57 upstream patterns, 613 fired rules, zero findings. No full critical-corpus or physical identity certification.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
+    },
+    {
+      "id": "anatolian_hieroglyphic",
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "relationship": "comparative Anatolian hieroglyphic control; no Aegean genetic relationship implied",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "0.3.1",
+      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
+      "label": "Anatolian Hieroglyphic",
+      "status": "deciphered comparative control",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "COMPLETE_DIGITAL_IDENTITY_AND_BIBLIOGRAPHY_SPINE",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "3d9f717e0b81a8e9f94963da6f662459c3254496",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
+      },
+      "context_coverage_path": "analysis/current-status.json",
+      "record_dossiers_path": "research/digital-entry-dossiers.json",
+      "context_guide_path": "docs/PRE-EXPERT-STATUS.md",
+      "readable_dossiers_path": "docs/DIGITAL-ENTRY-DOSSIERS.md",
+      "metadata_checkpoint": {
+        "date": "2026-10-05",
+        "source_commit": "195e87fa3a3a6e921442c1b213eb640181098abf",
+        "status": "METADATA_MILESTONE_COMPLETE_AUTHORITY_RECONCILIATION_ACTIVE"
+      },
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "2.0.0",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "task_pilot_guide_path": "docs/RESEARCH-TASK-PILOT.md",
+      "task_pilot_result_path": "analysis/task-pilot-example.json",
+      "task_pilot_replay_path": "scripts/task_pilot.py",
+      "source_study_path": "research/source-study-2026-10-17.json",
+      "source_study_guide_path": "docs/SOURCE-STUDY-2026-10-17.md",
+      "source_study_review_packet_path": "review/source-study-packet.json",
+      "reviewer_walkthrough_path": "docs/REVIEWER-WALKTHROUGH.md",
+      "reviewer_exercise_path": "research/review-exercise-2026-10-18.json",
+      "source_page_check_path": "research/edition-page-check-2026-10-18.json",
+      "source_page_check_guide_path": "docs/EDITION-PAGE-CHECK-2026-10-18.md",
+      "source_page_check_collection": "city-edition-page-check",
+      "public_source_route_path": "research/visual-source-routes-2026-10-19.json",
+      "public_source_route_guide_path": "docs/VISUAL-SOURCE-ROUTES-2026-10-19.md",
+      "public_source_route_collection": "visual-source-routes"
+    },
+    {
+      "id": "archanes_script",
+      "repository": "hawkinsnick/Archanes-Script",
+      "relationship": "early Cretan writing comparison; corpus membership and relation to Cretan Hieroglyphic/Linear A remain scholarly assertions",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "0.3.1",
+      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
+      "label": "Archanes Script",
+      "status": "disputed-boundary early Cretan writing",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "ab272d21d8eb57e28b6835cd4d5ae9134672c627",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
+      },
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "2.0.0-rc.2",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "id": "aegean_anomalous",
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "relationship": "neutral quarantine/comparison layer; not a language or single writing system",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "required_skill_version": "0.3.1",
+      "current_gate": "PRE_EXPERT_MAXIMUM structural admission implemented and replayed; native evidence, source rights, physical-identity uncertainty and independent expert-review gates remain unchanged. Admission is software compatibility, not scholarly certification.",
+      "label": "Aegean Anomalous",
+      "status": "neutral quarantine/comparison",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "POST_1_0_MACHINE_MAXIMUM_ACTIVE",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "9c5ffdcf0854d351a9c29b513c402a89ad769aa2",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
+      },
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "2.0.0-rc.2",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py"
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "label": "Lydian",
+      "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 118 document IDs, 471 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.1."
+      },
+      "review_directory_path": "review",
+      "review_manifest_path": "review/handoff-manifest.json",
+      "review_packets_path": "review/packets.json",
+      "source_checks_path": "research/source-checks.json",
+      "review_validator_path": "scripts/validate_review.py",
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "368e3b4633d0ae9fcf38169af6b7bb200d9363b5",
+      "epidoc_validation_boundary": "All 118 frozen native directory records and 471 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py"
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "label": "Sidetic",
+      "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 11 document IDs, 32 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
+      },
+      "review_directory_path": "review",
+      "review_manifest_path": "review/handoff-manifest.json",
+      "review_packets_path": "review/packets.json",
+      "source_checks_path": "research/source-checks.json",
+      "review_validator_path": "scripts/validate_review.py",
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "20749672bd679e7f0ca22132acfdcd7c9d5b88e3",
+      "epidoc_validation_boundary": "All 11 frozen native directory records and 32 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py",
+      "p1_human_request_path": "review/p1-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory.",
+      "ferrer_pdf_comparison_path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+      "ferrer_pdf_comparison_guide_path": "docs/FERRER2025-PDF-COMPARISON-2026-10-18.md",
+      "ferrer_pdf_comparison_collection": "ferrer2025-appendix-comparison",
+      "ferrer_reading_assertions_path": "research/ferrer2025-reading-assertions.json",
+      "ferrer_reading_assertions_guide_path": "docs/FERRER2025-READING-ASSERTIONS.md",
+      "ferrer_reading_assertions_collection": "ferrer2025-reading-assertions"
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "label": "Pisidian",
+      "status": "source-attributed digital reference with record-level expert handoff; collation incomplete",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "evidence_growth_state": "EDITION_AND_OBJECT_RECONCILIATION_PENDING",
+      "current_gate": "Frozen attributed eDiAna snapshot: 54 document IDs, 99 nonempty source lines; 0 independently verified objects. Counts describe this directory snapshot, not corpus-wide completeness. Complete frozen-reference EpiDoc export passes exact native-field/line roundtrip and all pinned upstream checks; source and expert gates remain open.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-03",
+        "validation_basis": "Public main licensing and AI paths retained; source and governance replay, source-bound review packets, 25 regression tests and AI integrity checks validated for native 0.3.0."
+      },
+      "review_directory_path": "review",
+      "review_manifest_path": "review/handoff-manifest.json",
+      "review_packets_path": "review/packets.json",
+      "source_checks_path": "research/source-checks.json",
+      "review_validator_path": "scripts/validate_review.py",
+      "native_version": "0.4.0",
+      "source_worklist_path": "research/source-worklist.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_epidoc_path": "interchange/epidoc/ediana-reference.xml",
+      "reference_export_manifest_path": "interchange/export-manifest.json",
+      "reference_epidoc_guide_path": "docs/EPIDOC-REFERENCE.md",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "reference_epidoc_commit": "fd30fead96c78b6da3a67066652084440b6df701",
+      "epidoc_validation_boundary": "All 54 frozen native directory records and 99 nonempty source rows preserve every native field and exact source line. Pinned RNG and all 57 embedded upstream Schematron patterns pass. Raw fields omitted by native derivation, physical layout and primary critical apparatus remain outside this view; no expert acceptance.",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "source_collation_path": "research/source-collation-2026-10-15.json",
+      "source_collation_audit_path": "analysis/source-collation-2026-10-15.json",
+      "source_collation_guide_path": "docs/SOURCE-COLLATION-2026-10-15.md",
+      "source_collation_query_path": "scripts/source_collation.py"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "label": "Milyan (Lycian B)",
+      "status": "attested Anatolian language; provisional targets and populated source-attributed digital reference",
+      "individual_skill_path": "ai-skill/SKILL.md",
+      "bundle_index_path": "ai-skill/generated/research-bundle-index.json",
+      "authority_profile_path": "ai-skill/references/authority-profile.json",
+      "validation_path": "ai-skill/scripts/validate_bundle.py",
+      "pre_expert_maximum_path": "research/pre-expert-maximum.json",
+      "current_gate": "TL44: two modern DOI identities confirmed from publisher-deposited metadata;105 existing digital row-label/page routes to visually inspected Kalinka1901 pages, three selected boundary/inventory observations. These are not105 sign collations. Both modern article PDFs remain unacquired; West pagination55–105 versus55–106 unresolved pending PDF inspection. No accepted readings or independent witness added. TL55 bounded documentary sign comparison COMPLETE: all152 flagged candidate records have58 source-located assessments; all36 algorithm flags retain explicit positional(19), repeated-run(2) or range-only(15) dispositions. No unique epigraphic pairing or accepted restoration is fabricated. Independent expert adjudication remains open. PRE_EXPERT_MAXIMUM remains open. TL55 complete first documentary pass covers9 revised source lines and74 apparatus entries (7,10,11,10,13,10,5,6,2), with4 literal digital break markers exhaustively accounted for. Six selected issues remain focused dossiers. Independent-review packet PREPARED_NOT_REVIEWED; zero external reviews or accepted readings. First-pass coverage is not complete sign-by-sign critical collation, source independence or physical-line certification. All114 frozen reference rows unchanged across3 provisional segments/2 reported monuments; zero verified canonical readings. Full critical collation, expert adjudication and broader modern-edition reuse rights remain open. TL55 exhaustive encoded-sign comparison now accounts for1348 literal reference grapheme/notation units and1233 printed source-unit positions in1441 candidate alignment records, including36 ambiguous records. The152-item sign-adjudication supplement is prepared, not reviewed. Exact-PDF local glyph/algorithm replay passed; this is not independent epigraphic acceptance. No source PDF/full modern transcription/images are public, all114 frozen source rows unchanged and zero accepted canonical readings.",
+      "admission": {
+        "status": "PASS",
+        "contract": "corpus-factory/CORPUS-ADMISSION-CONTRACT.md",
+        "licensing_paths": [
+          "LICENSE",
+          "LICENSE-CODE",
+          "LICENSE-CONTENT.md",
+          "LICENSING.md",
+          "NOTICE"
+        ],
+        "individual_ai_skill": true,
+        "master_ai_member": true,
+        "checked_on": "2026-10-10",
+        "validated_member_commit": "a9078e2502830705f4adc5bac0d0ea7b8ea12631",
+        "validation_basis": "Native validators, contract authority-hash replay, negative rights/independence/staleness tests and GitHub PR checks passed; master validator rechecks current main with immutable input acquisition."
+      },
+      "required_contract": "Corpus Project AI Research Contract 0.3+",
+      "required_skill_version": "0.3.1",
+      "native_bundle_validation": {
+        "status": "PASS",
+        "evidence": "Native validators and GitHub PR checks passed before merge; contract adapter extends checks to every declared authority and native input."
+      },
+      "native_version": "0.3.1",
+      "contract_adapter_path": "ai-skill/generated/fleet-contract-index.json",
+      "collection_work_ledger_path": "research/collection-work-ledger.json",
+      "collection_review_packet_path": "review/collection-packet.json",
+      "collection_replay_path": "scripts/build_collection_handoff.py",
+      "reference_manifest_path": "research/reference-manifest.json",
+      "reference_records_path": "data/reference/records.json",
+      "reference_lines_path": "data/reference/lines.json",
+      "primary_edition_locator_control_path": "research/primary-edition-locator-control.json",
+      "upstream_epidoc_validation_path": "analysis/upstream-epidoc-validation.json",
+      "upstream_epidoc_pins_path": "interchange/epidoc/upstream-pins.json",
+      "interoperability_scope": "All 114 frozen reference text rows; exact strings and every derived row field round-trip. 57 upstream patterns, 348 fired rules, zero findings. Not a critical-edition corpus.",
+      "reference_population_commit": "7eabb632ec0c85b0b873d14e5722597ef6bd6cba",
+      "primary_locator_commit": "827ed33bfc4595515db3e7e49674ecd305679c3b",
+      "input_reconciliation_20261014_path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "schuerr2005_collation_path": "research/schuerr2005-tl55-collation.json",
+      "qualified_collation_path": "research/tl55-qualified-collation.json",
+      "qualified_collation_guide_path": "docs/SCHUERR2005-TL55-COLLATION.md",
+      "tl55_first_pass_review_path": "research/tl55-first-pass-review.json",
+      "tl55_independent_review_packet_path": "review/tl55-independent-review.json",
+      "tl55_first_pass_validator_path": "scripts/tl55_review.py",
+      "evidence_query_profile_path": "research/evidence-query-profile.json",
+      "evidence_query_coverage_path": "analysis/evidence-query-coverage.json",
+      "evidence_query_guide_path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "evidence_query_implementation_path": "scripts/evidence_query.py",
+      "attribution_review_path": "research/attribution-review.json",
+      "attribution_review_audit_path": "analysis/attribution-review-audit.json",
+      "attribution_review_guide_path": "docs/ATTRIBUTION-REVIEW.md",
+      "attribution_review_query_path": "scripts/attribution_review.py",
+      "tl55_sign_alignment_path": "research/tl55-sign-alignment.json",
+      "tl55_sign_adjudication_path": "review/tl55-sign-adjudication.json",
+      "tl55_sign_comparison_guide_path": "docs/TL55-SIGN-COMPARISON.md",
+      "tl55_sign_validator_path": "scripts/tl55_sign_alignment.py",
+      "tl55_documentary_sign_comparison_complete": true,
+      "tl55_documentary_review_path": "research/tl55-documentary-sign-review.json",
+      "tl55_documentary_completion_guide_path": "docs/TL55-DOCUMENTARY-COMPLETION.md",
+      "tl55_documentary_replay_path": "scripts/tl55_documentary_review.py",
+      "tl44_source_checkpoint_path": "research/tl44-source-checkpoint.json",
+      "tl44_source_checkpoint_guide_path": "docs/TL44-SOURCE-CHECKPOINT.md",
+      "tl44_source_checkpoint_validator_path": "scripts/tl44_source_checkpoint.py",
+      "tl44_label_routes": 105,
+      "tl44_modern_article_pdfs_acquired": 0,
+      "p1_human_request_path": "review/tl44-boundary-human-request.json",
+      "p1_human_request_status": "PREPARED_NOT_REVIEWED",
+      "p1_human_request_scope": "Scoped source/maintainer or epigraphic questions; native prerequisites and acceptance gates remain mandatory."
+    }
+  ],
+  "corpus_factory": {
+    "gap_register": "corpus-factory/fleet-gap-register.json",
+    "benchmark_schema": "corpus-factory/schemas/benchmark-status.schema.json",
+    "validator": "corpus-factory/validate_fleet.py",
+    "parity_rule": "rigor and traceability under surviving evidence, never equal row counts"
+  }
+}
+
+
+===== registry/member-state.json =====
+{
+  "format": "master-native-member-state-v1",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    }
+  ],
+  "scholarly_acceptance_granted": false
+}
+
+
+===== MEMBER-STATUS.md =====
+# Native corpus synchronization status
+
+Initial automatic native-head validation is pending. Existing extraction checkpoints remain in migration/member-checkpoints.json.
+
+
+===== references/comparability-matrix.md =====
+# Cross-Corpus Comparability Matrix — 1.0
+
+This matrix governs *types* of comparison. It does not pre-authorize any substantive historical or linguistic conclusion.
+
+| Question type | Default | Requirement to proceed |
+|---|---|---|
+| Repository/evidence coverage | ALLOWED | Define each corpus's native counting unit |
+| Provenance/rights architecture | ALLOWED | Compare policies/fields, not rights grants |
+| Sign/string frequency | GATED | Compatible sampling units, exclusions and representation layers |
+| Positional/structural pattern | GATED | Compatible segmentation/unit definitions and declared null model |
+| Palaeographic similarity | GATED | Source-quality images/observations and explicit feature method |
+| Phonetic/sign-value equivalence | BLOCKED by default | Independent positive evidence beyond shape/interoperability |
+| Lexical similarity | BLOCKED by default | Established readings plus method controlling chance/borrowing/dependence |
+| Genetic language relationship | BLOCKED by default | Accepted linguistic evidence and comparative method |
+| Decipherment transfer | BLOCKED | Independent decipherment evidence; values from another script are not sufficient |
+| Chronological inference | GATED | Independently supported dating/provenance |
+| Independent replication | GATED | Demonstrated source/witness/method independence |
+
+When requirements are unmet, descriptive comparison remains permissible if limitations are explicit.
+
+
+===== START-HERE.md =====
+# Start a research session
+
+1. Start with [the canonical master instructions](SKILL.md) in this dedicated
+   repository. Check [README.md](README.md) for scope and source boundaries.
+2. Download [the starter text](downloads/Master-Corpus-AI-Skill-Starter.txt) and
+   supply it to an AI assistant that can read uploaded text. Uploading gives the
+   assistant context; it does not install a skill or grant access to corpus files.
+3. Ask: “Use the master instructions. Confirm which files you can read. I am
+   researching [question]. Select the relevant registered corpus, identify the
+   evidence we need, and give one useful first lookup. Preserve unknowns.”
+4. Use the [corpus directory](CORPUS-DOWNLOADS.md). Supply the selected member's
+   individual skill, authority profile, bundle index, source/rights guides and
+   exact evidence files, or provide permitted repository-file access.
+5. Ask for the exact repository, collection, native ID, attribution, source locus,
+   path/hash/pointer and limitations. Follow [the worked examples](WORKED-EXAMPLES.md).
+
+For example, ask what the Linear A source record ARKH 1a reports. Its source
+labels and metadata do not establish pronunciation, translation or physical
+certification. Use the saved dossier only as an identified teaching snapshot,
+or execute the native retrieval for current evidence.
+
+For Python users, run `python scripts/validate.py` from this master checkout.
+Native checkouts are additional inputs for `--checkouts` validation and query
+commands. Missing source files or unexecuted checks must be disclosed.

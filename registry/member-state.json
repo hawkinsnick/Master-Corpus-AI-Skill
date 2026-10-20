@@ -1,0 +1,114 @@
+{
+  "format": "master-native-member-state-v1",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "accepted_commit": null,
+      "observed_commit": null,
+      "status": "PENDING_INITIAL_VALIDATION"
+    }
+  ],
+  "scholarly_acceptance_granted": false
+}

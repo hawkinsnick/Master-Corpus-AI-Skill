@@ -1,0 +1,45 @@
+name: Validate standalone master skill
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  standalone:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/validate.py
+      - run: python -m unittest discover -s tests -v
+  native-members:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Acquire exact public native checkpoints
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import concurrent.futures,json,re,subprocess
+          entries=json.loads(Path('migration/member-checkpoints.json').read_text())['members']
+          registry={m['repository'] for m in json.loads(Path('registry/corpus-projects.json').read_text())['members']}
+          assert len(entries)==len(registry) and {m['repository'] for m in entries}==registry
+          def acquire(m):
+              assert re.fullmatch(r'hawkinsnick/[A-Za-z0-9-]+',m['repository'])
+              assert re.fullmatch('[a-f0-9]{40}',m['commit'])
+              target=Path('.checkouts')/m['repository'].split('/')[-1]
+              subprocess.run(['git','clone','--quiet','--no-checkout','https://github.com/'+m['repository']+'.git',str(target)],check=True)
+              subprocess.run(['git','checkout','--quiet','--detach',m['commit']],cwd=target,check=True)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(acquire,entries))
+          PY
+      - run: python scripts/validate.py --checkouts .checkouts --output generated/member-validation.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: native-member-validation
+          path: generated/member-validation.json

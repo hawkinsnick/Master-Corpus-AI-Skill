@@ -1,0 +1,43 @@
+name: Automatically synchronize corpus members
+on:
+  schedule:
+    - cron: '2-59/5 * * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+  repository_dispatch:
+    types: [corpus-updated]
+concurrency:
+  group: master-corpus-member-sync
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Detect and validate exact native corpus revisions
+        id: native
+        continue-on-error: true
+        run: python scripts/sync_members.py --write
+      - name: Verify the generated master and failure controls
+        run: |
+          python scripts/validate.py --require-canonical
+          python -m unittest discover -s tests -v
+      - name: Publish validated state or explicit pending status
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/publish_member_sync.py
+      - name: Surface native validation failures
+        if: steps.native.outcome != 'success'
+        run: exit 1

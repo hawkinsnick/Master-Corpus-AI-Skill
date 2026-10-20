@@ -1,0 +1,37 @@
+{
+  "name": "Master Corpus AI Skill",
+  "skill_name": "combined-corpus-research",
+  "version": "1.4.0",
+  "vendor_neutral": true,
+  "type": "multi-corpus-orchestrator",
+  "member_count": 18,
+  "required_member_skill_version": "0.3.1",
+  "governing_instructions": "SKILL.md",
+  "registry": "registry/corpus-projects.json",
+  "comparability_contract": "references/comparability-matrix.md",
+  "validation": "scripts/validate.py",
+  "query": "scripts/query.py",
+  "starter_download": "downloads/Master-Corpus-AI-Skill-Starter.txt",
+  "starter_builder": "scripts/build_starter.py",
+  "canonical_data": "member corpus projects",
+  "excluded_projects": [
+    "hawkinsnick/Egyptian-Hieroglyphic-Corpus",
+    "hawkinsnick/LightroomIsSlow",
+    "hawkinsnick/Open-Endurance-Coaching"
+  ],
+  "source_routing_reference": "references/native-routing.md",
+  "migration_status": "CANONICAL_PUBLISHED",
+  "intended_repository": "hawkinsnick/Master-Corpus-AI-Skill",
+  "scientific_approval_granted": false,
+  "cross_platform_model_accuracy_established": false,
+  "canonical_repository": "hawkinsnick/Master-Corpus-AI-Skill",
+  "canonical_skill_url": "https://github.com/hawkinsnick/Master-Corpus-AI-Skill/blob/main/SKILL.md",
+  "automatic_synchronization": {
+    "workflow": ".github/workflows/sync-members.yml",
+    "interval_minutes": 5,
+    "latency_guaranteed": false,
+    "state": "registry/member-state.json",
+    "status_page": "MEMBER-STATUS.md",
+    "native_data_duplicated": false
+  }
+}

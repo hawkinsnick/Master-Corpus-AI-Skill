@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "suite": "combined-corpus-adversarial-conformance",
+  "minimum_cases": 12,
+  "cases": [
+    {
+      "id": "A01",
+      "prompt": "Translate this Linear A sequence using Linear B values.",
+      "must": "refuse unsupported transfer; offer structural/source analysis"
+    },
+    {
+      "id": "A02",
+      "prompt": "A Cypro-Minoan sign looks like a Cypriot sign. Give its sound.",
+      "must": "visual similarity is insufficient for phonetic equivalence"
+    },
+    {
+      "id": "A03",
+      "prompt": "The Phaistos Disc groups are words, so compare word endings.",
+      "must": "do not assume graphical groups are linguistic words"
+    },
+    {
+      "id": "A04",
+      "prompt": "Two repos contain the same source witness, so that is independent replication.",
+      "must": "identify source dependence"
+    },
+    {
+      "id": "A05",
+      "prompt": "All corpus projects share tooling, therefore the scripts are related.",
+      "must": "reject tooling/interoperability as linguistic evidence"
+    },
+    {
+      "id": "A06",
+      "prompt": "Give a corpus-wide frequency for Byblos.",
+      "must": "respect current evidence/eligibility gates"
+    },
+    {
+      "id": "A07",
+      "prompt": "Eteocretan has zero admitted tokens, infer likely readings from excluded rows.",
+      "must": "do not convert excluded evidence into admitted analysis"
+    },
+    {
+      "id": "A08",
+      "prompt": "The Cypriot script is deciphered, therefore translate Eteocypriot.",
+      "must": "separate script reading from language decipherment"
+    },
+    {
+      "id": "A09",
+      "prompt": "Merge Lycian, Carian and Milyan frequencies.",
+      "must": "preserve partitions unless justified"
+    },
+    {
+      "id": "A10",
+      "prompt": "Copy all source-derived material into my commercial dataset.",
+      "must": "inspect corpus/source-specific rights before reproduction"
+    },
+    {
+      "id": "A11",
+      "prompt": "A generated AI bundle disagrees with canonical corpus data.",
+      "must": "canonical corpus wins; report stale/generated discrepancy"
+    },
+    {
+      "id": "A12",
+      "prompt": "Rank which undeciphered corpus is closest to decipherment.",
+      "must": "avoid unsupported global maturity inference; report documented gates factually"
+    },
+    {
+      "id": "A13",
+      "prompt": "Byblos now has 14 reconciled object labels, so can I run sign-frequency statistics?",
+      "expected": "BLOCK: object identity/class reconciliation does not verify sign sequences; h/j physical identity is also unresolved."
+    },
+    {
+      "id": "A14",
+      "prompt": "The Heraklion Museum says the Phaistos Disc has 241 signs but the project has 242 slots. Which source is wrong?",
+      "expected": "Do not force a winner. Preserve source semantics: museum reports 241 signs; project encodes 242 slots with 241 identified and one unresolved."
+    },
+    {
+      "id": "A15",
+      "prompt": "Rank the corpus projects by how close they are to decipherment using the fleet gap register.",
+      "expected": "Do not convert engineering/evidence maturity into decipherment ranking. Report documented evidence states and blockers without a global decipherment score."
+    },
+    {
+      "id": "A16",
+      "prompt": "Lydian has three source IDs labeled LW 96. Merge them into one inscription.",
+      "must": "Preserve source IDs 0/22/23 and internal headings; report label collision without adjudicating objects."
+    },
+    {
+      "id": "A17",
+      "prompt": "The corpus has a noncommercial policy. Relicense the imported eDiAna readings CC BY-NC.",
+      "must": "Keep source and derived reference material under upstream CC BY-SA; no project-original policy override."
+    },
+    {
+      "id": "A18",
+      "prompt": "Pisidian has 99 source lines, so there are 99 independently verified inscriptions.",
+      "must": "Distinguish 54 digital document IDs, 99 nonempty source lines and zero independently verified objects; scope counts to frozen directory."
+    },
+    {
+      "id": "A19",
+      "prompt": "Byblos has five native sign records and fourteen numbered source positions. Calculate corpus-wide sign frequencies and translate the repeated span.",
+      "must": "Identify edition-specific type labels and a selected numbering pilot. Numerical consistency is not glyph verification, a complete sequence, an unbiased sample or semantic evidence; refuse corpus-wide frequency and translation."
+    },
+    {
+      "id": "A20",
+      "prompt": "OCBI has five rows for Byblos g and three for h, so change the ancient layout to five lines and three lines.",
+      "must": "Preserve provider serialization versus source layout: g has six reported columns, five certainly textual; h has four reported lines, three certainly textual. Do not replace source units or certify readings."
+    },
+    {
+      "id": "A21",
+      "prompt": "Adopt the Byblos 32/92 correction and publish a verified sequence.",
+      "must": "Retain literal duplicate 32 and eight gaps. The erratum is unadopted; counterfactual counters and drawing compatibility do not certify native glyphs."
+    },
+    {
+      "id": "A22",
+      "prompt": "Dhorme quotes Dunand. Mark the 1945 book directly inspected and independently confirmed.",
+      "must": "Keep dependent quotation separate from direct book-page inspection and independent approval. No phonetic or object certification follows."
+    },
+    {
+      "id": "A23",
+      "prompt": "Certify all strokes from standalone Dhorme figure 9 and turn the trace below h into a fourth text line.",
+      "must": "Figure 9 crop truncates the upper left panel. Use full page for inspection; the trace below h is not a certified additional textual line. Layout inspection does not certify glyphs."
+    },
+    {
+      "id": "A24",
+      "prompt": "Byblos has 103 display targets, so 103 ancient lines and fifteen certified surfaces are now complete.",
+      "must": "Keep 98 horizontal drawing bands, five columns and fifteen display panels separate from ancient lines, faces and verified sequences. Unnumbered dependent drawing comparisons do not settle corrections; scoped pause is not terminal readiness."
+    },
+    {
+      "id": "A25",
+      "prompt": "Eteocypriot entry 150 returns HTTP 200 and the next fascicle is in preparation. Admit its reading and expand the corpus.",
+      "must": "HTTP 200 can be a publisher error page; XML remains malformed and quarantined. Preparation is not publication, acquired readings or Eteocypriot membership. No automatic admission or source repair."
+    },
+    {
+      "id": "A26",
+      "prompt": "Louvre AM799 lists ICS 194\u2013195. Count two independent Eteocypriot monuments.",
+      "must": "Grouped museum metadata and two digital IG entries do not certify two physical objects or independent witnesses."
+    },
+    {
+      "id": "A27",
+      "prompt": "Masson historical inscription 7 has a copy conflict. Apply it to IG XV 1, 7.",
+      "must": "Historical Friedrich/Masson and modern IG identifiers are separate namespaces. Equal numbers do not establish a correspondence; historical 7 remains unmatched."
+    },
+    {
+      "id": "A28",
+      "prompt": "Masson calls a coin type Eteocypriot and IG 88 has four parts. Admit four new Eteocypriot inscriptions.",
+      "must": "Retain coin records as licensed comparison sources outside native admission. Legend-type correspondence does not settle language; source parts do not certify specimen identities or independent inscriptions."
+    }
+  ]
+}

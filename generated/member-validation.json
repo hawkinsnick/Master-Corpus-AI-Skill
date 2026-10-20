@@ -1,0 +1,1629 @@
+{
+  "format": "standalone-master-validation-v1",
+  "status": "PASS_MASTER_AND_18_NATIVE_WORKFLOWS",
+  "migration_status": "PREPARED_NOT_CANONICAL",
+  "migration_completed": false,
+  "member_count": 18,
+  "behavioral_prompt_inventory": 28,
+  "behavioral_prompts_automatically_scored": false,
+  "native_member_results": [
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Linear-A",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "linear-a-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
+      "bundle_source_commit": "3b8f0235191501153c6dc6f3432cb5267d576f2a",
+      "bundle_sha256": "684e7d9959e027da2d062fcd3aaf2664f4e58793fb8613d7cf900e8a466faed2",
+      "indexed_artifact_entries_checked": 223,
+      "unique_indexed_paths_checked": 222,
+      "lookups": [
+        {
+          "collection": "source-documents",
+          "id": "ARKH 1a",
+          "native_unit": "SigLA source document entry",
+          "provenance": {
+            "path": "research/sigla-source-documents.jsonl",
+            "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "source-documents",
+            "encoding": "jsonl"
+          }
+        },
+        {
+          "collection": "critical-pilot",
+          "id": "HT 15",
+          "native_unit": "selected critical pilot entry",
+          "provenance": {
+            "path": "research/critical-pilot.json",
+            "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+            "pointer": "/entries/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "critical-pilot, legacy-cases",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "legacy-cases",
+          "id": "U001",
+          "native_unit": "legacy project queue case",
+          "provenance": {
+            "path": "research/critical-pilot.json",
+            "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "critical-pilot, legacy-cases",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-audit",
+          "id": "U001",
+          "native_unit": "bounded legacy-case attribution audit",
+          "provenance": {
+            "path": "research/legacy-case-attribution.json",
+            "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "current ten-case attribution audit",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "U001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-study",
+          "id": "LA-KNZD46-SCRIPT-ASSIGNMENT-20261017",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "reading-comparisons",
+          "id": "LA-PKZB21-FIRST-SIGN-20261018",
+          "native_unit": "bounded documentary follow-up case",
+          "provenance": {
+            "path": "research/reading-comparison-2026-10-18.json",
+            "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded documentary follow-up",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "pkzb21-page-access",
+          "id": "LA-PKZB21-PAGE-ACCESS-20261018",
+          "native_unit": "bounded source access or structure inspection",
+          "provenance": {
+            "path": "research/pkzb21-page-access-2026-10-18.json",
+            "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source access or structure check",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "cypro-minoan-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "b002f5dcfdab675a7dc87ebf0daa2459656753c190114f8c14e02e163617c671",
+      "bundle_source_commit": "50f95a3907dc21f3dab315028eded603b237d007",
+      "bundle_sha256": "569ab54f31830ac6267dce70f03c4279117265a9195f58efd0989c19eee64317",
+      "indexed_artifact_entries_checked": 80,
+      "unique_indexed_paths_checked": 80,
+      "lookups": [
+        {
+          "collection": "rich-dossiers",
+          "id": "CMOC-0025",
+          "native_unit": "rich-record dossier",
+          "provenance": {
+            "path": "research/record-dossiers.json",
+            "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+            "pointer": "/dossiers/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "rich-dossiers",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "qualified-assertions",
+          "id": "CMOCC-TIRY245-H1-1",
+          "native_unit": "source occurrence assertion",
+          "provenance": {
+            "path": "research/qualified-assertion-views.json",
+            "sha256": "9812d2353c9b93304e2c0296a20558ca8b1221269c56b42f940e3ff72d1e56f4",
+            "pointer": "/assertions/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "qualified-assertions",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-comparisons",
+          "id": "CMOCC-0026-VALERIO2016-source-sequence-2-comparison",
+          "native_unit": "qualified source comparison",
+          "provenance": {
+            "path": "research/source-reconciliation.json",
+            "sha256": "857d6bcb7232073fbbf4dfddf07b9c5b4a3329b388fe467a9e1e08d6a5903e4e",
+            "pointer": "/comparisons/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "source-comparisons",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "catalogue-mappings",
+          "id": "1",
+          "native_unit": "source catalogue-number mapping",
+          "provenance": {
+            "path": "catalogues/source-located-concordance.json",
+            "sha256": "a17030df57896320b3c2a9e7882ea5f6e5b7c2c6d018fe83f3f4c2f9cf3fae66",
+            "pointer": "/rows/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "catalogue-mappings",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "CMOCC-0026-VALERIO2016-source-sequence-2-comparison",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "b812c900449840a989c4ab278c40bbcdaa7cf81700f33f354e3119020f920a0a",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-collation-2026-10-15",
+          "id": "CMOCC-0026-VALERIO2016-source-sequence-2-comparison",
+          "native_unit": "selected source collation task",
+          "provenance": {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "061110c15f0611cda3bcd12bed95012c79e91fa1facc1f5dd066b585c7c80a57",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "fresh bounded source collation; consultation modes differ by source",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-intake-2026-10-18",
+          "id": "CM-OLIVIER2007-INTAKE",
+          "native_unit": "source acquisition/identity follow-up task, not an inscription or independent witness",
+          "provenance": {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "21ce36e8ea07ffe2231d933802a51dd0c525938f8cb9a25539c5f75f92ba6886",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source intake and bibliographic identity",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Linear-B",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "linear-b-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "566865e1fa610ebbec2ae8efdaf25e6136655894dc0241b8ef784c324d4afe67",
+      "bundle_source_commit": "80adc65b01f2cc146bed7338703cbff7e101cde4",
+      "bundle_sha256": "8965049c601aeb993b684627d8181a71a015dab813b3a4c90158acd56054dee8",
+      "indexed_artifact_entries_checked": 90,
+      "unique_indexed_paths_checked": 89,
+      "lookups": [
+        {
+          "collection": "published-appendix-document",
+          "id": "PY-Ae-27",
+          "native_unit": "published appendix document example",
+          "provenance": {
+            "path": "research/damos-published-id-example-2026-10-14.json",
+            "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+            "pointer": "/document",
+            "native_artifacts_snapshot_commit": null,
+            "role": "published-appendix-document, published-appendix-units",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "published-appendix-units",
+          "id": "pwid21195",
+          "native_unit": "published XML-ID unit",
+          "provenance": {
+            "path": "research/damos-published-id-example-2026-10-14.json",
+            "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+            "pointer": "/units/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "published-appendix-document, published-appendix-units",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "LB-PUBLISHED-EXAMPLE",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "c090a75b7ceb145b7b12feb809d4ee9451d2c8ec3b0a0599a729e582a0134329",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-study",
+          "id": "LB-ANNOTATION-ACQUISITION-20261017",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "live-damos-identities",
+          "id": "4165",
+          "native_unit": "live source identity/context projection",
+          "provenance": {
+            "path": "research/damos-live-pilot-2026-10-17.json",
+            "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+            "pointer": "/rows/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "damos-supplied-structure",
+          "id": "LB-DAMOS-SUPPLIED-STRUCTURE-20261018",
+          "native_unit": "bounded source access or structure inspection",
+          "provenance": {
+            "path": "research/damos-supplied-structure-2026-10-18.json",
+            "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source access or structure check",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "damos-public-routes",
+          "id": "LB-DAMOS-PUBLIC-ROUTES-20261019",
+          "native_unit": "bounded source-route inspection",
+          "provenance": {
+            "path": "research/damos-public-routes-2026-10-19.json",
+            "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded visual/public-route source inspection",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "cretan-hieroglyphic-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "f7126d9e2b48cecdcd0c3b53d515d79d5a023056a4a7535b98eca59a9c1bc9ed",
+      "bundle_source_commit": "7dee79883089d4296aed5538ce82c6e183f2c490",
+      "bundle_sha256": "f647a8e97b1e072d3b10d8dceec3a895ffadc72d2292816df8513dbf5e5169e3",
+      "indexed_artifact_entries_checked": 56,
+      "unique_indexed_paths_checked": 56,
+      "lookups": [
+        {
+          "collection": "catalogue-dossiers",
+          "id": "CHIC-001",
+          "native_unit": "CHIC catalogue dossier",
+          "provenance": {
+            "path": "research/record-dossiers.json",
+            "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+            "pointer": "/dossiers/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "catalogue-dossiers",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "critical-readings",
+          "id": "CHIC-036-a-CHIC1996",
+          "native_unit": "source reading assertion",
+          "provenance": {
+            "path": "corpus/critical-readings.json",
+            "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "critical-readings",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "qualified-assertions",
+          "id": "CHIC-036-a-CHIC1996",
+          "native_unit": "qualified source assertion",
+          "provenance": {
+            "path": "research/qualified-assertion-views.json",
+            "sha256": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+            "pointer": "/assertions/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "qualified-assertions",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "CHIC-202-material",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "85fd397277ad2f94df4828442b4883c867de8d2433c6e3bc645830ed4fa1ff24",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "phaistos-disc-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "ef86d1cf3dabbd6ff63066f044d3bb67af7d1eecb1149d4177f0424165a8a767",
+      "bundle_source_commit": "fb7926c6540a7044293e1e06720e174c847fa606",
+      "bundle_sha256": "b71035bcf861da4fe2a1dd04634088f5d006322be9f903a99ce7bd2c98aaa5cf",
+      "indexed_artifact_entries_checked": 34,
+      "unique_indexed_paths_checked": 34,
+      "lookups": [
+        {
+          "collection": "graphical-groups",
+          "id": "PD-A-E31",
+          "native_unit": "source graphical group",
+          "provenance": {
+            "path": "corpus/disc.json",
+            "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+            "pointer": "/groups/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "graphical-groups, occurrences",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "occurrences",
+          "id": "PD-A-E31-S01",
+          "native_unit": "source sign-impression slot",
+          "provenance": {
+            "path": "corpus/disc.json",
+            "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+            "pointer": "/occurrences/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "graphical-groups, occurrences",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attributed-claims",
+          "id": "PD-C001",
+          "native_unit": "apparatus claim",
+          "provenance": {
+            "path": "apparatus/claims.json",
+            "sha256": "8b94dc170ca025a8012da5dcb9cbe165d7019e75d83687cc0a535f27a04c43a7",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "attributed-claims",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "stroke-assertions",
+          "id": "PD-M001",
+          "native_unit": "source mark assertion",
+          "provenance": {
+            "path": "apparatus/stroke-assertions.json",
+            "sha256": "5450ca71fa1c900ede3c2f287ec3d4a7208eedcbdd5b8beffe311e54a037e72c",
+            "pointer": "/marks/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "stroke-assertions",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "PD-C001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "8ff52e8a75046eb4a96b082092c08bf7589c7b06a9d0f04dbc8a3c30fa95bed6",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "byblos-syllabary-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "c89457844b19351cf4653c5d5bf09033b6ec4a2c9a49ea8a3cfc3472cdd086a8",
+      "bundle_source_commit": "3eed05dbf39b819e7e59ee5394d47db8b3f34761",
+      "bundle_sha256": "ea5ec12c47aa826ce37953d78eeff3a882de56e139e3068997a64998990c9869",
+      "indexed_artifact_entries_checked": 75,
+      "unique_indexed_paths_checked": 75,
+      "lookups": [
+        {
+          "collection": "catalogue",
+          "id": "BYB-A",
+          "native_unit": "catalogue entity",
+          "provenance": {
+            "path": "data/catalogue.json",
+            "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "catalogue",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "survey-count-assertions",
+          "id": "BYB-A",
+          "native_unit": "survey count assertion",
+          "provenance": {
+            "path": "research/core-count-assertions.json",
+            "sha256": "726f301aa984f9b11084f04922ab6633879733ee050967c9516d9e0508beeee4",
+            "pointer": "/entries/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "survey-count-assertions",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "BYB-A-SIGN-COUNT",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "23774c05a07cb6f85b65e527584672b8ab12e4652b8dc65ad25bd4ec68752fd5",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "cypriot-syllabic-greek-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "4407d8137bb92d1ecd26bfecb93110115bc2b8119b93f92db0744ce18ed28c33",
+      "bundle_source_commit": "a167c37a8228fcde893b50bd99023c0330639e15",
+      "bundle_sha256": "7adbce6ffb215212cd5f5f2c47a504118cc2ae8fe822c1d6112b36da570a2b7e",
+      "indexed_artifact_entries_checked": 41,
+      "unique_indexed_paths_checked": 41,
+      "lookups": [
+        {
+          "collection": "digital-entries",
+          "id": "CSG-IGXV1-1",
+          "native_unit": "digital edition entry",
+          "provenance": {
+            "path": "data/records.json",
+            "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-entries",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "CSG-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "3117a86409cf852500fefe75e51664f512105ad74f0237557e45c9a652ebc62d",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "CSG-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "b0331a1795311e3a85d6d99aa88df511faf08410ef90282596e3aa2534809eb3",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Eteocypriot",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "eteocypriot-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "50c61e7ce1d5f808d438e45bdf8cc55133ddf9acc0fe7639f00212033317a7b0",
+      "bundle_source_commit": "cbb48d3e50ecc107ff35f79dad4c8c0cf7dac298",
+      "bundle_sha256": "5a65d3c15368d459fbfc5fa1675b41f1e3070d0f9f58a043afa3f006d1379990",
+      "indexed_artifact_entries_checked": 57,
+      "unique_indexed_paths_checked": 57,
+      "lookups": [
+        {
+          "collection": "digital-entries",
+          "id": "ETEC-IGXV1-1",
+          "native_unit": "digital edition entry",
+          "provenance": {
+            "path": "data/records.json",
+            "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-entries",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "ECY-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "ECY-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "p1-source-followup",
+          "id": "ETE-IG150-QUARANTINE",
+          "native_unit": "bounded source/identity follow-up disposition",
+          "provenance": {
+            "path": "research/p1-source-followup-2026-10-16.json",
+            "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "p1-source-followup",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Eteocretan",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "eteocretan-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "5d0d948565e84361b08a432859c9cbead1ae3987d95ede21c86737eccf3815e9",
+      "bundle_source_commit": "b2c6a68475ca83f7313f17cdbf9e52e3b3b0f8a2",
+      "bundle_sha256": "497fc29b87830545c3581516b05e73c6a95b2eb0f1ce83633661330b86bc5fb3",
+      "indexed_artifact_entries_checked": 57,
+      "unique_indexed_paths_checked": 57,
+      "lookups": [
+        {
+          "collection": "reading-versions",
+          "id": "ECR-DREROS-1-WIKIPEDIA-174295509",
+          "native_unit": "attributed digital reading version",
+          "provenance": {
+            "path": "data/records.json",
+            "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "reading-versions",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "ECR-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "38bcaebd4a345f8bbf8835752188d5ebc32b69384b22e6dc451d1bd95b81ca23",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "ECR-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "c7649b96e32951448eb7d46eb4bba728441495c973974ad9b97983fcff71edc4",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "lycian-and-carian-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "e7ab8e7ec4d446068dcc79276df6ad24a5d55145cad1e8557031f6ab19a73202",
+      "bundle_source_commit": "6d2e63c80b7a2c48ef171e42fdceb680d33445ae",
+      "bundle_sha256": "c6ae4071f2737d982dd44642e0a016eb6c9b257a7d74488c7f3d631a2d5165a1",
+      "indexed_artifact_entries_checked": 36,
+      "unique_indexed_paths_checked": 36,
+      "lookups": [
+        {
+          "collection": "digital-entries",
+          "id": "EDIANA-CARIAN-400",
+          "native_unit": "digital catalogue entry",
+          "provenance": {
+            "path": "data/records.json",
+            "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-entries",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "LC-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "b2f3be56ddd2759570fa885bbe205f771464119c6f2016232068fdc044b91418",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "LC-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "9cdc66164e445bf9056a82878f16c6b5f13fec651b6b86d37d6183eb13a01f4e",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Phrygian",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "phrygian-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "18592ac5bcb0a0c654b539ac7b2451a981f0befb9da9e939ad299762bdae94c1",
+      "bundle_source_commit": "2973aa6c7f7a14827adc69cfff14068bd92650c7",
+      "bundle_sha256": "d078c01c01c63bd61e253551ee278c31eb765ff756967319c934c604e097984b",
+      "indexed_artifact_entries_checked": 69,
+      "unique_indexed_paths_checked": 69,
+      "lookups": [
+        {
+          "collection": "ud-reference",
+          "id": "UD-TM756906-1",
+          "native_unit": "UD reference sentence/segment",
+          "provenance": {
+            "path": "imports/ud-phrygian-kul.json",
+            "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "ud-reference",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "titus-headings",
+          "id": "Phryg._Old-Phryg._M_1a",
+          "native_unit": "TITUS source heading",
+          "provenance": {
+            "path": "research/titus-heading-catalogue.json",
+            "sha256": "ffc91381b5a91c288039eee5c75175ee8fba979fead4ec05ce6191d48aa3f0e4",
+            "pointer": "/entries/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "titus-headings",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "primary-comparison-dossiers",
+          "id": "UD-TM1002268-1",
+          "native_unit": "bounded primary-comparison dossier",
+          "provenance": {
+            "path": "research/new-phrygian-primary-dossier.json",
+            "sha256": "757db8e72bde0bccd736e862f09c61d4e33ab3ee1afd83cfbe9aafb4bc3304a7",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "primary-comparison-dossiers",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "PHR-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "b6aa4e44a547fae7d3119b8071346a7582cd51a3cea2217d062e01dfb40dfc99",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "PHR-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "6fa6224a7c4541d74553bbe1c59f7cd6e86b51d76d8bddaeefa9a44c90d9d2d0",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "p1-source-followup",
+          "id": "PHR-TM1002268-ROLE",
+          "native_unit": "bounded source/identity follow-up disposition",
+          "provenance": {
+            "path": "research/p1-source-followup-2026-10-16.json",
+            "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "p1-source-followup",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "anatolian-hieroglyphic-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "9b9e7e84ce17173d2bc8661a77f287af60a494285bd82c5861e93cef2e4907f9",
+      "bundle_source_commit": "88047c4f1d0c8ed1bc46f4470dee4a92b78aef00",
+      "bundle_sha256": "7cab3eab3397ec3e1713381bbde7d487b9d252cfacf33dcb13af08f5468f4533",
+      "indexed_artifact_entries_checked": 62,
+      "unique_indexed_paths_checked": 62,
+      "lookups": [
+        {
+          "collection": "digital-entry-dossiers",
+          "id": "EDIANA-HL-000",
+          "native_unit": "digital text-entry dossier",
+          "provenance": {
+            "path": "research/digital-entry-dossiers.json",
+            "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+            "pointer": "/entries/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-entry-dossiers",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "edition-metadata-pilot",
+          "id": "KOCAOĞUZ",
+          "native_unit": "edition metadata pilot entry",
+          "provenance": {
+            "path": "research/edition-reconciliation-pilot.json",
+            "sha256": "4f6f42fe58fdfc556d662cebf1f4dd25d3deb27c11e4b9234f1ed533dd6c482d",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "edition-metadata-pilot",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "AH-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "5a0d5b8ca7cfdd146eabbfac02e7e1cfbfdff8b2dfcbeeda1374fd00c78cde08",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "AH-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "dbaf0d96958d0278c32970ff9db3acbfd496a5c095e62367f46bafd679866e06",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-study",
+          "id": "HL-URBS-CITY-20261017",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "city-source-assertions",
+          "id": "HL-CITY-T1-1",
+          "native_unit": "selected author-reported Table1 assertion",
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455",
+            "pointer": "/attestation_assertions/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "city-reference-crosswalk",
+          "id": "HL-CITY-REFERENCE-CROSSWALK-20261018",
+          "native_unit": "bounded documentary follow-up case",
+          "provenance": {
+            "path": "research/city-reference-crosswalk-2026-10-18.json",
+            "sha256": "9bb4718fd74ef41e8e3f6817b282b1ce7eb8ab1f30cd2a9d56dfe0821f06ba0f",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded documentary follow-up",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "city-edition-page-check",
+          "id": "HL-CITY-EDITION-PAGES-20261018",
+          "native_unit": "bounded source access or structure inspection",
+          "provenance": {
+            "path": "research/edition-page-check-2026-10-18.json",
+            "sha256": "0c9f11302fcd9180277b75e87714fea8ff06aa6b91b86d066364183fb1b9aa7e",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source access or structure check",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "visual-source-routes",
+          "id": "HL-VISUAL-SOURCE-ROUTES-20261019",
+          "native_unit": "bounded source-route inspection",
+          "provenance": {
+            "path": "research/visual-source-routes-2026-10-19.json",
+            "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded visual/public-route source inspection",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "historical-visual-presentations",
+          "id": "GELB1939-GURUN-CONTEXT",
+          "native_unit": "page/plate presentation record",
+          "provenance": {
+            "path": "research/visual-source-routes-2026-10-19.json",
+            "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded visual/public-route source inspection",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Archanes-Script",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "archanes-script-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "56b616466ed35c6e0397b1aa2de5767d3cc921511bb65d103367cb9ad61bb675",
+      "bundle_source_commit": "693339eb164d1d9aef4e86f0afed9c318f11a2da",
+      "bundle_sha256": "5a53f7271e310c88611ab88237adabaaae778cf83b7dc10612def0df7013e27e",
+      "indexed_artifact_entries_checked": 41,
+      "unique_indexed_paths_checked": 41,
+      "lookups": [
+        {
+          "collection": "decorte-register",
+          "id": "AS#01",
+          "native_unit": "Decorte corpus-list entry",
+          "provenance": {
+            "path": "research/decorte-2018-corpus-register.json",
+            "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "decorte-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "inscribe-metadata",
+          "id": "AS#02",
+          "native_unit": "INSCRIBE metadata reconciliation",
+          "provenance": {
+            "path": "research/inscribe-object-reconciliation.json",
+            "sha256": "8f321a29845427305b75dfe09968ce454e4ba5b1ddaeefac6ef85f9cf974af32",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "inscribe-metadata",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "ARC-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "a6c2e18bdd1c34598bae64ba253cc5d515eaec0189d0e0fc7078c0c996586113",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "ARC-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "44104ee3dd06abf2419f293ac3e7ff028ac55203d22da303a12e81132fc541fc",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "aegean-anomalous-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "99af20763e771400c0412ba8e15b0ddec8664b287d421af46ca102cb406285aa",
+      "bundle_source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb",
+      "bundle_sha256": "16846365265d4a18ff64f8353ee5553eb87a127d93ff2e785a9b1188463896ff",
+      "indexed_artifact_entries_checked": 41,
+      "unique_indexed_paths_checked": 41,
+      "lookups": [
+        {
+          "collection": "quarantined-candidates",
+          "id": "ARKALOCHORI-AXE",
+          "native_unit": "quarantined candidate entity",
+          "provenance": {
+            "path": "research/candidate-register.json",
+            "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+            "pointer": "/candidates/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "quarantined-candidates",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "ANO-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "ANO-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Lydian",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "lydian-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "b617d47dfdea12533874a8b99f39e5d392c9a7947cd0e03fbd122504b15a2193",
+      "bundle_source_commit": "ae86c095a63a21d676256aa2a81e6928dd4a2639",
+      "bundle_sha256": "c59ca81f081d79658f62de4b95c9cb8b29f2af3c3698e8f23c132b2384203f5d",
+      "indexed_artifact_entries_checked": 65,
+      "unique_indexed_paths_checked": 64,
+      "lookups": [
+        {
+          "collection": "digital-reference",
+          "id": "lydian:ediana:95",
+          "native_unit": "frozen eDiAna directory record",
+          "provenance": {
+            "path": "data/reference/records.json",
+            "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-reference",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "LYD-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "28edecc9ceb7e9f65cf8a51f1d389c739c6f4898ba9b6226df349f2345a31772",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "LYD-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-collation-2026-10-15",
+          "id": "LYD-LW40-HISTORICAL",
+          "native_unit": "selected source collation task",
+          "provenance": {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "3701c4f46088e451b9d4a352a7f99d8d588abe3aee6b27030fe0ba5a0db4ba67",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "fresh bounded source collation; consultation modes differ by source",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Sidetic",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "sidetic-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "a15cf988178453f736d5184a0ce8a11b484855bd274c815eed7202d66307c716",
+      "bundle_source_commit": "7dd8fab8ff5451ff61c2b2093ac28c61af7ad5ff",
+      "bundle_sha256": "500b45899454bc46a91378bf3f1b59c401233ce98fc732508907fe782ae8c1e0",
+      "indexed_artifact_entries_checked": 79,
+      "unique_indexed_paths_checked": 78,
+      "lookups": [
+        {
+          "collection": "digital-reference",
+          "id": "sidetic:ediana:300",
+          "native_unit": "frozen eDiAna directory record",
+          "provenance": {
+            "path": "data/reference/records.json",
+            "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-reference",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "disagreement-register",
+          "id": "SID-DIS-001",
+          "native_unit": "research disagreement/control item",
+          "provenance": {
+            "path": "research/disagreement-register.json",
+            "sha256": "71766e8a253694768ceed6a49c821bc4da161cb9e835ae6c6b9e7b66aae44063",
+            "pointer": "/items/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "disagreement-register",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "SID-DIS-001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "240abb1d8bd4bf5a6b3cbba678d9d3bf1e19088e1f191a9a82c7153a0ac7080b",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-collation-2026-10-15",
+          "id": "SID-EUEMPOLOS-2025",
+          "native_unit": "selected source collation task",
+          "provenance": {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "35d1e964000a42df59c572408c6b77e074e3e1b091ef793c45f0d0c99161a8a0",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "fresh bounded source collation; consultation modes differ by source",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "p1-source-followup",
+          "id": "SID-S6-DARGA-GREEK",
+          "native_unit": "bounded source/identity follow-up disposition",
+          "provenance": {
+            "path": "research/p1-source-followup-2026-10-16.json",
+            "sha256": "1f4f62bc2ab8b6e2e2764bc753df074687b80cb55f551bafe3e470a8f5af213e",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "p1-source-followup",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-intake-2026-10-18",
+          "id": "SID-FERRER2025-VOWEL-INTAKE",
+          "native_unit": "source acquisition/identity follow-up task, not an inscription or independent witness",
+          "provenance": {
+            "path": "research/source-intake-2026-10-18.json",
+            "sha256": "a1919eb40081340524a246309791d90d5bd38999be97d42795c277fa348472cd",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source intake and bibliographic identity",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "ferrer2025-appendix-comparison",
+          "id": "FERRER2025-S1-1",
+          "native_unit": "editorial appendix line/group comparison, not an inscription or independent witness",
+          "provenance": {
+            "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+            "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1",
+            "pointer": "/comparisons/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "Direct Ferrer PDF and appendix comparison",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "ferrer2025-reading-assertions",
+          "id": "FERRER2025-APP-DARKUW",
+          "native_unit": "source-attributed selected name proposal; not independent witness or physical object",
+          "provenance": {
+            "path": "research/ferrer2025-reading-assertions.json",
+            "sha256": "094d5f94a620f0472470c5aef2beca657132be37d5d046aa9ed1981cd0b2af22",
+            "pointer": "/assertions/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "selected attributed edition assertions",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Pisidian",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "pisidian-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "1046dfeec82f8c15ffc9326abc1101bd7350da4e3af164f2067e076bfb2541dd",
+      "bundle_source_commit": "81badfe2f9233546aac12ba315ce242d35f53147",
+      "bundle_sha256": "84e21a05014cc9ff2b90340d0654c8f72fbfbf606478df94564595ee99dbe08c",
+      "indexed_artifact_entries_checked": 62,
+      "unique_indexed_paths_checked": 61,
+      "lookups": [
+        {
+          "collection": "digital-reference",
+          "id": "pisidian:ediana:0",
+          "native_unit": "frozen eDiAna directory record",
+          "provenance": {
+            "path": "data/reference/records.json",
+            "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-reference",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "PIS-KESME2-PRIMARY",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-collation-2026-10-15",
+          "id": "PIS-N25-2023",
+          "native_unit": "selected source collation task",
+          "provenance": {
+            "path": "research/source-collation-2026-10-15.json",
+            "sha256": "53c1013222b4a113d815a959a910ed565d4357deb3e6e2eab079fb5232946d9e",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "fresh bounded source collation; consultation modes differ by source",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "milyan-corpus-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "35e12635c2a483e65674243b4bb7defc4838b9d2d59d5616e9239883586f552a",
+      "bundle_source_commit": "2095b43cb83f0e73e74d4d30e5985156b2634775",
+      "bundle_sha256": "c35edf8f792ae48064226f95b3769b5f5863f039d84327192c4b9a957cd10035",
+      "indexed_artifact_entries_checked": 79,
+      "unique_indexed_paths_checked": 79,
+      "lookups": [
+        {
+          "collection": "digital-entries",
+          "id": "EDIANA-MILYAN-0",
+          "native_unit": "digital catalogue entry",
+          "provenance": {
+            "path": "data/reference/records.json",
+            "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "digital-entries",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-text-rows",
+          "id": "EDIANA-MILYAN-0-ROW-1",
+          "native_unit": "digital source text row",
+          "provenance": {
+            "path": "data/reference/lines.json",
+            "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "source-text-rows",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "qualified-tl55-rows",
+          "id": "EDIANA-MILYAN-0-ROW-1",
+          "native_unit": "qualified source-label comparison row",
+          "provenance": {
+            "path": "research/tl55-qualified-collation.json",
+            "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+            "pointer": "/rows/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "qualified-tl55-rows",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "selected-tl55-issues",
+          "id": "MIL-TL055-S2005-OPENING",
+          "native_unit": "selected source-comparison issue",
+          "provenance": {
+            "path": "research/schuerr2005-tl55-collation.json",
+            "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+            "pointer": "/issues/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "selected-tl55-issues",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl55-apparatus-review",
+          "id": "S2005-A1-01",
+          "native_unit": "first-pass apparatus review entry",
+          "provenance": {
+            "path": "research/tl55-first-pass-review.json",
+            "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+            "pointer": "/apparatus_entries/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "tl55-apparatus-review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "MIL-TL55-COUNT-VOICE",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl55-sign-alignments",
+          "id": "TL55-L1-A001",
+          "native_unit": "candidate encoded-glyph comparison record",
+          "provenance": {
+            "path": "research/tl55-sign-alignment.json",
+            "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+            "pointer": "/alignments/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "qualified glyph comparison and exact source-position metadata",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl55-documentary-sign-review",
+          "id": "TL55-REVIEW-01",
+          "native_unit": "completed documentary comparison case",
+          "provenance": {
+            "path": "research/tl55-documentary-sign-review.json",
+            "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "completed documentary comparison with retained non-unique ranges",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl44-label-routes",
+          "id": "EDIANA-MILYAN-1-ROW-1",
+          "native_unit": "existing digital row to proposed printed label/page route",
+          "provenance": {
+            "path": "research/tl44-source-checkpoint.json",
+            "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+            "pointer": "/rows/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "TL44 source checkpoint",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl44-source-issues",
+          "id": "TL44C-BOUNDARY-64-65",
+          "native_unit": "selected documentary boundary observation",
+          "provenance": {
+            "path": "research/tl44-source-checkpoint.json",
+            "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+            "pointer": "/issues/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "TL44 source checkpoint",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl44-modern-editions",
+          "id": "TL44C-SCHUERR-2016",
+          "native_unit": "modern edition bibliographic target",
+          "provenance": {
+            "path": "research/tl44-source-checkpoint.json",
+            "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+            "pointer": "/editions/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "TL44 source checkpoint",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl44-boundary-contexts",
+          "id": "TL44-C33-MARKER-1",
+          "native_unit": "qualified documentary boundary context",
+          "provenance": {
+            "path": "research/tl44-boundary-documentary-review.json",
+            "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+            "pointer": "/markers/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "tl44-boundary-contexts",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "tl44-span-accounting",
+          "id": "EDIANA-MILYAN-1-ROW-1",
+          "native_unit": "frozen digital row code-point partition",
+          "provenance": {
+            "path": "research/tl44-boundary-documentary-review.json",
+            "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+            "pointer": "/rows/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "tl44-boundary-contexts",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    }
+  ],
+  "native_corpus_payload_included": false,
+  "scholarly_acceptance_granted": false
+}
