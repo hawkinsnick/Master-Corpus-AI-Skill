@@ -1165,17 +1165,17 @@ Read `references/academic-audit-2026-10-20.md` and its linked frozen review when
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "d0e2ca335230c358cb0d95e6ddd188dd2455ca8d",
-      "accepted_commit": "d0e2ca335230c358cb0d95e6ddd188dd2455ca8d",
+      "observed_commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+      "accepted_commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
       "skill_sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
-      "bundle_sha256": "d8997b53e44ab6420d091d5daa57e8e0ae86905f8b077372ded1283ff1774f02",
-      "bundle_source_commit": "0c45da8aa47f34fca74428c68eb89f2aa49decb2",
-      "indexed_artifact_entries_checked": 225
+      "bundle_sha256": "fae3efb554d3ca707be455ecdde6d8173a349c62750b2e44d345f75daee067d5",
+      "bundle_source_commit": "fca0a76b66565cf63692544fa400d451abf58b8d",
+      "indexed_artifact_entries_checked": 229
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -1428,7 +1428,7 @@ This is a byte-bound engineering snapshot. Scheduled refreshes run every five mi
 
 | Corpus | Observed main | Last validated revision | Status |
 |---|---|---|---|
-| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [d0e2ca335230](https://github.com/hawkinsnick/Linear-A/tree/d0e2ca335230c358cb0d95e6ddd188dd2455ca8d) | [d0e2ca335230](https://github.com/hawkinsnick/Linear-A/tree/d0e2ca335230c358cb0d95e6ddd188dd2455ca8d) | VALIDATED |
+| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [06c3eb18ce60](https://github.com/hawkinsnick/Linear-A/tree/06c3eb18ce60473f352fb33ed4e622a7837637c4) | [06c3eb18ce60](https://github.com/hawkinsnick/Linear-A/tree/06c3eb18ce60473f352fb33ed4e622a7837637c4) | VALIDATED |
 | [Cypro-Minoan](https://github.com/hawkinsnick/Cypro-Minoan) | [185ef0a44222](https://github.com/hawkinsnick/Cypro-Minoan/tree/185ef0a44222281fbde53589185f8b647ad85313) | [185ef0a44222](https://github.com/hawkinsnick/Cypro-Minoan/tree/185ef0a44222281fbde53589185f8b647ad85313) | VALIDATED |
 | [Linear-B](https://github.com/hawkinsnick/Linear-B) | [314638026db8](https://github.com/hawkinsnick/Linear-B/tree/314638026db8eac689e10b0a7193ffef0d996a07) | [314638026db8](https://github.com/hawkinsnick/Linear-B/tree/314638026db8eac689e10b0a7193ffef0d996a07) | VALIDATED |
 | [Cretan-hieroglyphs](https://github.com/hawkinsnick/Cretan-hieroglyphs) | [4e5704e62c96](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/4e5704e62c966220ef7b85feaa8205c61a3f3540) | [4e5704e62c96](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/4e5704e62c966220ef7b85feaa8205c61a3f3540) | VALIDATED |
