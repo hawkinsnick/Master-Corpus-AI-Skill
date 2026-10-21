@@ -142,3 +142,15 @@ measurement or independent scholarly validation.
 ## Assess academic claims critically
 
 Read `references/academic-audit-2026-10-20.md` and its linked frozen review when assessing critical-edition, independence, linguistic-inference or AI-accuracy claims. Preserve its distinction between source fidelity and scholarly correctness. Treat its post hoc diagnostics as exploratory methodological probes, never canonical object joins, new linguistic results or independent expert acceptance. Prefer current native source/review gates over the audit when later evidence changes. If the reference is unavailable, disclose that limitation and retrieve the linked published report before relying on its findings.
+
+## Use executed research results within their scope
+
+Read `RESEARCH-RESULTS.md` for completed study outputs and evaluation status.
+Use `research/2026-10-21/native-revisions.json` for their frozen source state;
+never substitute a current member head silently. Read the dependence register
+before counting the tested Milyan or Cypriot views as independent evidence.
+Treat untested relationships as unknown, not independent. Source-trace passes
+verify returned bytes and pointers, not primary-edition correctness. Distinguish
+candidate citation fields, actual source consultation, expert review and model
+evaluation. Check the evaluation's status and rubric before reporting a score.
+Do not promote a development pilot to independently validated academic accuracy.

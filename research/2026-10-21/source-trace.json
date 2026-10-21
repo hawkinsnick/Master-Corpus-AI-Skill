@@ -1,0 +1,2288 @@
+{
+  "format": "bounded-source-trace-v1",
+  "members": 18,
+  "sampled_view_rows": 54,
+  "selection": "For each of 18 members, rank every retrievable collection/ID pair by SHA256 of source-trace-v1|repository|collection|id. Select the lowest three. Views may overlap; no physical-population error estimate is licensed.",
+  "primary_checks_newly_performed": 0,
+  "external_reviews_added": 0,
+  "rows": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "source-documents",
+      "id": "HT 116a",
+      "native_unit": "SigLA source document entry",
+      "selection_hash": "00d9b33c682c9283d68df983a25dd88770f3e292defda76e2dddf99e49892c21",
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/sigla-source-documents.jsonl",
+        "pointer": "/36",
+        "encoding": "jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/provenance/license",
+          "value": "CC BY-NC-SA 4.0"
+        },
+        {
+          "field_pointer": "/provenance/attribution",
+          "value": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "source-documents",
+      "id": "KH Wc 2101",
+      "native_unit": "SigLA source document entry",
+      "selection_hash": "0166d306330edb5848cbabacaf1fbae481e59aa22069a2742b79a30a659db381",
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/sigla-source-documents.jsonl",
+        "pointer": "/597",
+        "encoding": "jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/provenance/license",
+          "value": "CC BY-NC-SA 4.0"
+        },
+        {
+          "field_pointer": "/provenance/attribution",
+          "value": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "source-documents",
+      "id": "HT Wa 1295",
+      "native_unit": "SigLA source document entry",
+      "selection_hash": "01f2fa0968a502483d428216922136014f4477ba159e2433e0cad5329f1f1a82",
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/sigla-source-documents.jsonl",
+        "pointer": "/270",
+        "encoding": "jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/provenance/license",
+          "value": "CC BY-NC-SA 4.0"
+        },
+        {
+          "field_pointer": "/provenance/attribution",
+          "value": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "rich-dossiers",
+      "id": "CMOC-0026",
+      "native_unit": "rich-record dossier",
+      "selection_hash": "00c6c50723f3a4f22623b7d9473a78c04f9d76ffaee0df70c33ee41c1866bb07",
+      "source": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "185ef0a44222281fbde53589185f8b647ad85313",
+        "path": "research/record-dossiers.json",
+        "pointer": "/dossiers/1",
+        "encoding": "json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/find_context/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/dating/0/provenance/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/dating/0/provenance/0/locator",
+          "value": "museum record, Date"
+        },
+        {
+          "field_pointer": "/identifiers/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/identifiers/1/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/identifiers/2/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/identifiers/3/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/classifications/0/provenance/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/classifications/0/provenance/0/locator",
+          "value": "museum record, Inscriptions"
+        },
+        {
+          "field_pointer": "/assertions/0/provenance/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/assertions/0/provenance/0/locator",
+          "value": "museum record, Inscriptions"
+        },
+        {
+          "field_pointer": "/assertions/1/provenance/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/assertions/1/provenance/0/locator",
+          "value": "museum record, Description"
+        },
+        {
+          "field_pointer": "/assertions/2/provenance/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/assertions/2/provenance/0/locator",
+          "value": "museum record, Places and dates"
+        },
+        {
+          "field_pointer": "/assertions/3/provenance/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/assertions/3/provenance/0/locator",
+          "value": "museum record, Bibliography"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/reconciliation_context/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/reconciliation_context/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/reconciliation_context/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/source_disagreements/0/assertions/0/source_id",
+          "value": "olivier2007"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/source_disagreements/0/assertions/0/locator",
+          "value": "HoChyMin 76 ; as reported by Valério 2016"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/source_disagreements/0/assertions/1/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/source_disagreements/0/assertions/1/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/0/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/1/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/1/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/2/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/2/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/3/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/identity_context/identifier_assertions/3/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/0/evidence_context/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/source_occurrences/1/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/reconciliation_context/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/reconciliation_context/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/reconciliation_context/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/source_disagreements/0/assertions/0/source_id",
+          "value": "olivier2007"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/source_disagreements/0/assertions/0/locator",
+          "value": "HoChyMin 76 ; as reported by Valério 2016"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/source_disagreements/0/assertions/1/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/source_disagreements/0/assertions/1/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/0/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/1/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/1/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/2/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/2/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/3/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/identity_context/identifier_assertions/3/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/source_occurrences/1/evidence_context/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/source_assertion/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/source_assertion/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/reconciliation_context/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/reconciliation_context/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/reconciliation_context/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/source_disagreements/0/assertions/0/source_id",
+          "value": "olivier2007"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/source_disagreements/0/assertions/0/locator",
+          "value": "HoChyMin 76 ; as reported by Valério 2016"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/source_disagreements/0/assertions/1/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/source_disagreements/0/assertions/1/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/0/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/1/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/1/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/2/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/2/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/3/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/identity_context/identifier_assertions/3/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/0/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/source_assertion/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/source_assertion/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/reconciliation_context/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/reconciliation_context/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/reconciliation_context/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/source_disagreements/0/assertions/0/source_id",
+          "value": "olivier2007"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/source_disagreements/0/assertions/0/locator",
+          "value": "HoChyMin 76 ; as reported by Valério 2016"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/source_disagreements/0/assertions/1/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/source_disagreements/0/assertions/1/locator",
+          "value": "printed p. 457 (PDF 463), ##026"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/0/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/1/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/1/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/2/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/2/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/3/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/identity_context/identifier_assertions/3/locator",
+          "value": "corpus/inscriptions/CMOC-0026.json#identifiers"
+        },
+        {
+          "field_pointer": "/qualified_assertions/1/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/sources/0/source_id",
+          "value": "louvre-cm-26"
+        },
+        {
+          "field_pointer": "/sources/1/source_id",
+          "value": "olivier2007"
+        },
+        {
+          "field_pointer": "/sources/2/source_id",
+          "value": "valerio2016thesis"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "catalogue-mappings",
+      "id": "194",
+      "native_unit": "source catalogue-number mapping",
+      "selection_hash": "01e6fd75e0f9c8772f5d7412da8dc4c005f6d5b8b0f98683624711a8f3e6424c",
+      "source": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "185ef0a44222281fbde53589185f8b647ad85313",
+        "path": "catalogues/source-located-concordance.json",
+        "pointer": "/rows/193",
+        "encoding": "json",
+        "sha256": "a17030df57896320b3c2a9e7882ea5f6e5b7c2c6d018fe83f3f4c2f9cf3fae66"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/source/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/collection_context/source/locator",
+          "value": "Concordance of Cypro-Minoan inscriptions by sequential absolute number, PDF pages 25–27 (unnumbered front matter)"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "catalogue-mappings",
+      "id": "40",
+      "native_unit": "source catalogue-number mapping",
+      "selection_hash": "01f37c51d22cb2a140e1f1f76a7ad3fb5fd16e0ac9a87bfdb12c44525f11bd90",
+      "source": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "185ef0a44222281fbde53589185f8b647ad85313",
+        "path": "catalogues/source-located-concordance.json",
+        "pointer": "/rows/39",
+        "encoding": "json",
+        "sha256": "a17030df57896320b3c2a9e7882ea5f6e5b7c2c6d018fe83f3f4c2f9cf3fae66"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/source/source_id",
+          "value": "valerio2016thesis"
+        },
+        {
+          "field_pointer": "/collection_context/source/locator",
+          "value": "Concordance of Cypro-Minoan inscriptions by sequential absolute number, PDF pages 25–27 (unnumbered front matter)"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "published-appendix-units",
+      "id": "pwid21195",
+      "native_unit": "published XML-ID unit",
+      "selection_hash": "0b614fc4dae5234b3dab5be06242d6b78186a83764e7adf8057229bdd4d2889f",
+      "source": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "pointer": "/units/0",
+        "encoding": "json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/locator",
+          "value": "p.11 appendix XML line 55"
+        },
+        {
+          "field_pointer": "/collection_context/source/citation",
+          "value": "Aurora, Nedić, Nesøen and Haug (2025), Exporting Mycenaean, DOI 10.5617/dhnbpub.12295"
+        },
+        {
+          "field_pointer": "/collection_context/source/license",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "field_pointer": "/collection_context/document/locator",
+          "value": "p.10 XML lines 3,11–14"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "live-damos-identities",
+      "id": "4215",
+      "native_unit": "live source identity/context projection",
+      "selection_hash": "0cfca21a0a85da9eff2d007f91e6cacad96a412f5cc946ce5b4487665b94d3cc",
+      "source": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-live-pilot-2026-10-17.json",
+        "pointer": "/rows/17",
+        "encoding": "json",
+        "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/rights",
+          "value": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded."
+        },
+        {
+          "field_pointer": "/collection_context/license",
+          "value": "CC BY-NC-SA 4.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "live-damos-identities",
+      "id": "4165",
+      "native_unit": "live source identity/context projection",
+      "selection_hash": "0f1b3fdf83dfff05e00a5edf0ba2973abe76d4d3a9bdd4dd465ab44085356d39",
+      "source": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-live-pilot-2026-10-17.json",
+        "pointer": "/rows/0",
+        "encoding": "json",
+        "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/rights",
+          "value": "DAMOS content CC BY-NC-SA 4.0, as displayed on official homepage; image components excluded."
+        },
+        {
+          "field_pointer": "/collection_context/license",
+          "value": "CC BY-NC-SA 4.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "catalogue-dossiers",
+      "id": "CHIC-260",
+      "native_unit": "CHIC catalogue dossier",
+      "selection_hash": "0077cd8ff18c35a2a3f5a61509005a08f9636cc7e868f0ff8528311a110a2972",
+      "source": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "pointer": "/dossiers/259",
+        "encoding": "json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "catalogue-dossiers",
+      "id": "CHIC-107",
+      "native_unit": "CHIC catalogue dossier",
+      "selection_hash": "01e3ba91bfff3afa044dd4e3fe8265547ad850242191b85ceba1044047676146",
+      "source": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "pointer": "/dossiers/106",
+        "encoding": "json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/primary_catalogue_context/source_id",
+          "value": "CHIC1996"
+        },
+        {
+          "field_pointer": "/primary_catalogue_context/independent_review_complete",
+          "value": false
+        },
+        {
+          "field_pointer": "/primary_catalogue_context/locator",
+          "value": "printed p. 56, F. Concordance muséographique, HM / MA/P / Hf / #107"
+        },
+        {
+          "field_pointer": "/primary_catalogue_context/source_url",
+          "value": "https://cefael.efa.gr/detail.php?actionID=page&page_number=56&page_type=1&serie_id=EtCret&site_id=1&volume_number=31"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "catalogue-dossiers",
+      "id": "CHIC-307",
+      "native_unit": "CHIC catalogue dossier",
+      "selection_hash": "02a8dbf04d7459b6e7304bba8e79ddb6680257550197f5c4c6f4e6862819c326",
+      "source": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "pointer": "/dossiers/306",
+        "encoding": "json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "occurrences",
+      "id": "PD-A-E27-S03",
+      "native_unit": "source sign-impression slot",
+      "selection_hash": "008231e61bfc772c473b02ef726da68fd45d477262a300409d7d5bc88d3a8800",
+      "source": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "pointer": "/occurrences/16",
+        "encoding": "json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/0/source_id",
+          "value": "evans1909"
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/0/rights",
+          "value": "Historical edition public domain; faithful source images retain attribution."
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/1/source_id",
+          "value": "unicode17"
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/1/rights",
+          "value": "Unicode-3.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "occurrences",
+      "id": "PD-B-E30-S04",
+      "native_unit": "source sign-impression slot",
+      "selection_hash": "009a429c5a77275d76fb78a955e2606fa10cadfd972d8092440de5b537c85e27",
+      "source": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "pointer": "/occurrences/126",
+        "encoding": "json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/0/source_id",
+          "value": "evans1909"
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/0/rights",
+          "value": "Historical edition public domain; faithful source images retain attribution."
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/1/source_id",
+          "value": "unicode17"
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/1/rights",
+          "value": "Unicode-3.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "occurrences",
+      "id": "PD-B-E18-S01",
+      "native_unit": "source sign-impression slot",
+      "selection_hash": "013c3ded18ea16ca478cf01f5ec01c9a93d430766776ed76953e68652abb74dc",
+      "source": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "pointer": "/occurrences/172",
+        "encoding": "json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/0/source_id",
+          "value": "evans1909"
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/0/rights",
+          "value": "Historical edition public domain; faithful source images retain attribution."
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/1/source_id",
+          "value": "unicode17"
+        },
+        {
+          "field_pointer": "/collection_context/rights/third_party_material/1/rights",
+          "value": "Unicode-3.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "survey-count-assertions",
+      "id": "BYB-C",
+      "native_unit": "survey count assertion",
+      "selection_hash": "0299de3a3bbd90a8b7745ada0c8c64ce0bb8fafd40b5612ebf412d449f8a4282",
+      "source": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "research/core-count-assertions.json",
+        "pointer": "/entries/2",
+        "encoding": "json",
+        "sha256": "726f301aa984f9b11084f04922ab6633879733ee050967c9516d9e0508beeee4"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "vita-zamora-2018"
+        },
+        {
+          "field_pointer": "/locator",
+          "value": "p. 77, Tablet c"
+        },
+        {
+          "field_pointer": "/collection_context/source_id",
+          "value": "vita-zamora-2018"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "catalogue",
+      "id": "BYB-CAND-PALIMPSEST-KAI4",
+      "native_unit": "catalogue entity",
+      "selection_hash": "040e3fe475de6f3ae7012f894ac6c0b8f27b618a4a3796f5ee090ef7840719d8",
+      "source": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "pointer": "/records/16",
+        "encoding": "json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/evidence/0/source_id",
+          "value": "vita-zamora-2018"
+        },
+        {
+          "field_pointer": "/evidence/0/locator",
+          "value": "pp. 87–88, fig. 18"
+        },
+        {
+          "field_pointer": "/evidence/1/source_id",
+          "value": "deaps-kai4"
+        },
+        {
+          "field_pointer": "/evidence/1/locator",
+          "value": "General Notes, citing Martin 1961 pp. 66–67"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "catalogue",
+      "id": "BYB-G",
+      "native_unit": "catalogue entity",
+      "selection_hash": "0abcace371d491916e34b5b6538d34db8ca827e3b378faf19c4632c879725151",
+      "source": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "pointer": "/records/6",
+        "encoding": "json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/evidence/0/source_id",
+          "value": "mnamon-merlo"
+        },
+        {
+          "field_pointer": "/evidence/0/locator",
+          "value": "Corpus of the pseudo-hieroglyphic inscriptions of Byblos"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "digital-entries",
+      "id": "CSG-IGXV1-231",
+      "native_unit": "digital edition entry",
+      "selection_hash": "0033fe486e2dfe37a6b768a17b203ff8e51456d563af18ff219b69e541455e66",
+      "source": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+        "path": "data/records.json",
+        "pointer": "/229",
+        "encoding": "json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "IG XV 1, 231"
+        },
+        {
+          "field_pointer": "/greek_interpretations/0/source_locator",
+          "value": "div[@type=\"translation\"]"
+        },
+        {
+          "field_pointer": "/translations/0/source_locator",
+          "value": "div[@type=\"translation\"]"
+        },
+        {
+          "field_pointer": "/bibliography_source",
+          "value": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "field_pointer": "/review/independent_epigraphic_review",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "digital-entries",
+      "id": "CSG-IGXV1-335",
+      "native_unit": "digital edition entry",
+      "selection_hash": "009c888c7525ea8af94438c3a6e683a6120467c3c720154ee75f49f9557b369d",
+      "source": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+        "path": "data/records.json",
+        "pointer": "/478",
+        "encoding": "json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "IG XV 1, 335"
+        },
+        {
+          "field_pointer": "/translations/0/source_locator",
+          "value": "div[@type=\"translation\"]"
+        },
+        {
+          "field_pointer": "/bibliography_source",
+          "value": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "field_pointer": "/review/independent_epigraphic_review",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "digital-entries",
+      "id": "CSG-IGXV1-283-5",
+      "native_unit": "digital edition entry",
+      "selection_hash": "00e5799f8da1fc29f9687b0f788272af43abd643f4130588bf805d83d48923c2",
+      "source": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+        "path": "data/records.json",
+        "pointer": "/332",
+        "encoding": "json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "IG XV 1, 283(5)"
+        },
+        {
+          "field_pointer": "/translations/0/source_locator",
+          "value": "div[@type=\"translation\"]"
+        },
+        {
+          "field_pointer": "/bibliography_source",
+          "value": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "field_pointer": "/review/independent_epigraphic_review",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "digital-entries",
+      "id": "ETEC-IGXV1-16",
+      "native_unit": "digital edition entry",
+      "selection_hash": "00d2e2872fa20a4e7285fc4f225181889c85d48ffef4d3fa924fb62093009d9e",
+      "source": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+        "path": "data/records.json",
+        "pointer": "/15",
+        "encoding": "json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "IG XV 1, 16"
+        },
+        {
+          "field_pointer": "/bibliography_source",
+          "value": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+        },
+        {
+          "field_pointer": "/components/0/source_locator",
+          "value": "div[@type='edition']//div[@type='textpart'][@n='A']"
+        },
+        {
+          "field_pointer": "/components/0/source_language_evidence/0/locator",
+          "value": "div[@type='translation']//div[@type='textpart'][@n='A']"
+        },
+        {
+          "field_pointer": "/components/0/independent_epigraphic_review",
+          "value": false
+        },
+        {
+          "field_pointer": "/components/1/source_locator",
+          "value": "div[@type='edition']//div[@type='textpart'][@n='B']"
+        },
+        {
+          "field_pointer": "/components/1/source_language_evidence/0/locator",
+          "value": "div[@type='translation']//div[@type='textpart'][@n='B']"
+        },
+        {
+          "field_pointer": "/components/1/independent_epigraphic_review",
+          "value": false
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "field_pointer": "/review/independent_epigraphic_review",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "p1-source-followup",
+      "id": "ETE-IG150-QUARANTINE",
+      "native_unit": "bounded source/identity follow-up disposition",
+      "selection_hash": "09d5eae41311663f8d3bc2064eaff73f29366736384e7ccc2239236a5144a9a8",
+      "source": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "pointer": "/cases/0",
+        "encoding": "json",
+        "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "IG XV 1, 150"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "digital-entries",
+      "id": "ETEC-IGXV1-46",
+      "native_unit": "digital edition entry",
+      "selection_hash": "1921ec86a4112ffe0ab14c53bc98cf815341787a7c424f0d5ee1ef0ab020e707",
+      "source": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+        "path": "data/records.json",
+        "pointer": "/18",
+        "encoding": "json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "IG XV 1, 46"
+        },
+        {
+          "field_pointer": "/bibliography_source",
+          "value": "Inscriptiones Cypri. Pars I. Inscriptiones Cypri syllabicae. Fasc. 1. Inscriptiones Amathuntis, Curii, Marii. Edid. Artemis Karnava et Massimo Perna adiuvante Markus Egetmeyer. – Berlin 2020"
+        },
+        {
+          "field_pointer": "/components/0/source_locator",
+          "value": "div[@type='edition']"
+        },
+        {
+          "field_pointer": "/components/0/source_language_evidence/0/locator",
+          "value": "div[@type='translation']"
+        },
+        {
+          "field_pointer": "/components/0/independent_epigraphic_review",
+          "value": false
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "field_pointer": "/review/independent_epigraphic_review",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "reading-versions",
+      "id": "ECR-PRAISOS-2-CONWAY-127-II",
+      "native_unit": "attributed digital reading version",
+      "selection_hash": "02e2e05351cbafd4a7abc4b505fa4141f61f99a2dd26b3d14a6b5e9ffe8106f6",
+      "source": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "pointer": "/11",
+        "encoding": "json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "Conway BSA 8:127"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "public_domain_original"
+        },
+        {
+          "field_pointer": "/source/locator",
+          "value": "BSA 8, printed p. 127"
+        },
+        {
+          "field_pointer": "/lines/0/source_locator",
+          "value": "printed page 127, reading (ii), line 1"
+        },
+        {
+          "field_pointer": "/lines/1/source_locator",
+          "value": "printed page 127, reading (ii), line 2"
+        },
+        {
+          "field_pointer": "/lines/2/source_locator",
+          "value": "printed page 127, reading (ii), line 3"
+        },
+        {
+          "field_pointer": "/lines/3/source_locator",
+          "value": "printed page 127, reading (ii), line 4"
+        },
+        {
+          "field_pointer": "/lines/4/source_locator",
+          "value": "printed page 127, reading (ii), line 5"
+        },
+        {
+          "field_pointer": "/lines/5/source_locator",
+          "value": "printed page 127, reading (ii), line 6"
+        },
+        {
+          "field_pointer": "/lines/6/source_locator",
+          "value": "printed page 127, reading (ii), line 7"
+        },
+        {
+          "field_pointer": "/lines/7/source_locator",
+          "value": "printed page 127, reading (ii), line 8"
+        },
+        {
+          "field_pointer": "/lines/8/source_locator",
+          "value": "printed page 127, reading (ii), line 9"
+        },
+        {
+          "field_pointer": "/lines/9/source_locator",
+          "value": "printed page 127, reading (ii), line 10"
+        },
+        {
+          "field_pointer": "/lines/10/source_locator",
+          "value": "printed page 127, reading (ii), line 11"
+        },
+        {
+          "field_pointer": "/lines/11/source_locator",
+          "value": "printed page 127, reading (ii), line 12"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "reading-versions",
+      "id": "ECR-PRAISOS-1-WIKIPEDIA-174295509",
+      "native_unit": "attributed digital reading version",
+      "selection_hash": "0815ddb618a27a6f92c8e77110dd1b5f32c37f349d8a154cb31dc11301b77edc",
+      "source": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "pointer": "/2",
+        "encoding": "json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "Praisos 1"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/source/locator",
+          "value": "Praisos 1"
+        },
+        {
+          "field_pointer": "/lines/0/source_locator",
+          "value": "HTML element #mwjw"
+        },
+        {
+          "field_pointer": "/lines/1/source_locator",
+          "value": "HTML element #mwkQ"
+        },
+        {
+          "field_pointer": "/lines/2/source_locator",
+          "value": "HTML element #mwkw"
+        },
+        {
+          "field_pointer": "/lines/3/source_locator",
+          "value": "HTML element #mwlQ"
+        },
+        {
+          "field_pointer": "/lines/4/source_locator",
+          "value": "HTML element #mwlw"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "reading-versions",
+      "id": "ECR-DREROS-2-WIKIPEDIA-174295509",
+      "native_unit": "attributed digital reading version",
+      "selection_hash": "0d5a3b78977eb284527da93f668858411445f067d3c1c8c00d39785531a25e29",
+      "source": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "pointer": "/1",
+        "encoding": "json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "Dreros 2"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/source/locator",
+          "value": "Dreros 2"
+        },
+        {
+          "field_pointer": "/lines/0/source_locator",
+          "value": "HTML element #mwiQ"
+        },
+        {
+          "field_pointer": "/lines/1/source_locator",
+          "value": "HTML element #mwbw"
+        },
+        {
+          "field_pointer": "/lines/2/source_locator",
+          "value": "HTML element #mwcQ"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "digital-entries",
+      "id": "EDIANA-CARIAN-547",
+      "native_unit": "digital catalogue entry",
+      "selection_hash": "00ba7d1cd58bab6381babc0efc392150a5f624a9f69f697f365db185ef52d4bf",
+      "source": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+        "path": "data/records.json",
+        "pointer": "/147",
+        "encoding": "json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "547"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/lines/0/source_locator",
+          "value": "/E.Th 36/1"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "digital-entries",
+      "id": "EDIANA-CARIAN-468",
+      "native_unit": "digital catalogue entry",
+      "selection_hash": "00c4d18bb3da7c05b4d58f54e1d97aafca80e940bf4e68a0b6538ed10eefa7d1",
+      "source": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+        "path": "data/records.json",
+        "pointer": "/68",
+        "encoding": "json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "468"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/lines/0/source_locator",
+          "value": "/E.Ab 1/1"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "digital-entries",
+      "id": "EDIANA-CARIAN-606",
+      "native_unit": "digital catalogue entry",
+      "selection_hash": "0179a139b271058ce49c4c68332f733168f9b43992c06f7ae186a38bb4968187",
+      "source": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+        "path": "data/records.json",
+        "pointer": "/206",
+        "encoding": "json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_id",
+          "value": "606"
+        },
+        {
+          "field_pointer": "/source/license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/lines/0/source_locator",
+          "value": "/E.xx 5/0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "titus-headings",
+      "id": "Phryg._Old-Phryg._G_258",
+      "native_unit": "TITUS source heading",
+      "selection_hash": "00011ccfb23b6197920c5908b46fad72843a4ccbbe932240ae91a24ce6f5744a",
+      "source": {
+        "repository": "hawkinsnick/Phrygian",
+        "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+        "path": "research/titus-heading-catalogue.json",
+        "pointer": "/entries/153",
+        "encoding": "json",
+        "sha256": "ffc91381b5a91c288039eee5c75175ee8fba979fead4ec05ce6191d48aa3f0e4"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/independent_epigraphic_review",
+          "value": false
+        },
+        {
+          "field_pointer": "/collection_context/source_url",
+          "value": "https://titus.uni-frankfurt.de/texte/etcs/phrygian/phrygt.htm"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "titus-headings",
+      "id": "Phryg._Old-Phryg._P_101",
+      "native_unit": "TITUS source heading",
+      "selection_hash": "001bf48765d7968f730df69ae9918b9b3ee1560e437df987cbd370db2fee38f8",
+      "source": {
+        "repository": "hawkinsnick/Phrygian",
+        "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+        "path": "research/titus-heading-catalogue.json",
+        "pointer": "/entries/176",
+        "encoding": "json",
+        "sha256": "ffc91381b5a91c288039eee5c75175ee8fba979fead4ec05ce6191d48aa3f0e4"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/independent_epigraphic_review",
+          "value": false
+        },
+        {
+          "field_pointer": "/collection_context/source_url",
+          "value": "https://titus.uni-frankfurt.de/texte/etcs/phrygian/phrygt.htm"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "attribution-review",
+      "id": "PHR-DIS-004",
+      "native_unit": "bounded documentary attribution review task",
+      "selection_hash": "004af51dd86627a64fc2cd29365ad9d132b5e9d08bdfd99ce788b63ab1117eca",
+      "source": {
+        "repository": "hawkinsnick/Phrygian",
+        "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+        "path": "research/attribution-review.json",
+        "pointer": "/cases/3",
+        "encoding": "json",
+        "sha256": "6fa6224a7c4541d74553bbe1c59f7cd6e86b51d76d8bddaeefa9a44c90d9d2d0"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights",
+          "value": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed."
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "digital-entry-dossiers",
+      "id": "EDIANA-HL-037",
+      "native_unit": "digital text-entry dossier",
+      "selection_hash": "0204f197beea411d12ac7665d8a0b9fa0688d52bff3d1c048f887ddd3b4221c1",
+      "source": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "commit": "064f948408983abc5581a816649a8ca949466674",
+        "path": "research/digital-entry-dossiers.json",
+        "pointer": "/entries/37",
+        "encoding": "json",
+        "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php?corpus=hieroglyphic&docid=37"
+        },
+        {
+          "field_pointer": "/object_class/source_id",
+          "value": "EDIANA-LIST"
+        },
+        {
+          "field_pointer": "/edition_locators/0/citation_as_supplied",
+          "value": "Hawkins 2000a:178-180"
+        },
+        {
+          "field_pointer": "/edition_locators/0/locator_as_supplied",
+          "value": "178-180"
+        },
+        {
+          "field_pointer": "/edition_locators/0/direct_edition_checked",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "digital-entry-dossiers",
+      "id": "EDIANA-HL-079",
+      "native_unit": "digital text-entry dossier",
+      "selection_hash": "034c6cf15a2c5ba2c765e3c783479ea5674bca3bbe40c3b3005728b6e7b84a3a",
+      "source": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "commit": "064f948408983abc5581a816649a8ca949466674",
+        "path": "research/digital-entry-dossiers.json",
+        "pointer": "/entries/79",
+        "encoding": "json",
+        "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php?corpus=hieroglyphic&docid=79"
+        },
+        {
+          "field_pointer": "/object_class/source_id",
+          "value": "EDIANA-LIST"
+        },
+        {
+          "field_pointer": "/period_candidates/0/source_url",
+          "value": "https://www.hittitemonuments.com/maras/maras66.htm"
+        },
+        {
+          "field_pointer": "/edition_locators/0/citation_as_supplied",
+          "value": "Hawkins 2000a:279-280"
+        },
+        {
+          "field_pointer": "/edition_locators/0/locator_as_supplied",
+          "value": "279-280"
+        },
+        {
+          "field_pointer": "/edition_locators/0/direct_edition_checked",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "source-study",
+      "id": "HL-URBS-CITY-20261017",
+      "native_unit": "bounded source-acquisition or scholarly-argument study",
+      "selection_hash": "043cd4587cbdac8a02bcc37733b1fc34092e463e64e3e18c521af98af41f6873",
+      "source": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "commit": "064f948408983abc5581a816649a8ca949466674",
+        "path": "research/source-study-2026-10-17.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/sources/0/source_id",
+          "value": "GOEDEGEBUURE2024"
+        },
+        {
+          "field_pointer": "/sources/0/citation",
+          "value": "Petra M. Goedegebuure (2024), The Luwian word for city, town, Anatolian Studies74,47–73. DOI10.1017/S0066154624000085."
+        },
+        {
+          "field_pointer": "/sources/0/rights",
+          "value": "CC BY4.0, explicit publisher statement on printed p.47. Attribution required; these selected text-table assertions retain CC BY4.0 and are not relicensed CC BY-NC. Third-party photographs/figures and full edition apparatus are excluded."
+        },
+        {
+          "field_pointer": "/attestation_assertions/0/source_id",
+          "value": "GOEDEGEBUURE2024"
+        },
+        {
+          "field_pointer": "/attestation_assertions/0/rights",
+          "value": "CC BY4.0; Goedegebuure2024; text-table fields selected and serialized as JSON; no figures reproduced."
+        },
+        {
+          "field_pointer": "/attestation_assertions/1/source_id",
+          "value": "GOEDEGEBUURE2024"
+        },
+        {
+          "field_pointer": "/attestation_assertions/1/rights",
+          "value": "CC BY4.0; Goedegebuure2024; text-table fields selected and serialized as JSON; no figures reproduced."
+        },
+        {
+          "field_pointer": "/attestation_assertions/2/source_id",
+          "value": "GOEDEGEBUURE2024"
+        },
+        {
+          "field_pointer": "/attestation_assertions/2/rights",
+          "value": "CC BY4.0; Goedegebuure2024; text-table fields selected and serialized as JSON; no figures reproduced."
+        },
+        {
+          "field_pointer": "/attestation_assertions/3/source_id",
+          "value": "GOEDEGEBUURE2024"
+        },
+        {
+          "field_pointer": "/attestation_assertions/3/rights",
+          "value": "CC BY4.0; Goedegebuure2024; text-table fields selected and serialized as JSON; no figures reproduced."
+        },
+        {
+          "field_pointer": "/claims/0/source_id",
+          "value": "GOEDEGEBUURE2024"
+        },
+        {
+          "field_pointer": "/claims/0/locator",
+          "value": "p.65 §6; pp.55ff §4.4"
+        },
+        {
+          "field_pointer": "/claims/1/source_id",
+          "value": "GOEDEGEBUURE2024"
+        },
+        {
+          "field_pointer": "/claims/1/locator",
+          "value": "pp.49–50, Table1 and surrounding discussion"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "decorte-register",
+      "id": "AS#04",
+      "native_unit": "Decorte corpus-list entry",
+      "selection_hash": "20d1a4a2e191b20cd67b3cc84eac1810ff6aad205759688c865cdf45d67a20ed",
+      "source": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+        "path": "research/decorte-2018-corpus-register.json",
+        "pointer": "/records/3",
+        "encoding": "json",
+        "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/source_location",
+          "value": "Decorte 2018 Table 8"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "decorte-register",
+      "id": "AS#13",
+      "native_unit": "Decorte corpus-list entry",
+      "selection_hash": "23e0fea20d52b5b7bea52e4f6ccc05dafd246eff1d96539b62bd0de93db79083",
+      "source": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+        "path": "research/decorte-2018-corpus-register.json",
+        "pointer": "/records/12",
+        "encoding": "json",
+        "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/source_location",
+          "value": "Decorte 2018 Table 8"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "disagreement-register",
+      "id": "ARC-DIS-002",
+      "native_unit": "research disagreement/control item",
+      "selection_hash": "282ea8de2d01882db71e25a47245c2ddec2752c33902f084f69d1f89ca41c415",
+      "source": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+        "path": "research/disagreement-register.json",
+        "pointer": "/items/1",
+        "encoding": "json",
+        "sha256": "a6c2e18bdd1c34598bae64ba253cc5d515eaec0189d0e0fc7078c0c996586113"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "disagreement-register",
+      "id": "ANO-DIS-005",
+      "native_unit": "research disagreement/control item",
+      "selection_hash": "1355446b8668ab939b024ebcc58498b4103242b4d90ceb17d6dcdd7624aea09d",
+      "source": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+        "path": "research/disagreement-register.json",
+        "pointer": "/items/4",
+        "encoding": "json",
+        "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "disagreement-register",
+      "id": "ANO-DIS-002",
+      "native_unit": "research disagreement/control item",
+      "selection_hash": "13b762f43e48d18b1d100db732e8dc9d8eafeb7254cee7e9c8644c98ad86476a",
+      "source": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+        "path": "research/disagreement-register.json",
+        "pointer": "/items/1",
+        "encoding": "json",
+        "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "attribution-review",
+      "id": "ANO-DIS-001",
+      "native_unit": "bounded documentary attribution review task",
+      "selection_hash": "1dc7d87f51bcc1fb28e32ee34fc6b7054a692b57f06b16a147d3cfab89d3f43f",
+      "source": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+        "path": "research/attribution-review.json",
+        "pointer": "/cases/0",
+        "encoding": "json",
+        "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights",
+          "value": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed."
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "digital-reference",
+      "id": "lydian:ediana:10",
+      "native_unit": "frozen eDiAna directory record",
+      "selection_hash": "01eb6b078b65d96b1bff72f58cc34fee484199ecd906e62fee2c213f1dc10102",
+      "source": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "path": "data/reference/records.json",
+        "pointer": "/33",
+        "encoding": "json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/references",
+          "value": [
+            "Gusmani 1964a:262"
+          ]
+        },
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php"
+        },
+        {
+          "field_pointer": "/source_license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/primary_edition_verified",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "digital-reference",
+      "id": "lydian:ediana:49",
+      "native_unit": "frozen eDiAna directory record",
+      "selection_hash": "02baa9c68e2286ab55079c84a7807d1e33f6a0624c65f49627dd8afdf4c1feaf",
+      "source": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "path": "data/reference/records.json",
+        "pointer": "/78",
+        "encoding": "json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/references",
+          "value": [
+            "Gusmani 1964a:253"
+          ]
+        },
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php"
+        },
+        {
+          "field_pointer": "/source_license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/primary_edition_verified",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "digital-reference",
+      "id": "lydian:ediana:48",
+      "native_unit": "frozen eDiAna directory record",
+      "selection_hash": "0719294c6a8fd5598d72ca415de725bc394120f8d7b733f4b1fd6cdc1844d363",
+      "source": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "path": "data/reference/records.json",
+        "pointer": "/67",
+        "encoding": "json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/references",
+          "value": [
+            "Gusmani 1964a:252"
+          ]
+        },
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php"
+        },
+        {
+          "field_pointer": "/source_license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/primary_edition_verified",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "ferrer2025-appendix-comparison",
+      "id": "FERRER2025-S10-ethnic",
+      "native_unit": "editorial appendix line/group comparison, not an inscription or independent witness",
+      "selection_hash": "01dbaff173a1ae85306c1dba87a1462b5f814a44dc3389f6bd2a1c8ffa3f1843",
+      "source": {
+        "repository": "hawkinsnick/Sidetic",
+        "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+        "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+        "pointer": "/comparisons/25",
+        "encoding": "json",
+        "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/source/license",
+          "value": "CC-BY-4.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "digital-reference",
+      "id": "sidetic:ediana:306",
+      "native_unit": "frozen eDiAna directory record",
+      "selection_hash": "04e8b44a5b0711100056027ce48b468f19592cd2872ade09f7715a0303d9b27f",
+      "source": {
+        "repository": "hawkinsnick/Sidetic",
+        "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+        "path": "data/reference/records.json",
+        "pointer": "/8",
+        "encoding": "json",
+        "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php"
+        },
+        {
+          "field_pointer": "/source_license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/primary_edition_verified",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "ferrer2025-appendix-comparison",
+      "id": "FERRER2025-S6-2",
+      "native_unit": "editorial appendix line/group comparison, not an inscription or independent witness",
+      "selection_hash": "096865855868a3e707724401c50bc003e10f0faf0f8d3a1cab69ee6445a5c6ca",
+      "source": {
+        "repository": "hawkinsnick/Sidetic",
+        "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+        "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+        "pointer": "/comparisons/13",
+        "encoding": "json",
+        "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/source/license",
+          "value": "CC-BY-4.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "digital-reference",
+      "id": "pisidian:ediana:9",
+      "native_unit": "frozen eDiAna directory record",
+      "selection_hash": "055c87f5c9b00aaf54f6e77dad43d9357faa836a9de697c0182871026d027ad4",
+      "source": {
+        "repository": "hawkinsnick/Pisidian",
+        "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+        "path": "data/reference/records.json",
+        "pointer": "/9",
+        "encoding": "json",
+        "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/references",
+          "value": [
+            "Ramsay 1895a:360, Brixhe 2016a:81f."
+          ]
+        },
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php"
+        },
+        {
+          "field_pointer": "/source_license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/primary_edition_verified",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "digital-reference",
+      "id": "pisidian:ediana:21",
+      "native_unit": "frozen eDiAna directory record",
+      "selection_hash": "06388cd2d541d4528a90a8d8d59afd2949b79c1b93dc61b3a870aace4987c8de",
+      "source": {
+        "repository": "hawkinsnick/Pisidian",
+        "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+        "path": "data/reference/records.json",
+        "pointer": "/21",
+        "encoding": "json",
+        "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/references",
+          "value": [
+            "Brixhe & Gibson 1982a:164-166, Brixhe 2016a:87"
+          ]
+        },
+        {
+          "field_pointer": "/source_url",
+          "value": "https://www.ediana.gwi.uni-muenchen.de/corpus.php"
+        },
+        {
+          "field_pointer": "/source_license",
+          "value": "CC-BY-SA-4.0"
+        },
+        {
+          "field_pointer": "/primary_edition_verified",
+          "value": false
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "attribution-review",
+      "id": "PIS-RAMSAY1895-9",
+      "native_unit": "bounded documentary attribution review task",
+      "selection_hash": "08450ce744ded15a1ebc5e16ac69adfefed434b8a3ac040486b7b7a5c496ac7d",
+      "source": {
+        "repository": "hawkinsnick/Pisidian",
+        "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+        "path": "research/attribution-review.json",
+        "pointer": "/cases/15",
+        "encoding": "json",
+        "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights",
+          "value": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed."
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl44-span-accounting",
+      "id": "EDIANA-MILYAN-1-ROW-8",
+      "native_unit": "frozen digital row code-point partition",
+      "selection_hash": "004d89a1afd7426314a748b54149fe889c0421c24493e1ec8a03f9637e44afbb",
+      "source": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+        "path": "research/tl44-boundary-documentary-review.json",
+        "pointer": "/rows/7",
+        "encoding": "json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/source/citation",
+          "value": "Kalinka1901, TAM I, TL44, printed43–44"
+        },
+        {
+          "field_pointer": "/collection_context/attribution",
+          "value": "eDiAna Milyan directory, source snapshot as pinned in data/reference/ediana-milyan-source.json; Kalinka1901 TAM I, TL44; original boundary annotations by this project."
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl55-sign-alignments",
+      "id": "TL55-L1-A089",
+      "native_unit": "candidate encoded-glyph comparison record",
+      "selection_hash": "0053764d4b09c3be1bf63d6716a9c620c291e2fab2535a406196687c727fa889",
+      "source": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+        "path": "research/tl55-sign-alignment.json",
+        "pointer": "/alignments/88",
+        "encoding": "json",
+        "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights/license",
+          "value": "CC-BY-SA-4.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl55-sign-alignments",
+      "id": "TL55-L7-A034",
+      "native_unit": "candidate encoded-glyph comparison record",
+      "selection_hash": "00634800ef186ea3fef0c63e08de02dba855940abc5642a909bef71df8154242",
+      "source": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+        "path": "research/tl55-sign-alignment.json",
+        "pointer": "/alignments/1128",
+        "encoding": "json",
+        "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d"
+      },
+      "byte_trace": "PASS",
+      "metadata_fields": [
+        {
+          "field_pointer": "/collection_context/rights/license",
+          "value": "CC-BY-SA-4.0"
+        }
+      ],
+      "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
+      "fresh_primary_edition_check": "NOT_PERFORMED",
+      "external_review": "NOT_PERFORMED",
+      "next_step": "Resolve the candidate bibliography to an exact edition/locus and inspect that source; obtain an attributable specialist check where interpretation requires it."
+    }
+  ],
+  "scope": "Re-executed source fidelity checks and candidate citation extraction. Not independent scholarly verification or a physical-object sample."
+}

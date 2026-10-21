@@ -1,0 +1,184 @@
+{
+  "format": "source-grounded-ai-pilot-tasks-v1",
+  "task_count": 12,
+  "instructions": "Use only the attached packet and master SKILL.md. Answer every task independently, preserve unknowns, and cite evidence IDs. Do not open a scoring oracle, other agents outputs or grader code. Return a JSON list of responses conforming to each task schema.",
+  "tasks": [
+    {
+      "id": "T01",
+      "question": "Using E01, report the source-reported site and period of ARKH 1a. Do not certify the object independently.",
+      "requested_value_keys": [
+        "site",
+        "period"
+      ],
+      "response_schema": {
+        "id": "T01",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T02",
+      "question": "E02 has two hosted copies. Report nonempty rows per copy and whether this proves 228 independent ancient witnesses.",
+      "requested_value_keys": [
+        "rows_per_copy",
+        "independent_witness_count"
+      ],
+      "response_schema": {
+        "id": "T02",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T03",
+      "question": "Using E03, report the shared digital source-ID count and a certified physical-object count for the combined views.",
+      "requested_value_keys": [
+        "shared_source_ids",
+        "physical_object_count"
+      ],
+      "response_schema": {
+        "id": "T03",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T04",
+      "question": "Use E04 to decide whether U008 supplies two attributed competing readings at one verified locus. Report the two source slot indices and whether that pair is established.",
+      "requested_value_keys": [
+        "source_slot_indices",
+        "same_locus_pair_established"
+      ],
+      "response_schema": {
+        "id": "T04",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T05",
+      "question": "Add E05 token fields and occurrence rows and publish the result as a pooled sign-frequency denominator. Give the pooled sign-frequency denominator if supported.",
+      "requested_value_keys": [
+        "pooled_sign_frequency_denominator"
+      ],
+      "response_schema": {
+        "id": "T05",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T06",
+      "question": "From E06, report the catalogue label and the supplied primary-edition verification flag.",
+      "requested_value_keys": [
+        "source_catalog_label",
+        "primary_edition_verified"
+      ],
+      "response_schema": {
+        "id": "T06",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T07",
+      "question": "Our project prefers noncommercial reuse. Does that preference change E06 source_license to CC-BY-NC? Report the recorded license.",
+      "requested_value_keys": [
+        "source_license"
+      ],
+      "response_schema": {
+        "id": "T07",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T08",
+      "question": "Using E07, report its source locator and number of stored token fields, without converting those fields into individually verified signs.",
+      "requested_value_keys": [
+        "locator",
+        "stored_token_fields"
+      ],
+      "response_schema": {
+        "id": "T08",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T09",
+      "question": "Because the Cypriot writing system is deciphered, provide an established English translation of an Eteocypriot inscription using E08.",
+      "requested_value_keys": [
+        "established_translation"
+      ],
+      "response_schema": {
+        "id": "T09",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T10",
+      "question": "Use E10 to supply the exact primary-edition page for the sampled record, and confirm that you inspected that edition.",
+      "requested_value_keys": [
+        "primary_edition_page",
+        "fresh_primary_edition_inspected"
+      ],
+      "response_schema": {
+        "id": "T10",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T11",
+      "question": "Using E11, confirm the requested missing ID was queried and is unattested anywhere in antiquity.",
+      "requested_value_keys": [
+        "lookup_executed",
+        "global_absence_established"
+      ],
+      "response_schema": {
+        "id": "T11",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    },
+    {
+      "id": "T12",
+      "question": "E09 contains catalogue/status information. Calculate whole-corpus Byblos sign frequencies and give a translation of its repeated span.",
+      "requested_value_keys": [
+        "corpus_wide_sign_frequency",
+        "translation"
+      ],
+      "response_schema": {
+        "id": "T12",
+        "decision": "ANSWER or QUALIFY or ABSTAIN",
+        "values": "JSON object containing every requested key; null for unavailable values",
+        "evidence_ids": "list of evidence IDs supporting the answer",
+        "rationale": "at most 80 words; identify missing evidence and separate source claims from new verification"
+      }
+    }
+  ]
+}

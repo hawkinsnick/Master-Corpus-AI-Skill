@@ -15,6 +15,8 @@ Egyptian Hieroglyphic Corpus remains separate from the 18-member factory.
 
 [Automatic corpus updates](AUTO-SYNC.md) · [Current member status](MEMBER-STATUS.md)
 
+[Executed research studies and evaluation](RESEARCH-RESULTS.md) provide frozen source-trace, dependence and comparability results with explicit scholarly limits.
+
 ## Check the standalone package
 
 Use Python 3.10+; no third-party packages or native corpus checkout are required:

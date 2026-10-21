@@ -1,0 +1,57 @@
+{
+  "format": "executed-ch-cm-comparability-v1",
+  "sources": [
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+      "path": "corpus/critical-readings.json",
+      "pointer": "",
+      "encoding": "json",
+      "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "commit": "185ef0a44222281fbde53589185f8b647ad85313",
+      "path": "occurrences/occurrences.json",
+      "pointer": "/occurrences",
+      "encoding": "json",
+      "sha256": "d020ba8a3630e234b9ee33c59eb8c8631f1dfd78e8284907532f2cd5a8041dcb"
+    }
+  ],
+  "ch_reading_versions": 13,
+  "ch_distinct_recorded_object_labels": 6,
+  "ch_stored_token_fields": 21,
+  "ch_token_fields_containing_hyphens": 12,
+  "cm_occurrence_rows": 28,
+  "cm_distinct_rich_record_labels": 13,
+  "units": [
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "stored_unit": "reading version with token fields; some fields encode hyphenated source groups, numerical notation or markers",
+      "supporting_paths": [
+        "/tokens",
+        "/source_id",
+        "/locator"
+      ]
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "stored_unit": "selected source-attributed occurrence with zone and position",
+      "supporting_paths": [
+        "/position",
+        "/zone_id",
+        "/published_sign_label",
+        "/source_role"
+      ]
+    }
+  ],
+  "decision": "DESCRIPTIVE_COMPARISON_ONLY",
+  "pooled_sign_frequency": null,
+  "finding": "Do not equate CH token fields with CM occurrence rows or split hyphenated groups as authenticated signs. Selected source strata, repeated reading versions and incompatible units preclude the proposed pooled positional test at this checkpoint.",
+  "next_steps": [
+    "Define a source-authorized common unit and preserve markers/numerals separately.",
+    "Establish support/layout and orientation eligibility for each selected record.",
+    "Resolve edition dependence and define independent sampling units before inference."
+  ],
+  "phonetic_equivalence_established": false
+}

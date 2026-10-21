@@ -1,0 +1,26 @@
+{
+  "format": "research-evidence-milestone-v1",
+  "scope": "Three bounded demonstrations, a cross-member source trace sample, observed dependence groups and a source-grounded AI pilot. Not a critical edition or external academic validation.",
+  "selection": {
+    "source_trace": "For each of 18 members, rank every retrievable collection/ID pair by SHA256 of source-trace-v1|repository|collection|id. Select the lowest three. Views may overlap; no physical-population error estimate is licensed.",
+    "demonstrations": ["Recompute exact Milyan cache equality and Cypriot source-ID overlap", "Recompute the U008 locus conflict from literal KH 8 attestation slots", "Inspect the full encoded CH reading and CM occurrence views for positional-unit comparability"],
+    "prior_exposure": "Development team has inspected the historical audits and chosen demonstrations because they expose known issues. These are replication/feasibility demonstrations, not blind discoveries. Hash-ranked trace sampling is a bounded diagnostic, not an independent scholarly accuracy sample."
+  },
+  "source_check_levels": {
+    "byte_trace": "Recompute file hash and resolve the exact native pointer independently of the native dossier; require identical payload.",
+    "citation_candidates": "Extract explicit attribution and locator fields with original field pointers. Presence does not verify citation correctness or primary consultation.",
+    "primary_edition_check": "Only report a fresh primary-edition check if the original edition was actually inspected in this study. Otherwise NOT_PERFORMED.",
+    "external_review": "Requires a separately attributable qualified reviewer. No agent pass or prepared form qualifies."
+  },
+  "dependence_policy": "Exact shared bytes or documented edition IDs establish source-view dependence only. Do not infer physical-object joins, independent witnesses, or sum heterogeneous units. Different bytes and absent tested joins do not establish independence.",
+  "ai_evaluation": {
+    "design": "Frozen source-grounded development pilot with public tasks, separately sealed expected structured outcomes and hash commitments made before model responses. Hold oracle and scorer out of response-agent context.",
+    "dimensions": ["decision", "requested source values", "exact source citations", "explicit unsupported-claim count"],
+    "grading": "Deterministic structured-field comparison plus a disclosed non-blinded semantic review. No lexical keyword score may be called a hallucination rate.",
+    "baseline": "Direct extraction baseline on factual fields only; no invented human/manual timings. Abstention and interpretation tasks have no equivalent direct-extraction baseline.",
+    "limits": "Same model family, no independent expert grader, task-author prior exposure, small selected task set and no cross-platform accuracy claim. A development pilot is not the independent academic evaluation requested by the audit."
+  },
+  "rights": "Publish original metadata, identifiers, hashes, source links and project-authored analysis. Native source content keeps component terms. Do not copy restricted full texts/images or override upstream terms.",
+  "acceptance": ["Replay outputs match frozen native revisions and source hashes", "All source-trace failures remain visible and block completion", "No unresolved scholarly gate is silently marked passed", "Publish task errors as well as successes"],
+  "independent_scholarly_acceptance": false
+}

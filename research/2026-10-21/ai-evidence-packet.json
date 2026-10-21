@@ -1,0 +1,442 @@
+{
+  "format": "bounded-ai-evidence-packet-v1",
+  "boundary": "Selected native metadata and explicit project study assertions. No new primary-edition or independent expert check. Follow component source terms.",
+  "evidence": [
+    {
+      "evidence_id": "E01",
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/sigla-source-documents.jsonl",
+        "pointer": "/0",
+        "encoding": "jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b"
+      },
+      "supplied_fields": {
+        "record_id": "ARKH 1a",
+        "site": "Arkhanes",
+        "period": "LM I",
+        "typology": "Tablet"
+      }
+    },
+    {
+      "evidence_id": "E02",
+      "study_input": "dependence-register.json#/groups/0",
+      "source": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+        "path": "data/raw/ediana/milyan-1-0.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+      },
+      "supplied_fields": {
+        "identical_bytes": true,
+        "nonempty_source_text_rows_per_copy": 114,
+        "naive_two_copy_row_count": 228,
+        "distinct_serialized_rows_after_exact_copy_exclusion": 114,
+        "physical_object_count": null,
+        "independent_witness_count": null
+      },
+      "other_source": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+        "path": "data/reference/ediana-milyan-source.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+      }
+    },
+    {
+      "evidence_id": "E03",
+      "study_input": "dependence-register.json#/groups/1",
+      "source": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+        "path": "exports/corpus.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "c58a94189ef0f6ec588f1506d6b63d9bf984fc4a24078612e207d8431b3b13dd"
+      },
+      "supplied_fields": {
+        "left_view_entries": 592,
+        "right_view_entries": 25,
+        "shared_source_ids": 25,
+        "physical_object_count": null
+      },
+      "other_source": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+        "path": "exports/corpus.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "34334f27193977029219d92779353f6fffaf069bc7917148561b89f1822c7495"
+      }
+    },
+    {
+      "evidence_id": "E04",
+      "study_input": "demo-u008.json",
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/legacy-case-attribution.json",
+        "pointer": "/cases/7",
+        "encoding": "json",
+        "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84"
+      },
+      "supplied_fields": {
+        "observations": [
+          {
+            "source": {
+              "repository": "hawkinsnick/Linear-A",
+              "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+              "path": "research/critical-pilot.json",
+              "pointer": "/entries/5/source_attestations/11",
+              "encoding": "json",
+              "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e"
+            },
+            "series": "A",
+            "number": 567,
+            "raw_flags": [
+              12,
+              0,
+              0,
+              0
+            ],
+            "slot_zero_based": 11
+          },
+          {
+            "source": {
+              "repository": "hawkinsnick/Linear-A",
+              "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+              "path": "research/critical-pilot.json",
+              "pointer": "/entries/5/source_attestations/14",
+              "encoding": "json",
+              "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e"
+            },
+            "series": "A",
+            "number": 510,
+            "raw_flags": [
+              15,
+              0,
+              0,
+              0
+            ],
+            "slot_zero_based": 14
+          }
+        ],
+        "legacy_alternative_attribution": [
+          {
+            "literal": "QA2PU",
+            "complete_author_source_locus_attribution": false,
+            "status": "UNTRACED_LEGACY_LITERAL_AND_LOCUS"
+          },
+          {
+            "literal": "*510",
+            "complete_author_source_locus_attribution": false,
+            "status": "SOURCE_IDENTIFIER_PRESENT_LOCUS_CONFLICT_WITH_RC2"
+          }
+        ],
+        "same_locus_pair_established": false,
+        "remaining_evidence_gap": "Resolve whether the legacy case targets slot11, slot14 or another locus. Recover the source of QA2PU and its notation before comparing it to either identifier."
+      }
+    },
+    {
+      "evidence_id": "E05",
+      "study_input": "demo-comparability.json",
+      "source": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "corpus/critical-readings.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b"
+      },
+      "other_source": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "185ef0a44222281fbde53589185f8b647ad85313",
+        "path": "occurrences/occurrences.json",
+        "pointer": "/occurrences",
+        "encoding": "json",
+        "sha256": "d020ba8a3630e234b9ee33c59eb8c8631f1dfd78e8284907532f2cd5a8041dcb"
+      },
+      "supplied_fields": {
+        "ch_reading_versions": 13,
+        "ch_stored_token_fields": 21,
+        "ch_token_fields_containing_hyphens": 12,
+        "cm_occurrence_rows": 28,
+        "units": [
+          {
+            "repository": "hawkinsnick/Cretan-hieroglyphs",
+            "stored_unit": "reading version with token fields; some fields encode hyphenated source groups, numerical notation or markers",
+            "supporting_paths": [
+              "/tokens",
+              "/source_id",
+              "/locator"
+            ]
+          },
+          {
+            "repository": "hawkinsnick/Cypro-Minoan",
+            "stored_unit": "selected source-attributed occurrence with zone and position",
+            "supporting_paths": [
+              "/position",
+              "/zone_id",
+              "/published_sign_label",
+              "/source_role"
+            ]
+          }
+        ],
+        "pooled_sign_frequency": null
+      }
+    },
+    {
+      "evidence_id": "E06",
+      "source": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "path": "data/reference/records.json",
+        "pointer": "/0",
+        "encoding": "json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9"
+      },
+      "supplied_fields": {
+        "record_id": "lydian:ediana:95",
+        "source_catalog_label": "LW 1 (Sardis)",
+        "references": [
+          "Gusmani 1960a:250"
+        ],
+        "source_license": "CC-BY-SA-4.0",
+        "primary_edition_verified": false
+      }
+    },
+    {
+      "evidence_id": "E07",
+      "source": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "corpus/critical-readings.json",
+        "pointer": "/0",
+        "encoding": "json",
+        "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b"
+      },
+      "supplied_fields": {
+        "reading_id": "CHIC-036-a-CHIC1996",
+        "locator": "p. 91, #036, face/line a, printed transnumeration",
+        "source_id": "CHIC1996",
+        "stored_token_fields": 2,
+        "status": "source-checked"
+      }
+    },
+    {
+      "evidence_id": "E08",
+      "source": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+        "path": "ai-skill/references/authority-profile.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "fbd9b39e837e4f0a70eb21a79e6e2eb48c4fee38072aac4bf5125871343bb3b1"
+      },
+      "supplied_fields": {
+        "behavioral_gates": [
+          "A deciphered script does not make the Eteocypriot language deciphered",
+          "Greek parallel components are not Eteocypriot evidence",
+          "Copies shared with the Cypriot Greek project are the same source witness, not independent replication",
+          "Whole-corpus frequency, translation and cross-script phonetic inference remain blocked",
+          "Uncertain and damaged components remain excluded under the canonical policy",
+          "Shared IG XV 1 records across the Cypriot Greek and Eteocypriot repositories are the same source evidence, not independent replication.",
+          "Pre-Expert Maximum dispositions current lawful source routes; it does not convert source labels into independent linguistic validation.",
+          "Entry 150 remains quarantined after live source recheck; HTTP-200 HTML is a publisher error page. A fascicle in preparation is not an acquired edition or evidence of additional Eteocypriot membership.",
+          "Historical Friedrich/Masson labels are not IG entry numbers. Seven source correspondences are candidates, not certified physical objects or full sequence agreement.",
+          "AM 799 groups two inscription labels; do not infer two independent monuments from two digital IG entries. Historical inventory/provenance claims and modern museum date fields remain source-specific.",
+          "Eight discovery leads are not eight new inscriptions. Preserve uncertain language attribution, possible native overlap, coin type/specimen denominators and item-free announcements. Historical critical assertions are not new canonical readings.",
+          "IG 85–92 are licensed comparison sources outside native candidates. A historical Eteocypriot claim, syllabic script title, Greek rendering or legend match cannot create a modern Eteocypriot admission; four parts are not four certified specimens."
+        ]
+      }
+    },
+    {
+      "evidence_id": "E09",
+      "source": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "analysis/current-status.json",
+        "pointer": "",
+        "encoding": "json",
+        "sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1"
+      },
+      "supplied_fields": {
+        "schema_version": "1.0",
+        "project": "Byblos-syllabary",
+        "repository_version": "1.3.3",
+        "checked": "2026-10-05",
+        "date_basis": "UTC",
+        "milestone": "DEPENDENT_DRAWING_COMPARISON_AND_SCOPED_REVIEW_HANDOFF",
+        "native_evidence_counts": {
+          "catalogue_records": 39,
+          "reported_core": 14,
+          "disputed_candidates": 25,
+          "sources_and_leads": 51,
+          "surfaces_described": 18,
+          "signs_registered": 5,
+          "transcriptions": 0,
+          "verified_core_sequences": 0,
+          "independent_approvals": 0,
+          "external_entries": 43
+        },
+        "source_scoped_evidence": {
+          "survey_core_count_records": 14,
+          "provider_entries_structurally_inspected": 43,
+          "acquired_primary_page_views": 12,
+          "visually_inspected_primary_views_this_checkpoint": 12,
+          "selected_primary_type_groups": 5,
+          "selected_source_numbered_positions": 14,
+          "complete_printed_type_rows_numerically_registered": 38,
+          "printed_numeric_membership_assertions": 116,
+          "distinct_source_ordinals_in_table": 115,
+          "facsimile_numbered_line_spans": 10,
+          "facsimile_source_ordinals": 123,
+          "source_facsimile_positions_compared": 123,
+          "selected_facsimile_drawing_markers_inspected": 18,
+          "drawing_table_comparison_dispositions": {
+            "CONFLICTING_PRINTED_TYPES": 1,
+            "DRAWING_TABLE_FORM_COMPATIBLE": 105,
+            "PARTIAL_DRAWING_COMPATIBLE_WITH_PRINTED_TYPE": 9,
+            "TABLE_TYPE_UNASSIGNED": 8
+          },
+          "number_table_join_only_positions": 0,
+          "unadopted_source_internal_erratum_candidates": 1,
+          "historical_article_heading_joins": 10,
+          "historical_article_visually_inspected_page_views": 11,
+          "historical_article_count_records": 6,
+          "historical_figures_layout_inspected": 10,
+          "historical_display_targets": 103,
+          "dependent_stele_line_comparisons": 10,
+          "focused_dependent_drawing_comparisons": 4,
+          "source_recurrence_assertions_numerically_checked": 1
+        },
+        "scientific_results": {
+          "scientific_1_0_ready": false,
+          "complete_verified_sequences": 0,
+          "sequence_frequency_allowed": false,
+          "independent_epigraphic_review_completed": false,
+          "source_numbering_consistency": "PASS_SELECTED_ASSERTIONS_ONLY"
+        },
+        "unresolved_source_conflicts": {
+          "layout": [
+            "BYB-G",
+            "BYB-H"
+          ],
+          "direction": [
+            "BYB-M"
+          ],
+          "count_conventions": [
+            "BYB-A",
+            "BYB-B",
+            "BYB-D",
+            "BYB-G",
+            "BYB-H",
+            "BYB-I"
+          ],
+          "first_line_reading": [
+            "BYB-N"
+          ],
+          "qualified_possible_extra_line": [
+            "BYB-J"
+          ],
+          "printed_type_membership": [
+            {
+              "source_numbered_position": 32,
+              "type_labels": [
+                "VIII",
+                "XIX"
+              ]
+            }
+          ],
+          "ordinals_unassigned_in_table": [
+            14,
+            27,
+            34,
+            40,
+            41,
+            42,
+            92,
+            95
+          ],
+          "candidate_errata_unadopted": [
+            {
+              "id": "BYB-A-D1930-VIII-32-92",
+              "status": "PROPOSED_SOURCE_INTERNAL_ERRATUM_NOT_ADOPTED",
+              "hypothetical_replacement": {
+                "type_label": "VIII",
+                "from_ordinal": 32,
+                "to_ordinal": 92
+              },
+              "counterfactual_only": {
+                "distinct_table_ordinals": 116,
+                "collisions": [],
+                "unassigned_ordinals": [
+                  14,
+                  27,
+                  34,
+                  40,
+                  41,
+                  42,
+                  95
+                ]
+              },
+              "literal_register_changed": false
+            }
+          ]
+        },
+        "source_redistribution": {
+          "scans": false,
+          "OCBI_readings": false,
+          "OCBI_code_or_fonts": false,
+          "selected_primary_numeric_metadata": "Original attributed factual assertions only"
+        },
+        "next_work": [
+          "Cross-collate the source drawing/type comparisons against the later edition, physical images and independent readings; source drawing compatibility does not certify native glyph identity.",
+          "Test the unadopted VIII 32/92 erratum and edge-position 27 count hypothesis against the later edition and survey.",
+          "Use the 103 historical display targets to collate lawful edition/physical images; source panel IDs do not identify physical faces.",
+          "Acquire lawful Dunand 1945 and 1978 edition/plate access for complete source sequences.",
+          "Resolve provider face/variant/object identities and g/h/m/n source discrepancies.",
+          "Obtain applicable upstream terms before distributing provider readings or images."
+        ],
+        "boundary": "Five edition-specific type labels and fourteen numbered-position assertions are a selected primary-source pilot, not five certified native sign identities or a verified full sequence. Source counts, provider rows and ancient occurrences remain distinct."
+      }
+    },
+    {
+      "evidence_id": "E10",
+      "study_input": "source-trace.json",
+      "source": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "pointer": "/dossiers/259",
+        "encoding": "json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf"
+      },
+      "supplied_fields": {
+        "record_id": "CHIC-260",
+        "collection": "catalogue-dossiers",
+        "candidate_metadata_fields": [],
+        "primary_edition_check": "NOT_PERFORMED"
+      }
+    },
+    {
+      "evidence_id": "E11",
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/evidence-query-profile.json",
+        "pointer": "/scholarly_limits",
+        "sha256": "68e803522077f182fa4277cda07fb2ddef06bd70f4f2938c6aa089c652d94cd1"
+      },
+      "supplied_fields": {
+        "lookup_executed_for_this_pilot": false,
+        "requested_id": "NO-SUCH-RECORD-RESEARCH-PILOT-20261021",
+        "result": null
+      }
+    }
+  ]
+}

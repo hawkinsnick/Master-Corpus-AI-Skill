@@ -24,3 +24,5 @@ or execute the native retrieval for current evidence.
 For Python users, run `python scripts/validate.py` from this master checkout.
 Native checkouts are additional inputs for `--checkouts` validation and query
 commands. Missing source files or unexecuted checks must be disclosed.
+
+For reproducible study outputs and the measured evaluation status, see [Executed research results](RESEARCH-RESULTS.md).

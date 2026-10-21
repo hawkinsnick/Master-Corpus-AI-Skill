@@ -1,0 +1,814 @@
+{
+  "format": "observed-source-dependence-v1",
+  "scope": "Two predeclared source-family checks; not exhaustive all-pairs independence certification.",
+  "groups": [
+    {
+      "id": "DEP-MIL-CACHE",
+      "kind": "IDENTICAL_SOURCE_CACHE",
+      "sources": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "pointer": "",
+          "encoding": "json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "pointer": "",
+          "encoding": "json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+        }
+      ],
+      "identical_bytes": true,
+      "nonempty_source_text_rows_per_copy": 114,
+      "naive_two_copy_row_count": 228,
+      "distinct_serialized_rows_after_exact_copy_exclusion": 114,
+      "row_links": [
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/1",
+          "right_pointer": "/TL 55 (Antiphellos)/1",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/2",
+          "right_pointer": "/TL 55 (Antiphellos)/2",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/3",
+          "right_pointer": "/TL 55 (Antiphellos)/3",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/4",
+          "right_pointer": "/TL 55 (Antiphellos)/4",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/5",
+          "right_pointer": "/TL 55 (Antiphellos)/5",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/6",
+          "right_pointer": "/TL 55 (Antiphellos)/6",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/7",
+          "right_pointer": "/TL 55 (Antiphellos)/7",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/8",
+          "right_pointer": "/TL 55 (Antiphellos)/8",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 55 (Antiphellos)/9",
+          "right_pointer": "/TL 55 (Antiphellos)/9",
+          "source_group": "TL 55 (Antiphellos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/1",
+          "right_pointer": "/TL 44 (Xanthos)/1",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/2",
+          "right_pointer": "/TL 44 (Xanthos)/2",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/3",
+          "right_pointer": "/TL 44 (Xanthos)/3",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/4",
+          "right_pointer": "/TL 44 (Xanthos)/4",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/5",
+          "right_pointer": "/TL 44 (Xanthos)/5",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/6",
+          "right_pointer": "/TL 44 (Xanthos)/6",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/7",
+          "right_pointer": "/TL 44 (Xanthos)/7",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/8",
+          "right_pointer": "/TL 44 (Xanthos)/8",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/9",
+          "right_pointer": "/TL 44 (Xanthos)/9",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/10",
+          "right_pointer": "/TL 44 (Xanthos)/10",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/11",
+          "right_pointer": "/TL 44 (Xanthos)/11",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/12",
+          "right_pointer": "/TL 44 (Xanthos)/12",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/13",
+          "right_pointer": "/TL 44 (Xanthos)/13",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/14",
+          "right_pointer": "/TL 44 (Xanthos)/14",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/15",
+          "right_pointer": "/TL 44 (Xanthos)/15",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/16",
+          "right_pointer": "/TL 44 (Xanthos)/16",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/17",
+          "right_pointer": "/TL 44 (Xanthos)/17",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/18",
+          "right_pointer": "/TL 44 (Xanthos)/18",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/19",
+          "right_pointer": "/TL 44 (Xanthos)/19",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/20",
+          "right_pointer": "/TL 44 (Xanthos)/20",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/21",
+          "right_pointer": "/TL 44 (Xanthos)/21",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/22",
+          "right_pointer": "/TL 44 (Xanthos)/22",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/23",
+          "right_pointer": "/TL 44 (Xanthos)/23",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/24",
+          "right_pointer": "/TL 44 (Xanthos)/24",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/25",
+          "right_pointer": "/TL 44 (Xanthos)/25",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/26",
+          "right_pointer": "/TL 44 (Xanthos)/26",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/27",
+          "right_pointer": "/TL 44 (Xanthos)/27",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/28",
+          "right_pointer": "/TL 44 (Xanthos)/28",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/29",
+          "right_pointer": "/TL 44 (Xanthos)/29",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/30",
+          "right_pointer": "/TL 44 (Xanthos)/30",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/31",
+          "right_pointer": "/TL 44 (Xanthos)/31",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/32",
+          "right_pointer": "/TL 44 (Xanthos)/32",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/33",
+          "right_pointer": "/TL 44 (Xanthos)/33",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/34",
+          "right_pointer": "/TL 44 (Xanthos)/34",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/36",
+          "right_pointer": "/TL 44 (Xanthos)/36",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/37",
+          "right_pointer": "/TL 44 (Xanthos)/37",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/38",
+          "right_pointer": "/TL 44 (Xanthos)/38",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/39",
+          "right_pointer": "/TL 44 (Xanthos)/39",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/40",
+          "right_pointer": "/TL 44 (Xanthos)/40",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/41",
+          "right_pointer": "/TL 44 (Xanthos)/41",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/42",
+          "right_pointer": "/TL 44 (Xanthos)/42",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/43",
+          "right_pointer": "/TL 44 (Xanthos)/43",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/44",
+          "right_pointer": "/TL 44 (Xanthos)/44",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/45",
+          "right_pointer": "/TL 44 (Xanthos)/45",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/46",
+          "right_pointer": "/TL 44 (Xanthos)/46",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/47",
+          "right_pointer": "/TL 44 (Xanthos)/47",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/48",
+          "right_pointer": "/TL 44 (Xanthos)/48",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/49",
+          "right_pointer": "/TL 44 (Xanthos)/49",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/50",
+          "right_pointer": "/TL 44 (Xanthos)/50",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/51",
+          "right_pointer": "/TL 44 (Xanthos)/51",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/52",
+          "right_pointer": "/TL 44 (Xanthos)/52",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/53",
+          "right_pointer": "/TL 44 (Xanthos)/53",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/54",
+          "right_pointer": "/TL 44 (Xanthos)/54",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/55",
+          "right_pointer": "/TL 44 (Xanthos)/55",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/56",
+          "right_pointer": "/TL 44 (Xanthos)/56",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/57",
+          "right_pointer": "/TL 44 (Xanthos)/57",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/58",
+          "right_pointer": "/TL 44 (Xanthos)/58",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/59",
+          "right_pointer": "/TL 44 (Xanthos)/59",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/60",
+          "right_pointer": "/TL 44 (Xanthos)/60",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/61",
+          "right_pointer": "/TL 44 (Xanthos)/61",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/62",
+          "right_pointer": "/TL 44 (Xanthos)/62",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/63",
+          "right_pointer": "/TL 44 (Xanthos)/63",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/64",
+          "right_pointer": "/TL 44 (Xanthos)/64",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/65",
+          "right_pointer": "/TL 44 (Xanthos)/65",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/66",
+          "right_pointer": "/TL 44 (Xanthos)/66",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/67",
+          "right_pointer": "/TL 44 (Xanthos)/67",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/68",
+          "right_pointer": "/TL 44 (Xanthos)/68",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/69",
+          "right_pointer": "/TL 44 (Xanthos)/69",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/70",
+          "right_pointer": "/TL 44 (Xanthos)/70",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/71",
+          "right_pointer": "/TL 44 (Xanthos)/71",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/72",
+          "right_pointer": "/TL 44 (Xanthos)/72",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/73",
+          "right_pointer": "/TL 44 (Xanthos)/73",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/74",
+          "right_pointer": "/TL 44 (Xanthos)/74",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/75",
+          "right_pointer": "/TL 44 (Xanthos)/75",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/76",
+          "right_pointer": "/TL 44 (Xanthos)/76",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/77",
+          "right_pointer": "/TL 44 (Xanthos)/77",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/78",
+          "right_pointer": "/TL 44 (Xanthos)/78",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/79",
+          "right_pointer": "/TL 44 (Xanthos)/79",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/80",
+          "right_pointer": "/TL 44 (Xanthos)/80",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/81",
+          "right_pointer": "/TL 44 (Xanthos)/81",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/82",
+          "right_pointer": "/TL 44 (Xanthos)/82",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/83",
+          "right_pointer": "/TL 44 (Xanthos)/83",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/84",
+          "right_pointer": "/TL 44 (Xanthos)/84",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/85",
+          "right_pointer": "/TL 44 (Xanthos)/85",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/86",
+          "right_pointer": "/TL 44 (Xanthos)/86",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/87",
+          "right_pointer": "/TL 44 (Xanthos)/87",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/88",
+          "right_pointer": "/TL 44 (Xanthos)/88",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/89",
+          "right_pointer": "/TL 44 (Xanthos)/89",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/90",
+          "right_pointer": "/TL 44 (Xanthos)/90",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/91",
+          "right_pointer": "/TL 44 (Xanthos)/91",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/92",
+          "right_pointer": "/TL 44 (Xanthos)/92",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/93",
+          "right_pointer": "/TL 44 (Xanthos)/93",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/94",
+          "right_pointer": "/TL 44 (Xanthos)/94",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/95",
+          "right_pointer": "/TL 44 (Xanthos)/95",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/96",
+          "right_pointer": "/TL 44 (Xanthos)/96",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/97",
+          "right_pointer": "/TL 44 (Xanthos)/97",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/98",
+          "right_pointer": "/TL 44 (Xanthos)/98",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/99",
+          "right_pointer": "/TL 44 (Xanthos)/99",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/100",
+          "right_pointer": "/TL 44 (Xanthos)/100",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/101",
+          "right_pointer": "/TL 44 (Xanthos)/101",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/102",
+          "right_pointer": "/TL 44 (Xanthos)/102",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/103",
+          "right_pointer": "/TL 44 (Xanthos)/103",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/104",
+          "right_pointer": "/TL 44 (Xanthos)/104",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/105",
+          "right_pointer": "/TL 44 (Xanthos)/105",
+          "source_group": "TL 44 (Xanthos)"
+        },
+        {
+          "left_pointer": "/TL 44 (Xanthos)/106",
+          "right_pointer": "/TL 44 (Xanthos)/106",
+          "source_group": "TL 44 (Xanthos)"
+        }
+      ],
+      "physical_object_count": null,
+      "independent_witness_count": null,
+      "analysis_rule": "Count one cache view; preserve both routes. No physical identity, ancient-line count or reading correctness certified."
+    },
+    {
+      "id": "DEP-CY-EDITION",
+      "kind": "SHARED_DIGITAL_EDITION_ID",
+      "sources": [
+        {
+          "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+          "commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+          "path": "exports/corpus.json",
+          "pointer": "",
+          "encoding": "json",
+          "sha256": "c58a94189ef0f6ec588f1506d6b63d9bf984fc4a24078612e207d8431b3b13dd"
+        },
+        {
+          "repository": "hawkinsnick/Eteocypriot",
+          "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+          "path": "exports/corpus.json",
+          "pointer": "",
+          "encoding": "json",
+          "sha256": "34334f27193977029219d92779353f6fffaf069bc7917148561b89f1822c7495"
+        }
+      ],
+      "left_view_entries": 592,
+      "right_view_entries": 25,
+      "shared_source_ids": 25,
+      "links": [
+        {
+          "source_id": "IG XV 1, 1",
+          "left_id": "CSG-IGXV1-1",
+          "left_pointer": "/records/0",
+          "right_id": "ETEC-IGXV1-1",
+          "right_pointer": "/records/0"
+        },
+        {
+          "source_id": "IG XV 1, 2",
+          "left_id": "CSG-IGXV1-2",
+          "left_pointer": "/records/1",
+          "right_id": "ETEC-IGXV1-2",
+          "right_pointer": "/records/1"
+        },
+        {
+          "source_id": "IG XV 1, 3",
+          "left_id": "CSG-IGXV1-3",
+          "left_pointer": "/records/2",
+          "right_id": "ETEC-IGXV1-3",
+          "right_pointer": "/records/2"
+        },
+        {
+          "source_id": "IG XV 1, 4",
+          "left_id": "CSG-IGXV1-4",
+          "left_pointer": "/records/3",
+          "right_id": "ETEC-IGXV1-4",
+          "right_pointer": "/records/3"
+        },
+        {
+          "source_id": "IG XV 1, 5",
+          "left_id": "CSG-IGXV1-5",
+          "left_pointer": "/records/4",
+          "right_id": "ETEC-IGXV1-5",
+          "right_pointer": "/records/4"
+        },
+        {
+          "source_id": "IG XV 1, 6",
+          "left_id": "CSG-IGXV1-6",
+          "left_pointer": "/records/5",
+          "right_id": "ETEC-IGXV1-6",
+          "right_pointer": "/records/5"
+        },
+        {
+          "source_id": "IG XV 1, 7",
+          "left_id": "CSG-IGXV1-7",
+          "left_pointer": "/records/6",
+          "right_id": "ETEC-IGXV1-7",
+          "right_pointer": "/records/6"
+        },
+        {
+          "source_id": "IG XV 1, 8",
+          "left_id": "CSG-IGXV1-8",
+          "left_pointer": "/records/7",
+          "right_id": "ETEC-IGXV1-8",
+          "right_pointer": "/records/7"
+        },
+        {
+          "source_id": "IG XV 1, 9",
+          "left_id": "CSG-IGXV1-9",
+          "left_pointer": "/records/8",
+          "right_id": "ETEC-IGXV1-9",
+          "right_pointer": "/records/8"
+        },
+        {
+          "source_id": "IG XV 1, 10",
+          "left_id": "CSG-IGXV1-10",
+          "left_pointer": "/records/9",
+          "right_id": "ETEC-IGXV1-10",
+          "right_pointer": "/records/9"
+        },
+        {
+          "source_id": "IG XV 1, 11",
+          "left_id": "CSG-IGXV1-11",
+          "left_pointer": "/records/10",
+          "right_id": "ETEC-IGXV1-11",
+          "right_pointer": "/records/10"
+        },
+        {
+          "source_id": "IG XV 1, 12",
+          "left_id": "CSG-IGXV1-12",
+          "left_pointer": "/records/11",
+          "right_id": "ETEC-IGXV1-12",
+          "right_pointer": "/records/11"
+        },
+        {
+          "source_id": "IG XV 1, 13",
+          "left_id": "CSG-IGXV1-13",
+          "left_pointer": "/records/12",
+          "right_id": "ETEC-IGXV1-13",
+          "right_pointer": "/records/12"
+        },
+        {
+          "source_id": "IG XV 1, 14",
+          "left_id": "CSG-IGXV1-14",
+          "left_pointer": "/records/13",
+          "right_id": "ETEC-IGXV1-14",
+          "right_pointer": "/records/13"
+        },
+        {
+          "source_id": "IG XV 1, 15",
+          "left_id": "CSG-IGXV1-15",
+          "left_pointer": "/records/14",
+          "right_id": "ETEC-IGXV1-15",
+          "right_pointer": "/records/14"
+        },
+        {
+          "source_id": "IG XV 1, 16",
+          "left_id": "CSG-IGXV1-16",
+          "left_pointer": "/records/15",
+          "right_id": "ETEC-IGXV1-16",
+          "right_pointer": "/records/15"
+        },
+        {
+          "source_id": "IG XV 1, 17",
+          "left_id": "CSG-IGXV1-17",
+          "left_pointer": "/records/16",
+          "right_id": "ETEC-IGXV1-17",
+          "right_pointer": "/records/16"
+        },
+        {
+          "source_id": "IG XV 1, 18",
+          "left_id": "CSG-IGXV1-18",
+          "left_pointer": "/records/17",
+          "right_id": "ETEC-IGXV1-18",
+          "right_pointer": "/records/17"
+        },
+        {
+          "source_id": "IG XV 1, 46",
+          "left_id": "CSG-IGXV1-46",
+          "left_pointer": "/records/45",
+          "right_id": "ETEC-IGXV1-46",
+          "right_pointer": "/records/18"
+        },
+        {
+          "source_id": "IG XV 1, 99",
+          "left_id": "CSG-IGXV1-99",
+          "left_pointer": "/records/98",
+          "right_id": "ETEC-IGXV1-99",
+          "right_pointer": "/records/19"
+        },
+        {
+          "source_id": "IG XV 1, 110",
+          "left_id": "CSG-IGXV1-110",
+          "left_pointer": "/records/109",
+          "right_id": "ETEC-IGXV1-110",
+          "right_pointer": "/records/20"
+        },
+        {
+          "source_id": "IG XV 1, 152",
+          "left_id": "CSG-IGXV1-152",
+          "left_pointer": "/records/150",
+          "right_id": "ETEC-IGXV1-152",
+          "right_pointer": "/records/21"
+        },
+        {
+          "source_id": "IG XV 1, 155",
+          "left_id": "CSG-IGXV1-155",
+          "left_pointer": "/records/153",
+          "right_id": "ETEC-IGXV1-155",
+          "right_pointer": "/records/22"
+        },
+        {
+          "source_id": "IG XV 1, 158",
+          "left_id": "CSG-IGXV1-158",
+          "left_pointer": "/records/156",
+          "right_id": "ETEC-IGXV1-158",
+          "right_pointer": "/records/23"
+        },
+        {
+          "source_id": "IG XV 1, 246",
+          "left_id": "CSG-IGXV1-246",
+          "left_pointer": "/records/245",
+          "right_id": "ETEC-IGXV1-246",
+          "right_pointer": "/records/24"
+        }
+      ],
+      "physical_object_count": null,
+      "independent_witness_count": null,
+      "analysis_rule": "Group by documented digital source ID for source-level dependence; retain language/component boundaries. No physical-object merge."
+    }
+  ],
+  "untested_relationships": "UNKNOWN_NOT_INDEPENDENT",
+  "scientific_approval_granted": false
+}

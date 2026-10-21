@@ -1,0 +1,71 @@
+{
+  "format": "executed-u008-source-audit-v1",
+  "case_source": {
+    "repository": "hawkinsnick/Linear-A",
+    "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+    "path": "research/legacy-case-attribution.json",
+    "pointer": "/cases/7",
+    "encoding": "json",
+    "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84"
+  },
+  "record_id": "KH 8",
+  "observations": [
+    {
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/critical-pilot.json",
+        "pointer": "/entries/5/source_attestations/11",
+        "encoding": "json",
+        "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e"
+      },
+      "series": "A",
+      "number": 567,
+      "raw_flags": [
+        12,
+        0,
+        0,
+        0
+      ],
+      "slot_zero_based": 11
+    },
+    {
+      "source": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4",
+        "path": "research/critical-pilot.json",
+        "pointer": "/entries/5/source_attestations/14",
+        "encoding": "json",
+        "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e"
+      },
+      "series": "A",
+      "number": 510,
+      "raw_flags": [
+        15,
+        0,
+        0,
+        0
+      ],
+      "slot_zero_based": 14
+    }
+  ],
+  "distinct_loci": 2,
+  "same_locus_pair_established": false,
+  "legacy_alternative_attribution": [
+    {
+      "literal": "QA2PU",
+      "complete_author_source_locus_attribution": false,
+      "status": "UNTRACED_LEGACY_LITERAL_AND_LOCUS"
+    },
+    {
+      "literal": "*510",
+      "complete_author_source_locus_attribution": false,
+      "status": "SOURCE_IDENTIFIER_PRESENT_LOCUS_CONFLICT_WITH_RC2"
+    }
+  ],
+  "decision": "NOT_ELIGIBLE_FOR_READING_ADJUDICATION",
+  "finding": "The checked slots are distinct; their presence in KH 8 does not align the legacy alternatives. No preferred reading follows.",
+  "remaining_evidence_gap": "Resolve whether the legacy case targets slot11, slot14 or another locus. Recover the source of QA2PU and its notation before comparing it to either identifier.",
+  "fresh_primary_edition_check": "NOT_PERFORMED",
+  "canonical_readings_changed": 0
+}

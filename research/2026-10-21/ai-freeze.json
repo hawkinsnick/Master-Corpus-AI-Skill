@@ -1,0 +1,12 @@
+{
+  "format": "ai-pilot-freeze-v1",
+  "commitments": {
+    "protocol.json": "f93e74c00f41f901b0b96af765fab38e20db01f2fa70b9e6bb418d4042ece1cf",
+    "native-revisions.json": "689864a43c132749961837649211bf4ea36bdce750839e341ff9fbf73867c512",
+    "ai-tasks.json": "a90a63fa2d4fe504f9b3dcc9fcdf0eaf3f8b37c77b0eca9eb415be4cfddfb79d",
+    "ai-evidence-packet.json": "8fb70882ac316f765c8a04f87d35820a7bbd3c0d5c0af94fff04266da1d035f5",
+    "ai-oracle.json": "d590735a9ff50d3e3e3632c59c2c6a91464fb7edd5424bb9a9e0e3107014cccb"
+  },
+  "answers_collected": false,
+  "model_cross_platform_accuracy_established": false
+}
