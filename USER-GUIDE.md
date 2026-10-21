@@ -8,7 +8,7 @@ Use the Corpus AI to assemble, question and document evidence for a research arg
 
 - [What you receive](#what-you-receive)
 - [Set up your first session](#set-up-your-first-session)
-- [Work through a dissertation question](#work-through-a-dissertation-question)
+- [Work through a research question](#work-through-a-research-question)
 - [Examples for your corpus](#examples-for-your-corpus)
 - [Optional reproducible retrieval](#optional-reproducible-retrieval)
 - [Check and cite the result](#check-and-cite-the-result)
@@ -24,7 +24,7 @@ The master coordinates 18 registered corpus projects. It directs the assistant t
 | [Individual corpus skill](CORPUS-DOWNLOADS.md) | Rules and workflows specific to your material | Proof of a reading or access to every source |
 | Native evidence files | Inspectable records, recorded assertions and provenance | Automatic authentication of physical objects |
 | [Executed walkthroughs](WORKED-EXAMPLES.md) | Saved, reproducible demonstrations with reported results | Current results for a later repository revision |
-| [Doctoral research examples](PHD-RESEARCH-EXAMPLES.md) | Research designs and prompts for every member | Completed studies, new readings or tested model accuracy |
+| [Research examples](RESEARCH-EXAMPLES.md) | Research designs and prompts for every member | Completed studies, new readings or tested model accuracy |
 
 Egyptian Hieroglyphic Corpus remains an independent project outside these 18 members. The Phaistos Disc and Aegean Anomalous repositories describe research objects or groupings; registry membership does not establish a language identity.
 
@@ -60,7 +60,7 @@ If your assistant has permitted repository access, it can read the selected file
 
 ```text
 Use the attached Master Corpus AI instructions and the individual corpus skill.
-My dissertation question is: [one precise question].
+My research question is: [one precise question].
 My selected corpus is: [repository].
 My evidence packet contains: [filenames and original repository paths].
 
@@ -78,7 +78,7 @@ End with the next evidence-based step I should take.
 
 A useful first response may say that an edition, image or sample definition is missing. Request that item or narrow the question before proceeding.
 
-## Work through a dissertation question
+## Work through a research question
 
 ### Stage 1: make the claim testable
 
@@ -122,13 +122,15 @@ that would falsify the claim. Reduce the claim if the current packet cannot
 support it. Do not treat software validation as expert acceptance.
 ```
 
-### Stage 5: prepare something a supervisor can inspect
+### Stage 5: prepare something a colleague can inspect
 
-Request a packet containing the research question, input manifest, evidence table, analysis plan/code, executed results or explicit non-execution statement, sensitivity analysis, unresolved source issues and a short interpretation. Ask for a draft methods paragraph grounded only in that packet. Check every citation and relevant primary source before using it in a thesis.
+Request a packet containing the research question, input manifest, evidence table, analysis plan/code, executed results or explicit non-execution statement, sensitivity analysis, unresolved source issues and a short interpretation. Ask for a draft methods paragraph grounded only in that packet. Check every citation and relevant primary source before using it in a publication.
 
 ## Examples for your corpus
 
-The [doctoral example collection](PHD-RESEARCH-EXAMPLES.md) supplies a focused problem and copyable research prompt for all 18 repositories. Each specifies required evidence, a practical sequence of tasks, a deliverable and a boundary on interpretation. These are proposed research exercises, not claims that the required samples are complete or that their analyses have been executed.
+The [research example collection](RESEARCH-EXAMPLES.md) supplies a focused problem and copyable research prompt for all 18 repositories. Each specifies required evidence, a practical sequence of tasks, a deliverable and a boundary on interpretation. These are proposed research exercises, not claims that the required samples are complete or that their analyses have been executed.
+
+For questions spanning projects, follow [the cross-corpus walkthroughs](CROSS-CORPUS-EXAMPLES.md). They show which files to supply, what to ask first, how to compare the evidence and what to save for each of five concrete research questions.
 
 For a first exercise with saved results, use [ARKH 1a, U008 and reproducible source-view counting](WORKED-EXAMPLES.md). Those examples identify the teaching snapshot, expected results and source limitations.
 

@@ -32,6 +32,11 @@
       "bytes": 5236
     },
     {
+      "path": "CROSS-CORPUS-EXAMPLES.md",
+      "sha256": "be1d618a0b7758b6c1c8e0aaa10b081c09050f8b70a8d229d73c630ad2aba6b9",
+      "bytes": 17084
+    },
+    {
       "path": "EXPERT-REVIEW.md",
       "sha256": "1d92abd5169fa3d0ffbbc1ac08b23482624a53bc9f78cb57191a16d3b0ab9878",
       "bytes": 4219
@@ -68,8 +73,8 @@
     },
     {
       "path": "PHD-RESEARCH-EXAMPLES.md",
-      "sha256": "d862d0612bb8f2efb70a58cf1702abc18b855853f3a0b669279418a3268270a5",
-      "bytes": 28011
+      "sha256": "7772e245475151199986a1ffe2b03c837c7cd7bdd7568c277cce8d9727d0e92e",
+      "bytes": 191
     },
     {
       "path": "PROMPTS.md",
@@ -78,33 +83,38 @@
     },
     {
       "path": "QUICKSTART.md",
-      "sha256": "8d1cd07660fcca5db5b52e9e4a678143f8a2db004689bf1d9ba4f254320f4b27",
-      "bytes": 5248
+      "sha256": "7c8484a76781e1c34044f560a21689be8d2876f52cf9b00f2f3aeab184356ce4",
+      "bytes": 5292
     },
     {
       "path": "README.md",
-      "sha256": "66206e6fc737bd1f80960cd487cb508a684a59a29f71c8beff5d7b4b2a07a43f",
-      "bytes": 1867
+      "sha256": "75754796773a5392159c483a0a163b9f061fa890cf5a0e926ce67b2f128fb540",
+      "bytes": 1911
+    },
+    {
+      "path": "RESEARCH-EXAMPLES.md",
+      "sha256": "cc8e2d8d84db4596b317e30622524cdf0b5aa1ceabf485aca69946eac525ebe9",
+      "bytes": 28185
     },
     {
       "path": "SKILL.md",
-      "sha256": "a09deb43eea359ef06cb017944eede075453b0af63c1b8ed12555e24c8468fef",
-      "bytes": 8079
+      "sha256": "2c2dff02b08b3955a1715177effcb1912b02eb9f4835cf756e9d4bae3c754408",
+      "bytes": 8244
     },
     {
       "path": "START-HERE.md",
-      "sha256": "b3a375db4e9301568f57aeafb1ce4124bc464d48d38a2863ec5b6c23c56c931b",
-      "bytes": 1721
+      "sha256": "6af0884246aac80421d85314b106791c9fc768fbe67a63bda78c4a0684166938",
+      "bytes": 1765
     },
     {
       "path": "USER-GUIDE.md",
-      "sha256": "380a5c87b7a0887ddd4e849098e021480e9bb1d7a51a77a9d1cc7f19029ea34e",
-      "bytes": 16523
+      "sha256": "6d98de9d893095d2c387732c85a98414a148bf3ff69802ca6e8daaed79f99ffb",
+      "bytes": 16737
     },
     {
       "path": "WORKED-EXAMPLES.md",
-      "sha256": "bc4f16f767e2345690e234099fd18526772d09766ca563e10bbff9759b705946",
-      "bytes": 12998
+      "sha256": "9e4d0e699ca5003f792b4e3fcf932033144eabceda25674af1c8e6abe2fa685d",
+      "bytes": 13042
     },
     {
       "path": "manifest.json",
@@ -128,8 +138,8 @@
     },
     {
       "path": "migration/origin.json",
-      "sha256": "ede2daa7c4ae59d4552c8d8475383db38a6989fa0c92d8ab8fabeb630583f745",
-      "bytes": 4367
+      "sha256": "bea7a74608d45c22814006a7b0958e23b8e1803898e8fe58cd5bba2a7f5326c1",
+      "bytes": 4364
     },
     {
       "path": "references/academic-audit-2026-10-20.md",
@@ -163,8 +173,8 @@
     },
     {
       "path": "scripts/build_starter.py",
-      "sha256": "9fe1c14817ad0b237d6c449625f4008a36c3895e792bd2f526ff9acbb204e737",
-      "bytes": 2997
+      "sha256": "28a779f325fdd663c89311fe3ea5d1ee328e0b7d6404d61f359f8c8ef9368d65",
+      "bytes": 3047
     },
     {
       "path": "scripts/common.py",
@@ -214,7 +224,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "65022f5198052da124ddc137ec2ebeed3ed73bed92b07e21ef866e742e734694",
-    "bytes": 99295
+    "sha256": "0333a2c3d13818f58aee292e33e0b9d0633f37207812c620b5b54586508d3dd3",
+    "bytes": 99504
   }
 }

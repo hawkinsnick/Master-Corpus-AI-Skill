@@ -135,8 +135,10 @@ uncertainty and exact method for new calculations. Keep unknowns unknown; do not
 manufacture restorations, translations, physical identity or independent witnesses.
 Give the next admissible research step when a claim is blocked.
 
-For setup and dissertation research workflows, read `USER-GUIDE.md` and
-`PHD-RESEARCH-EXAMPLES.md`. Treat their proposed studies as research designs,
+For setup and research workflows, read `USER-GUIDE.md` and
+`RESEARCH-EXAMPLES.md`; use `CROSS-CORPUS-EXAMPLES.md` for multi-project
+research sessions. Retrieve each member separately and establish the specific
+comparison prerequisites before analyzing a combined sample. Treat proposed studies as research designs,
 not executed results or evidence of native coverage. For saved executed examples,
 read `WORKED-EXAMPLES.md`. Saved examples teach the workflow; do not represent them as
 fresh executions. A bounded functional pass is not a cross-platform AI accuracy
@@ -1477,7 +1479,7 @@ When requirements are unmet, descriptive comparison remains permissible if limit
 ===== START-HERE.md =====
 # Start a research session
 
-**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Doctoral research examples for all 18 corpora](PHD-RESEARCH-EXAMPLES.md).
+**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Research examples for all 18 corpora](RESEARCH-EXAMPLES.md) · [Cross-corpus walkthroughs](CROSS-CORPUS-EXAMPLES.md).
 
 1. Start with [the canonical master instructions](SKILL.md) in this dedicated
    repository. Check [README.md](README.md) for scope and source boundaries.

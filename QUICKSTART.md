@@ -1,6 +1,6 @@
 # Combined Corpus Research AI — Researcher Quickstart
 
-**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Doctoral research examples for all 18 corpora](PHD-RESEARCH-EXAMPLES.md).
+**Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Research examples for all 18 corpora](RESEARCH-EXAMPLES.md) · [Cross-corpus walkthroughs](CROSS-CORPUS-EXAMPLES.md).
 
 **New: [Follow three worked examples](WORKED-EXAMPLES.md)** — trace a real record, assess an unresolved comparison, and reproduce a calculation. Browser-only and optional AI/Python routes include verified results.
 
