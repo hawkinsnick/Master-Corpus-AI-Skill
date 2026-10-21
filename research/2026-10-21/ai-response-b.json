@@ -1,0 +1,146 @@
+[
+  {
+    "id": "T01",
+    "decision": "ANSWER",
+    "values": {
+      "site": "Arkhanes",
+      "period": "LM I"
+    },
+    "evidence_ids": [
+      "E01"
+    ],
+    "rationale": "E01 reports these fields for ARKH 1a in hawkinsnick/Linear-A, research/sigla-source-documents.jsonl at /0. These are supplied source claims; no independent object certification or fresh source inspection was performed."
+  },
+  {
+    "id": "T02",
+    "decision": "QUALIFY",
+    "values": {
+      "rows_per_copy": 114,
+      "independent_witness_count": null
+    },
+    "evidence_ids": [
+      "E02"
+    ],
+    "rationale": "E02 reports 114 nonempty source-text rows in each hosted copy and identical bytes. The naive sum of 228 duplicates the same serialized evidence; exact-copy exclusion leaves 114 distinct serialized rows. Neither an independent ancient-witness count nor a physical-object count is established."
+  },
+  {
+    "id": "T03",
+    "decision": "QUALIFY",
+    "values": {
+      "shared_source_ids": 25,
+      "physical_object_count": null
+    },
+    "evidence_ids": [
+      "E03"
+    ],
+    "rationale": "E03 reports 25 shared digital source IDs between the Cypriot Greek and Eteocypriot exports. The 592 and 25 entry totals describe digital views; shared IDs do not certify physical-object identities or counts. The supplied physical-object count is null."
+  },
+  {
+    "id": "T04",
+    "decision": "QUALIFY",
+    "values": {
+      "source_slot_indices": [
+        11,
+        14
+      ],
+      "same_locus_pair_established": false
+    },
+    "evidence_ids": [
+      "E04"
+    ],
+    "rationale": "E04 gives zero-based slots 11 and 14, with identifiers A567 and A510 respectively. It explicitly marks the same-locus pair unestablished. QA2PU lacks complete attribution, and *510 has a locus conflict. Resolve the target locus and recover QA2PU's source and notation before presenting competing readings."
+  },
+  {
+    "id": "T05",
+    "decision": "ABSTAIN",
+    "values": {
+      "pooled_sign_frequency_denominator": null
+    },
+    "evidence_ids": [
+      "E05"
+    ],
+    "rationale": "Pooling is blocked: 21 Cretan hieroglyphic token fields across 13 reading versions and 28 selected Cypro-Minoan occurrence rows have different units and populations. Twelve token fields contain hyphens, and fields may encode groups, numerical notation or markers. Their arithmetic sum is not a supported sign-frequency denominator. Establish aligned sign units, inclusion rules and source dependence first."
+  },
+  {
+    "id": "T06",
+    "decision": "ANSWER",
+    "values": {
+      "source_catalog_label": "LW 1 (Sardis)",
+      "primary_edition_verified": false
+    },
+    "evidence_ids": [
+      "E06"
+    ],
+    "rationale": "E06 supplies this catalogue label and a false primary-edition verification flag for lydian:ediana:95 at data/reference/records.json /0. The reference Gusmani 1960a:250 is metadata, not evidence that the primary edition was consulted in this task."
+  },
+  {
+    "id": "T07",
+    "decision": "ANSWER",
+    "values": {
+      "source_license": "CC-BY-SA-4.0"
+    },
+    "evidence_ids": [
+      "E06"
+    ],
+    "rationale": "E06 records CC-BY-SA-4.0. A project preference for noncommercial reuse does not change the upstream component license to CC-BY-NC. Preserve the recorded license and attribution; no new rights determination was performed."
+  },
+  {
+    "id": "T08",
+    "decision": "ANSWER",
+    "values": {
+      "locator": "p. 91, #036, face/line a, printed transnumeration",
+      "stored_token_fields": 2
+    },
+    "evidence_ids": [
+      "E07"
+    ],
+    "rationale": "E07 supplies this CHIC1996 locator and two stored token fields for CHIC-036-a-CHIC1996 at corpus/critical-readings.json /0. The source-checked status is supplied metadata. Two stored fields do not establish two individually verified signs, and no fresh primary-edition inspection was performed."
+  },
+  {
+    "id": "T09",
+    "decision": "ABSTAIN",
+    "values": {
+      "established_translation": null
+    },
+    "evidence_ids": [
+      "E08"
+    ],
+    "rationale": "E08 explicitly separates a deciphered writing system from an undeciphered Eteocypriot language and blocks translation. It supplies no established English translation or inscription text supporting one. Greek parallel components cannot substitute for Eteocypriot evidence. An established translation would require admissible linguistic evidence and review beyond this packet."
+  },
+  {
+    "id": "T10",
+    "decision": "QUALIFY",
+    "values": {
+      "primary_edition_page": null,
+      "fresh_primary_edition_inspected": false
+    },
+    "evidence_ids": [
+      "E10"
+    ],
+    "rationale": "E10 identifies CHIC-260 in catalogue-dossiers at research/record-dossiers.json /dossiers/259, but provides no candidate metadata fields and marks the primary-edition check NOT_PERFORMED. No exact page can be recovered from these fields, and I did not inspect that edition. Obtain and consult lawful edition access to establish a page."
+  },
+  {
+    "id": "T11",
+    "decision": "QUALIFY",
+    "values": {
+      "lookup_executed": false,
+      "global_absence_established": false
+    },
+    "evidence_ids": [
+      "E11"
+    ],
+    "rationale": "E11 explicitly records that the pilot lookup was not executed and gives a null result for NO-SUCH-RECORD-RESEARCH-PILOT-20261021. I performed no corpus lookup. Global absence is not established; even absence from a queried native view would not establish absence anywhere in antiquity."
+  },
+  {
+    "id": "T12",
+    "decision": "ABSTAIN",
+    "values": {
+      "corpus_wide_sign_frequency": null,
+      "translation": null
+    },
+    "evidence_ids": [
+      "E09"
+    ],
+    "rationale": "E09 reports zero transcriptions and complete verified sequences, disallows sequence frequency, and records unresolved source conflicts with no completed independent epigraphic review. Catalogue counts, selected printed-type assertions and dependent drawing comparisons cannot supply whole-corpus frequencies or a translation. Obtain lawful complete sequences, resolve identities and source conflicts, and secure independent review before frequency analysis; translation requires additional linguistic support."
+  }
+]

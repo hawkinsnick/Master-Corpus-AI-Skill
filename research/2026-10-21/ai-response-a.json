@@ -1,0 +1,146 @@
+[
+  {
+    "id": "T01",
+    "decision": "ANSWER",
+    "values": {
+      "site": "Arkhanes",
+      "period": "LM I"
+    },
+    "evidence_ids": [
+      "E01"
+    ],
+    "rationale": "E01 reports these fields for ARKH 1a in hawkinsnick/Linear-A, research/sigla-source-documents.jsonl, /0. These are source-reported metadata; no independent object certification or primary-edition check was performed."
+  },
+  {
+    "id": "T02",
+    "decision": "QUALIFY",
+    "values": {
+      "rows_per_copy": 114,
+      "independent_witness_count": null
+    },
+    "evidence_ids": [
+      "E02"
+    ],
+    "rationale": "E02 reports 114 nonempty source-text rows per hosted copy and identical bytes with the same SHA-256. Excluding the exact duplicate leaves 114 distinct serialized rows, not a certified physical-object or independent-witness count. The naive 228-row total does not prove 228 independent ancient witnesses."
+  },
+  {
+    "id": "T03",
+    "decision": "QUALIFY",
+    "values": {
+      "shared_source_ids": 25,
+      "physical_object_count": null
+    },
+    "evidence_ids": [
+      "E03"
+    ],
+    "rationale": "E03 reports 25 shared digital source IDs between the 592-entry Cypriot Greek and 25-entry Eteocypriot views. It supplies no certified physical-object count. Digital entries and shared identifiers do not establish physical identity or an object-count denominator."
+  },
+  {
+    "id": "T04",
+    "decision": "QUALIFY",
+    "values": {
+      "source_slot_indices": [
+        11,
+        14
+      ],
+      "same_locus_pair_established": false
+    },
+    "evidence_ids": [
+      "E04"
+    ],
+    "rationale": "E04 supplies zero-based slots 11 and 14 in critical-pilot.json, /entries/5/source_attestations. It explicitly leaves the same-locus pair unestablished. QA2PU lacks traced source/locus attribution, while *510 has a locus conflict. Resolve the targeted locus and recover complete attribution before treating them as competing readings."
+  },
+  {
+    "id": "T05",
+    "decision": "ABSTAIN",
+    "values": {
+      "pooled_sign_frequency_denominator": null
+    },
+    "evidence_ids": [
+      "E05"
+    ],
+    "rationale": "The 21 stored Cretan hieroglyphic token fields and 28 selected Cypro-Minoan occurrence rows use different units and populations. Some fields contain hyphenated groups, numerical notation or markers; reading versions also require dependence assessment. Their arithmetic sum is not a supported sign-frequency denominator. Establish comparable sign segmentation, population scope and exclusions first."
+  },
+  {
+    "id": "T06",
+    "decision": "ANSWER",
+    "values": {
+      "source_catalog_label": "LW 1 (Sardis)",
+      "primary_edition_verified": false
+    },
+    "evidence_ids": [
+      "E06"
+    ],
+    "rationale": "E06 supplies this catalogue label and a false primary-edition verification flag for lydian:ediana:95, data/reference/records.json, /0. Its Gusmani 1960a:250 reference is a recorded citation, not evidence that the edition was consulted for this response."
+  },
+  {
+    "id": "T07",
+    "decision": "ANSWER",
+    "values": {
+      "source_license": "CC-BY-SA-4.0"
+    },
+    "evidence_ids": [
+      "E06"
+    ],
+    "rationale": "E06 records CC-BY-SA-4.0. A project preference for noncommercial reuse does not replace the upstream component license with CC-BY-NC. Preserve the recorded source terms and attribution."
+  },
+  {
+    "id": "T08",
+    "decision": "ANSWER",
+    "values": {
+      "locator": "p. 91, #036, face/line a, printed transnumeration",
+      "stored_token_fields": 2
+    },
+    "evidence_ids": [
+      "E07"
+    ],
+    "rationale": "E07 supplies the locator and two stored token fields for CHIC-036-a-CHIC1996, corpus/critical-readings.json, /0. Its source-checked status is packet-reported. Stored fields are not thereby two individually verified ancient signs, and no fresh edition inspection was performed."
+  },
+  {
+    "id": "T09",
+    "decision": "ABSTAIN",
+    "values": {
+      "established_translation": null
+    },
+    "evidence_ids": [
+      "E08"
+    ],
+    "rationale": "E08 explicitly distinguishes a deciphered writing system from decipherment of the Eteocypriot language and blocks translation. No inscription text or established English translation is supplied. Greek parallel components cannot substitute for Eteocypriot evidence. A translation would require admissible inscription-specific linguistic evidence and review."
+  },
+  {
+    "id": "T10",
+    "decision": "QUALIFY",
+    "values": {
+      "primary_edition_page": null,
+      "fresh_primary_edition_inspected": false
+    },
+    "evidence_ids": [
+      "E10"
+    ],
+    "rationale": "E10 identifies CHIC-260 at research/record-dossiers.json, /dossiers/259, but supplies no candidate metadata fields and marks the primary-edition check NOT_PERFORMED. An exact page cannot be recovered from this packet. I did not inspect the primary edition; lawful edition access and record alignment are needed."
+  },
+  {
+    "id": "T11",
+    "decision": "QUALIFY",
+    "values": {
+      "lookup_executed": false,
+      "global_absence_established": false
+    },
+    "evidence_ids": [
+      "E11"
+    ],
+    "rationale": "E11 explicitly reports that the requested-ID lookup was not executed and provides a null result. I performed no corpus query. Global absence is not established; even an executed lookup finding no match would show absence only within the specified queried view, not throughout antiquity."
+  },
+  {
+    "id": "T12",
+    "decision": "ABSTAIN",
+    "values": {
+      "corpus_wide_sign_frequency": null,
+      "translation": null
+    },
+    "evidence_ids": [
+      "E09"
+    ],
+    "rationale": "E09 reports zero transcriptions and complete verified sequences, disallows sequence frequency, and records no completed independent epigraphic review. Selected source numbering and dependent drawing comparisons cannot support whole-corpus frequencies or a repeated-span translation. Obtain lawful complete edition sequences, resolve source conflicts and object identities, and secure independent review before further inference."
+  }
+]

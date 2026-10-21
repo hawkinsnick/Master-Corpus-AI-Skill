@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from common import ROOT,sha
 DIRECTORIES=('research','scripts','references','registry','tests','migration','.github')
-ROOT_FILES=('RESEARCH-RESULTS.md','CROSS-CORPUS-EXAMPLES.md','RESEARCH-EXAMPLES.md','USER-GUIDE.md','PHD-RESEARCH-EXAMPLES.md','AUTO-SYNC.md','MEMBER-STATUS.md','SKILL.md','README.md','START-HERE.md','QUICKSTART.md','PROMPTS.md','WORKED-EXAMPLES.md','EXPERT-REVIEW.md','CORPUS-DOWNLOADS.md','manifest.json','LICENSE','LICENSE-CODE','LICENSE-CONTENT.md','LICENSING.md','NOTICE','.gitignore')
+ROOT_FILES=('SOURCE-CHECKS.md','RESEARCH-RESULTS.md','CROSS-CORPUS-EXAMPLES.md','RESEARCH-EXAMPLES.md','USER-GUIDE.md','PHD-RESEARCH-EXAMPLES.md','AUTO-SYNC.md','MEMBER-STATUS.md','SKILL.md','README.md','START-HERE.md','QUICKSTART.md','PROMPTS.md','WORKED-EXAMPLES.md','EXPERT-REVIEW.md','CORPUS-DOWNLOADS.md','manifest.json','LICENSE','LICENSE-CODE','LICENSE-CONTENT.md','LICENSING.md','NOTICE','.gitignore')
 
 def source_files(root=ROOT):
     root=Path(root);files=[]

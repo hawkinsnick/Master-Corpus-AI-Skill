@@ -1,0 +1,295 @@
+{
+  "format": "source-grounded-ai-pilot-scores-v1",
+  "runs": [
+    {
+      "run_id": "a",
+      "response_file": "ai-response-a.json",
+      "score": {
+        "tasks": 12,
+        "decision_matches": 9,
+        "requested_value_matches": 12,
+        "evidence_id_matches": 12,
+        "all_structured_checks_pass": 9,
+        "results": [
+          {
+            "id": "T01",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": true
+          },
+          {
+            "id": "T02",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T03",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T04",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T05",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T06",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": true
+          },
+          {
+            "id": "T07",
+            "checks": {
+              "decision": false,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": false,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T08",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": true
+          },
+          {
+            "id": "T09",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T10",
+            "checks": {
+              "decision": false,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": false,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T11",
+            "checks": {
+              "decision": false,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": false,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T12",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          }
+        ],
+        "semantic_truth_automatically_scored": false
+      }
+    },
+    {
+      "run_id": "b",
+      "response_file": "ai-response-b.json",
+      "score": {
+        "tasks": 12,
+        "decision_matches": 9,
+        "requested_value_matches": 12,
+        "evidence_id_matches": 12,
+        "all_structured_checks_pass": 9,
+        "results": [
+          {
+            "id": "T01",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": true
+          },
+          {
+            "id": "T02",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T03",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T04",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T05",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T06",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": true
+          },
+          {
+            "id": "T07",
+            "checks": {
+              "decision": false,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": false,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T08",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": true
+          },
+          {
+            "id": "T09",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T10",
+            "checks": {
+              "decision": false,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": false,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T11",
+            "checks": {
+              "decision": false,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": false,
+            "direct_extraction_baseline_applicable": false
+          },
+          {
+            "id": "T12",
+            "checks": {
+              "decision": true,
+              "requested_values": true,
+              "evidence_id_selection": true
+            },
+            "all_structured_checks_pass": true,
+            "direct_extraction_baseline_applicable": false
+          }
+        ],
+        "semantic_truth_automatically_scored": false
+      }
+    }
+  ],
+  "direct_extraction_baseline": {
+    "tasks": 3,
+    "requested_value_matches": 3,
+    "results": [
+      {
+        "id": "T01",
+        "requested_values_match": true
+      },
+      {
+        "id": "T06",
+        "requested_values_match": true
+      },
+      {
+        "id": "T08",
+        "requested_values_match": true
+      }
+    ],
+    "scope": "Source field extraction only; no safety-task or researcher-time baseline."
+  },
+  "accuracy_population": "These selected tasks only; no population accuracy estimate, independent scholarly grade or cross-platform comparison.",
+  "citation_measure": "Evidence-ID selection against frozen packet, not bibliographic correctness or independent source consultation.",
+  "expert_validation_granted": false
+}

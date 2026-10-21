@@ -1,0 +1,183 @@
+{
+  "format": "fresh-provider-edition-comparison-v2",
+  "selection": "Targeted follow-up of three sampled rows with accessible first-party XML routes; not representative or independently blinded.",
+  "method": "Ordinary unauthenticated provider XML acquisition. Compare hashes and explicit native fields/XPaths; render XML lb elements as line separators before whitespace normalization.",
+  "rows": [
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "id": "ETEC-IGXV1-16",
+      "export_path": "exports/corpus.json",
+      "export_pointer": "/records/15",
+      "native_commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+      "url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2016",
+      "access": "ACQUIRED_AND_XML_PARSED",
+      "http_status": 200,
+      "bytes": 3352,
+      "sha256": "42fff829983c4fd0ebe96fa0751731e4f693e8425c1dc965b7d517f601417125",
+      "matches_frozen_raw_source_sha256": true,
+      "license_target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "field_checks": [
+        {
+          "native_field": "/source_id",
+          "source_xpath": ".//t:idno[@type=\"localId\"]",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/title",
+          "source_xpath": ".//t:titleStmt/t:title",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/site",
+          "source_xpath": ".//t:origPlace",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/date_source",
+          "source_xpath": ".//t:origDate",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/support",
+          "source_xpath": ".//t:support",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/provenance_source",
+          "source_xpath": ".//t:provenance[@type=\"found\"]",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/components/0/text",
+          "source_xpath": ".//t:div[@type=\"edition\"]//t:div[@type=\"textpart\"][@n=\"A\"]",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/components/1/text",
+          "source_xpath": ".//t:div[@type=\"edition\"]//t:div[@type=\"textpart\"][@n=\"B\"]",
+          "match_after_declared_whitespace_normalization": true
+        }
+      ],
+      "mismatches": 0,
+      "printed_primary_edition_inspected": false,
+      "independent_epigraphic_check": false,
+      "source_language_assertion_adopted_as_independent": false
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "id": "ETEC-IGXV1-46",
+      "export_path": "exports/corpus.json",
+      "export_pointer": "/records/18",
+      "native_commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+      "url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%2046",
+      "access": "ACQUIRED_AND_XML_PARSED",
+      "http_status": 200,
+      "bytes": 2792,
+      "sha256": "ee231faebaca8f1d5d9f4952565aa4d36692902dcc11681608437d192cb8474a",
+      "matches_frozen_raw_source_sha256": true,
+      "license_target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "field_checks": [
+        {
+          "native_field": "/source_id",
+          "source_xpath": ".//t:idno[@type=\"localId\"]",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/title",
+          "source_xpath": ".//t:titleStmt/t:title",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/site",
+          "source_xpath": ".//t:origPlace",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/date_source",
+          "source_xpath": ".//t:origDate",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/support",
+          "source_xpath": ".//t:support",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/provenance_source",
+          "source_xpath": ".//t:provenance[@type=\"found\"]",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/components/0/text",
+          "source_xpath": ".//t:div[@type=\"edition\"]/t:ab",
+          "match_after_declared_whitespace_normalization": true
+        }
+      ],
+      "mismatches": 0,
+      "printed_primary_edition_inspected": false,
+      "independent_epigraphic_check": false,
+      "source_language_assertion_adopted_as_independent": false
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "id": "CSG-IGXV1-231",
+      "export_path": "exports/corpus.json",
+      "export_pointer": "/records/229",
+      "native_commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+      "url": "https://telota.bbaw.de/ig/api/xml/IG%20XV%201%2C%20231",
+      "access": "ACQUIRED_AND_XML_PARSED",
+      "http_status": 200,
+      "bytes": 3042,
+      "sha256": "63dc98e0edd3f735a6e4eee92725b577c087eff19fad39db545f61e5ed6bf73a",
+      "matches_frozen_raw_source_sha256": true,
+      "license_target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "field_checks": [
+        {
+          "native_field": "/source_id",
+          "source_xpath": ".//t:idno[@type=\"localId\"]",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/title",
+          "source_xpath": ".//t:titleStmt/t:title",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/site",
+          "source_xpath": ".//t:origPlace",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/date_source",
+          "source_xpath": ".//t:origDate",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/support",
+          "source_xpath": ".//t:support",
+          "match_after_declared_whitespace_normalization": true
+        },
+        {
+          "native_field": "/provenance_source",
+          "source_xpath": ".//t:provenance[@type=\"found\"]",
+          "match_after_declared_whitespace_normalization": true
+        }
+      ],
+      "mismatches": 0,
+      "printed_primary_edition_inspected": false,
+      "independent_epigraphic_check": false,
+      "source_language_assertion_adopted_as_independent": false
+    }
+  ],
+  "source_independence": "Same upstream digital edition; source fidelity checks do not add independent witnesses or authenticate readings.",
+  "raw_xml_redistributed": false,
+  "initial_checker_diagnostic": {
+    "method": "Plain itertext concatenation, then whitespace normalization",
+    "false_mismatches": 2,
+    "record": "ETEC-IGXV1-16",
+    "cause": "XML lb elements do not insert whitespace into itertext. Concatenation merged adjacent lines.",
+    "correction": "Treat lb as a line separator before whitespace normalization. No native source or reading changed.",
+    "unpartitioned_body_handling": "The first strict checker expected named textparts; body-only editions now use explicit edition/ab selection rather than silently skipping the component."
+  },
+  "interpretation": "A matching export is faithful to the checked provider encoding. It is not printed-edition collation, independent autopsy, translation validation or independent scholarly review."
+}

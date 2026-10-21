@@ -1,0 +1,37 @@
+{
+  "format": "source-grounded-ai-pilot-runs-v1",
+  "freeze_commit": "a9da1f83b4678b9d558400c68cdf809f16176ffd",
+  "runs": [
+    {
+      "id": "a",
+      "response_file": "ai-response-a.json",
+      "response_sha256": "58a51e5e90d1ab8e69340a94ba734965173a81b5e3ca7008f099b095b8370f7c",
+      "agent_name": "source_grounded_pilot_a",
+      "context": "Fresh thread; only master SKILL.md, tasks and evidence packet authorized. No oracle/scorer or other responses supplied.",
+      "model": "Inherited session model; exact model build/version not exposed by subagent interface.",
+      "corpus_lookup_executed": false,
+      "fresh_primary_source_inspection": false
+    },
+    {
+      "id": "b",
+      "response_file": "ai-response-b.json",
+      "response_sha256": "4dc8b5d5ab037e3add09cc3944efda06e55813ba1faa8fcf92fb8a52d124b760",
+      "agent_name": "source_grounded_pilot_b",
+      "context": "Fresh thread; only master SKILL.md, tasks and evidence packet authorized. No oracle/scorer or other responses supplied.",
+      "model": "Inherited session model; exact model build/version not exposed by subagent interface.",
+      "corpus_lookup_executed": false,
+      "fresh_primary_source_inspection": false
+    }
+  ],
+  "replicates_independent_of_task_author": false,
+  "cross_platform_comparison": false,
+  "source_packet_was_author_constructed": true,
+  "notes": "Both agents used the same task/packet and inherited model family; fresh contexts do not make them independent academic reviewers.",
+  "responding_agents_used_supplied_packet_only": true,
+  "master_instruction_source": {
+    "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+    "commit": "a9da1f83b4678b9d558400c68cdf809f16176ffd",
+    "path": "SKILL.md",
+    "sha256": "a9810f59b5245501a9008f5aac58b43f5e4c058a9a1d389b41250657cd43731f"
+  }
+}

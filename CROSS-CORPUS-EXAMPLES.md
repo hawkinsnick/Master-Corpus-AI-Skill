@@ -4,6 +4,8 @@ A comparison starts with a question that needs evidence from more than one proje
 
 These five walkthroughs are research designs with copyable prompts, not completed analyses or reported findings. They do not assume that every requested field or sample is already available. Each gives you a useful first task and a concrete output to take into further research.
 
+For executed source-view overlap, U008 attribution and CH/CM unit-accounting studies, see [Research results](RESEARCH-RESULTS.md). Those frozen studies show what was actually checked and what remains unresolved; the walkthroughs below remain proposed research workflows.
+
 ## Choose a question
 
 | Research question | Projects | First useful output |

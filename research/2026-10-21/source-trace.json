@@ -31,6 +31,16 @@
           "value": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb7fd2c0ef8a56a8f3c32d0c590abe270e32dc1a61ff3456f980eecb60920982"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -61,6 +71,16 @@
           "value": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb7fd2c0ef8a56a8f3c32d0c590abe270e32dc1a61ff3456f980eecb60920982"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -89,6 +109,16 @@
         {
           "field_pointer": "/provenance/attribution",
           "value": "Ester Salgarella and Simon Castellan, SigLA; derivative by Ryan Pavlicek/pyaegean"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb7fd2c0ef8a56a8f3c32d0c590abe270e32dc1a61ff3456f980eecb60920982"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -481,6 +511,16 @@
           "value": "valerio2016thesis"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "bd509c492df5fca42d4c0041fd1ec92d43e7bd6a5051196c550ef48744549953"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e5cae5cefcaaaf0f491598b3793beb874def98c83b544b1be6726145196efe54"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -511,6 +551,16 @@
           "value": "Concordance of Cypro-Minoan inscriptions by sequential absolute number, PDF pages 25–27 (unnumbered front matter)"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "bd509c492df5fca42d4c0041fd1ec92d43e7bd6a5051196c550ef48744549953"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e5cae5cefcaaaf0f491598b3793beb874def98c83b544b1be6726145196efe54"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -539,6 +589,16 @@
         {
           "field_pointer": "/collection_context/source/locator",
           "value": "Concordance of Cypro-Minoan inscriptions by sequential absolute number, PDF pages 25–27 (unnumbered front matter)"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "bd509c492df5fca42d4c0041fd1ec92d43e7bd6a5051196c550ef48744549953"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e5cae5cefcaaaf0f491598b3793beb874def98c83b544b1be6726145196efe54"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -579,6 +639,16 @@
           "value": "p.10 XML lines 3,11–14"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1272b63e1437e4434a90b774d209aac88209e79ee4e1aa7e9fd2e140cfb671fa"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -607,6 +677,16 @@
         {
           "field_pointer": "/collection_context/license",
           "value": "CC BY-NC-SA 4.0"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1272b63e1437e4434a90b774d209aac88209e79ee4e1aa7e9fd2e140cfb671fa"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -639,6 +719,16 @@
           "value": "CC BY-NC-SA 4.0"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1272b63e1437e4434a90b774d209aac88209e79ee4e1aa7e9fd2e140cfb671fa"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -660,6 +750,16 @@
       },
       "byte_trace": "PASS",
       "metadata_fields": [],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "c349123e8aa740fce50e2dc66260cad8095f730d6d192574694dc0c289bf342c"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -698,6 +798,16 @@
           "value": "https://cefael.efa.gr/detail.php?actionID=page&page_number=56&page_type=1&serie_id=EtCret&site_id=1&volume_number=31"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "c349123e8aa740fce50e2dc66260cad8095f730d6d192574694dc0c289bf342c"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -719,6 +829,16 @@
       },
       "byte_trace": "PASS",
       "metadata_fields": [],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "c349123e8aa740fce50e2dc66260cad8095f730d6d192574694dc0c289bf342c"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -755,6 +875,16 @@
         {
           "field_pointer": "/collection_context/rights/third_party_material/1/rights",
           "value": "Unicode-3.0"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -795,6 +925,16 @@
           "value": "Unicode-3.0"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -833,6 +973,16 @@
           "value": "Unicode-3.0"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -865,6 +1015,16 @@
         {
           "field_pointer": "/collection_context/source_id",
           "value": "vita-zamora-2018"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -905,6 +1065,16 @@
           "value": "General Notes, citing Martin 1961 pp. 66–67"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -933,6 +1103,16 @@
         {
           "field_pointer": "/evidence/0/locator",
           "value": "Corpus of the pseudo-hieroglyphic inscriptions of Byblos"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -981,6 +1161,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb405a27ffb974a3105578f8419100b397c2f178b0b5babd3318ea19c7ee6744"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1023,6 +1213,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb405a27ffb974a3105578f8419100b397c2f178b0b5babd3318ea19c7ee6744"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1063,6 +1263,16 @@
         {
           "field_pointer": "/review/independent_epigraphic_review",
           "value": false
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb405a27ffb974a3105578f8419100b397c2f178b0b5babd3318ea19c7ee6744"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1127,6 +1337,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1151,6 +1371,16 @@
         {
           "field_pointer": "/source_id",
           "value": "IG XV 1, 150"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1201,6 +1431,16 @@
         {
           "field_pointer": "/review/independent_epigraphic_review",
           "value": false
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1285,6 +1525,16 @@
           "value": "printed page 127, reading (ii), line 12"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "f2477f7571ac5a27da4b1203a530571570d3b5dab30eea14efbe0572dcc14ba4"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1339,6 +1589,16 @@
           "value": "HTML element #mwlw"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "f2477f7571ac5a27da4b1203a530571570d3b5dab30eea14efbe0572dcc14ba4"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1385,6 +1645,16 @@
           "value": "HTML element #mwcQ"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "f2477f7571ac5a27da4b1203a530571570d3b5dab30eea14efbe0572dcc14ba4"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1417,6 +1687,16 @@
         {
           "field_pointer": "/lines/0/source_locator",
           "value": "/E.Th 36/1"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "eaee4c2a291fdbcc39e37e1d674962020cf904124db5c0b71d1215e9549bfc55"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1453,6 +1733,16 @@
           "value": "/E.Ab 1/1"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "eaee4c2a291fdbcc39e37e1d674962020cf904124db5c0b71d1215e9549bfc55"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1487,6 +1777,16 @@
           "value": "/E.xx 5/0"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "eaee4c2a291fdbcc39e37e1d674962020cf904124db5c0b71d1215e9549bfc55"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1515,6 +1815,16 @@
         {
           "field_pointer": "/collection_context/source_url",
           "value": "https://titus.uni-frankfurt.de/texte/etcs/phrygian/phrygt.htm"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "a342cfc8b7007832870b799fe6d55e72342f67ebf8d3c598bb8fb2a13b19b93a"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1547,6 +1857,16 @@
           "value": "https://titus.uni-frankfurt.de/texte/etcs/phrygian/phrygt.htm"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "a342cfc8b7007832870b799fe6d55e72342f67ebf8d3c598bb8fb2a13b19b93a"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1571,6 +1891,16 @@
         {
           "field_pointer": "/collection_context/rights",
           "value": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed."
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "a342cfc8b7007832870b799fe6d55e72342f67ebf8d3c598bb8fb2a13b19b93a"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1613,6 +1943,16 @@
         {
           "field_pointer": "/edition_locators/0/direct_edition_checked",
           "value": false
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1659,6 +1999,16 @@
         {
           "field_pointer": "/edition_locators/0/direct_edition_checked",
           "value": false
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1743,6 +2093,16 @@
           "value": "pp.49–50, Table1 and surrounding discussion"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1767,6 +2127,16 @@
         {
           "field_pointer": "/collection_context/source_location",
           "value": "Decorte 2018 Table 8"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1795,6 +2165,16 @@
           "value": "Decorte 2018 Table 8"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1816,6 +2196,16 @@
       },
       "byte_trace": "PASS",
       "metadata_fields": [],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1837,6 +2227,16 @@
       },
       "byte_trace": "PASS",
       "metadata_fields": [],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1858,6 +2258,16 @@
       },
       "byte_trace": "PASS",
       "metadata_fields": [],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1882,6 +2292,16 @@
         {
           "field_pointer": "/collection_context/rights",
           "value": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed."
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -1924,6 +2344,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e416022d6486fe418616787da0e08468cb87abd3da740a804ec00fd56f7101f6"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -1962,6 +2392,16 @@
         {
           "field_pointer": "/primary_edition_verified",
           "value": false
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e416022d6486fe418616787da0e08468cb87abd3da740a804ec00fd56f7101f6"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -2004,6 +2444,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e416022d6486fe418616787da0e08468cb87abd3da740a804ec00fd56f7101f6"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -2028,6 +2478,16 @@
         {
           "field_pointer": "/collection_context/source/license",
           "value": "CC-BY-4.0"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e31cea6cc45e6ae97447e910c9f9269b47e437efa690bc373df41bf55c5d18ae"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -2064,6 +2524,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e31cea6cc45e6ae97447e910c9f9269b47e437efa690bc373df41bf55c5d18ae"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -2088,6 +2558,16 @@
         {
           "field_pointer": "/collection_context/source/license",
           "value": "CC-BY-4.0"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e31cea6cc45e6ae97447e910c9f9269b47e437efa690bc373df41bf55c5d18ae"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -2130,6 +2610,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -2170,6 +2660,16 @@
           "value": false
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -2194,6 +2694,16 @@
         {
           "field_pointer": "/collection_context/rights",
           "value": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed."
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
@@ -2226,6 +2736,16 @@
           "value": "eDiAna Milyan directory, source snapshot as pinned in data/reference/ediana-milyan-source.json; Kalinka1901 TAM I, TL44; original boundary annotations by this project."
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ceffbd9d0b2d7d3ed13f1a43b30f580cb897cb0874ed9140062fa208f923019b"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -2252,6 +2772,16 @@
           "value": "CC-BY-SA-4.0"
         }
       ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ceffbd9d0b2d7d3ed13f1a43b30f580cb897cb0874ed9140062fa208f923019b"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143"
+        }
+      ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",
       "fresh_primary_edition_check": "NOT_PERFORMED",
       "external_review": "NOT_PERFORMED",
@@ -2276,6 +2806,16 @@
         {
           "field_pointer": "/collection_context/rights/license",
           "value": "CC-BY-SA-4.0"
+        }
+      ],
+      "rights_guidance": [
+        {
+          "path": "LICENSING.md",
+          "sha256": "ceffbd9d0b2d7d3ed13f1a43b30f580cb897cb0874ed9140062fa208f923019b"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143"
         }
       ],
       "citation_assessment": "CANDIDATE_FIELDS_ONLY_NOT_AUTHENTICATED",

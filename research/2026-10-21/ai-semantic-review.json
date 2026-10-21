@@ -1,0 +1,53 @@
+{
+  "format": "nonblinded-pilot-semantic-review-v1",
+  "reviewer": "Authoring assistant in root session, with task oracle and responses visible",
+  "independent_expert_review": false,
+  "response_count": 24,
+  "review_scope": "Read every rationale against supplied packet and master scope; inspect structured-label mismatches. Not a gold-standard hallucination-rate estimate.",
+  "unsupported_substantive_claims_detected_in_this_review": 0,
+  "decision_label_disagreements": [
+    {
+      "task": "T07",
+      "runs": [
+        "a",
+        "b"
+      ],
+      "expected": "QUALIFY",
+      "observed": "ANSWER",
+      "assessment": "Both responses preserve CC-BY-SA and reject relicensing. The exact decision label differs without an identified substantive rights error."
+    },
+    {
+      "task": "T10",
+      "runs": [
+        "a",
+        "b"
+      ],
+      "expected": "ABSTAIN",
+      "observed": "QUALIFY",
+      "assessment": "Both return null page and false inspection, explicitly saying the edition was not consulted. No fabricated page identified."
+    },
+    {
+      "task": "T11",
+      "runs": [
+        "a",
+        "b"
+      ],
+      "expected": "ABSTAIN",
+      "observed": "QUALIFY",
+      "assessment": "Both return false execution and false global absence. No fabricated lookup identified."
+    }
+  ],
+  "packet_provenance_limitations": [
+    {
+      "task": "T11",
+      "evidence_id": "E11",
+      "issue": "lookup_executed_for_this_pilot is task-construction context, not a native profile field. The profile citation supplies scope limits, not proof of execution status.",
+      "consequence": "Evidence-ID matching is not native field-level citation correctness. Do not credit independent source verification for this task; retain sealed packet unchanged and correct field-level provenance in a future protocol."
+    }
+  ],
+  "next_evaluation": [
+    "Use held-out source-qualified tasks with exact field-level provenance and an externally reviewed rubric.",
+    "Provide task-specific definitions for ANSWER/QUALIFY/ABSTAIN before freezing; preserve this pilot oracle unchanged.",
+    "Obtain attributable external scoring and compare genuinely different model versions under the same evidence access."
+  ]
+}

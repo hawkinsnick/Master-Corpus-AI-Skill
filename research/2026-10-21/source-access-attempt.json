@@ -1,0 +1,21 @@
+{
+  "format": "fresh-primary-source-access-attempt-v1",
+  "target": "Linear B published XML appendix control",
+  "url": "https://journals.uio.no/dhnbpub/article/download/12295/10165",
+  "purpose": "Fresh comparison of a source-linked native appendix record with the actual publication",
+  "attempts": [
+    {
+      "route": "web retrieval",
+      "result": "URL inaccessible to tool; no PDF inspected"
+    },
+    {
+      "route": "ordinary unauthenticated HTTP GET",
+      "result": "HTTP 403 Forbidden; no PDF acquired"
+    }
+  ],
+  "fresh_source_bytes_acquired": false,
+  "fresh_primary_edition_check_performed": false,
+  "restrictions_bypassed": false,
+  "consequence": "Retain the native citation as a recorded source claim. Do not represent its earlier source inspection as a new check in this study.",
+  "next_step": "Use a lawful accessible author/publisher copy or a researcher-provided copy within its permitted use, then inspect and record exact source loci."
+}

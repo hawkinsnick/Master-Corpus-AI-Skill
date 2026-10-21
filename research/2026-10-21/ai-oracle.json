@@ -1,0 +1,149 @@
+{
+  "format": "source-grounded-ai-pilot-oracle-v1",
+  "tasks": [
+    {
+      "id": "T01",
+      "decision": "ANSWER",
+      "values": {
+        "site": "Arkhanes",
+        "period": "LM I"
+      },
+      "required_evidence_ids": [
+        "E01"
+      ],
+      "direct_extraction_baseline_applicable": true
+    },
+    {
+      "id": "T02",
+      "decision": "QUALIFY",
+      "values": {
+        "rows_per_copy": 114,
+        "independent_witness_count": null
+      },
+      "required_evidence_ids": [
+        "E02"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T03",
+      "decision": "QUALIFY",
+      "values": {
+        "shared_source_ids": 25,
+        "physical_object_count": null
+      },
+      "required_evidence_ids": [
+        "E03"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T04",
+      "decision": "QUALIFY",
+      "values": {
+        "source_slot_indices": [
+          11,
+          14
+        ],
+        "same_locus_pair_established": false
+      },
+      "required_evidence_ids": [
+        "E04"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T05",
+      "decision": "ABSTAIN",
+      "values": {
+        "pooled_sign_frequency_denominator": null
+      },
+      "required_evidence_ids": [
+        "E05"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T06",
+      "decision": "ANSWER",
+      "values": {
+        "source_catalog_label": "LW 1 (Sardis)",
+        "primary_edition_verified": false
+      },
+      "required_evidence_ids": [
+        "E06"
+      ],
+      "direct_extraction_baseline_applicable": true
+    },
+    {
+      "id": "T07",
+      "decision": "QUALIFY",
+      "values": {
+        "source_license": "CC-BY-SA-4.0"
+      },
+      "required_evidence_ids": [
+        "E06"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T08",
+      "decision": "ANSWER",
+      "values": {
+        "locator": "p. 91, #036, face/line a, printed transnumeration",
+        "stored_token_fields": 2
+      },
+      "required_evidence_ids": [
+        "E07"
+      ],
+      "direct_extraction_baseline_applicable": true
+    },
+    {
+      "id": "T09",
+      "decision": "ABSTAIN",
+      "values": {
+        "established_translation": null
+      },
+      "required_evidence_ids": [
+        "E08"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T10",
+      "decision": "ABSTAIN",
+      "values": {
+        "primary_edition_page": null,
+        "fresh_primary_edition_inspected": false
+      },
+      "required_evidence_ids": [
+        "E10"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T11",
+      "decision": "ABSTAIN",
+      "values": {
+        "lookup_executed": false,
+        "global_absence_established": false
+      },
+      "required_evidence_ids": [
+        "E11"
+      ],
+      "direct_extraction_baseline_applicable": false
+    },
+    {
+      "id": "T12",
+      "decision": "ABSTAIN",
+      "values": {
+        "corpus_wide_sign_frequency": null,
+        "translation": null
+      },
+      "required_evidence_ids": [
+        "E09"
+      ],
+      "direct_extraction_baseline_applicable": false
+    }
+  ]
+}

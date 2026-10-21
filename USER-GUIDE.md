@@ -132,6 +132,8 @@ The [research example collection](RESEARCH-EXAMPLES.md) supplies a focused probl
 
 For questions spanning projects, follow [the cross-corpus walkthroughs](CROSS-CORPUS-EXAMPLES.md). They show which files to supply, what to ask first, how to compare the evidence and what to save for each of five concrete research questions.
 
+For frozen cross-project study outputs, source-trace checks and a scored AI development pilot, read [Research results](RESEARCH-RESULTS.md).
+
 For a first exercise with saved results, use [ARKH 1a, U008 and reproducible source-view counting](WORKED-EXAMPLES.md). Those examples identify the teaching snapshot, expected results and source limitations.
 
 ## Optional reproducible retrieval
