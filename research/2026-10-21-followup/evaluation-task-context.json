@@ -1,0 +1,16 @@
+{
+  "format": "evaluation-task-context-v2",
+  "scope": "Declared conditions of this conformance fixture, not claims copied from a native corpus profile.",
+  "unavailable_values": {
+    "established_translation": null,
+    "primary_edition_page": null,
+    "corpus_wide_sign_frequency": null,
+    "translation": null
+  },
+  "execution_conditions": {
+    "fresh_primary_edition_inspected": false,
+    "lookup_executed": false,
+    "global_absence_established": false
+  },
+  "limitations": "No new source access is supplied by the fixture. Nulls describe unavailable requested outputs in this packet, not proof of their global nonexistence."
+}

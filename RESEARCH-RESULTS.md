@@ -1,5 +1,7 @@
 # Executed research studies and evaluation
 
+[Open-item fixes and remaining external decisions](OPEN-ITEMS.md) include a printed-source recheck, the full member-pair artifact scan and corrected evaluation provenance.
+
 This page tracks the evidence behind four improvements: reproducible demonstrations, record-level source checks, cross-corpus dependence and measured AI behavior. The study uses [18 frozen native revisions](research/2026-10-21/native-revisions.json), not an unversioned collection. Read the [protocol](research/2026-10-21/protocol.json) before interpreting its results.
 
 ## Three executed demonstrations

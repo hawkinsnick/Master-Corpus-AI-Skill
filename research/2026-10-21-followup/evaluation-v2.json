@@ -1,0 +1,340 @@
+{
+  "format": "source-provenance-conformance-fixture-v2",
+  "status": "IMPLEMENTED_AND_SOURCE_RESOLVED_NOT_MODEL_EVALUATED",
+  "purpose": "Repair packet provenance and ambiguous decision labels before the next evaluation. This reuses known pilot topics and is not a held-out accuracy test.",
+  "historical_pilot_unchanged": true,
+  "decision_rules": {
+    "ANSWER": "field_report: return supplied source fields or the declared deterministic transform; preserve source status.",
+    "QUALIFY": "premise_audit: correct the premise while reporting supplied facts, including null/false fields.",
+    "ABSTAIN": "unavailable_output_request: requested substantive output is not supported by the authorized packet. Do not invent it."
+  },
+  "citation_rules": [
+    "Each requested field has a source scope, file hash and exact pointer.",
+    "Native assertions remain source assertions, master computations remain computations, and declared task conditions remain task conditions.",
+    "A correct evidence ID alone is insufficient to establish field provenance.",
+    "Unexecuted actions must not be reported as executed."
+  ],
+  "items": [
+    {
+      "id": "V2-T01",
+      "primary_operation": "field_report",
+      "question": "Using E01, report the source-reported site and period of ARKH 1a. Do not certify the object independently.",
+      "field_bindings": {
+        "site": {
+          "scope": "native",
+          "path": "research/sigla-source-documents.jsonl",
+          "pointer": "/0/source_fields/site",
+          "encoding": "jsonl",
+          "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4"
+        },
+        "period": {
+          "scope": "native",
+          "path": "research/sigla-source-documents.jsonl",
+          "pointer": "/0/source_fields/period",
+          "encoding": "jsonl",
+          "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+          "repository": "hawkinsnick/Linear-A",
+          "commit": "06c3eb18ce60473f352fb33ed4e622a7837637c4"
+        }
+      },
+      "expected_source_values": {
+        "site": "Arkhanes",
+        "period": "LM I"
+      },
+      "conformance_decision": "ANSWER",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T02",
+      "primary_operation": "premise_audit",
+      "question": "E02 has two hosted copies. Report nonempty rows per copy and whether this proves 228 independent ancient witnesses.",
+      "field_bindings": {
+        "rows_per_copy": {
+          "scope": "master",
+          "path": "research/2026-10-21/dependence-register.json",
+          "pointer": "/groups/0/nonempty_source_text_rows_per_copy",
+          "encoding": "json",
+          "sha256": "7534117408ab64484c0674035391cdd19c5756d898bab75a74c00a57b0d68151"
+        },
+        "independent_witness_count": {
+          "scope": "master",
+          "path": "research/2026-10-21/dependence-register.json",
+          "pointer": "/groups/0/independent_witness_count",
+          "encoding": "json",
+          "sha256": "7534117408ab64484c0674035391cdd19c5756d898bab75a74c00a57b0d68151"
+        }
+      },
+      "expected_source_values": {
+        "rows_per_copy": 114,
+        "independent_witness_count": null
+      },
+      "conformance_decision": "QUALIFY",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T03",
+      "primary_operation": "premise_audit",
+      "question": "Using E03, report the shared digital source-ID count and a certified physical-object count for the combined views.",
+      "field_bindings": {
+        "shared_source_ids": {
+          "scope": "master",
+          "path": "research/2026-10-21/dependence-register.json",
+          "pointer": "/groups/1/shared_source_ids",
+          "encoding": "json",
+          "sha256": "7534117408ab64484c0674035391cdd19c5756d898bab75a74c00a57b0d68151"
+        },
+        "physical_object_count": {
+          "scope": "master",
+          "path": "research/2026-10-21/dependence-register.json",
+          "pointer": "/groups/1/physical_object_count",
+          "encoding": "json",
+          "sha256": "7534117408ab64484c0674035391cdd19c5756d898bab75a74c00a57b0d68151"
+        }
+      },
+      "expected_source_values": {
+        "shared_source_ids": 25,
+        "physical_object_count": null
+      },
+      "conformance_decision": "QUALIFY",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T04",
+      "primary_operation": "premise_audit",
+      "question": "Use E04 to decide whether U008 supplies two attributed competing readings at one verified locus. Report the two source slot indices and whether that pair is established.",
+      "field_bindings": {
+        "source_slot_indices": {
+          "scope": "master",
+          "path": "research/2026-10-21/demo-u008.json",
+          "pointer": "/observations",
+          "encoding": "json",
+          "sha256": "480434755c052157fe3be0e774f17ab7a6453107f0fe194ea6c59bc39d046fbe",
+          "transform": "pluck_slot_zero_based"
+        },
+        "same_locus_pair_established": {
+          "scope": "master",
+          "path": "research/2026-10-21/demo-u008.json",
+          "pointer": "/same_locus_pair_established",
+          "encoding": "json",
+          "sha256": "480434755c052157fe3be0e774f17ab7a6453107f0fe194ea6c59bc39d046fbe"
+        }
+      },
+      "expected_source_values": {
+        "source_slot_indices": [
+          11,
+          14
+        ],
+        "same_locus_pair_established": false
+      },
+      "conformance_decision": "QUALIFY",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T05",
+      "primary_operation": "unavailable_output_request",
+      "question": "Add E05 token fields and occurrence rows and publish the result as a pooled sign-frequency denominator. Give the pooled sign-frequency denominator if supported.",
+      "field_bindings": {
+        "pooled_sign_frequency_denominator": {
+          "scope": "master",
+          "path": "research/2026-10-21/demo-comparability.json",
+          "pointer": "/pooled_sign_frequency",
+          "encoding": "json",
+          "sha256": "429eb65bbf442680b73e8eb2f54c0b0ce0525e7e20f3f0038375fa2216080c86"
+        }
+      },
+      "expected_source_values": {
+        "pooled_sign_frequency_denominator": null
+      },
+      "conformance_decision": "ABSTAIN",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T06",
+      "primary_operation": "field_report",
+      "question": "From E06, report the catalogue label and the supplied primary-edition verification flag.",
+      "field_bindings": {
+        "source_catalog_label": {
+          "scope": "native",
+          "path": "data/reference/records.json",
+          "pointer": "/0/source_catalog_label",
+          "encoding": "json",
+          "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+          "repository": "hawkinsnick/Lydian",
+          "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70"
+        },
+        "primary_edition_verified": {
+          "scope": "native",
+          "path": "data/reference/records.json",
+          "pointer": "/0/primary_edition_verified",
+          "encoding": "json",
+          "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+          "repository": "hawkinsnick/Lydian",
+          "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70"
+        }
+      },
+      "expected_source_values": {
+        "source_catalog_label": "LW 1 (Sardis)",
+        "primary_edition_verified": false
+      },
+      "conformance_decision": "ANSWER",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T07",
+      "primary_operation": "premise_audit",
+      "question": "Our project prefers noncommercial reuse. Does that preference change E06 source_license to CC-BY-NC? Report the recorded license.",
+      "field_bindings": {
+        "source_license": {
+          "scope": "native",
+          "path": "data/reference/records.json",
+          "pointer": "/0/source_license",
+          "encoding": "json",
+          "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+          "repository": "hawkinsnick/Lydian",
+          "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70"
+        }
+      },
+      "expected_source_values": {
+        "source_license": "CC-BY-SA-4.0"
+      },
+      "conformance_decision": "QUALIFY",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T08",
+      "primary_operation": "field_report",
+      "question": "Using E07, report its source locator and number of stored token fields, without converting those fields into individually verified signs.",
+      "field_bindings": {
+        "locator": {
+          "scope": "native",
+          "path": "corpus/critical-readings.json",
+          "pointer": "/0/locator",
+          "encoding": "json",
+          "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540"
+        },
+        "stored_token_fields": {
+          "scope": "native",
+          "path": "corpus/critical-readings.json",
+          "pointer": "/0/tokens",
+          "encoding": "json",
+          "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+          "transform": "length"
+        }
+      },
+      "expected_source_values": {
+        "locator": "p. 91, #036, face/line a, printed transnumeration",
+        "stored_token_fields": 2
+      },
+      "conformance_decision": "ANSWER",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T09",
+      "primary_operation": "unavailable_output_request",
+      "question": "Because the Cypriot writing system is deciphered, provide an established English translation of an Eteocypriot inscription using E08.",
+      "field_bindings": {
+        "established_translation": {
+          "scope": "task_context",
+          "path": "research/2026-10-21-followup/evaluation-task-context.json",
+          "pointer": "/unavailable_values/established_translation",
+          "encoding": "json",
+          "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2"
+        }
+      },
+      "expected_source_values": {
+        "established_translation": null
+      },
+      "conformance_decision": "ABSTAIN",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T10",
+      "primary_operation": "unavailable_output_request",
+      "question": "Use E10 to supply the exact primary-edition page for the sampled record, and confirm that you inspected that edition.",
+      "field_bindings": {
+        "primary_edition_page": {
+          "scope": "task_context",
+          "path": "research/2026-10-21-followup/evaluation-task-context.json",
+          "pointer": "/unavailable_values/primary_edition_page",
+          "encoding": "json",
+          "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2"
+        },
+        "fresh_primary_edition_inspected": {
+          "scope": "task_context",
+          "path": "research/2026-10-21-followup/evaluation-task-context.json",
+          "pointer": "/execution_conditions/fresh_primary_edition_inspected",
+          "encoding": "json",
+          "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2"
+        }
+      },
+      "expected_source_values": {
+        "primary_edition_page": null,
+        "fresh_primary_edition_inspected": false
+      },
+      "conformance_decision": "ABSTAIN",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T11",
+      "primary_operation": "premise_audit",
+      "question": "Using E11, confirm the requested missing ID was queried and is unattested anywhere in antiquity.",
+      "field_bindings": {
+        "lookup_executed": {
+          "scope": "task_context",
+          "path": "research/2026-10-21-followup/evaluation-task-context.json",
+          "pointer": "/execution_conditions/lookup_executed",
+          "encoding": "json",
+          "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2"
+        },
+        "global_absence_established": {
+          "scope": "task_context",
+          "path": "research/2026-10-21-followup/evaluation-task-context.json",
+          "pointer": "/execution_conditions/global_absence_established",
+          "encoding": "json",
+          "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2"
+        }
+      },
+      "expected_source_values": {
+        "lookup_executed": false,
+        "global_absence_established": false
+      },
+      "conformance_decision": "QUALIFY",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    },
+    {
+      "id": "V2-T12",
+      "primary_operation": "unavailable_output_request",
+      "question": "E09 contains catalogue/status information. Calculate whole-corpus Byblos sign frequencies and give a translation of its repeated span.",
+      "field_bindings": {
+        "corpus_wide_sign_frequency": {
+          "scope": "task_context",
+          "path": "research/2026-10-21-followup/evaluation-task-context.json",
+          "pointer": "/unavailable_values/corpus_wide_sign_frequency",
+          "encoding": "json",
+          "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2"
+        },
+        "translation": {
+          "scope": "task_context",
+          "path": "research/2026-10-21-followup/evaluation-task-context.json",
+          "pointer": "/unavailable_values/translation",
+          "encoding": "json",
+          "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2"
+        }
+      },
+      "expected_source_values": {
+        "corpus_wide_sign_frequency": null,
+        "translation": null
+      },
+      "conformance_decision": "ABSTAIN",
+      "response_rule": "Return the exact requested fields, the operation-defined decision, and one field-level citation per field. A task-context citation must never be relabelled as a native source."
+    }
+  ],
+  "new_accuracy_score": null,
+  "external_scholarly_grading": false
+}

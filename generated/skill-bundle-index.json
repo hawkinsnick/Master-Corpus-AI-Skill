@@ -13,8 +13,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "b53bad9689570604be82c047cbc1932f72c17621225effd9e2e4f5edd5975eb3",
-      "bytes": 3188
+      "sha256": "4ae5b5756fd5a0b2658f2f7702f6be8e2f4f1b8d6018eaa63fe1a72f72fbbd39",
+      "bytes": 3452
     },
     {
       "path": ".gitignore",
@@ -72,6 +72,11 @@
       "bytes": 497
     },
     {
+      "path": "OPEN-ITEMS.md",
+      "sha256": "11d71f19cba15d5ca154ba239e9ceebad4eff0f5020d1a202c649b02b577c74f",
+      "bytes": 5974
+    },
+    {
       "path": "PHD-RESEARCH-EXAMPLES.md",
       "sha256": "7772e245475151199986a1ffe2b03c837c7cd7bdd7568c277cce8d9727d0e92e",
       "bytes": 191
@@ -88,8 +93,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "d31aec34cc4cd450578416475decd3705baa6ef9bf1bd86ae0aa65176de720ef",
-      "bytes": 2074
+      "sha256": "2dcbeee77c403ac55671397073a13cdef1c9416e2e51b726e3b79ab2961b9cf4",
+      "bytes": 2247
     },
     {
       "path": "RESEARCH-EXAMPLES.md",
@@ -98,18 +103,18 @@
     },
     {
       "path": "RESEARCH-RESULTS.md",
-      "sha256": "81e2c294071eab6b6683f71c6e1bd2262b2954a6815280fa017d6c447318f3e2",
-      "bytes": 7653
+      "sha256": "a57bd737d19b6c52d3ab3219e670fc73e5497ab5c6dd623f2ecf93ee267d67a3",
+      "bytes": 7826
     },
     {
       "path": "SKILL.md",
-      "sha256": "a9810f59b5245501a9008f5aac58b43f5e4c058a9a1d389b41250657cd43731f",
-      "bytes": 9007
+      "sha256": "9f080832b7bc85d0d10d90284ca4e3ef122720d6ccb06770a4374934ca8a3318",
+      "bytes": 9754
     },
     {
       "path": "SOURCE-CHECKS.md",
-      "sha256": "9623663a63aaa8fbb65034afa06ec59d70f272e912cac2dfcab63241c734572b",
-      "bytes": 5339
+      "sha256": "f0e381f1ac552c2407dda12126f2d01f62419cba718f5c68c2b564b077807d2f",
+      "bytes": 5512
     },
     {
       "path": "START-HERE.md",
@@ -180,6 +185,31 @@
       "path": "registry/member-state.json",
       "sha256": "711d2318f0653d45da2c04f9a8bfd1b2b9bfaba4751ccddc7ff397b78492b5c2",
       "bytes": 13841
+    },
+    {
+      "path": "research/2026-10-21-followup/dependence-scan.json",
+      "sha256": "7505b4d53ce1e02caccf36687bc31ff14577d210c28340cb1db6f56c7589ae88",
+      "bytes": 747178
+    },
+    {
+      "path": "research/2026-10-21-followup/evaluation-task-context.json",
+      "sha256": "c2ea20250788ba82a42e5b839d369706dfa0b27cf699dd1b445840d0f9fa63e2",
+      "bytes": 641
+    },
+    {
+      "path": "research/2026-10-21-followup/evaluation-v2.json",
+      "sha256": "9e2763556f1243b7fdfd4da59e747325c688fecbdb2916b464b2aa9f48081461",
+      "bytes": 16098
+    },
+    {
+      "path": "research/2026-10-21-followup/external-evaluation-protocol.json",
+      "sha256": "7208b5cbcd1db2f1b24ef5c4e1229136908a52817fa7ee4b977df2c9bbc40057",
+      "bytes": 3512
+    },
+    {
+      "path": "research/2026-10-21-followup/printed-source-recheck.json",
+      "sha256": "9cd43d2e01ede7a567bbdd6332c691cad76a432d8be1f38d8ddbe8f57ece3009",
+      "bytes": 3403
     },
     {
       "path": "research/2026-10-21/ai-evidence-packet.json",
@@ -268,8 +298,13 @@
     },
     {
       "path": "scripts/build_starter.py",
-      "sha256": "a3dced250ba459dbd5b981f4747f41bf61741bcd633751dc0b2f6418fdaba665",
-      "bytes": 3099
+      "sha256": "ab4c0770ee821d972d33446a6909ff7c68713802c27bad77025dcee73118853a",
+      "bytes": 3115
+    },
+    {
+      "path": "scripts/check_printed_source_recheck.py",
+      "sha256": "443eec25e8dda1edca6e1260e9c683494e7720e3bd6a809e489a3aa09be469f7",
+      "bytes": 2069
     },
     {
       "path": "scripts/common.py",
@@ -297,6 +332,11 @@
       "bytes": 11700
     },
     {
+      "path": "scripts/scan_source_dependence.py",
+      "sha256": "3fe6777043bf7cf4cfab2043c1a181b9302a2f7dfacf077265521e1aca940203",
+      "bytes": 5993
+    },
+    {
       "path": "scripts/score_research_pilot.py",
       "sha256": "1e7a691992b6e0c1d647de728882ef5fca72bf62b620c6972e91a9c3fe2f90f0",
       "bytes": 4407
@@ -312,9 +352,19 @@
       "bytes": 5461
     },
     {
+      "path": "scripts/validate_evaluation_v2.py",
+      "sha256": "8e11ebdc9c792685bdeef9d25afaa1e5c5ee920b2112326fc0b210f4499c2554",
+      "bytes": 3473
+    },
+    {
       "path": "tests/adversarial-cases.json",
       "sha256": "33b458f7cb372c8d00d5576ee111894424f77cbd59b58c8aed6837a6b70df280",
       "bytes": 7514
+    },
+    {
+      "path": "tests/test_followup_controls.py",
+      "sha256": "1576e943e69a0aca30fd6f1ab75111409089d7a249c6b3143b82a1774e7e379d",
+      "bytes": 2223
     },
     {
       "path": "tests/test_provider_source_check.py",
@@ -349,7 +399,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "1f89b5b23b5fdd20bad566f4eab7c8e2f9166fd7f00408e42b8edeb4bf590f15",
-    "bytes": 100389
+    "sha256": "ee39f724e1fe1118e4e0aaefa44ca22c5e85329ac0cd20a44e2e98e37a753b65",
+    "bytes": 101136
   }
 }

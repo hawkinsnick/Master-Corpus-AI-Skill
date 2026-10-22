@@ -1,0 +1,36 @@
+{
+  "format": "external-source-qualified-evaluation-protocol-v1",
+  "status": "AWAITING_EXTERNAL_PARTICIPANTS_AND_UNEXPOSED_CASES",
+  "reviews_received": 0,
+  "external_grade_or_expert_acceptance_granted": false,
+  "claim_to_test": "Can a corpus-assisted workflow produce a more accurate, inspectable research packet than direct source use with the same permitted evidence?",
+  "roles": {
+    "coordinator": "An external coordinator selects cases and records prior exposure; do not reuse the public development fixtures as an untouched test set.",
+    "research_participant": "A researcher completes assigned tasks under corpus-assisted and direct-source conditions, using equivalent permitted evidence and declared tool access.",
+    "source_qualified_grader": "A separately attributable specialist evaluates anonymized outputs against sources they actually inspected; record expertise, conflicts and missing access. Where feasible, blind the grader to workflow condition."
+  },
+  "case_selection": [
+    "Use source-qualified cases not exposed to the responding model or development team during hypothesis/answer construction; disclose any unavoidable prior exposure.",
+    "Include exact source/locus tracing, real editorial disagreement where both sources exist, uncertain or missing evidence, duplicate source views and unsupported-inference requests.",
+    "Record inclusion/exclusion rules and source permissions before tasks begin; do not manufacture a same-locus pair to satisfy a category.",
+    "Freeze authorized evidence, task wording and scoring rules before responses. Do not publish answer keys until the evaluation's declared release point."
+  ],
+  "workflow_comparison": {
+    "design": "Use counterbalanced task assignment so each participant does not solve the same case twice with prior-answer exposure; match task difficulty and evidence access as closely as feasible.",
+    "direct_source_condition": "Declared source material and ordinary reading/search tools; record what assistance was allowed.",
+    "corpus_assisted_condition": "The same source entitlement plus the declared corpus/AI tools and pinned versions.",
+    "record": ["participant expertise", "actual model/version and tool access", "task/evidence hashes", "time start/stop and interruptions", "sources consulted", "raw output", "corrections", "failure or abstention"],
+    "limitations": "No sample size, human timing result or superiority claim is established by preparing this protocol. Determine sample size and uncertainty analysis before collecting outcomes."
+  },
+  "grading_dimensions": [
+    "Source/edition and exact-locus accuracy",
+    "Preservation of uncertainty, restoration and representation layers",
+    "Correct dependence and counting units",
+    "Unsupported substantive claims, reviewed against inspected sources rather than keyword counts",
+    "Appropriate abstention and useful next evidence step",
+    "Reproducibility and researcher effort"
+  ],
+  "per_case_decisions": ["SUPPORTED", "NOT_SUPPORTED", "INCONCLUSIVE"],
+  "submission_requirements": ["reviewer identity and relevant expertise", "independence/conflict declaration", "sources actually inspected and exact loci", "case-specific rationale", "corrections and uncertainty", "actual workflow timing where measured"],
+  "acceptance_rule": "A completed form is a submission, not verified expertise or blanket acceptance. Verify identity, source access and case-specific judgments separately; retain disagreement and inconclusive results."
+}

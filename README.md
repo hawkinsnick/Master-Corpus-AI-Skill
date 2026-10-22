@@ -1,5 +1,7 @@
 # Master Corpus AI Skill
 
+[Open-item fixes and remaining external decisions](OPEN-ITEMS.md) include a printed-source recheck, the full member-pair artifact scan and corrected evaluation provenance.
+
 **Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Research examples for all 18 corpora](RESEARCH-EXAMPLES.md) · [Cross-corpus walkthroughs](CROSS-CORPUS-EXAMPLES.md).
 
 A dedicated home for the master research skill coordinating 18 ancient-script

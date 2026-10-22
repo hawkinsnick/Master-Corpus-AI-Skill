@@ -1,5 +1,7 @@
 # Record-level source checks
 
+[Open-item fixes and remaining external decisions](OPEN-ITEMS.md) include a printed-source recheck, the full member-pair artifact scan and corrected evaluation provenance.
+
 This bounded diagnostic independently replayed 54 source pointers, three retrievable view rows per registered project. All matched their committed native payload. The sample includes project registers and documentary views; it is not a sample of 54 authenticated inscriptions. Candidate metadata are field extracts, not verified citations.
 
 Full methods, original field pointers, hashes and follow-up requirements: [source-trace.json](research/2026-10-21/source-trace.json). Exact [native revisions](research/2026-10-21/native-revisions.json) are frozen.

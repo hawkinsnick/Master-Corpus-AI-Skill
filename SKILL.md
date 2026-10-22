@@ -154,3 +154,15 @@ verify returned bytes and pointers, not primary-edition correctness. Distinguish
 candidate citation fields, actual source consultation, expert review and model
 evaluation. Check the evaluation's status and rubric before reporting a score.
 Do not promote a development pilot to independently validated academic accuracy.
+
+## Apply research follow-up controls
+
+Read `OPEN-ITEMS.md` for the later printed-source check, expanded artifact
+dependence scan and evaluation fixes. Distinguish shared metadata and quarantined
+bytes from admitted inscription evidence. No matching artifact does not establish
+independence. For evaluation, preserve field-level origin: native assertion,
+master calculation or declared task condition. A task's execution flag must not
+be attributed to a native source profile. Apply an explicit operation-based
+decision rubric and keep historical pilot scores unchanged. New conformance
+fixtures and external review protocols grant no new model accuracy or scholarly
+acceptance. Report actual sources inspected and actual external decisions only.
