@@ -17,3 +17,5 @@ python corpus-factory/validate_academic_defect_register.py --checkouts /path/to/
 ```
 
 The published receipt resolves 70 observations from 38 pinned files. This checks evidence bindings, not ancient-reading truth. For the prior methodological argument read `references/academic-audit-2026-10-20.md`; for completed source work read `OPEN-ITEMS.md` and `research/2026-10-22/README.md`.
+
+For subsequent scoped closures and implemented controls, read [academic remediation](academic-remediation.md). The 45-open count above describes the frozen audit; the native current status records two scoped closures and 43 remaining open items.

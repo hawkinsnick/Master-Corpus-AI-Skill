@@ -13,8 +13,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "7648c8324c2c37a3e1c47a31fbad6a564f379c1695f87455f71e6cff78f565cb",
-      "bytes": 3534
+      "sha256": "df00bb8dac9e1c253087ae96e5f1b230a6ec37a110d2da9868098194f8bb185e",
+      "bytes": 3682
     },
     {
       "path": ".gitignore",
@@ -93,8 +93,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "6b5dfc57b7da9209156af395c7eb5f4a649aa4e850fd84fd94cf6534583d032e",
-      "bytes": 2666
+      "sha256": "62f9d7c72eb703605bcbb20b9732ab0c55eff86212eee0bd91828f2bd8f32180",
+      "bytes": 2886
     },
     {
       "path": "RESEARCH-EXAMPLES.md",
@@ -108,8 +108,8 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "4a94981d08402b1f7b18d07e98df81dbb51f05692afed8c8567f0ff39d7c4648",
-      "bytes": 10303
+      "sha256": "11551eaa789261842bb8216ad059333dffe9dac30362fded0432c0658b607739",
+      "bytes": 11246
     },
     {
       "path": "SOURCE-CHECKS.md",
@@ -163,8 +163,13 @@
     },
     {
       "path": "references/academic-defect-register-2026-10-23.md",
-      "sha256": "38911be411599591ac0231257c5d37dbd4a62d9b7888bccc2fc21c5574b6445a",
-      "bytes": 2505
+      "sha256": "9fdd9d925fb8ba44126ff4b678e54179e44efc468e758f0b766f6e1c4ca9c46c",
+      "bytes": 2752
+    },
+    {
+      "path": "references/academic-remediation.md",
+      "sha256": "f498316d002bf065d081f058fa249c6e8c9061de20ed4dd5c301bdde1676aef3",
+      "bytes": 2610
     },
     {
       "path": "references/comparability-matrix.md",
@@ -322,6 +327,16 @@
       "bytes": 1013
     },
     {
+      "path": "research/remediation/cypriot-source-union.json",
+      "sha256": "ec92658d3a4ad52634c95f47080375ace1b399f28c60ac2a7e9026e1cef916e8",
+      "bytes": 332953
+    },
+    {
+      "path": "research/remediation/source-union-inputs.json",
+      "sha256": "8a427b55911fb8438e62dfcad9de21bca53ab6d3b17e93992e9b06934e99b801",
+      "bytes": 854
+    },
+    {
       "path": "scripts/build_starter.py",
       "sha256": "ab4c0770ee821d972d33446a6909ff7c68713802c27bad77025dcee73118853a",
       "bytes": 3115
@@ -340,6 +355,11 @@
       "path": "scripts/common.py",
       "sha256": "0d3e2f85c3c69de1ce448b77836c0a7eed558e2ca1ad764907aca4ac820845f4",
       "bytes": 3057
+    },
+    {
+      "path": "scripts/prepare_source_union.py",
+      "sha256": "46419a4af2f56818b234640c10fc37354674d38cb5fdb795f8d7d2a6b9783a71",
+      "bytes": 4762
     },
     {
       "path": "scripts/provider_source_check.py",
@@ -422,6 +442,11 @@
       "bytes": 1821
     },
     {
+      "path": "tests/test_source_union.py",
+      "sha256": "c0883db10a4ba9703be017aabffce7f44c778e0f4291bba73fad55c7f68c53fa",
+      "bytes": 4136
+    },
+    {
       "path": "tests/test_standalone.py",
       "sha256": "5e67cd3e40dd77c18e904da32e9ed15b4e8acd9aa95889341e3e21c249548603",
       "bytes": 4814
@@ -434,7 +459,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "5885607d6b31dbf1a6b63f32a3f116d5efa8da1ce91ef6e5e17e5e885eca86e8",
-    "bytes": 101685
+    "sha256": "d09ed0575d48c8bf885f356720938461be517994b8d21843d258b42b54b29fc4",
+    "bytes": 102628
   }
 }

@@ -1,0 +1,22 @@
+{
+  "format": "registered-source-union-inputs-v1",
+  "source_family": "IG_XV_1_FROZEN_DIGITAL_EDITION",
+  "unit": "digital_edition_entry",
+  "inputs": [
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+      "path": "exports/corpus.json",
+      "sha256": "c58a94189ef0f6ec588f1506d6b63d9bf984fc4a24078612e207d8431b3b13dd",
+      "records": 592
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+      "path": "exports/corpus.json",
+      "sha256": "34334f27193977029219d92779353f6fffaf069bc7917148561b89f1822c7495",
+      "records": 25
+    }
+  ],
+  "basis": "Exact same-edition source IDs verified by the frozen dependence study; these pins are not replaceable merely because a newer view has the same IDs."
+}

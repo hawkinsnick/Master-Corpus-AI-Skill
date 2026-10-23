@@ -1,5 +1,7 @@
 # Master Corpus AI Skill
 
+[Implemented academic remediation](references/academic-remediation.md): rejected Linear A routes, explicit legacy-case dispositions, and a pinned Cypriot source-entry union that prevents additive duplicate-view counts.
+
 [Open-item fixes and remaining external decisions](OPEN-ITEMS.md) include a printed-source recheck, the full member-pair artifact scan and corrected evaluation provenance.
 
 **Researcher guides:** [Step-by-step user guide](USER-GUIDE.md) · [Research examples for all 18 corpora](RESEARCH-EXAMPLES.md) · [Cross-corpus walkthroughs](CROSS-CORPUS-EXAMPLES.md).

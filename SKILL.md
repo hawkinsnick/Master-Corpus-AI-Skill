@@ -170,3 +170,9 @@ acceptance. Report actual sources inspected and actual external decisions only.
 ## Use the itemized academic register
 
 Read `references/academic-defect-register-2026-10-23.md` for the current itemized backlog and linked pinned evidence. Distinguish confirmed mapping defects, unresolved source conflicts, missing scholarly evidence, methodological risks and rights constraints. Report open and bounded-resolved counts separately. Do not turn closure-package counts into false-reading counts or software P0 counts. Check later native evidence before changing an item status; preserve original pilot scores and historical audits.
+
+## Apply implemented academic remediation
+
+Read `references/academic-remediation.md` and later native status before repeating a frozen audit's open count. In Linear A source-document dossiers, follow `edition-route-decisions`; rejected target URLs cannot be used as confirmed entry locators. Follow `case-dispositions` for legacy cases and never admit queue strings as source-qualified alternative pairs. The native closure of two rejection/disposition tasks does not establish corrected replacement locators or scholarly readings.
+
+For the registered Cypriot same-edition source-entry union use `scripts/prepare_source_union.py` with its frozen manifest. Preserve all view-specific assertions while counting source-entry groups once. The tool refuses unsupported corpus pairings and unit promotion. Do not generalize its 592 digital-edition groups to physical objects, language frequencies, independent witnesses or collection completeness.
