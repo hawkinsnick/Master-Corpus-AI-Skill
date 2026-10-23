@@ -108,8 +108,8 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "9f080832b7bc85d0d10d90284ca4e3ef122720d6ccb06770a4374934ca8a3318",
-      "bytes": 9754
+      "sha256": "4a94981d08402b1f7b18d07e98df81dbb51f05692afed8c8567f0ff39d7c4648",
+      "bytes": 10303
     },
     {
       "path": "SOURCE-CHECKS.md",
@@ -160,6 +160,11 @@
       "path": "references/academic-audit-2026-10-20.md",
       "sha256": "775fc2522560f1b9ea740b51e68f6db31763ec46dd8f9c8edd4373b874dc6ed8",
       "bytes": 2210
+    },
+    {
+      "path": "references/academic-defect-register-2026-10-23.md",
+      "sha256": "38911be411599591ac0231257c5d37dbd4a62d9b7888bccc2fc21c5574b6445a",
+      "bytes": 2505
     },
     {
       "path": "references/comparability-matrix.md",
@@ -429,7 +434,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "23836241b192d2d28d8accfb2a0679451e7727004c24463fda18d1ddf7d5a681",
-    "bytes": 101136
+    "sha256": "e4f55afcff8f57225623a1e34fc332e38a8d9c3d279ddffa316e13cb630a7539",
+    "bytes": 101685
   }
 }

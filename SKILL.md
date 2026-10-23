@@ -166,3 +166,7 @@ be attributed to a native source profile. Apply an explicit operation-based
 decision rubric and keep historical pilot scores unchanged. New conformance
 fixtures and external review protocols grant no new model accuracy or scholarly
 acceptance. Report actual sources inspected and actual external decisions only.
+
+## Use the itemized academic register
+
+Read `references/academic-defect-register-2026-10-23.md` for the current itemized backlog and linked pinned evidence. Distinguish confirmed mapping defects, unresolved source conflicts, missing scholarly evidence, methodological risks and rights constraints. Report open and bounded-resolved counts separately. Do not turn closure-package counts into false-reading counts or software P0 counts. Check later native evidence before changing an item status; preserve original pilot scores and historical audits.
