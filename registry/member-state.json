@@ -7,18 +7,17 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "db46818b1491830091e63d9fa566b86400dc0afc",
-      "accepted_commit": "60e36cc3da5cc882ed5f9fad4acda4edb4fc7c7f",
-      "status": "VALIDATION_FAILED",
+      "observed_commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+      "accepted_commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+      "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
-      "bundle_sha256": "6c8e15e09a379a699b55b642cdcf8b23c9d01c90927dec43c7644c5e68df41b1",
-      "bundle_source_commit": "d355bfd4cc86eead4d591748da4237b8bdb6ebcd",
-      "indexed_artifact_entries_checked": 233,
-      "last_error": "unbound or changed skill input: review/source-study-packet.json"
+      "skill_sha256": "e35353d7db71fcbae3642c6aa2a60f5fcf1473eddcc3919e6654252b9957058b",
+      "bundle_sha256": "f581dd5572d1972e14de104617b0710a97f998c5cdcae86b013cf8284fb0e275",
+      "bundle_source_commit": "db46818b1491830091e63d9fa566b86400dc0afc",
+      "indexed_artifact_entries_checked": 238
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",

@@ -63,8 +63,8 @@
     },
     {
       "path": "MEMBER-STATUS.md",
-      "sha256": "24effc0af591d57e9ed08c23f5289675356d464b29b99b3e5e9f5fb32dfc367c",
-      "bytes": 5787
+      "sha256": "c6317d47ca3167d533a1710f5ff926d41bc0630536acd72b2103895218ee5756",
+      "bytes": 5779
     },
     {
       "path": "NOTICE",
@@ -148,7 +148,7 @@
     },
     {
       "path": "migration/member-checkpoints.json",
-      "sha256": "e6e36c59bcfb03fe30f89a51736c5e7c517629d9dfa9fa350716df8f2c9126cc",
+      "sha256": "0898a1ac350a96b0a7950de0f81b272c970d9fc07d6b26f82d46e3fa85d9b8f2",
       "bytes": 2371
     },
     {
@@ -193,8 +193,8 @@
     },
     {
       "path": "registry/member-state.json",
-      "sha256": "c814e9768d0fe2f86cb4731ebfdc3b5dd3d1dc977f012d934f6628bf0d58b3e5",
-      "bytes": 13936
+      "sha256": "9261bd41476910b727ba1e78ca22827523064bcdec6dcd20d2dc772ba56cb3e7",
+      "bytes": 13841
     },
     {
       "path": "research/2026-10-21-followup/dependence-scan.json",
@@ -459,7 +459,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "6cb88feecb509a83486e5610b42d8968db0fed3c1356bb86d163b0d5e27b3253",
-    "bytes": 102731
+    "sha256": "c5c399f2dc69fb7a6536d3fc2f7d687ba3b58d55412503b40816fe0afccc691a",
+    "bytes": 102628
   }
 }
