@@ -16,3 +16,14 @@ The [input manifest](../research/remediation/source-union-inputs.json) fixes com
 This controls the known overlap in this assembled source-entry dataset. It does not close ACD-021 for every possible downstream analysis or certify collection-wide independence, Greek/Eteocypriot language classification, comparable sign units or unique ancient objects. Milyan shared-cache and other semantic/partial-overlap questions remain governed by their own frozen dependence evidence; this tool refuses those inputs.
 
 No new independent model accuracy, external review, primary-edition access, phonetic equivalence or scholarly acceptance is claimed. Historical pilot scores and frozen audits remain unchanged.
+
+## Published implementation and verification
+
+| Repository | Published change | Verification |
+|---|---|---|
+| Linear-A | `c5adfae5e745db4b34083a7d535f50f5d5bd9f1a`; draft packet bindings refreshed at `db46818b1491830091e63d9fa566b86400dc0afc` | All 21 hosted workflows passed at the packet-refresh revision, including actual route/case retrieval and AI skill checks |
+| Cypriot-syllabic-Greek | `a0a88f192c2024cb67401736fa643c1794051705` | All 7 hosted workflows passed; individual guide, skill and source bundle updated |
+| Eteocypriot | `8b3b8b518e16406f8cc56d93ee9b756ada7f6ebc` | All 8 hosted workflows passed; individual guide, skill and source bundle updated |
+| Master-Corpus-AI-Skill | `bbb7d14cb551334e81547149548c471374020472` | Hosted standalone/native/frozen-study validation passed; 50 local tests passed, including unit/overlap rejection and source-union assembly tests |
+
+A source-profile update invalidated two unreviewed packet fingerprints. Their draft forms were checked to be unsubmitted before regeneration. Both packet replay workflows now pass; no real specialist response was replaced. Individual source-bundle publication is separate from master acceptance; inspect `registry/member-state.json` for actual accepted revisions, especially while updates are in flight. An old failed refresh must not be reported as a failed ancient reading or a reason to promote an unvalidated revision.
