@@ -52,3 +52,7 @@ python scripts/provider_source_check.py --checkouts /path/to/frozen-corpora
 ```
 
 A deliberately fresh acquisition uses `--live`; adding `--write` records new receipts. A changed provider source or disagreement must be investigated rather than silently replacing the frozen evidence. Raw source XML is not republished in this master.
+
+## Fixed source batch and Tiryns review packet
+
+The [22 October completion record](research/2026-10-22/README.md) assigns outcomes to all six existing comparison cases and twelve assertions. Five primary-edition sides remain inaccessible; the internal source discrepancy remains unresolved. The [Tiryns packet](research/2026-10-22/TIRYNS-REVIEW-PACKET.md) is ready for independent review; no review has been received.

@@ -42,3 +42,7 @@ Source provenance and exact extraction hashes: [migration/origin.json](migration
 The [cutover plan](migration/CUTOVER.md) preserves old entry points until the
 new destination is published and validated. Original project licensing and
 all applicable upstream conditions remain intact.
+
+## Fixed source batch and Tiryns review packet
+
+The [22 October completion record](research/2026-10-22/README.md) assigns outcomes to all six existing comparison cases and twelve assertions. Five primary-edition sides remain inaccessible; the internal source discrepancy remains unresolved. The [Tiryns packet](research/2026-10-22/TIRYNS-REVIEW-PACKET.md) is ready for independent review; no review has been received.

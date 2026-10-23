@@ -1,0 +1,285 @@
+{
+  "format": "fixed-source-verification-batch-v1",
+  "date": "2026-10-22",
+  "status": "COMPLETE_WITH_UNRESOLVED_SOURCE_ACCESS",
+  "selection": "Exactly all six cases in the existing reconciliation register; known, previously inspected cases, not random sampling or a blinded discovery experiment. Scope was fixed before this recheck.",
+  "completion_rule": "Every one of six cases and twelve attributed assertions receives an explicit outcome. Inaccessible sources remain unresolved; completion does not mean all readings are verified.",
+  "native_repository": "hawkinsnick/Cypro-Minoan",
+  "native_commit": "185ef0a44222281fbde53589185f8b647ad85313",
+  "native_path": "research/source-reconciliation.json",
+  "native_sha256": "857d6bcb7232073fbbf4dfddf07b9c5b4a3329b388fe467a9e1e08d6a5903e4e",
+  "prior_inspection": "research/source-collation-2026-10-15.json in the same native checkpoint; findings replicated, no new correction discovered.",
+  "publication": {
+    "citation": "Miguel Filipe Grandão Valério (2016), Investigating the Signs and Sounds of Cypro-Minoan, Universitat de Barcelona.",
+    "url": "https://diposit.ub.edu/server/api/core/bitstreams/1419cfea-e25f-44dd-9a8c-74e9836ae05e/content",
+    "http_status": 200,
+    "bytes": 16322562,
+    "sha256": "747418cbc4d81b2c2198c5f4eae9ef51028a86a4aee5413d12315659b7099e57",
+    "page_count": 697,
+    "printed_to_pdf_offset": 6,
+    "inspection": "Authoring assistant visually inspected eight locally rendered pages; not external specialist review.",
+    "page_renders": [
+      {
+        "one_based_pdf_page": 463,
+        "printed_page": 457,
+        "sha256": "19e3ca57e50865398b5a17ca6ee28f61f9caf892fa13e5538d65313a275dc03c"
+      },
+      {
+        "one_based_pdf_page": 464,
+        "printed_page": 458,
+        "sha256": "fd337e8fbddbce3dfbc2f0ff0c630990d7358714d5accdfac8468b48b6ded0ef"
+      },
+      {
+        "one_based_pdf_page": 533,
+        "printed_page": 527,
+        "sha256": "74a49801dbf55c67237b482eefd6a090b79a51a6f34ecde68863cc20ddba1791"
+      },
+      {
+        "one_based_pdf_page": 534,
+        "printed_page": 528,
+        "sha256": "de40be640d07099f03f848e73ddc341a3cfbe736ada91b334ce3c8de94936c28"
+      },
+      {
+        "one_based_pdf_page": 537,
+        "printed_page": 531,
+        "sha256": "50c081e58176a993928b89d25b7ee2ea742aaba3630ea0af28be18485829cec4"
+      },
+      {
+        "one_based_pdf_page": 538,
+        "printed_page": 532,
+        "sha256": "d9b145941eb69c42899c5c28fb9ff61a05a04bdd286ddf0e511b842b99254c88"
+      },
+      {
+        "one_based_pdf_page": 539,
+        "printed_page": 533,
+        "sha256": "c99b8664de640ea2202834f2a4f8137ebc74850947a0fc6cd7995dcde06cdce9"
+      },
+      {
+        "one_based_pdf_page": 540,
+        "printed_page": 534,
+        "sha256": "49c7ebf0763f5b67018ae95778027976a17283c4ce83f6cfe08c1914e5942df0"
+      }
+    ],
+    "render_recipe": "PyMuPDF page.get_pixmap(matrix=fitz.Matrix(1.3,1.3)), PNG; rendering-version differences may change PNG hashes."
+  },
+  "inaccessible_source": {
+    "citation": "Jean-Pierre Olivier, with Frieda Vandenabeele (2007), Édition holistique des textes chypro-minoens, Fabrizio Serra.",
+    "needed_printed_pages": [
+      76,
+      77,
+      496
+    ],
+    "paperback_isbn": "9788862270311",
+    "hardback_isbn": "9788862270304",
+    "publisher_catalogue": "https://www.libraweb.net/index.php?chiave=2291&dettagliononpdf=1&h=436&name=Olivier.jpg&valore=sku&w=300",
+    "check": "Publisher catalogue and bounded title/ISBN web search produced bibliographic routes, not the required primary pages. No primary page acquired.",
+    "next_action": "Consult a lawfully borrowed/purchased copy or authorized page access; record each locus and uncertainty before upgrading direct inspection."
+  },
+  "cases": [
+    {
+      "comparison_id": "CMOCC-0026-VALERIO2016-source-sequence-2-comparison",
+      "native_pointer": "/comparisons/0",
+      "record_id": "CMOC-0026",
+      "zone_id": "source-sequence",
+      "position": 2,
+      "assertions": [
+        {
+          "source_id": "olivier2007",
+          "value": "75",
+          "locator": "HoChyMin 76 ; as reported by Valério 2016",
+          "inspection": "REPORTED_BY_DEPENDENT_SOURCE_NOT_DIRECTLY_INSPECTED",
+          "outcome": "INACCESSIBLE_PRIMARY",
+          "direct_source_inspected": false
+        },
+        {
+          "source_id": "valerio2016thesis",
+          "value": "73",
+          "locator": "printed p. 457 (PDF 463), ##026",
+          "inspection": "DIRECT_SECONDARY_PDF",
+          "outcome": "VERIFIED_ATTRIBUTION",
+          "direct_source_inspected": true
+        }
+      ],
+      "one_based_pdf_pages_inspected": [
+        463
+      ],
+      "case_outcome": "INACCESSIBLE_PRIMARY",
+      "reading_adopted": false,
+      "uncertainty_preserved": true
+    },
+    {
+      "comparison_id": "CMOCC-0026-VALERIO2016-source-sequence-5-comparison",
+      "native_pointer": "/comparisons/1",
+      "record_id": "CMOC-0026",
+      "zone_id": "source-sequence",
+      "position": 5,
+      "assertions": [
+        {
+          "source_id": "olivier2007",
+          "value": "75",
+          "locator": "HoChyMin 76 ; as reported by Valério 2016",
+          "inspection": "REPORTED_BY_DEPENDENT_SOURCE_NOT_DIRECTLY_INSPECTED",
+          "outcome": "INACCESSIBLE_PRIMARY",
+          "direct_source_inspected": false
+        },
+        {
+          "source_id": "valerio2016thesis",
+          "value": "73",
+          "locator": "printed p. 457 (PDF 463), ##026",
+          "inspection": "DIRECT_SECONDARY_PDF",
+          "outcome": "VERIFIED_ATTRIBUTION",
+          "direct_source_inspected": true
+        }
+      ],
+      "one_based_pdf_pages_inspected": [
+        463
+      ],
+      "case_outcome": "INACCESSIBLE_PRIMARY",
+      "reading_adopted": false,
+      "uncertainty_preserved": true
+    },
+    {
+      "comparison_id": "CMOCC-0027-VALERIO2016-source-first-sequence-3-comparison",
+      "native_pointer": "/comparisons/2",
+      "record_id": "CMOC-0027",
+      "zone_id": "source-first-sequence",
+      "position": 3,
+      "assertions": [
+        {
+          "source_id": "olivier2007",
+          "value": "08",
+          "locator": "HoChyMin 77 ; as reported by Valério 2016",
+          "inspection": "REPORTED_BY_DEPENDENT_SOURCE_NOT_DIRECTLY_INSPECTED",
+          "outcome": "INACCESSIBLE_PRIMARY",
+          "direct_source_inspected": false
+        },
+        {
+          "source_id": "valerio2016thesis",
+          "value": "13",
+          "locator": "printed p. 457 (PDF 463), ##027; discussion continues printed p. 458 / PDF 464",
+          "inspection": "DIRECT_SECONDARY_PDF",
+          "outcome": "VERIFIED_ATTRIBUTION",
+          "direct_source_inspected": true
+        }
+      ],
+      "one_based_pdf_pages_inspected": [
+        463,
+        464
+      ],
+      "case_outcome": "INACCESSIBLE_PRIMARY",
+      "reading_adopted": false,
+      "uncertainty_preserved": true
+    },
+    {
+      "comparison_id": "CM209-top-comparison",
+      "native_pointer": "/comparisons/3",
+      "record_id": "CMOC-0209",
+      "zone_id": "lat-sup-first-group",
+      "position": 3,
+      "assertions": [
+        {
+          "source_id": "olivier2007",
+          "value": "13",
+          "locator": "HoChyMin 496; as reported by Valério 2016, printed pp. 527, 531 (PDF 533, 537)",
+          "inspection": "REPORTED_BY_DEPENDENT_SOURCE_NOT_DIRECTLY_INSPECTED",
+          "outcome": "INACCESSIBLE_PRIMARY",
+          "direct_source_inspected": false
+        },
+        {
+          "source_id": "valerio2016thesis",
+          "value": "08",
+          "locator": "printed pp. 527, 531 (PDF 533, 537)",
+          "inspection": "DIRECT_SECONDARY_PDF",
+          "outcome": "VERIFIED_ATTRIBUTION",
+          "direct_source_inspected": true
+        }
+      ],
+      "one_based_pdf_pages_inspected": [
+        533,
+        537
+      ],
+      "case_outcome": "INACCESSIBLE_PRIMARY",
+      "reading_adopted": false,
+      "uncertainty_preserved": true
+    },
+    {
+      "comparison_id": "CM209-ai201-comparison",
+      "native_pointer": "/comparisons/4",
+      "record_id": "CMOC-0209",
+      "zone_id": "A.I.2.01-last-group",
+      "position": 2,
+      "assertions": [
+        {
+          "source_id": "olivier2007",
+          "value": "27",
+          "locator": "HoChyMin 496; as reported by Valério 2016, printed pp. 527–528, 531 (PDF 533–534, 537)",
+          "inspection": "REPORTED_BY_DEPENDENT_SOURCE_NOT_DIRECTLY_INSPECTED",
+          "outcome": "INACCESSIBLE_PRIMARY",
+          "direct_source_inspected": false
+        },
+        {
+          "source_id": "valerio2016thesis",
+          "value": "10",
+          "locator": "printed pp. 527–528, 531 (PDF 533–534, 537)",
+          "inspection": "DIRECT_SECONDARY_PDF",
+          "outcome": "VERIFIED_ATTRIBUTION",
+          "direct_source_inspected": true
+        }
+      ],
+      "one_based_pdf_pages_inspected": [
+        533,
+        534,
+        537
+      ],
+      "case_outcome": "INACCESSIBLE_PRIMARY",
+      "reading_adopted": false,
+      "uncertainty_preserved": true
+    },
+    {
+      "comparison_id": "CM209-aii501-internal-comparison",
+      "native_pointer": "/comparisons/5",
+      "record_id": "CMOC-0209",
+      "zone_id": "A.II.5.01-first-group",
+      "position": 2,
+      "assertions": [
+        {
+          "source_id": "valerio2016thesis",
+          "value": "09",
+          "locator": "printed pp. 532–533 (PDF 538–539): table and commentary",
+          "inspection": "DIRECT_SECONDARY_PDF",
+          "outcome": "VERIFIED_ATTRIBUTION",
+          "direct_source_inspected": true
+        },
+        {
+          "source_id": "valerio2016thesis",
+          "value": "10",
+          "locator": "printed p. 534 (PDF 540): critical re-edition",
+          "inspection": "DIRECT_SECONDARY_PDF",
+          "outcome": "VERIFIED_ATTRIBUTION",
+          "direct_source_inspected": true
+        }
+      ],
+      "one_based_pdf_pages_inspected": [
+        538,
+        539,
+        540
+      ],
+      "case_outcome": "DISCREPANT_SOURCE",
+      "reading_adopted": false,
+      "uncertainty_preserved": true
+    }
+  ],
+  "totals": {
+    "cases": 6,
+    "assertions": 12,
+    "verified_attributions": 7,
+    "inaccessible_primary_assertions": 5,
+    "discrepant_source_cases": 1,
+    "native_attribution_errors_found": 0
+  },
+  "interpretation": "Five primary-edition sides remain indirect. A.II.5.01 position 2 has 09 in table/commentary and 10 in the critical re-edition; nearby fourth-position discussion does not resolve it. A.I.2.01 position 2 retains underlining and adjacent lacuna. No alternative adopted.",
+  "reading_changes": 0,
+  "external_reviews_received": 0,
+  "primary_object_inspected": false,
+  "source_files_redistributed": false
+}

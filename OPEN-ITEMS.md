@@ -43,3 +43,7 @@ python scripts/validate_evaluation_v2.py --checkouts /path/to/frozen-corpora
 - Collect real researcher outcomes in the two workflow conditions and report failures, corrections and measured effort with uncertainty.
 
 The external protocol is ready for use. It is not a completed review, measured human benefit or authority to upgrade a scholarly gate. No outreach messages have been sent as part of this follow-up.
+
+## Fixed source batch and Tiryns review packet
+
+The [22 October completion record](research/2026-10-22/README.md) assigns outcomes to all six existing comparison cases and twelve assertions. Five primary-edition sides remain inaccessible; the internal source discrepancy remains unresolved. The [Tiryns packet](research/2026-10-22/TIRYNS-REVIEW-PACKET.md) is ready for independent review; no review has been received.

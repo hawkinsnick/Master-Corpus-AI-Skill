@@ -1,0 +1,40 @@
+{
+  "format": "tiryns-documentary-review-submission-v1",
+  "status": "AWAITING_REVIEW",
+  "reviewer": {
+    "name": null,
+    "affiliation_or_profile": null,
+    "relevant_expertise": null,
+    "independence_and_conflicts": null
+  },
+  "sources_actually_inspected": [],
+  "claims": [
+    {
+      "occurrence_id": "CMOCC-TIRY244-1",
+      "decision": null,
+      "exact_source_locus": null,
+      "rationale": null,
+      "proposed_correction": null,
+      "remaining_uncertainty": null
+    },
+    {
+      "occurrence_id": "CMOCC-TIRY244-2",
+      "decision": null,
+      "exact_source_locus": null,
+      "rationale": null,
+      "proposed_correction": null,
+      "remaining_uncertainty": null
+    },
+    {
+      "occurrence_id": "CMOCC-TIRY244-3",
+      "decision": null,
+      "exact_source_locus": null,
+      "rationale": null,
+      "proposed_correction": null,
+      "remaining_uncertainty": null
+    }
+  ],
+  "overall_limitations": null,
+  "submitted_date": null,
+  "external_acceptance_granted": false
+}
