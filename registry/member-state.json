@@ -7,9 +7,9 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "60e36cc3da5cc882ed5f9fad4acda4edb4fc7c7f",
+      "observed_commit": "db46818b1491830091e63d9fa566b86400dc0afc",
       "accepted_commit": "60e36cc3da5cc882ed5f9fad4acda4edb4fc7c7f",
-      "status": "VALIDATED",
+      "status": "VALIDATION_FAILED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
@@ -17,7 +17,8 @@
       "skill_sha256": "9bf393923b44515a849af6c34b725c9f935753158c86cf2e8fec419b6809fa0e",
       "bundle_sha256": "6c8e15e09a379a699b55b642cdcf8b23c9d01c90927dec43c7644c5e68df41b1",
       "bundle_source_commit": "d355bfd4cc86eead4d591748da4237b8bdb6ebcd",
-      "indexed_artifact_entries_checked": 233
+      "indexed_artifact_entries_checked": 233,
+      "last_error": "unbound or changed skill input: review/source-study-packet.json"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -91,31 +92,31 @@
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
-      "observed_commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
-      "accepted_commit": "148e335c3f68c790b5850fea75c7fa37835d971c",
+      "observed_commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+      "accepted_commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "cypriot-syllabic-greek-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "4407d8137bb92d1ecd26bfecb93110115bc2b8119b93f92db0744ce18ed28c33",
-      "bundle_sha256": "f3f2eb14e6b91f06c218af37a185ea6cbb19b840fbcaa51fe60a799e214cd299",
-      "bundle_source_commit": "08522e25e7fd5244a147bf42d486e00d4eab8541",
-      "indexed_artifact_entries_checked": 41
+      "skill_sha256": "1640f84d6c3fd76797e5b25a94bc47bbbca512de9f35780bd7de9b098a33aafc",
+      "bundle_sha256": "53742d4953e52b56c6b1cde7733ecac1fcbb479d9b1e3b122ad4a0d055292da4",
+      "bundle_source_commit": "a0a88f192c2024cb67401736fa643c1794051705",
+      "indexed_artifact_entries_checked": 42
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
-      "observed_commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
-      "accepted_commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b",
+      "observed_commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+      "accepted_commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "eteocypriot-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "50c61e7ce1d5f808d438e45bdf8cc55133ddf9acc0fe7639f00212033317a7b0",
-      "bundle_sha256": "089457631a5b1f8e2ac74308ab83478880af2a66442bf199c6e4e2e338e386ea",
-      "bundle_source_commit": "d00d178d04b344705f25ab49afd4d9c1827993cc",
-      "indexed_artifact_entries_checked": 57
+      "skill_sha256": "3c42cacb11a62bb49890148cb1009df5c31d75567a197b51bf139ccb6c071c92",
+      "bundle_sha256": "a4437dfe6f0f32b00197e4779ce29c1980429ad2ee184ba461c909bf0488ad0c",
+      "bundle_source_commit": "8b3b8b518e16406f8cc56d93ee9b756ada7f6ebc",
+      "indexed_artifact_entries_checked": 58
     },
     {
       "repository": "hawkinsnick/Eteocretan",
