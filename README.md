@@ -1,5 +1,7 @@
 # Master Corpus AI Skill
 
+[24 October academic execution review](references/academic-remediation-2026-10-24.md): all 43 remaining criteria checked, plus a tested Milyan source-row union and a source-qualified MY Zf 2 caution. No new scholarly closure claimed.
+
 [Implemented academic remediation](references/academic-remediation.md): rejected Linear A routes, explicit legacy-case dispositions, and a pinned Cypriot source-entry union that prevents additive duplicate-view counts.
 
 [Open-item fixes and remaining external decisions](OPEN-ITEMS.md) include a printed-source recheck, the full member-pair artifact scan and corrected evaluation provenance.

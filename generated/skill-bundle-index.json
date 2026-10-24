@@ -13,8 +13,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "df00bb8dac9e1c253087ae96e5f1b230a6ec37a110d2da9868098194f8bb185e",
-      "bytes": 3682
+      "sha256": "c60300406390744bdd45201d55e649008f3b091c28b7218135bde6ffd5c1a020",
+      "bytes": 3830
     },
     {
       "path": ".gitignore",
@@ -93,8 +93,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "62f9d7c72eb703605bcbb20b9732ab0c55eff86212eee0bd91828f2bd8f32180",
-      "bytes": 2886
+      "sha256": "5ed78c2eda25650465b0a0a0fe20af986b45a149258dba9253ee4c255149c494",
+      "bytes": 3121
     },
     {
       "path": "RESEARCH-EXAMPLES.md",
@@ -108,8 +108,8 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "11551eaa789261842bb8216ad059333dffe9dac30362fded0432c0658b607739",
-      "bytes": 11246
+      "sha256": "2353137afd73b3f81ae5ba09212af89b5c9b950b751a37be198cbb35f24e9ec7",
+      "bytes": 12137
     },
     {
       "path": "SOURCE-CHECKS.md",
@@ -167,9 +167,14 @@
       "bytes": 2752
     },
     {
+      "path": "references/academic-remediation-2026-10-24.md",
+      "sha256": "013e82e74d6b1399a8d52c4366ae524a8a0eba1eb33a38e4d650dde66706ec70",
+      "bytes": 3293
+    },
+    {
       "path": "references/academic-remediation.md",
-      "sha256": "c2cf616eb2d0077b755336c62811b5d97718e9769165dbd36dbfd76d49368b16",
-      "bytes": 4022
+      "sha256": "c49bd0292bdcf56b2b6bbf8f93497b4f834e84cbe7da729ac75672474a7a92b9",
+      "bytes": 4248
     },
     {
       "path": "references/comparability-matrix.md",
@@ -332,6 +337,16 @@
       "bytes": 332953
     },
     {
+      "path": "research/remediation/milyan-source-union.json",
+      "sha256": "93a7105bf746eaae851e4478f6aadf66e4e9b9fce38ae84f4ed1190a2edf5c0b",
+      "bytes": 104175
+    },
+    {
+      "path": "research/remediation/milyan-union-inputs.json",
+      "sha256": "088e9701b2f3c58fdd3d6a8774450969644a7d9bc49e1952f22659c9ac55f0a6",
+      "bytes": 918
+    },
+    {
       "path": "research/remediation/source-union-inputs.json",
       "sha256": "8a427b55911fb8438e62dfcad9de21bca53ab6d3b17e93992e9b06934e99b801",
       "bytes": 854
@@ -355,6 +370,11 @@
       "path": "scripts/common.py",
       "sha256": "0d3e2f85c3c69de1ce448b77836c0a7eed558e2ca1ad764907aca4ac820845f4",
       "bytes": 3057
+    },
+    {
+      "path": "scripts/prepare_milyan_union.py",
+      "sha256": "85495c56b0ef25b2d1d8153877ec630c8e22a844462bbb67e248c118f9982141",
+      "bytes": 4127
     },
     {
       "path": "scripts/prepare_source_union.py",
@@ -417,6 +437,11 @@
       "bytes": 2223
     },
     {
+      "path": "tests/test_milyan_union.py",
+      "sha256": "dc8db88e6a6a1a4fb04bfcd9d45e2383cfb79b00055dfa0e623e81e73aa27987",
+      "bytes": 1893
+    },
+    {
       "path": "tests/test_provider_source_check.py",
       "sha256": "685d46e55042b31951d0836288273bf1b4e7a133bcfddc2c20521eb08a1e84d5",
       "bytes": 881
@@ -459,7 +484,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "c5c399f2dc69fb7a6536d3fc2f7d687ba3b58d55412503b40816fe0afccc691a",
-    "bytes": 102628
+    "sha256": "40e48610938a56f770ec8bab532c3f3e02d1f346a428561599f0d25289f77fff",
+    "bytes": 103519
   }
 }

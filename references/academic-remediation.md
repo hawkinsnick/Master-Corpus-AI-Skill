@@ -27,3 +27,5 @@ No new independent model accuracy, external review, primary-edition access, phon
 | Master-Corpus-AI-Skill | `bbb7d14cb551334e81547149548c471374020472` | Hosted standalone/native/frozen-study validation passed; 50 local tests passed, including unit/overlap rejection and source-union assembly tests |
 
 A source-profile update invalidated two unreviewed packet fingerprints. Their draft forms were checked to be unsubmitted before regeneration. Both packet replay workflows now pass; no real specialist response was replaced. Individual source-bundle publication is separate from master acceptance; inspect `registry/member-state.json` for actual accepted revisions, especially while updates are in flight. An old failed refresh must not be reported as a failed ancient reading or a reason to promote an unvalidated revision.
+
+The [24 October execution review](academic-remediation-2026-10-24.md) checks all 43 remaining items and adds the Milyan source-row union. The open scholarly count remains 43; improvements are not silently treated as closure.

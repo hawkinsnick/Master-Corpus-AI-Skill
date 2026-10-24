@@ -1,0 +1,2424 @@
+{
+  "format": "registered-identical-source-row-union-v1",
+  "source_family": "EDiAna_Milyan_2021_frozen_cache",
+  "unit": "nonempty_digital_source_text_row",
+  "inputs": [
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+      "path": "data/raw/ediana/milyan-1-0.json",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+      "path": "data/reference/ediana-milyan-source.json",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+    }
+  ],
+  "incoming_view_rows": 228,
+  "source_row_groups": 114,
+  "repeated_view_rows_not_additive": 114,
+  "groups": [
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/1",
+      "source_text_sha256": "ae059928e0a40a94ee7f5b33fd51fb35648d1db354d69d1c3d8550b60cf7b960",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/1"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/1"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/2",
+      "source_text_sha256": "cda25fbfeba3cbe841405690ee0afdf02199e66a2ceb212e47fe2b786c0ebe3c",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/2"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/2"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/3",
+      "source_text_sha256": "c23ce23531a0a12d22e079dd71ff45928b8d9629dc23454df3595d3669393230",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/3"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/3"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/4",
+      "source_text_sha256": "7b41adf952a7a0d710fb97c944e93b533827a0dd4c593de47ba03edc0bde64eb",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/4"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/4"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/5",
+      "source_text_sha256": "b13939e8886a3e95e2c05bfde7603ce8450dc60e952044d3f1afc79a61344ef9",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/5"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/5"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/6",
+      "source_text_sha256": "d0c00e217f38f17ee5b3baec8ce57ea58bd5f8e56ed1515ef48f191bc2748b13",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/6"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/6"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/7",
+      "source_text_sha256": "67cb3f2b40f0e9071c3fe2f86ccdd8bc127a912a4be2c6f542c8e6695bce1aa8",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/7"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/7"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/8",
+      "source_text_sha256": "191f4d320ee9967d4f0fd6e6e82c9ab208c33bd4a2963470f6bda37bb21a9a58",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/8"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/8"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 55 (Antiphellos)/9",
+      "source_text_sha256": "4436b0b15d4908dcb5091d723f99ea40b25464ee7267e56ef80033d7f595303f",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/9"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/9"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/1",
+      "source_text_sha256": "f24c8087d1499ebcec9650e2f57903431e1a22621d510caea16d6d45d72e464a",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/1"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/1"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/2",
+      "source_text_sha256": "accc3611d90034120d11a2d380ed03f6bfaa7836dd7627c61c5040263d15acae",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/2"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/2"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/3",
+      "source_text_sha256": "7af4e9559d96224c2146fefee4127e161e3f8ee7e2222c63320a7e6d90e481f7",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/3"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/3"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/4",
+      "source_text_sha256": "9227eb599bf6cbb5b65c995c6ebed60fc2568b110d6dec3a3b7844ee04bcabf6",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/4"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/4"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/5",
+      "source_text_sha256": "d24561f1ee4a9995cc95f7f8ea886626b86b6f2270a1a6ad68d6721454087356",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/5"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/5"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/6",
+      "source_text_sha256": "bacea7bc0b32f1c931e1d9f554865982d0ff988547a528b9becbea013bacaa13",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/6"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/6"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/7",
+      "source_text_sha256": "82fb0150f60372898d083bd57a102acd4560eadaca6d939f6c693e9944e31c89",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/7"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/7"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/8",
+      "source_text_sha256": "af7d687b3e027e0563be37c13430bf6d96e3f720c0704941088abee387372101",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/8"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/8"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/9",
+      "source_text_sha256": "97fdface2aa4c67685e0ed36bca73691bd9df6b88295590d9ab4e41497373540",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/9"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/9"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/10",
+      "source_text_sha256": "13f609370125c0555b0823ead4efa8a837cf8de1db835dd6591a0b338c46ee82",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/10"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/10"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/11",
+      "source_text_sha256": "1ea0f621d3608eb85d2017a384e7e801b15164bea0f92ba00ff6ac2d14a16d5a",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/11"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/11"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/12",
+      "source_text_sha256": "8dc9bcce780ca2497fc793c08eb13f609c64a1e7d94d683c72f1887080d89283",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/12"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/12"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/13",
+      "source_text_sha256": "7258b6c82826194e808b8409772fae214c96fbe4a5057fd0eaa4745e68c514d5",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/13"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/13"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/14",
+      "source_text_sha256": "4871d231f2e32ba8bf21618f35866d83a69333d0713d4d26962ddb6000b383db",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/14"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/14"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/15",
+      "source_text_sha256": "5e68d154a8a9eeba11b9f6075b8362db3d49d61bf2d67263ab90be3f06ae4651",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/15"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/15"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/16",
+      "source_text_sha256": "6d2926d08083277c50449a21f8d6dc2565e4f43cd91ae5d52e9cf0be4f19a50f",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/16"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/16"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/17",
+      "source_text_sha256": "de1f37f37d5eaa7df3794dc47c26ae10526e7b87b31befcb3924297508e2ad20",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/17"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/17"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/18",
+      "source_text_sha256": "6df1dd9ef12064155babcb9e205535d3886ae4199f2d09b94d19b13e1081a7f4",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/18"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/18"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/19",
+      "source_text_sha256": "48ef7f3d4286106d16f92bfae36da41668ad65a7d2822eb4b58010fb7c2da764",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/19"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/19"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/20",
+      "source_text_sha256": "9ae8b3addb016f18842e39b6322f056b73cbd83326c06a0ca775d4f1790b0cca",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/20"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/20"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/21",
+      "source_text_sha256": "9f529c88e2a16edd57a251d4e82819f385cf635bbdece3cb139a833583dd8e36",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/21"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/21"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/22",
+      "source_text_sha256": "2f471470a77fc3ab10ed856fe54c7164724dee04489a7aaf8b3e191a3212ebdd",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/22"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/22"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/23",
+      "source_text_sha256": "89b1e55d5796864f722b27514264ba1a91acc5c1e82fea6b96b82ae87309e2ac",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/23"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/23"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/24",
+      "source_text_sha256": "a7b1fb730de26e9160c02f130eb141b099e7abbd7e8b72ba5a9d4dbb417e91e4",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/24"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/24"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/25",
+      "source_text_sha256": "59b5c48d6ded95509748375ac6e115d9553107b18333182d26a66e559938ce12",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/25"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/25"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/26",
+      "source_text_sha256": "f0e388d8913758a0495aca5304af0c8e2c62117f80102dd5aab1ece60895205d",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/26"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/26"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/27",
+      "source_text_sha256": "4da78018b321d4aa424195da1430e5e81e0ef56f2ed3cb2de245066635680316",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/27"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/27"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/28",
+      "source_text_sha256": "e608d8cfe77bebae0114720fee1f10eda440bf53205675595ff140770146e431",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/28"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/28"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/29",
+      "source_text_sha256": "81a7856ae2c5496672ac3f1362f3ff69e42ce0525b8fb3fb051ee4bb8c80adfb",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/29"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/29"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/30",
+      "source_text_sha256": "19d5c5fe8c61f411bbf635ce4b0b37cd9fa8a9d55b6ae636192046b0057fe4b7",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/30"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/30"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/31",
+      "source_text_sha256": "3457ae742c59960d0d9d661898c6c9afddc5ebb99aea9c48d68e852acfdb1d31",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/31"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/31"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/32",
+      "source_text_sha256": "64e8195d385aadf8a928a6b406e617f1b72bdb792353a03392d80cf076ad7f5b",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/32"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/32"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/33",
+      "source_text_sha256": "b71622ec47eec60e2e13254224d2425f09ba3cc0017daebfe3aed2cd959ff37b",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/33"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/33"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/34",
+      "source_text_sha256": "45e59346255ff53f8edda97fc99dbc9f3ab5430e925b08cb9df1b0f2736c885e",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/34"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/34"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/36",
+      "source_text_sha256": "29f8b299ac56b172d4bfd711896f98b68c9c273cb94ca36145a7597936fa0859",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/36"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/36"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/37",
+      "source_text_sha256": "20aa1befe68b6a925d4edf7320529a8b6ee18ca6dbe81b81bb72a19d9b1448fe",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/37"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/37"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/38",
+      "source_text_sha256": "342c4af8a43dd5d7b8c669a52ead213449f66f077accace11638c11684aef83b",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/38"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/38"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/39",
+      "source_text_sha256": "183be72afba842e9c83cb24e6bae8b697d41cb7727f3526292739dd70bb2c3e6",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/39"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/39"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/40",
+      "source_text_sha256": "b988d5cbbf8b86fb5ff15c722f158e68b8caef2b8e2f3059652f3f753b8d5fd4",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/40"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/40"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/41",
+      "source_text_sha256": "29c9d0378337b21cf30d9b3a8456a2e5a639a7b270d17497182ec0e132f8d6e5",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/41"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/41"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/42",
+      "source_text_sha256": "fdd719f2f07b573a2fc540dfe7e777aef9bcf7c3a059f2b368b74c45943a487e",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/42"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/42"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/43",
+      "source_text_sha256": "814e080cb9b75a21ac8b3787a3d2dfc795a7334f3057bfcc950b48b022160b0f",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/43"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/43"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/44",
+      "source_text_sha256": "897ec1bcb093bc21818db342f0804ae38596cc31cf1fcc82f30d5557075ab777",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/44"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/44"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/45",
+      "source_text_sha256": "334722ca3b237fec8f8284ce9baad8d3d39519901ae42918fcece33b4b68a714",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/45"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/45"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/46",
+      "source_text_sha256": "c54bcc74986296f578320936c673d0737a4cdc7918b48718510c01e34c7005b1",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/46"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/46"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/47",
+      "source_text_sha256": "a477f492ee2339c124e15586468d9e3d436642ed84f93f9e0ead32e167305736",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/47"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/47"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/48",
+      "source_text_sha256": "2e5a819f34b298feda6bbdfe9408d9ac3648521ff4a45d1dba65e519a45c5fe0",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/48"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/48"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/49",
+      "source_text_sha256": "422a099247208eb5aa9682e83720da07cf5537562a3c5cf69af641cd4fe81cc0",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/49"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/49"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/50",
+      "source_text_sha256": "0119ab605d7526820d757fa62e96767c5f00c99177f79a96f627e5b563a1869a",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/50"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/50"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/51",
+      "source_text_sha256": "bde115c7838f27ba9ec3ffd2fcfcacb380cd4b114755bcf44f9729c4eaaab3e1",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/51"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/51"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/52",
+      "source_text_sha256": "3539352071cb012193d1b1a941374952130f266d70db775a38a0ab021c13005a",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/52"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/52"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/53",
+      "source_text_sha256": "c47ab709485f59b98f77ed1122f79e4b28758771ad1b6bde0173568e6d28605d",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/53"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/53"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/54",
+      "source_text_sha256": "4cdfa7f4cada2ce6297bf2768476ea3d31b0e797700338b4228d215888959195",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/54"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/54"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/55",
+      "source_text_sha256": "621b8c183d3952b5e3a7e5e812097adfaba0b890e01295fa328868acddac9cc0",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/55"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/55"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/56",
+      "source_text_sha256": "b28eeb58c652c2ea6a7a962daac82eacfc20e7a60b6896a790f56c639a4d89b7",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/56"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/56"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/57",
+      "source_text_sha256": "fcdd6e6ac5b4a9eebafaed5c8316ac4b0b70607af19d1d1508c79d97babee43e",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/57"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/57"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/58",
+      "source_text_sha256": "d0ef0dce5d15578242aba4ce26a0db7e7ba9dfb2493f272b994c323fed4ef0f8",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/58"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/58"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/59",
+      "source_text_sha256": "89b8bec61b75c37e96a5ccb49ddecc62d49c099c3911c021f0f6bd499c5aeaff",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/59"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/59"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/60",
+      "source_text_sha256": "8f8776aa0955b690f844c370399f10cd79aae081cf13b6edf6c9d670063cd719",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/60"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/60"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/61",
+      "source_text_sha256": "df32863858cdbfcf70e751938e97b2132c3a04f382ed523ce77c47a92fa4dff0",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/61"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/61"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/62",
+      "source_text_sha256": "e298e4afd40967f471099964f43ced7f13e63372e5fde6873b1e81cfa6075208",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/62"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/62"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/63",
+      "source_text_sha256": "a8a95a1c51404f790bb09643ddd707ff3827d58cd8282732b6e96db7a03fa1fd",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/63"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/63"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/64",
+      "source_text_sha256": "334d10987be0b40e3bc00fd2bbd586f53d6ea5c0de2d2f9c468f112fa363f9e6",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/64"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/64"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/65",
+      "source_text_sha256": "7f0b20ca68f0bfc7d8ba145517cc56d2c3e8ca481d39c07f1cf0ed2f9e027bf7",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/65"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/65"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/66",
+      "source_text_sha256": "34d91342bec81e006c1a73d378330e8d75299832878ead3ac9e915add1a08bd1",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/66"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/66"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/67",
+      "source_text_sha256": "0f7993b65c40aa9a7d4aae489638ae62f7e77e566005026f9bec91fc7494323f",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/67"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/67"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/68",
+      "source_text_sha256": "5852a972259c87a9d083c32bb2a6bf35cb43723aedf9e4c262a303e543c90e29",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/68"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/68"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/69",
+      "source_text_sha256": "136e98fd83c6b506d2b956bdd83f94999054f448fa263dd996ba0081896f8897",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/69"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/69"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/70",
+      "source_text_sha256": "ecf98546b6c00009862dc2082ad85a711249ef4931ad220e2e27a41768fbab4a",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/70"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/70"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/71",
+      "source_text_sha256": "37f91645ebf160018ed0a18f28d8139d4884ec34f7b8f0bccb2e170de6415596",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/71"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/71"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/72",
+      "source_text_sha256": "af3894efef7a512ffdc4ce090ea3f4b4583a63f362eae99a4c5c7550c86664d3",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/72"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/72"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/73",
+      "source_text_sha256": "789cd11686ff7824f38aa8c15ebca808b81071448f653570af2b75537ac8401e",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/73"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/73"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/74",
+      "source_text_sha256": "9c0c6d7d49ab63b7ddf7305e7a853ae24f0e4ae3b4edee87dc456620fcc6c5ec",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/74"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/74"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/75",
+      "source_text_sha256": "f0c2aff2708b34a71ac86066078c14a8560401052faa8c265c0560cdacc133df",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/75"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/75"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/76",
+      "source_text_sha256": "602d461799e4a4170abda7495038671a42c7ac888c387d06f775e3a806bdab80",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/76"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/76"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/77",
+      "source_text_sha256": "86a8ed40abafb2ef126802af1b861b54edefe80e3f77005b9ae04ed8914dda29",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/77"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/77"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/78",
+      "source_text_sha256": "bf01edfd84f9c09b4e97356f7a8b91aa483df6d56243d9a2e724aa1bafb710c4",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/78"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/78"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/79",
+      "source_text_sha256": "e12b0af963f68a4c0fa5cc837a5ba5ae620623aba307436382df50b419da50ca",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/79"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/79"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/80",
+      "source_text_sha256": "91123ab8b4ca6238d3eae18303517114ecffb484be335697f85769ee9b714ce4",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/80"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/80"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/81",
+      "source_text_sha256": "e091938b2b66708bed2b1aa83d690f81458953c466b2349cdb3dbf59d204c525",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/81"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/81"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/82",
+      "source_text_sha256": "383c7bafb5eac1b996ab91069b1dff47c182bc7a15e7c8c4bf4efc245050b19f",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/82"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/82"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/83",
+      "source_text_sha256": "e2ebc29a6fcf008da5d67250bddf04c162d98566ea15a0ccf52a9fd911d5d004",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/83"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/83"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/84",
+      "source_text_sha256": "9593790248b8f6694dd6560400f1f149401dc0e9e19badedfd5c3291ca256d11",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/84"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/84"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/85",
+      "source_text_sha256": "aa8ee16f840ff2d1270618e7581aa2750f57f56997b4f6cdcff0fc2216bc8d13",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/85"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/85"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/86",
+      "source_text_sha256": "c1711741c135c3c0df986c363c5ce536cd50659dfe942628098edadca0ae027b",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/86"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/86"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/87",
+      "source_text_sha256": "5d94454671d7eae3d090892c543ae56f80cbb9e3552b3f15e83a72bf82f4fcae",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/87"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/87"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/88",
+      "source_text_sha256": "babf595d8e3df96ae5c6f1efc2f10b73b3336564c3e84fd0190784867f86b4ed",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/88"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/88"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/89",
+      "source_text_sha256": "123c29fdbec90049c6d1465bf5cd37979b1d014ca2076120d9714e2da5d4d7d6",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/89"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/89"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/90",
+      "source_text_sha256": "a927e62162f73818ba23db024f050c1f4de9d40c71ef39fca3493efc752229e4",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/90"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/90"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/91",
+      "source_text_sha256": "d12ac10ef5bc78130d808e5ab77ee95eb0b9b8e902fdbcf34b71c2cc17fd2448",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/91"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/91"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/92",
+      "source_text_sha256": "a6e85d80de6fe4a176bfcd8fd0492f6b96bbe659d70e4196f1eceb61d8aa7bb0",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/92"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/92"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/93",
+      "source_text_sha256": "aae3fb6897136652c826a56e29775340748d0909cfe1f9fc5465ba1238c70a10",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/93"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/93"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/94",
+      "source_text_sha256": "f84ea8df5c1ab2b8223fc4e19b16a5399723ba1ee7c2bd3c1a779e1859f407f8",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/94"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/94"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/95",
+      "source_text_sha256": "28a88e3f078cf30c52880fd722c05e8cb8dca6f0396da11f1358be3cd0c17ea5",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/95"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/95"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/96",
+      "source_text_sha256": "83d15ede6e4b43c0cbaa7f661fa240dd9c5e79cb1a2cc0e56ac5a6d972926f21",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/96"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/96"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/97",
+      "source_text_sha256": "de50452d04c498817b7ae9a70a296c43281c4a1269c27c294407f50cde356682",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/97"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/97"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/98",
+      "source_text_sha256": "d3f50764fe93801fe757d9bac0dfc56472ae1e21f23a449c9ae75a3613368687",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/98"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/98"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/99",
+      "source_text_sha256": "6726ceaac44fc96f34e459eaf359b80b5a68da73b95da024c24da7d29141e8f4",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/99"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/99"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/100",
+      "source_text_sha256": "85caf57d4f2c21b93c17beef82a34d0d56d27776d3e2b7bba309ea7baf5cc728",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/100"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/100"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/101",
+      "source_text_sha256": "b01e969e3914b52deca455ca6b3a41428d031bdd120054a3ea15ecb78ae74a37",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/101"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/101"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/102",
+      "source_text_sha256": "001e44913562e6a1a9223cabcfd7a00d20470f068e40ff926e150a05aada1a85",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/102"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/102"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/103",
+      "source_text_sha256": "4fe699ee6af4a2e117dc3ee0ca521e388982f64ba38a0e83771b040ae9951684",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/103"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/103"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/104",
+      "source_text_sha256": "7093321ff8fb779bd7299ad5f52d48f2f5e33fc9433c86274aaac8c1ba4badc7",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/104"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/104"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/105",
+      "source_text_sha256": "8a9d3d901ac9cf0d947c484bb7cf5055f225951315a6af979fc255117fc6040b",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/105"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/105"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    },
+    {
+      "source_row_pointer": "/TL 44 (Xanthos)/106",
+      "source_text_sha256": "8119ea9c4b764815a050488a9a4de7d2d341214ac832897958c3b3fa15ee483b",
+      "view_assertions": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+          "path": "data/raw/ediana/milyan-1-0.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/106"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 44 (Xanthos)/106"
+        }
+      ],
+      "views_are_independent_witnesses": false
+    }
+  ],
+  "physical_object_count": null,
+  "independent_witness_count": null,
+  "reading_adjudications_added": 0,
+  "linguistic_comparability_established": false,
+  "rights": "Retain CC BY-SA 4.0 and native eDiAna attribution/change notices. This output contains identifiers, hashes and source pointers, not a new license for any printed edition.",
+  "boundary": "Exact byte identity only. Exclude empty header rows by a declared source-string rule. Two cache access paths remain visible for each row; neither adds an ancient attestation or validates the underlying reading."
+}

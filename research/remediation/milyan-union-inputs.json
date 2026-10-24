@@ -1,0 +1,21 @@
+{
+  "format": "registered-identical-cache-union-v1",
+  "source_family": "EDiAna_Milyan_2021_frozen_cache",
+  "unit": "nonempty_digital_source_text_row",
+  "expected_source_rows": 114,
+  "inputs": [
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+      "path": "data/raw/ediana/milyan-1-0.json",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+      "path": "data/reference/ediana-milyan-source.json",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+    }
+  ],
+  "rights": "CC BY-SA 4.0 as recorded in Milyan reference-manifest; retain native attribution, change notice and source-edition references. No physical or independent-witness count implied."
+}

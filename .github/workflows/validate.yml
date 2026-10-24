@@ -72,3 +72,5 @@ jobs:
       - run: python scripts/check_printed_source_recheck.py --checkouts .research-checkouts
       - run: python scripts/check_source_batch.py --checkouts .research-checkouts
       - run: python scripts/prepare_source_union.py --checkouts .research-checkouts --output research/remediation/cypriot-source-union.json --check
+
+      - run: python scripts/prepare_milyan_union.py --checkouts .research-checkouts --output research/remediation/milyan-source-union.json --check

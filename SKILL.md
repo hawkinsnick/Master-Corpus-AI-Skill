@@ -176,3 +176,9 @@ Read `references/academic-defect-register-2026-10-23.md` for the current itemize
 Read `references/academic-remediation.md` and later native status before repeating a frozen audit's open count. In Linear A source-document dossiers, follow `edition-route-decisions`; rejected target URLs cannot be used as confirmed entry locators. Follow `case-dispositions` for legacy cases and never admit queue strings as source-qualified alternative pairs. The native closure of two rejection/disposition tasks does not establish corrected replacement locators or scholarly readings.
 
 For the registered Cypriot same-edition source-entry union use `scripts/prepare_source_union.py` with its frozen manifest. Preserve all view-specific assertions while counting source-entry groups once. The tool refuses unsupported corpus pairings and unit promotion. Do not generalize its 592 digital-edition groups to physical objects, language frequencies, independent witnesses or collection completeness.
+
+## Execute scoped Milyan unions and preserve remaining evidence gaps
+
+Read `references/academic-remediation-2026-10-24.md` for the current 43-item execution review and the exact-byte Milyan source-row union. Use `scripts/prepare_milyan_union.py` only at its declared nonempty digital source-text-row unit, retaining both input provenance paths. Its 114 groups are neither independent witnesses nor physical lines/objects. New source-qualified studies require their own units and dependence decisions.
+
+For Linear A MY Zf 2 retrieve the linked `source-context-cautions` record and preserve its text-only consultation limits and attributed uncertainty. Do not upgrade a caution, missing checksum, uninspected bibliographic lead or controlled source union to a reading correction, expert acceptance or completed academic validation. The 43 original scholarly closure criteria remain in force.
