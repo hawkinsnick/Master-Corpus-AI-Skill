@@ -7,17 +7,17 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
-      "accepted_commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83",
+      "observed_commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+      "accepted_commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "e35353d7db71fcbae3642c6aa2a60f5fcf1473eddcc3919e6654252b9957058b",
-      "bundle_sha256": "f581dd5572d1972e14de104617b0710a97f998c5cdcae86b013cf8284fb0e275",
-      "bundle_source_commit": "db46818b1491830091e63d9fa566b86400dc0afc",
-      "indexed_artifact_entries_checked": 238
+      "skill_sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
+      "bundle_sha256": "7db3d19da3f9ff181477f5fea31994c3485489c4748d12a49a51882980e7f3cf",
+      "bundle_source_commit": "e33b8561e6ec5b66a1c3d32f8ed4110def7f4e26",
+      "indexed_artifact_entries_checked": 242
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -133,17 +133,17 @@
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
-      "observed_commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
-      "accepted_commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea",
+      "observed_commit": "5af77e89f0f5e96e80e2adbc419694d463712615",
+      "accepted_commit": "5af77e89f0f5e96e80e2adbc419694d463712615",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "lycian-and-carian-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "e7ab8e7ec4d446068dcc79276df6ad24a5d55145cad1e8557031f6ab19a73202",
-      "bundle_sha256": "3118c3dc3781754621ea6f290c4e7cc33bd44a572ebb37958ade185788eb1e56",
-      "bundle_source_commit": "ff80a908914864ded0c5a66d7db7ca5f5c801ab9",
-      "indexed_artifact_entries_checked": 36
+      "skill_sha256": "1575c33d2df7c818bfc7b9ff5baea7c83e41a21d625008bb8e7d50a62bb9455b",
+      "bundle_sha256": "2a95b452963bf475952be4409fcafcde38a116e61b918f14042caa69576f2c16",
+      "bundle_source_commit": "471fd15cf8b401256ffba88ab50d40595e2dbb58",
+      "indexed_artifact_entries_checked": 37
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -245,17 +245,17 @@
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
-      "observed_commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
-      "accepted_commit": "b0ee68112c25f89891bd2ba05c5830d816608975",
+      "observed_commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6",
+      "accepted_commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "milyan-corpus-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "35e12635c2a483e65674243b4bb7defc4838b9d2d59d5616e9239883586f552a",
-      "bundle_sha256": "71d9ac3c15aa41a75c021186ef4ac6f9eb44aba9530d8babc70291a5f03b91f9",
-      "bundle_source_commit": "5c84a74a513df72ab9644bd88d45702ebcd4288b",
-      "indexed_artifact_entries_checked": 79
+      "skill_sha256": "6cdcea04e93e38986f7a4a96b127f5c413d84975fb47667ac66645f372547e69",
+      "bundle_sha256": "a779d5fce4cac02a6e71579cfed57fc59b16605a49f6bff26e62df2fecbce945",
+      "bundle_source_commit": "805e6ac4d6871b4792d8aaf17f7815c16d03740b",
+      "indexed_artifact_entries_checked": 80
     }
   ],
   "scholarly_acceptance_granted": false,

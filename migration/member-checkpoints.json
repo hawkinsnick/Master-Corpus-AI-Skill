@@ -3,7 +3,7 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "commit": "cab8a54deaae4557b9e75fc1447b79a85b387a83"
+      "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -39,7 +39,7 @@
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
-      "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea"
+      "commit": "5af77e89f0f5e96e80e2adbc419694d463712615"
     },
     {
       "repository": "hawkinsnick/Phrygian",
@@ -71,7 +71,7 @@
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
-      "commit": "b0ee68112c25f89891bd2ba05c5830d816608975"
+      "commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6"
     }
   ],
   "scientific_approval_granted": false
