@@ -13,8 +13,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "7e32275933b3b11cbc39a7b8c1785cc498d1cecd0b4e78dc217b4fc5b59838fe",
-      "bytes": 6790
+      "sha256": "176cde9b893733a81008a6ca2a5578dbd35f36fa799daa1b8658c5ab4eed8d58",
+      "bytes": 8060
     },
     {
       "path": ".gitignore",
@@ -183,8 +183,8 @@
     },
     {
       "path": "references/hostile-review-2026-10-25.md",
-      "sha256": "c5db027693747a952c57f2dea1f7721dedbc8c74ae8251c0c78ff81810630bcd",
-      "bytes": 13349
+      "sha256": "a95c5996aca2053e0ca2b9f124187fdcb815c96abd542fc668914e1d962f429b",
+      "bytes": 14880
     },
     {
       "path": "references/native-routing.md",
@@ -412,6 +412,21 @@
       "bytes": 459231
     },
     {
+      "path": "research/2026-10-25/publication-inputs.json",
+      "sha256": "3b9bbb393db52a5dc3ad6ea4a431a60b3d27523e75d1eb4aa08fa2b23baa7d67",
+      "bytes": 2546
+    },
+    {
+      "path": "research/2026-10-25/publication-retrieval-and-overlap.json",
+      "sha256": "bd0eceed5b39e89c8ced51dffdde5d84eea15181c266da13e3bfab37214f0a7d",
+      "bytes": 219187
+    },
+    {
+      "path": "research/2026-10-25/publication-verification.json",
+      "sha256": "85a66e76a3b630db6149b4fa9cd4f8a2e24c7e66d5e82e1509ff2d16cf97079f",
+      "bytes": 54115
+    },
+    {
       "path": "research/2026-10-25/retrieval-and-overlap.json",
       "sha256": "f8fb19be25c104fdbb8587986562d624feaa08ca313ac59b5c548f39a5bd0f89",
       "bytes": 217961
@@ -473,8 +488,8 @@
     },
     {
       "path": "scripts/hostile_review.py",
-      "sha256": "995df4b5a6a245f4c63a46ce1b943d91c330b83c0f08fb9e78f726a40a5fcba9",
-      "bytes": 8917
+      "sha256": "2910676383ab90fe03997dcbe507bc189648740e05a9cace1b7025d1a731095a",
+      "bytes": 9279
     },
     {
       "path": "scripts/prepare_milyan_union.py",

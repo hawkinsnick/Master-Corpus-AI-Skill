@@ -127,3 +127,20 @@ jobs:
       - run: python scripts/score_hostile_development.py --checkouts .review-checkouts
       - run: python scripts/recheck_academic_backlog.py --checkouts .review-checkouts
       - run: python scripts/check_published_appendix_recheck.py --native-root .review-checkouts/Linear-B --receipt research/2026-10-25/linear-b-appendix-recheck.json
+      - name: Acquire published verifier snapshots without replacing initial study inputs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import concurrent.futures,json,re,subprocess
+          rows=json.loads(Path('research/2026-10-25/publication-inputs.json').read_text())['members']
+          def acquire(m):
+              assert re.fullmatch(r'hawkinsnick/[A-Za-z0-9-]+',m['repository'])
+              assert re.fullmatch('[a-f0-9]{40}',m['commit'])
+              source=Path('.review-checkouts')/m['repository'].split('/')[-1]
+              target=(Path('.publication-checkouts')/m['repository'].split('/')[-1]).resolve()
+              if subprocess.run(['git','cat-file','-e',m['commit']+'^{commit}'],cwd=source,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode:
+                  subprocess.run(['git','fetch','--quiet','origin',m['commit']],cwd=source,check=True)
+              subprocess.run(['git','worktree','add','--quiet','--detach',str(target),m['commit']],cwd=source,check=True)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(acquire,rows))
+          PY
+      - run: python scripts/hostile_review.py --checkouts .publication-checkouts --publication-checkpoints

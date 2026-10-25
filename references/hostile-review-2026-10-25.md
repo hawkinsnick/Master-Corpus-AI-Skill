@@ -18,6 +18,26 @@ This is an AI-assisted internal desk review and implemented repair record, not i
 
 [Exact source checkpoints](../research/2026-10-25/inputs.json) fix all 18 native revisions and the pre-change master input. Neither current main nor a later accepted checkpoint may silently replace a study input. The master and individual skill updates bind new instruction bytes separately from these frozen study sources.
 
+## Post-publication verification
+
+After preserving the concurrent control closures and publishing the verifier repairs,
+all eighteen artifact revisions were checked again. The [publication manifest](../research/2026-10-25/publication-inputs.json)
+and [second full traversal](../research/2026-10-25/publication-retrieval-and-overlap.json)
+cover **7,306 declared view rows across 104 collections, including 1,619 linked records**.
+The additional views come from the concurrent controls; these totals do not mean
+new ancient inscriptions. All returned records and links match their exact source
+bindings. The same 130 text-repeat groups remain source-bound to the two known
+families. Do not add the initial and publication totals: they are two snapshots.
+All eighteen individual skill guides, citation verifiers, regression tests and
+source-bound bundles were updated together. The [publication verification receipt](../research/2026-10-25/publication-verification.json)
+records all eighteen source/artifact revisions, 172 successful hosted workflow
+runs at those artifact revisions, and byte comparisons of the stricter verifier
+at each master-accepted revision. The master monitor accepted all eighteen.
+Local master tests passed 68/68; each individual verifier passed the common
+eight-test suite (144 selected executions across eighteen implementations).
+These are technical checks, not 172 independent scholarly reviews. The initial matrix below preserves
+the earlier study scope used for source selection and development tasks.
+
 ## Corpus-by-corpus retrieval coverage
 
 The units below are declared retrieval views. They include catalogues, hypotheses, tasks, editorial versions and overlapping assertions. Do not sum them as a collection-wide ancient population. A zero linked-record count means this adapter emitted no explicit relation records, not that the source is independent or lacks relationships.
