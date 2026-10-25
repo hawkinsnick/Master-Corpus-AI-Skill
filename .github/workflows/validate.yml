@@ -98,3 +98,32 @@ jobs:
           with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(acquire,rows))
           PY
       - run: python scripts/check_scoped_closures.py --checkouts .closure-checkouts
+
+  hostile-review-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Acquire pinned hostile-review inputs
+        run: |
+          python - <<'PYINNER'
+          from pathlib import Path
+          import concurrent.futures,json,re,subprocess
+          manifest=json.loads(Path('research/2026-10-25/inputs.json').read_text())
+          subprocess.run(['git','fetch','--quiet','--depth','1','origin',manifest['master_input_commit']],check=True)
+          rows=manifest['members']
+          def acquire(m):
+              assert re.fullmatch(r'hawkinsnick/[A-Za-z0-9-]+',m['repository'])
+              assert re.fullmatch('[a-f0-9]{40}',m['commit'])
+              target=Path('.review-checkouts')/m['repository'].split('/')[-1]
+              subprocess.run(['git','clone','--quiet','--no-checkout','https://github.com/'+m['repository']+'.git',str(target)],check=True)
+              subprocess.run(['git','checkout','--quiet','--detach',m['commit']],cwd=target,check=True)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(acquire,rows))
+          PYINNER
+      - run: python scripts/hostile_review.py --checkouts .review-checkouts
+      - run: python scripts/provider_stratum_review.py --checkouts .review-checkouts
+      - run: python scripts/score_hostile_development.py --checkouts .review-checkouts
+      - run: python scripts/recheck_academic_backlog.py --checkouts .review-checkouts
+      - run: python scripts/check_published_appendix_recheck.py --native-root .review-checkouts/Linear-B --receipt research/2026-10-25/linear-b-appendix-recheck.json

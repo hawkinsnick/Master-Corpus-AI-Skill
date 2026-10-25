@@ -3,7 +3,7 @@ name: combined-corpus-research
 description: Coordinate evidence-first research across the registered ancient-script corpora. Use for choosing a corpus, tracing source records, comparing native evidence, assessing coverage or preparing reproducible cross-corpus research while preserving uncertainty, source dependence and component rights.
 ---
 
-# Master Corpus AI Skill — 1.4.0
+# Master Corpus AI Skill — 1.4.1
 
 ## Establish the available evidence
 
@@ -186,3 +186,21 @@ For Linear A MY Zf 2 retrieve the linked `source-context-cautions` record and pr
 ## Report scoped controls separately from open scientific requirements
 
 Read `references/scoped-closures-2026-10-25.md` and the current native ledger before quoting an open count. Five additional controls have closed scope: reference exclusions, paired material representation, Byblos lookup exclusions and the two registered source unions. Report 38 unclosed original entries and five attached open scientific follow-ups separately. Preserve null material/locators, excluded memberships and exact unit boundaries. Do not report these controls as recovered source evidence, adjudicated scholarship or expert acceptance. Historical 43-item reviews are not a current original-entry counter.
+
+## Prepare claims for adversarial academic review
+
+Use `references/hostile-review-2026-10-25.md` and its pinned study inputs for the
+expanded retrieval, source-fidelity and partial-overlap checks. Resolve exact
+canonical JSON pointers; reject negative indices, leading-zero array aliases and
+invalid escapes. Cite the actual native checkout revision returned by the master
+query and disclose when it differs from the accepted master checkpoint. A dirty
+tracked checkout or a revision changing during retrieval invalidates that run.
+
+Distinguish complete traversal of declared retrieval views from complete corpus
+coverage. A text match after NFC/whitespace normalization is a dependence lead,
+not an object join, linguistic equivalence or new witness. Source XML/display
+fidelity is not primary-print collation, adjudication or translation validation.
+Keep the development stress test's known-task exposure and grading limitations
+visible. Use expert acceptance and human benefit claims only when actual,
+attributable evidence supports them. Do not relabel unmet scholarly closure
+criteria as completed because software checks passed.

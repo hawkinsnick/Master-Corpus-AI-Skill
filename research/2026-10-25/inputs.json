@@ -1,0 +1,80 @@
+{
+  "format": "hostile-review-input-checkpoints-v1",
+  "date": "2026-10-25",
+  "selection": "All eighteen registered accepted native checkpoints at the start of this audit; immutable study inputs, not a claim that every later main revision was examined.",
+  "master_input_commit": "ce79487c0dd26e07e637d6c0e30736ce2aa1499b",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "commit": "314638026db8eac689e10b0a7193ffef0d996a07"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "5af77e89f0f5e96e80e2adbc419694d463712615"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3"
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "commit": "064f948408983abc5581a816649a8ca949466674"
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395"
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b"
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70"
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa"
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "commit": "23925bd586857b13715a11d7a38aea3a78d8e307"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6"
+    }
+  ]
+}

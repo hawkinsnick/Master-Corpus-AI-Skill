@@ -1,7 +1,7 @@
 {
   "name": "Master Corpus AI Skill",
   "skill_name": "combined-corpus-research",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "vendor_neutral": true,
   "type": "multi-corpus-orchestrator",
   "member_count": 18,

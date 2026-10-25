@@ -3,11 +3,7 @@
 import argparse,hashlib,json,subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];STUDY=ROOT/'research/2026-10-21-followup'
-def pointer(value,path):
-    if path and not path.startswith('/'):raise ValueError('invalid pointer')
-    for p in path.split('/')[1:] if path else []:
-        p=p.replace('~1','/').replace('~0','~');value=value[int(p)] if isinstance(value,list) else value[p]
-    return value
+from review_integrity import pointer
 
 def resolve(ref,parent,root=ROOT):
     scope=ref['scope']

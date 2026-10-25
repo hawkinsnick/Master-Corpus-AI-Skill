@@ -58,3 +58,7 @@ The command rejects wrong revisions and modified tracked inputs, then compares r
 - Evaluate AI responses with independent source-qualified graders and a genuinely held-out task set.
 
 Read [the academic audit](references/academic-audit-2026-10-20.md) for the broader claim limits. For proposed workflows rather than executed findings, use [the cross-corpus examples](CROSS-CORPUS-EXAMPLES.md).
+
+## Adversarial academic review preparation
+
+The [25 October review and repairs](references/hostile-review-2026-10-25.md) cover all eighteen declared retrieval profiles, expanded digital-source checks and partial-text dependence screening. A fresh Linear B paper download and appendix check succeeded; earlier access failures remain historical. The development exercise is compact-evidence conformance, not independently validated academic accuracy. All43 inherited scholarly closure packages remain open or mitigated under their original criteria.

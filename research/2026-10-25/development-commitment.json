@@ -1,0 +1,7 @@
+{
+  "packet_sha256": "5160698395406ac82802b25573674eb5c542d608e2a90ded6494057aa6b00821",
+  "oracle_sha256": "070e628dba45f3a9ead30d49064d2ce6c62a99d04f44421179e51b05c47795b3",
+  "protocol_sha256": "1872d6ca030f37089002a08c4a5df8f1b5d2ba69868aa16bd6cdd7875e7ca05f",
+  "prepared_before_response_collection": true,
+  "scope": "Local content commitment before fresh sessions; no external preregistration or independent holdout claimed."
+}

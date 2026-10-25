@@ -1,0 +1,382 @@
+{
+  "responses": [
+    {
+      "id": "DEV-01-1",
+      "decision": "ANSWER",
+      "answer": "Haghia Triada",
+      "native_unit": "SigLA source document entry",
+      "citation": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/202/source_fields/site"
+      },
+      "rationale": "Literal supplied field for source-documents record HT 98b, attributed to the cited native record; no native-file or publication check executed. Full committed public source-document view; face/object identities remain unadjudicated."
+    },
+    {
+      "id": "DEV-01-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "SigLA source document entry",
+      "citation": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/202"
+      },
+      "rationale": "The row is a SigLA source document entry, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. Full committed public source-document view; face/object identities remain unadjudicated. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-01-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "SigLA source document entry",
+      "citation": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/202"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-02-1",
+      "decision": "ANSWER",
+      "answer": "CMOC-0030",
+      "native_unit": "rich-record dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/5/record_id"
+      },
+      "rationale": "Literal supplied field for rich-dossiers record CMOC-0030, attributed to the cited native record; no native-file or publication check executed. 21 selected rich records; not the full catalogue-slot population."
+    },
+    {
+      "id": "DEV-02-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "rich-record dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/5"
+      },
+      "rationale": "The row is a rich-record dossier, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. 21 selected rich records; not the full catalogue-slot population. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-02-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "rich-record dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/5"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-03-1",
+      "decision": "ANSWER",
+      "answer": "4307",
+      "native_unit": "published appendix document example",
+      "citation": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document/published_damos_item_id"
+      },
+      "rationale": "Literal supplied field for published-appendix-document record PY-Ae-27, attributed to the cited native record; no native-file or publication check executed. One 2025 publication example, not the current DAMOS observation corpus."
+    },
+    {
+      "id": "DEV-03-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "published appendix document example",
+      "citation": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document"
+      },
+      "rationale": "The row is a published appendix document example, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. One 2025 publication example, not the current DAMOS observation corpus. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-03-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "published appendix document example",
+      "citation": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-04-1",
+      "decision": "ANSWER",
+      "answer": "CHIC-098",
+      "native_unit": "CHIC catalogue dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/97/record_id"
+      },
+      "rationale": "Literal supplied field for catalogue-dossiers record CHIC-098, attributed to the cited native record; no native-file or publication check executed. 331 identifiers with unequal context and reading coverage."
+    },
+    {
+      "id": "DEV-04-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "CHIC catalogue dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/97"
+      },
+      "rationale": "The row is a CHIC catalogue dossier, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. 331 identifiers with unequal context and reading coverage. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-04-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "CHIC catalogue dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/97"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-05-1",
+      "decision": "ANSWER",
+      "answer": "evans1909",
+      "native_unit": "source graphical group",
+      "citation": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/56/provenance/source_id"
+      },
+      "rationale": "Literal supplied field for graphical-groups record PD-B-E05, attributed to the cited native record; no native-file or publication check executed. Groups are not established linguistic words."
+    },
+    {
+      "id": "DEV-05-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "source graphical group",
+      "citation": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/56"
+      },
+      "rationale": "The row is a source graphical group, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. Groups are not established linguistic words. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-05-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "source graphical group",
+      "citation": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/56"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-06-1",
+      "decision": "ANSWER",
+      "answer": "BYB-CAND-BALUA",
+      "native_unit": "catalogue entity",
+      "citation": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "pointer": "/records/32/id"
+      },
+      "rationale": "Literal supplied field for catalogue record BYB-CAND-BALUA, attributed to the cited native record; no native-file or publication check executed. Membership and object identification remain source-qualified."
+    },
+    {
+      "id": "DEV-06-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "catalogue entity",
+      "citation": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "pointer": "/records/32"
+      },
+      "rationale": "The row is a catalogue entity, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. Membership and object identification remain source-qualified. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-06-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "catalogue entity",
+      "citation": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "pointer": "/records/32"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-07-1",
+      "decision": "ANSWER",
+      "answer": "CSG-IGXV1-122",
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/121/id"
+      },
+      "rationale": "Literal supplied field for digital-entries record CSG-IGXV1-122, attributed to the cited native record; no native-file or publication check executed. Entry membership, source language classification and component partitions remain literal."
+    },
+    {
+      "id": "DEV-07-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/121"
+      },
+      "rationale": "The row is a digital edition entry, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. Entry membership, source language classification and component partitions remain literal. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-07-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/121"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-08-1",
+      "decision": "ANSWER",
+      "answer": "ETEC-IGXV1-16",
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15/id"
+      },
+      "rationale": "Literal supplied field for digital-entries record ETEC-IGXV1-16, attributed to the cited native record; no native-file or publication check executed. Entry membership, source language classification and component partitions remain literal."
+    },
+    {
+      "id": "DEV-08-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15"
+      },
+      "rationale": "The row is a digital edition entry, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. Entry membership, source language classification and component partitions remain literal. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-08-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    },
+    {
+      "id": "DEV-09-1",
+      "decision": "ANSWER",
+      "answer": "secondary_reference",
+      "native_unit": "attributed digital reading version",
+      "citation": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/4/category"
+      },
+      "rationale": "Literal supplied field for reading-versions record ECR-PRAISOS-3-WIKIPEDIA-174295509, attributed to the cited native record; no native-file or publication check executed. Different source versions are not independent physical inscriptions."
+    },
+    {
+      "id": "DEV-09-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "attributed digital reading version",
+      "citation": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/4"
+      },
+      "rationale": "The row is a attributed digital reading version, not proof of an independently authenticated object. The supported independent-witness count is unknown, not zero or one. Different source versions are not independent physical inscriptions. No independent source check occurred under this task's declared conditions; that flag is not a native assertion."
+    },
+    {
+      "id": "DEV-09-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "attributed digital reading version",
+      "citation": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/4"
+      },
+      "rationale": "No externally accepted sign-level adjudication is supplied. The task declares no external specialist decision and no independent source check; these are task conditions, not native-source findings. Required next evidence is source-aligned sign documentation and an attributable external specialist adjudication; neither was inspected here."
+    }
+  ]
+}

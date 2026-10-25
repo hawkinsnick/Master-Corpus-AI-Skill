@@ -1,0 +1,707 @@
+{
+  "format": "development-stress-test-oracle-v1",
+  "items": [
+    {
+      "id": "DEV-01-1",
+      "decision": "ANSWER",
+      "answer": "Haghia Triada",
+      "native_unit": "SigLA source document entry",
+      "citation": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/202/source_fields/site"
+      }
+    },
+    {
+      "id": "DEV-01-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "SigLA source document entry",
+      "citation": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/202"
+      }
+    },
+    {
+      "id": "DEV-01-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "SigLA source document entry",
+      "citation": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/202"
+      }
+    },
+    {
+      "id": "DEV-02-1",
+      "decision": "ANSWER",
+      "answer": "CMOC-0030",
+      "native_unit": "rich-record dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/5/record_id"
+      }
+    },
+    {
+      "id": "DEV-02-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "rich-record dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/5"
+      }
+    },
+    {
+      "id": "DEV-02-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "rich-record dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/5"
+      }
+    },
+    {
+      "id": "DEV-03-1",
+      "decision": "ANSWER",
+      "answer": "4307",
+      "native_unit": "published appendix document example",
+      "citation": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document/published_damos_item_id"
+      }
+    },
+    {
+      "id": "DEV-03-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "published appendix document example",
+      "citation": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document"
+      }
+    },
+    {
+      "id": "DEV-03-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "published appendix document example",
+      "citation": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document"
+      }
+    },
+    {
+      "id": "DEV-04-1",
+      "decision": "ANSWER",
+      "answer": "CHIC-098",
+      "native_unit": "CHIC catalogue dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/97/record_id"
+      }
+    },
+    {
+      "id": "DEV-04-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "CHIC catalogue dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/97"
+      }
+    },
+    {
+      "id": "DEV-04-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "CHIC catalogue dossier",
+      "citation": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/97"
+      }
+    },
+    {
+      "id": "DEV-05-1",
+      "decision": "ANSWER",
+      "answer": "evans1909",
+      "native_unit": "source graphical group",
+      "citation": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/56/provenance/source_id"
+      }
+    },
+    {
+      "id": "DEV-05-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "source graphical group",
+      "citation": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/56"
+      }
+    },
+    {
+      "id": "DEV-05-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "source graphical group",
+      "citation": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/56"
+      }
+    },
+    {
+      "id": "DEV-06-1",
+      "decision": "ANSWER",
+      "answer": "BYB-CAND-BALUA",
+      "native_unit": "catalogue entity",
+      "citation": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "pointer": "/records/32/id"
+      }
+    },
+    {
+      "id": "DEV-06-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "catalogue entity",
+      "citation": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "pointer": "/records/32"
+      }
+    },
+    {
+      "id": "DEV-06-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "catalogue entity",
+      "citation": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "path": "data/catalogue.json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "pointer": "/records/32"
+      }
+    },
+    {
+      "id": "DEV-07-1",
+      "decision": "ANSWER",
+      "answer": "CSG-IGXV1-122",
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/121/id"
+      }
+    },
+    {
+      "id": "DEV-07-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/121"
+      }
+    },
+    {
+      "id": "DEV-07-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/121"
+      }
+    },
+    {
+      "id": "DEV-08-1",
+      "decision": "ANSWER",
+      "answer": "ETEC-IGXV1-16",
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15/id"
+      }
+    },
+    {
+      "id": "DEV-08-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15"
+      }
+    },
+    {
+      "id": "DEV-08-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "digital edition entry",
+      "citation": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15"
+      }
+    },
+    {
+      "id": "DEV-09-1",
+      "decision": "ANSWER",
+      "answer": "secondary_reference",
+      "native_unit": "attributed digital reading version",
+      "citation": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/4/category"
+      }
+    },
+    {
+      "id": "DEV-09-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "attributed digital reading version",
+      "citation": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/4"
+      }
+    },
+    {
+      "id": "DEV-09-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "attributed digital reading version",
+      "citation": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/4"
+      }
+    },
+    {
+      "id": "DEV-10-1",
+      "decision": "ANSWER",
+      "answer": "source_attributed_transcription",
+      "native_unit": "digital catalogue entry",
+      "citation": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "5af77e89f0f5e96e80e2adbc419694d463712615",
+        "path": "data/records.json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+        "pointer": "/281/category"
+      }
+    },
+    {
+      "id": "DEV-10-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "digital catalogue entry",
+      "citation": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "5af77e89f0f5e96e80e2adbc419694d463712615",
+        "path": "data/records.json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+        "pointer": "/281"
+      }
+    },
+    {
+      "id": "DEV-10-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "digital catalogue entry",
+      "citation": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "5af77e89f0f5e96e80e2adbc419694d463712615",
+        "path": "data/records.json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+        "pointer": "/281"
+      }
+    },
+    {
+      "id": "DEV-11-1",
+      "decision": "ANSWER",
+      "answer": "ud-phrygian-kul",
+      "native_unit": "UD reference sentence/segment",
+      "citation": {
+        "repository": "hawkinsnick/Phrygian",
+        "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+        "path": "imports/ud-phrygian-kul.json",
+        "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+        "pointer": "/records/137/source_id"
+      }
+    },
+    {
+      "id": "DEV-11-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "UD reference sentence/segment",
+      "citation": {
+        "repository": "hawkinsnick/Phrygian",
+        "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+        "path": "imports/ud-phrygian-kul.json",
+        "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+        "pointer": "/records/137"
+      }
+    },
+    {
+      "id": "DEV-11-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "UD reference sentence/segment",
+      "citation": {
+        "repository": "hawkinsnick/Phrygian",
+        "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+        "path": "imports/ud-phrygian-kul.json",
+        "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+        "pointer": "/records/137"
+      }
+    },
+    {
+      "id": "DEV-12-1",
+      "decision": "ANSWER",
+      "answer": "EDIANA-HL-244",
+      "native_unit": "digital text-entry dossier",
+      "citation": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "commit": "064f948408983abc5581a816649a8ca949466674",
+        "path": "research/digital-entry-dossiers.json",
+        "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+        "pointer": "/entries/244/id"
+      }
+    },
+    {
+      "id": "DEV-12-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "digital text-entry dossier",
+      "citation": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "commit": "064f948408983abc5581a816649a8ca949466674",
+        "path": "research/digital-entry-dossiers.json",
+        "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+        "pointer": "/entries/244"
+      }
+    },
+    {
+      "id": "DEV-12-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "digital text-entry dossier",
+      "citation": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "commit": "064f948408983abc5581a816649a8ca949466674",
+        "path": "research/digital-entry-dossiers.json",
+        "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+        "pointer": "/entries/244"
+      }
+    },
+    {
+      "id": "DEV-13-1",
+      "decision": "ANSWER",
+      "answer": "Sealing [flat-based]",
+      "native_unit": "Decorte corpus-list entry",
+      "citation": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+        "path": "research/decorte-2018-corpus-register.json",
+        "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+        "pointer": "/records/10/material"
+      }
+    },
+    {
+      "id": "DEV-13-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "Decorte corpus-list entry",
+      "citation": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+        "path": "research/decorte-2018-corpus-register.json",
+        "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+        "pointer": "/records/10"
+      }
+    },
+    {
+      "id": "DEV-13-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "Decorte corpus-list entry",
+      "citation": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+        "path": "research/decorte-2018-corpus-register.json",
+        "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+        "pointer": "/records/10"
+      }
+    },
+    {
+      "id": "DEV-14-1",
+      "decision": "ANSWER",
+      "answer": "ARKALOCHORI-AXE",
+      "native_unit": "quarantined candidate entity",
+      "citation": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+        "path": "research/candidate-register.json",
+        "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+        "pointer": "/candidates/0/id"
+      }
+    },
+    {
+      "id": "DEV-14-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "quarantined candidate entity",
+      "citation": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+        "path": "research/candidate-register.json",
+        "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+        "pointer": "/candidates/0"
+      }
+    },
+    {
+      "id": "DEV-14-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "quarantined candidate entity",
+      "citation": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+        "path": "research/candidate-register.json",
+        "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+        "pointer": "/candidates/0"
+      }
+    },
+    {
+      "id": "DEV-15-1",
+      "decision": "ANSWER",
+      "answer": "65",
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "path": "data/reference/records.json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+        "pointer": "/27/source_document_id"
+      }
+    },
+    {
+      "id": "DEV-15-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "path": "data/reference/records.json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+        "pointer": "/27"
+      }
+    },
+    {
+      "id": "DEV-15-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "path": "data/reference/records.json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+        "pointer": "/27"
+      }
+    },
+    {
+      "id": "DEV-16-1",
+      "decision": "ANSWER",
+      "answer": "309",
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Sidetic",
+        "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+        "path": "data/reference/records.json",
+        "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+        "pointer": "/1/source_document_id"
+      }
+    },
+    {
+      "id": "DEV-16-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Sidetic",
+        "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+        "path": "data/reference/records.json",
+        "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+        "pointer": "/1"
+      }
+    },
+    {
+      "id": "DEV-16-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Sidetic",
+        "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+        "path": "data/reference/records.json",
+        "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+        "pointer": "/1"
+      }
+    },
+    {
+      "id": "DEV-17-1",
+      "decision": "ANSWER",
+      "answer": "21",
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Pisidian",
+        "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+        "path": "data/reference/records.json",
+        "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+        "pointer": "/21/source_document_id"
+      }
+    },
+    {
+      "id": "DEV-17-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Pisidian",
+        "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+        "path": "data/reference/records.json",
+        "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+        "pointer": "/21"
+      }
+    },
+    {
+      "id": "DEV-17-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "frozen eDiAna directory record",
+      "citation": {
+        "repository": "hawkinsnick/Pisidian",
+        "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+        "path": "data/reference/records.json",
+        "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+        "pointer": "/21"
+      }
+    },
+    {
+      "id": "DEV-18-1",
+      "decision": "ANSWER",
+      "answer": "EDIANA-MILYAN-1",
+      "native_unit": "digital catalogue entry",
+      "citation": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6",
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "/1/id"
+      }
+    },
+    {
+      "id": "DEV-18-2",
+      "decision": "QUALIFY",
+      "answer": null,
+      "native_unit": "digital catalogue entry",
+      "citation": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6",
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "/1"
+      }
+    },
+    {
+      "id": "DEV-18-3",
+      "decision": "ABSTAIN",
+      "answer": null,
+      "native_unit": "digital catalogue entry",
+      "citation": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6",
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "/1"
+      }
+    }
+  ]
+}

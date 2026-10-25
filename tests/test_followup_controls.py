@@ -1,6 +1,8 @@
 import copy,hashlib,importlib.util,json,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+import sys
+sys.path.insert(0,str(ROOT/'scripts'))
 def module(name,path):
  s=importlib.util.spec_from_file_location(name,ROOT/path);m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
 v=module('eval_v2','scripts/validate_evaluation_v2.py');d=module('dependence_scan','scripts/scan_source_dependence.py');p=module('printed_recheck','scripts/check_printed_source_recheck.py')

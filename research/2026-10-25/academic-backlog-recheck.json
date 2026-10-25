@@ -1,0 +1,1060 @@
+{
+  "format": "all-open-academic-closure-recheck-v1",
+  "date": "2026-10-25",
+  "inputs": "inputs.json",
+  "register": {
+    "repository": "hawkinsnick/Linear-A",
+    "path": "corpus-factory/academic-defect-register-2026-10-23.json",
+    "sha256": "59e3f4d9893b6edb1c22e04b3fe777f669a6c02735b2408101583316f3adebdf"
+  },
+  "prior_execution_review": {
+    "path": "corpus-factory/remediation-execution-review-2026-10-24.json",
+    "sha256": "9476791937312b5f501dd81879fd5e99874d33102168960e34c6dcf11290a364"
+  },
+  "totals": {
+    "items": 43,
+    "observations": 57,
+    "changed_observations": 0,
+    "new_scholarly_closures": 0
+  },
+  "by_work_class": {
+    "SOURCE_COLLATION": 12,
+    "SOURCE_ACCESS": 5,
+    "STUDY_DESIGN_OR_VALIDATION": 15,
+    "SPECIALIST_ADJUDICATION": 8,
+    "KNOWN_DEPENDENCE_CONTROL": 2,
+    "COMPONENT_RIGHTS": 1
+  },
+  "items": [
+    {
+      "id": "ACD-001",
+      "title": "Linear A alternatives lack established same-locus witness pairs",
+      "scope": "Linear-A",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "An attributed critical apparatus of scholarly disagreements.",
+      "closure_criteria_unchanged": "Every admitted pair has two inspected source assertions, a justified shared locus, explicit dependence and review disposition.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "analysis/legacy-case-attribution-audit.json",
+          "current_sha256": "b780ce2e513c2e343cadf16656f78252ebac03e0d2bf757770acea62348fe13a",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "d9c67a89278b5c4d07d25a9f7043ca46e93135cdd059ff2ddbecc913629d83b0",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Trace each alternative to its actual author, publication and locus; otherwise retain non-evidentiary queue status."
+    },
+    {
+      "id": "ACD-003",
+      "title": "Twenty-three Linear A entries have no usable public reference route",
+      "scope": "Linear-A",
+      "work_class": "SOURCE_ACCESS",
+      "claim_limited": "Complete public edition tracing for 802 entries.",
+      "closure_criteria_unchanged": "Each entry has a verified public locator or a documented unresolved/access-limited state; remaining exclusions are reflected in tracing claims.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "analysis/research-readiness.json",
+          "current_sha256": "bc71f71773d777f627fd1f50503ed5c8b11b477049089c05a42d76becdaff4fa",
+          "locator_type": "json_pointer",
+          "locator": "/reference_routes",
+          "observed_sha256": "339358749cd5f301f9ac5412d4f28087a7cbd1f20eadd59b67eb72fab2fa9221",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Work the 23-item locator queue against permitted bibliographic evidence."
+    },
+    {
+      "id": "ACD-005",
+      "title": "Historical candidate selection prevents confirmatory interpretation",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Independent confirmation or new discovery from the same historical tests.",
+      "closure_criteria_unchanged": "An auditable unexposed evaluation is executed and reported, including failures and the original selected family.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "research/structural-sensitivity-repair-v1.json",
+          "current_sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+          "locator_type": "json_pointer",
+          "locator": "/interpretation",
+          "observed_sha256": "5a7337cf39e97275e1bc8db6dce714be6d805e354203f4471100fce5c16386f1",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Keep historical results exploratory; test a genuinely untouched cohort under a frozen selection and scoring plan."
+    },
+    {
+      "id": "ACD-006",
+      "title": "Prospective cohort input independence remains unauthenticated",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "All 24 cases being a clean prospective replication.",
+      "closure_criteria_unchanged": "All 24 labels have exposure dispositions and a defensible eligible cohort under a prospectively frozen decision; scoring gate is independently checked.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "analysis/prospective-independence-audit-v1.json",
+          "current_sha256": "042a1e9cb2f85fbca8652c7609bcc01686a9ffa5338aafbbcad431ac3db23132",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "a7035a0ca40fb53af58244f95fe2a5d3fad28f959ca053a1fa1ddc606d691ea2",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Recover exact analytical-input bytes and per-label exposure history without silently dropping overlapping labels."
+    },
+    {
+      "id": "ACD-007",
+      "title": "Structural statistic does not discriminate linguistic explanations",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Morphemes, language identification or decipherment from positional enrichment.",
+      "closure_criteria_unchanged": "Published competing-model/control results support the actual claimed inference, or the release retains a structural-only interpretation.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "research/structural-sensitivity-repair-v1.json",
+          "current_sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+          "locator_type": "json_pointer",
+          "locator": "/null",
+          "observed_sha256": "8283991d37a017492cec235fa21becc325b0f957011c99eb4230b0e14130c01d",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "research/structural-sensitivity-repair-v1.json",
+          "current_sha256": "4cd3e7dbad65da8b575b25f05788c1f3e41629a80b1ee2730d52fcca120d2bb3",
+          "locator_type": "json_pointer",
+          "locator": "/interpretation",
+          "observed_sha256": "5a7337cf39e97275e1bc8db6dce714be6d805e354203f4471100fce5c16386f1",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Specify the estimand and compare plausible formula, segmentation and genre explanations using admitted controls."
+    },
+    {
+      "id": "ACD-008",
+      "title": "Bootstrap clusters lack authenticated physical independence",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "An independence-justified uncertainty estimate.",
+      "closure_criteria_unchanged": "Authority-backed cluster mapping and declared sensitivity results are published; heuristic joins stay separate from canonical identity.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "current_sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/linear_a",
+          "observed_sha256": "a9f72ea699854eab6ec106fcfb82d641a5b99149af8d137aa2f9aca656efe441",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Authenticate object/face joins and model dependence at supported object, archive or scribe levels."
+    },
+    {
+      "id": "ACD-009",
+      "title": "Source composition and sparse groups limit generalization",
+      "scope": "Linear-A",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Representative corpus-wide linguistic effect estimates.",
+      "closure_criteria_unchanged": "Declared inclusion strata and sensitivity results cover the target population; no claim that the existing diagnostic destroyed or independently confirmed the pattern.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "current_sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/linear_a",
+          "observed_sha256": "a9f72ea699854eab6ec106fcfb82d641a5b99149af8d137aa2f9aca656efe441",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Report source/site/genre composition, empty-group policy and sparse-data sensitivity with uncertainty."
+    },
+    {
+      "id": "ACD-010",
+      "title": "Linear B known-answer linguistic gold and scoring are missing",
+      "scope": "Linear-B",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Validated sensitivity, specificity or linguistic usefulness.",
+      "closure_criteria_unchanged": "Frozen predictions, admitted gold, leakage checks, per-case scores and error analysis are published.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "path": "research/experiment-gates.json",
+          "current_sha256": "1eac133651340af52498e6604ddfa29231c3437a634a145592b7dded923f5c7b",
+          "locator_type": "json_pointer",
+          "locator": "/experiments/0",
+          "observed_sha256": "c3652f18bddc8d359e7d178c79897c209d764ea121370feb104fb26156718ee4",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Acquire permissible aligned gold; freeze predictions before joining gold and execute scoring."
+    },
+    {
+      "id": "ACD-011",
+      "title": "Linear B degraded and graphical controls remain unavailable",
+      "scope": "Linear-B",
+      "work_class": "SOURCE_ACCESS",
+      "claim_limited": "Robustness to damaged or ambiguous graphical input.",
+      "closure_criteria_unchanged": "The frozen degradation experiment is executed on source-bound controls and reports failures separately from textual calibration.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "path": "research/experiment-gates.json",
+          "current_sha256": "1eac133651340af52498e6604ddfa29231c3437a634a145592b7dded923f5c7b",
+          "locator_type": "json_pointer",
+          "locator": "/experiments/1",
+          "observed_sha256": "bda18b4fd91934f19946c5f969e1e1711b1f009756f681e28b69db39757c8114",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "path": "docs/CALIBRATION-INPUTS.md",
+          "current_sha256": "5e87a61c26ebfe18f59431af429915dc8f584abda684cb4b23904e7712b9975d",
+          "locator_type": "text_contains",
+          "locator": "graph",
+          "observed_sha256": "f04b1a2e02609048a3a37fea3e2357c16dfae9aee519e29e36e0cd3ff3778053",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Complete the baseline and source-authorized graphical alignment before executing degradation controls."
+    },
+    {
+      "id": "ACD-012",
+      "title": "Eight rich Cypro-Minoan records have no encoded occurrences",
+      "scope": "Cypro-Minoan",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "Complete occurrence coverage even within the rich-record subset.",
+      "closure_criteria_unchanged": "Each listed record has source-bound occurrence coverage or an evidenced unavailable/out-of-scope disposition; denominator remains the selected rich layer.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "path": "analysis/occurrence-coverage-v1.json",
+          "current_sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "93c11ca7b2168133bc35213892d316d84ed385f722d244de25acc48fe53f99e0",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Inspect permissible source evidence for the eight listed records and encode attributable occurrences or explicit exclusions."
+    },
+    {
+      "id": "ACD-013",
+      "title": "Cypro-Minoan source strata do not establish witness independence",
+      "scope": "Cypro-Minoan",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Representative sign frequencies or independent corroboration from the 28 assertions.",
+      "closure_criteria_unchanged": "An analysis declares admissible units, dependence groups, coverage and uncertainty; the three-assertion Tiryns check remains bounded.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "path": "analysis/occurrence-coverage-v1.json",
+          "current_sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac",
+          "locator_type": "json_pointer",
+          "locator": "/source_strata",
+          "observed_sha256": "9f9a16c41309fff1ec9e86477b48806729ae8fbd7e28edcf844550fc4caffd44",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Cypro-Minoan",
+          "path": "analysis/occurrence-coverage-v1.json",
+          "current_sha256": "eb1b101c7c995808b856a941ca2b75425e9932911573884fd225f1862d03deac",
+          "locator_type": "json_pointer",
+          "locator": "/warning",
+          "observed_sha256": "d2c41a153f3adda289f67266961b04fdb7219973e8897451e00e131670641edd",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Map assertion-to-edition-to-object dependence and select a defined population before frequency analysis."
+    },
+    {
+      "id": "ACD-014",
+      "title": "Cretan Hieroglyphic readings cover only six catalogue entries",
+      "scope": "Cretan-hieroglyphs",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "A fully transcribed or independently validated 331-object corpus.",
+      "closure_criteria_unchanged": "All units included in a transcription claim have source-bound readings; coverage denominators distinguish versions, catalogue entries and objects.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "path": "analysis/current-status.json",
+          "current_sha256": "36889142f6eac7ced9620db7887e6c7c2d897fb1352fc193ddf9b5399907d3b2",
+          "locator_type": "json_pointer",
+          "locator": "/committed_evidence_counts",
+          "observed_sha256": "2d4c55a1b336890f23c2a320b4c64184390a0e045833282b355aeabe84300590",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Extend source-defined reading coverage by a declared acquisition frame and record missingness."
+    },
+    {
+      "id": "ACD-015",
+      "title": "Two Cretan Hieroglyphic material assertions conflict",
+      "scope": "Cretan-hieroglyphs",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "One adjudicated material value for these objects.",
+      "closure_criteria_unchanged": "Both cases have attributable adjudications or explicit unresolved paired values; no automatic conversion of the conflict into a false-reading count.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "path": "research/source-reconciliation.json",
+          "current_sha256": "b5f68545c018b160f6435ddc04c09de34a99f64f5fa8887e4594bbe38d8e5601",
+          "locator_type": "json_pointer",
+          "locator": "/comparisons",
+          "observed_sha256": "b71bff8a0a186b65bc5f45898167b294f0c563ed18c18bc6564fea8a7d223f7b",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Obtain authoritative object/material documentation and review the joins; preserve both historical assertions."
+    },
+    {
+      "id": "ACD-016",
+      "title": "Byblos has no verified complete sequence layer",
+      "scope": "Byblos-syllabary",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "A populated sequence corpus or sign-frequency analysis.",
+      "closure_criteria_unchanged": "Each sequence claimed as complete has exact source/locus, coverage and reviewed uncertainty; admission gates pass for the claimed subset.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "path": "analysis/current-status.json",
+          "current_sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/native_evidence_counts",
+          "observed_sha256": "b20e2d44d5c2fafb40dfd82e760f0a6c499a786431f437271484b5cd4b3db0cc",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "path": "analysis/current-status.json",
+          "current_sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/scientific_results",
+          "observed_sha256": "7dcae257cf0ad0db651c0cb6fd1efba47d4de6e0687cdafdc9de7aa024ede3c9",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Acquire permitted complete sequence evidence and reconcile identities, numbering and direction before admission."
+    },
+    {
+      "id": "ACD-017",
+      "title": "Byblos printed ordinal membership contains an unresolved collision",
+      "scope": "Byblos-syllabary",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "An internally adjudicated source ordinal-to-type mapping.",
+      "closure_criteria_unchanged": "Collision and unassigned positions have case-specific source decisions or remain excluded; no silent emendation to the literal register.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "path": "analysis/current-status.json",
+          "current_sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/unresolved_source_conflicts",
+          "observed_sha256": "477e398f12509866f3cb3fdff50abf6e9f285203b679f6a00f943b286b090bdb",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Resolve the source conflict through source-qualified comparison; keep the candidate erratum counterfactual."
+    },
+    {
+      "id": "ACD-018",
+      "title": "Byblos layout, direction and count conventions remain disputed",
+      "scope": "Byblos-syllabary",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "A single authenticated segmentation and count for every catalogue item.",
+      "closure_criteria_unchanged": "Each named conflict has a recorded adjudication or parallel source-specific representation with no pooled incompatible counts.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "path": "analysis/current-status.json",
+          "current_sha256": "b2d4caba84b430932c76186580bb1df43242bd4eca3cc1f8191084607eb1bec1",
+          "locator_type": "json_pointer",
+          "locator": "/unresolved_source_conflicts",
+          "observed_sha256": "477e398f12509866f3cb3fdff50abf6e9f285203b679f6a00f943b286b090bdb",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Collate the named loci against allowed images/editions and distinguish ancient marks from editorial counting conventions."
+    },
+    {
+      "id": "ACD-019",
+      "title": "Cypriot Greek index is not a classified world Greek corpus",
+      "scope": "Cypriot-syllabic-Greek",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "592 Greek inscriptions or exhaustive population frequencies.",
+      "closure_criteria_unchanged": "Analyses use a justified source-interpreted subset and disclose excluded/unknown classes; whole-corpus claims require an authenticated denominator.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+          "path": "exports/audit.json",
+          "current_sha256": "9b3152aa0c75af858db2a5a5e731cf874bb634dd0aa46ad72f09ef1432f5bc7a",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "1ab0e4176f2ca3957ab397aa301ee6ce450d210422cf57be1f646bf8dbab727c",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Resolve classifications only where source evidence supports them and define the target population."
+    },
+    {
+      "id": "ACD-020",
+      "title": "Eteocypriot component attribution is not linguistic gold",
+      "scope": "Eteocypriot",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "29 independent Eteocypriot inscriptions or certified language assignments.",
+      "closure_criteria_unchanged": "Component-level decisions retain uncertainty and Greek parallels, supported by actual inspected loci and attributable review.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Eteocypriot",
+          "path": "exports/audit.json",
+          "current_sha256": "47263bf0b416c98fcd3a545af814690cf901abfd78b1217016ba9112a7170a08",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "6c436bd09f3a1b6670a37050bdb3b490099d8a010b6c69092e0652b43ff9c864",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Review component boundaries and source attribution with a qualified specialist."
+    },
+    {
+      "id": "ACD-021",
+      "title": "Cypriot and Eteocypriot views share all 25 parsed IDs",
+      "scope": "Cypriot-syllabic-Greek; Eteocypriot",
+      "work_class": "KNOWN_DEPENDENCE_CONTROL",
+      "claim_limited": "Independent replication or additive population counts between those repositories.",
+      "closure_criteria_unchanged": "Any pooled dataset has explicit exclusion/weighting of overlapping units; repository namespaces are never treated as evidence of independence.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "current_sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/source_overlap",
+          "observed_sha256": "99d45aac94ac3824807c7c0ad0f025444f9bb111fdc0052a0f1ac78b98b9463a",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Use the existing dependence information in every pooled analysis and document which view supplies each unit."
+    },
+    {
+      "id": "ACD-022",
+      "title": "Eteocretan reading versions remain analytically unadmitted",
+      "scope": "Eteocretan",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "A complete validated Eteocretan analytical corpus.",
+      "closure_criteria_unchanged": "Admitted rows have recorded source/locus and review; coverage and exclusions distinguish historical editions, secondary references and uncertain candidates.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Eteocretan",
+          "path": "exports/audit.json",
+          "current_sha256": "8f0b2b14c9a5ff79139650ff77ec5973b19cdfb561cc7dea3efd4f7cfd5a2e85",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "e8d4c3b46e7d8095d78f88452626fa19be18907fd0bf92483b287e5e72cbc832",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Obtain source-qualified reading, identity and authenticity decisions for a defined subset."
+    },
+    {
+      "id": "ACD-023",
+      "title": "Lycian/Carian digital entries do not certify physical units",
+      "scope": "Lycian-and-Carian",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "453 unique monuments or a new independently verified critical edition.",
+      "closure_criteria_unchanged": "Every unit in a physical-population claim has an evidenced object relation and disposition; digital snapshot totals remain separately labelled.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "path": "analysis/current-status.json",
+          "current_sha256": "f51e90f6532b62a9fbec0d77e751326a239c23208760403ae8a39e2371509ae8",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "2e3ea6ffcc098f9b7c30c7fb8617356e9e3d8ff19c3ffbe7c84a6aab2c831a47",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Reconcile catalogue units, aggregate/deleted entries and object joins against authorities."
+    },
+    {
+      "id": "ACD-024",
+      "title": "Milyan apparatus comparisons lack full independent alternative pairs",
+      "scope": "Milyan-Lycian-B",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "A complete independently adjudicated modern critical apparatus.",
+      "closure_criteria_unchanged": "Each admitted pair has two actual loci, dependence status and reviewer decision; documentary apparatus rows are not counted as independent witnesses.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "path": "analysis/attribution-review-audit.json",
+          "current_sha256": "deeb91b1d0e7e06ce65e77a22b674de6c65c9c58423080944e5d1b463caec7b4",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "440cc4b665e1a5ef4f6551c418cb577aa427531795a2bd9746e76e4b098bb8d4",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Complete source-qualified modern-edition comparison and inspect both sides of any asserted alternative pair."
+    },
+    {
+      "id": "ACD-025",
+      "title": "Milyan source cache is identical in two repositories",
+      "scope": "Milyan-Lycian-B; Lycian-and-Carian",
+      "work_class": "KNOWN_DEPENDENCE_CONTROL",
+      "claim_limited": "228 independent source rows or corroboration between those views.",
+      "closure_criteria_unchanged": "Pooled analyses count each underlying source unit once or explicitly model repeated views; provenance preserves both access paths.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "corpus-factory/academic-audit-probes-2026-10-20.json",
+          "current_sha256": "0d88cdc3db01c43b7178803dfaef6a3803ba231c5447fb8f14a4b9fa5f2f94b5",
+          "locator_type": "json_pointer",
+          "locator": "/source_overlap",
+          "observed_sha256": "99d45aac94ac3824807c7c0ad0f025444f9bb111fdc0052a0f1ac78b98b9463a",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Carry the shared source-family key into extraction, weighting and any comparison."
+    },
+    {
+      "id": "ACD-026",
+      "title": "Phrygian record-specific edition lineage is missing for 159 groups",
+      "scope": "Phrygian",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "A record-level source-verified critical Phrygian corpus.",
+      "closure_criteria_unchanged": "All admitted records have exact joins and review dispositions; the other 159 are individually resolved or explicitly excluded.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "path": "analysis/explicit-source-lineage-audit.json",
+          "current_sha256": "83a0c5201f741cbb95d9f45ee59eabad10c2e6b5a3b46daebe32c6d6ad54d8d7",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "a122b62209927068923b84e7677e33b943a4239f424e4365124230d2cd09a684",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Join every claimed record to the exact edition and locus and perform bounded source comparison."
+    },
+    {
+      "id": "ACD-027",
+      "title": "Selected Phrygian comparisons have narrower support than object readings",
+      "scope": "Phrygian",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "Authenticated complete object-specific readings for both cases.",
+      "closure_criteria_unchanged": "Case receipts identify text, restoration, line-fold transforms, access and uncertainty; no upgrade from generic parallel to object reading.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phrygian",
+          "path": "analysis/explicit-source-lineage-audit.json",
+          "current_sha256": "83a0c5201f741cbb95d9f45ee59eabad10c2e6b5a3b46daebe32c6d6ad54d8d7",
+          "locator_type": "json_pointer",
+          "locator": "/records",
+          "observed_sha256": "478227cf753dfe0209af70549dfb220e7852face6c1baa82a0a102afb9f1711b",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Inspect exact edition text and restorations for each case, separately from general formula parallels."
+    },
+    {
+      "id": "ACD-028",
+      "title": "Anatolian identity/bibliography spine lacks a reading and object concordance",
+      "scope": "Anatolian-Hieroglyphic",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "A transcribed or physically reconciled Hieroglyphic Anatolian corpus.",
+      "closure_criteria_unchanged": "Claims bind exact text/object units, sources and uncertainty; missing metadata and rights-limited readings remain declared.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "path": "analysis/current-status.json",
+          "current_sha256": "710e36fe6e61131acd6c09ff71030e028efb0aba7de04411ede25eeb3e822322",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "2c0d8dc9b348198e0b7302c3d0a37c2ca0c254a652a85f5147f03e264b5e661c",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+          "path": "research/residual-blocker-ledger.json",
+          "current_sha256": "16f986dc79d8ddf0350d5ae37b3cd265923146e1ec35df81f9cfaf40eb8a2dc0",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "dda265943229d5bdc1d2d08f2c0d39a21182a67254141b5400b787d77a222b8c",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Reconcile edition, text and monument units through lawful CHLI/source access; expand beyond metadata pilots."
+    },
+    {
+      "id": "ACD-029",
+      "title": "Archanes face-level occurrence and object mapping is incomplete",
+      "scope": "Archanes-Script",
+      "work_class": "SOURCE_ACCESS",
+      "claim_limited": "Complete face-level occurrence coverage and authenticated object concordance.",
+      "closure_criteria_unchanged": "Every face claimed as covered has source-bound geometry/occurrence and object relations or an explicit exclusion.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "path": "research/residual-blocker-ledger.json",
+          "current_sha256": "00618cbcaaf1450637105f97117084f18a2d72376df23098c1fcb92a19e5908b",
+          "locator_type": "json_pointer",
+          "locator": "/blockers/0",
+          "observed_sha256": "1a02916d2fd287d556138bf2a416ee4b8e383e9579b2185d8e08ee6cf003a4f6",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "path": "research/residual-blocker-ledger.json",
+          "current_sha256": "00618cbcaaf1450637105f97117084f18a2d72376df23098c1fcb92a19e5908b",
+          "locator_type": "json_pointer",
+          "locator": "/blockers/1",
+          "observed_sha256": "bd400872e63fd8dd049ca6902b72b26dbece702a78573a863aca0c1d5f45dece",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Obtain permissible object/figure evidence and reconcile remaining face identities."
+    },
+    {
+      "id": "ACD-030",
+      "title": "Archanes script membership and sign interpretation need adjudication",
+      "scope": "Archanes-Script",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "A certified script inventory or linguistic interpretation.",
+      "closure_criteria_unchanged": "Recorded case-specific decisions identify reviewer expertise, inspected sources, uncertainty and conflicts; engineering parity grants no scholarly acceptance.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Archanes-Script",
+          "path": "research/residual-blocker-ledger.json",
+          "current_sha256": "00618cbcaaf1450637105f97117084f18a2d72376df23098c1fcb92a19e5908b",
+          "locator_type": "json_pointer",
+          "locator": "/blockers/2",
+          "observed_sha256": "dba90ae567c0d8c59eff40b3fd4489a79342e4dbb8b5f88f1165c25b62e88515",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Submit actual source-backed cases for attributable specialist judgment."
+    },
+    {
+      "id": "ACD-031",
+      "title": "Aegean anomalous geometry and segmentation lack authoritative access",
+      "scope": "Aegean-anomalous",
+      "work_class": "SOURCE_ACCESS",
+      "claim_limited": "An adjudicated sign inventory or reading from competing count traditions.",
+      "closure_criteria_unchanged": "Each asserted sign boundary is source-bound and reviewable; incompatible historical counts stay source-specific until adjudicated.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Aegean-anomalous",
+          "path": "research/residual-blocker-ledger.json",
+          "current_sha256": "10ca7b656e4adc8932ae8bf8c0eece839fb72dae214c77da573261e309b165d8",
+          "locator_type": "json_pointer",
+          "locator": "/blockers",
+          "observed_sha256": "5e6e6dc6415dd0264d7f7b2366771f6ed7694d8e32b34d6968aec4b597e9ba56",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Obtain source-authorized geometry and compare count/segmentation conventions before scientific review."
+    },
+    {
+      "id": "ACD-032",
+      "title": "Lydian row-level source admission remains unresolved",
+      "scope": "Lydian",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "An independently verified analytical critical edition.",
+      "closure_criteria_unchanged": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Lydian",
+          "path": "analysis/record-admission.json",
+          "current_sha256": "fe3d177b0ed7f1e9fd808be3687edc73b704288d1f58064604db496b7f245fb9",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "81b576d7c096fc12bdfb7dcf2ec2e9fcd0f2e67ebac9c149bb4bb064785a063f",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Resolve exact edition/locus, object and review prerequisites for each admitted record."
+    },
+    {
+      "id": "ACD-033",
+      "title": "Sidetic row-level source admission remains unresolved",
+      "scope": "Sidetic",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "An independently verified analytical critical edition.",
+      "closure_criteria_unchanged": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Sidetic",
+          "path": "analysis/record-admission.json",
+          "current_sha256": "ddb3b9a08776455ea7722d2e55eb030790329a6bdefcf008ceeb78b39f3a7775",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "cb3aeb96276865891738d470b7980b35805125a22d90e978473a716711b726fd",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Resolve exact edition/locus, object and review prerequisites for each admitted record."
+    },
+    {
+      "id": "ACD-034",
+      "title": "Pisidian row-level source admission remains unresolved",
+      "scope": "Pisidian",
+      "work_class": "SOURCE_COLLATION",
+      "claim_limited": "An independently verified analytical critical edition.",
+      "closure_criteria_unchanged": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Pisidian",
+          "path": "analysis/record-admission.json",
+          "current_sha256": "c8da13839e75dc2de71437f72e31d127db7635020851bf4f523d5b15f502f1d8",
+          "locator_type": "json_pointer",
+          "locator": "",
+          "observed_sha256": "3eb8b4aadb1f4f6f0893dbc537f523cf881e5c72cb15c557cd116f001239c94f",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Resolve exact edition/locus, object and review prerequisites for each admitted record."
+    },
+    {
+      "id": "ACD-035",
+      "title": "Phaistos ordinal and fine-detail certification is incomplete",
+      "scope": "Phaistos-Disc",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "Complete accepted occurrence/detail and physical-mark coverage.",
+      "closure_criteria_unchanged": "All required slots/groups have attributable supported assessments, including uncertainty; acceptance validator evaluates actual evidence.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "path": "analysis/acceptance-2.0.json",
+          "current_sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/occurrence_audit_counts",
+          "observed_sha256": "cf111abdfe3361c97fe7fde5b1f05c35d0b0bc8ce0c0aaea323d2b26a2b8f50d",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "path": "analysis/acceptance-2.0.json",
+          "current_sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/review_evidence",
+          "observed_sha256": "38101395bafda0f49e3828cca4c08475855e15e3292e397e6c7b6462de4c33e3",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Obtain source-adequate ordinal, detail and mark-coverage assessments under native acceptance rules."
+    },
+    {
+      "id": "ACD-036",
+      "title": "Phaistos final release lacks accepted external review",
+      "scope": "Phaistos-Disc",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "An accepted scholarly final 2.0 release.",
+      "closure_criteria_unchanged": "A verified receipt and complete native acceptance conditions permit the gate; submitting a form alone is insufficient.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "path": "analysis/acceptance-2.0.json",
+          "current_sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/review_evidence",
+          "observed_sha256": "38101395bafda0f49e3828cca4c08475855e15e3292e397e6c7b6462de4c33e3",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Phaistos-Disc",
+          "path": "analysis/acceptance-2.0.json",
+          "current_sha256": "3bb0bd6871f2805e69e0c8dc3893a8f27f7b064bef2b1e857a4b42c849ae186f",
+          "locator_type": "json_pointer",
+          "locator": "/acceptance_requirements",
+          "observed_sha256": "0e32ad337012948a46b405ba24745550f23e79dd7c17853f317f135b7630d67d",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Receive and verify an independent human review, expertise, source scope and case judgments."
+    },
+    {
+      "id": "ACD-037",
+      "title": "AI evaluation has no unexposed representative academic task set",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Held-out population accuracy or general academic reliability.",
+      "closure_criteria_unchanged": "The evaluation reports exposure, exclusions, task/source hashes, uncertainty and per-case outputs against a predeclared target population.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-21-followup/evaluation-v2.json",
+          "current_sha256": "9e2763556f1243b7fdfd4da59e747325c688fecbdb2916b464b2aa9f48081461",
+          "locator_type": "json_pointer",
+          "locator": "/purpose",
+          "observed_sha256": "a96c94af14177aedc9522864ff3e6c4b5c4fd009ed55654c953ea628b537e3ff",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-21-followup/external-evaluation-protocol.json",
+          "current_sha256": "7208b5cbcd1db2f1b24ef5c4e1229136908a52817fa7ee4b977df2c9bbc40057",
+          "locator_type": "json_pointer",
+          "locator": "/case_selection",
+          "observed_sha256": "2acda7ba5faca39b02da8705d527c6582a450de507c08284c88a9e87bba066df",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Have an external coordinator select source-qualified unexposed tasks, define the sampling frame and freeze scoring before collection."
+    },
+    {
+      "id": "ACD-038",
+      "title": "AI pilot has no independent source-qualified grading",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "An independently established academic accuracy or hallucination-rate estimate.",
+      "closure_criteria_unchanged": "Completed grades identify expertise, source access and conflicts, with adjudication/uncertainty and no substitution of packet ID matching for bibliographic truth.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-21/ai-semantic-review.json",
+          "current_sha256": "6e3afa52f7cb4d49fadecb29be092c2231cff4298a7c42a0a963ac46f1771355",
+          "locator_type": "json_pointer",
+          "locator": "/independent_expert_review",
+          "observed_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-21-followup/external-evaluation-protocol.json",
+          "current_sha256": "7208b5cbcd1db2f1b24ef5c4e1229136908a52817fa7ee4b977df2c9bbc40057",
+          "locator_type": "json_pointer",
+          "locator": "/reviews_received",
+          "observed_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Obtain attributable source-qualified grading, blinded to workflow where feasible, and preserve disagreements."
+    },
+    {
+      "id": "ACD-039",
+      "title": "AI pilot lacks exact build identification and platform diversity",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Exact model-build reproducibility or cross-platform generality.",
+      "closure_criteria_unchanged": "New results identify available versions and limitations, separate platforms/families and preserve raw outputs; unavailable historical build data remain unknown.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "RESEARCH-RESULTS.md",
+          "current_sha256": "a57bd737d19b6c52d3ab3219e670fc73e5497ab5c6dd623f2ecf93ee267d67a3",
+          "locator_type": "text_contains",
+          "locator": "Both response sessions",
+          "observed_sha256": "c24997bf8015612b1aa71dd11a15675f6abb1acf94ae2f461047b3f2ac2a4cbf",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Record provider/model/build availability, prompts, tools and generation settings; run the declared comparator conditions."
+    },
+    {
+      "id": "ACD-040",
+      "title": "Researcher workflow benefit and effort have not been measured",
+      "scope": "Master-Corpus-AI-Skill",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Superior accuracy, productivity or reduced research effort.",
+      "closure_criteria_unchanged": "Actual participant outcomes, timing, failures, corrections and uncertainty are reported against the declared baseline.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-21/ai-scores.json",
+          "current_sha256": "eff9e34969aae3a0b397070ac0297aa41b2eba3ee354cfe365b0e70ad49b1d63",
+          "locator_type": "json_pointer",
+          "locator": "/direct_extraction_baseline",
+          "observed_sha256": "a80895aed92d02016e837c31f6438861090dd16d34d2482475fbecf8b4a34b7a",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-21-followup/external-evaluation-protocol.json",
+          "current_sha256": "7208b5cbcd1db2f1b24ef5c4e1229136908a52817fa7ee4b977df2c9bbc40057",
+          "locator_type": "json_pointer",
+          "locator": "/workflow_comparison",
+          "observed_sha256": "f07ed918e978ca36546bf0264889e9906d1c2aa1011b25e5f93915d13f50f13c",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Set sample size and uncertainty analysis before collecting counterbalanced equivalent-evidence human workflow outcomes."
+    },
+    {
+      "id": "ACD-041",
+      "title": "Dependence scan does not resolve semantic or partial source overlap",
+      "scope": "All 18 members",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "Collection-wide independence from absence of byte matches.",
+      "closure_criteria_unchanged": "Each analyzed unit has an explicit dependence disposition; unknown relations remain unknown and sensitivity analyses handle them.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "OPEN-ITEMS.md",
+          "current_sha256": "9a56012464c711b02f0e4bfefe06fe5845b6c3ae6f4080aea8ac016a433e7760",
+          "locator_type": "text_contains",
+          "locator": "It does not find every partial",
+          "observed_sha256": "9265ed12b18a1117eb7a0fcc1756c53de706ddc5a2b5fda22f64c426963903c9",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Add source-family, edition, locus and uncertain object relations for the exact analyses being proposed."
+    },
+    {
+      "id": "ACD-042",
+      "title": "Component rights constrain a unified redistribution package",
+      "scope": "All 18 members",
+      "work_class": "COMPONENT_RIGHTS",
+      "claim_limited": "A blanket license permitting redistribution/transformation of all combined contents.",
+      "closure_criteria_unchanged": "Every redistributed component has attributable applicable terms/permission and compliant scope; excluded protected content is not reconstructed through derivatives.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "corpus-factory/ACADEMIC-AUDIT-2026-10-20.md",
+          "current_sha256": "7f52bfe8d1b12f7878e6b0218d3b6800c1513f11bd6d2882d6f7a46c23f21770",
+          "locator_type": "text_contains",
+          "locator": "## 11.",
+          "observed_sha256": "907ca2a58d12dc0d25d5e4451287a977b7fd769b4aeca88eda82ef17884c9bcc",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Carry the existing per-component terms and permissions into any concrete release manifest."
+    },
+    {
+      "id": "ACD-043",
+      "title": "Combined physical population and comparable sign units remain undefined",
+      "scope": "All 18 members",
+      "work_class": "STUDY_DESIGN_OR_VALIDATION",
+      "claim_limited": "An additive world-corpus total, aggregate completeness percentage or unqualified pooled sign analysis.",
+      "closure_criteria_unchanged": "Any reported aggregate has a defensible denominator and unit crosswalk with dependence controls; otherwise aggregate fields remain null.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Linear-A",
+          "path": "corpus-factory/coverage-denominators.json",
+          "current_sha256": "910ef524add8ecd0535eda61bd02e9fcde2a75d62aca839bfd401d2c34296e90",
+          "locator_type": "json_pointer",
+          "locator": "/aggregate_physical_population",
+          "observed_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "RESEARCH-RESULTS.md",
+          "current_sha256": "a57bd737d19b6c52d3ab3219e670fc73e5497ab5c6dd623f2ecf93ee267d67a3",
+          "locator_type": "text_contains",
+          "locator": "These fields do not share",
+          "observed_sha256": "762b1806c45cccae1131bf8c013ae060577c0240f76328cafe711f8c68420a29",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Define a study-specific population, physical/object relations, compatible units and inclusion/exclusion frame."
+    },
+    {
+      "id": "ACD-049",
+      "title": "Five Cypro-Minoan comparison sides still lack direct primary pages",
+      "scope": "Cypro-Minoan",
+      "work_class": "SOURCE_ACCESS",
+      "claim_limited": "Two directly consulted edition sides for the five reported inter-edition comparisons.",
+      "closure_criteria_unchanged": "Each of the five primary sides has an actual inspected-source receipt and comparison outcome; inaccessible pages remain unresolved, and doubt/lacuna are preserved.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-22/source-batch.json",
+          "current_sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/cases",
+          "observed_sha256": "c374c079aae35be422cbe5c9ba2c1978168cf0497eb58ae88a6379c06e07798f",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-22/source-batch.json",
+          "current_sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/inaccessible_source",
+          "observed_sha256": "f572d5080b3ae24dd81f49993fe548e5e8abaeaf91e629f3ec734b4592ccb658",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Obtain lawful access to Olivier 2007 printed pp.76,77,496 and compare each exact locus with the preserved Valério assertion."
+    },
+    {
+      "id": "ACD-050",
+      "title": "Cypro-Minoan internal 09/10 source discrepancy remains unresolved",
+      "scope": "Cypro-Minoan",
+      "work_class": "SPECIALIST_ADJUDICATION",
+      "claim_limited": "One adjudicated sign label at that source locus.",
+      "closure_criteria_unchanged": "An attributable decision resolves the discrepancy or both source-specific values remain explicitly unresolved and excluded from single-label gold.",
+      "evidence_recheck": [
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-22/source-batch.json",
+          "current_sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/cases/5",
+          "observed_sha256": "c6ac5aaa9416aa9a8b05897e50dc7065e1927f0c8390b9e0c050306021c26d63",
+          "frozen_observation_unchanged": true
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "path": "research/2026-10-22/source-batch.json",
+          "current_sha256": "f073d884f76abd24fdec63f4f2bacca6bd6ea5e423636a65d95118646fc6a191",
+          "locator_type": "json_pointer",
+          "locator": "/totals",
+          "observed_sha256": "649caf0543b5e3f089daf54c9430504fabb81c13c9895f27ed2205ff2a32d5c0",
+          "frozen_observation_unchanged": true
+        }
+      ],
+      "status": "HISTORICAL_QUEUE_REQUIREMENT_NOT_CURRENT_LEDGER_COUNTER",
+      "next_evidence_requirement": "Seek an authorial correction or source-qualified sign-level assessment, distinguishing publication inconsistency from a project transcription error."
+    }
+  ],
+  "boundary": "Re-resolved observations at eighteen pinned native checkpoints and the pinned pre-change master git blobs. Equal observations do not exhaust source literature or prove no improvement is possible. New engineering/source-fidelity controls do not satisfy missing specialist, primary-edition or human-outcome criteria. This replays the inherited 43-package state; later scoped-control closures are tracked separately in references/scoped-closures-2026-10-25.md, not reversed by this receipt."
+}

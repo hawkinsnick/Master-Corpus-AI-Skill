@@ -209,3 +209,7 @@ The master [automatically checks member updates](AUTO-SYNC.md) on a five-minute 
 | Need help or want to report a defect | Open an issue in the affected corpus for native evidence, or the master for routing/docs; include minimal reproducible public inputs and expected versus observed behavior |
 
 Do not post restricted source files or private research material in a public issue. A useful report identifies the exact revision, affected records and the point at which the evidence chain breaks.
+
+## Adversarial academic review preparation
+
+The [25 October review and repairs](references/hostile-review-2026-10-25.md) cover all eighteen declared retrieval profiles, expanded digital-source checks and partial-text dependence screening. A fresh Linear B paper download and appendix check succeeded; earlier access failures remain historical. The development exercise is compact-evidence conformance, not independently validated academic accuracy. All43 inherited scholarly closure packages remain open or mitigated under their original criteria.

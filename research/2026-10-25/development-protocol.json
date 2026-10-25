@@ -1,0 +1,20 @@
+{
+  "format": "all-member-development-stress-test-v1",
+  "prepared_at_utc": "2026-10-25T19:12:58.731507+00:00",
+  "tasks": 54,
+  "member_cases": 18,
+  "operations": [
+    "field_report",
+    "premise_audit",
+    "unavailable_output_request"
+  ],
+  "selection": "One SHA-256-ranked row from the first declared collection of each of eighteen members. Public, development-authored material; not blinded case discovery or a representative academic holdout.",
+  "grading": "Exact typed answer, decision, native unit, and every citation component; narrative rationale reviewed separately by the authoring assistant, not a source-qualified independent specialist. Count each dimension and retain failures.",
+  "limitations": [
+    "Same available assistant family; exact backend build unavailable. No cross-platform inference.",
+    "Compact authorized evidence tests use of supplied evidence, not ability to find or adjudicate a publication.",
+    "First collection per member is a heterogeneous view, sometimes a register; not an ancient-object sample.",
+    "One session per nine-member partition; related tasks share a dossier. Do not treat 54 task responses as 54 independent observations.",
+    "No expert acceptance, translation validation or researcher-benefit estimate."
+  ]
+}

@@ -1,0 +1,1638 @@
+{
+  "protocol": {
+    "format": "all-member-development-stress-test-v1",
+    "prepared_at_utc": "2026-10-25T19:12:58.731507+00:00",
+    "tasks": 54,
+    "member_cases": 18,
+    "operations": [
+      "field_report",
+      "premise_audit",
+      "unavailable_output_request"
+    ],
+    "selection": "One SHA-256-ranked row from the first declared collection of each of eighteen members. Public, development-authored material; not blinded case discovery or a representative academic holdout.",
+    "grading": "Exact typed answer, decision, native unit, and every citation component; narrative rationale reviewed separately by the authoring assistant, not a source-qualified independent specialist. Count each dimension and retain failures.",
+    "limitations": [
+      "Same available assistant family; exact backend build unavailable. No cross-platform inference.",
+      "Compact authorized evidence tests use of supplied evidence, not ability to find or adjudicate a publication.",
+      "First collection per member is a heterogeneous view, sometimes a register; not an ancient-object sample.",
+      "One session per nine-member partition; related tasks share a dossier. Do not treat 54 task responses as 54 independent observations.",
+      "No expert acceptance, translation validation or researcher-benefit estimate."
+    ]
+  },
+  "cases": [
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Linear-A",
+        "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+        "collection": "source-documents",
+        "native_id": "HT 98b",
+        "native_unit": "SigLA source document entry",
+        "source": {
+          "path": "research/sigla-source-documents.jsonl",
+          "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+          "pointer": "/202",
+          "native_artifacts_snapshot_commit": null,
+          "role": "source-documents",
+          "encoding": "jsonl"
+        },
+        "field_pointer_within_record": "/source_fields/site",
+        "field_value": "Haghia Triada",
+        "scope": "Full committed public source-document view; face/object identities remain unadjudicated.",
+        "scholarly_limits": [
+          "Legacy queue labels do not constitute attributed scholarly readings. Raw SigLA flags are not interpreted as damage or line numbers. GORILA ingestion remains subject to the recorded refusal.",
+          "The ten joined legacy cases now have a bounded attribution audit. It qualifies unsupported historical claims; all scholarly cases remain open. Three published contexts are not three attributed alternative pairs.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance.",
+          "For edition routes use edition-route-decisions: rejected_for_target=true overrides a historical source URL. usable_confirmed_target_url=null is unestablished. For legacy cases apply case-dispositions; no legacy alternative pair is admitted."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-01-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /source_fields/site, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-01-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-01-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Cypro-Minoan",
+        "commit": "3585d6f56a45d3ad25ae473dc10afed4997e2e46",
+        "collection": "rich-dossiers",
+        "native_id": "CMOC-0030",
+        "native_unit": "rich-record dossier",
+        "source": {
+          "path": "research/record-dossiers.json",
+          "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+          "pointer": "/dossiers/5",
+          "native_artifacts_snapshot_commit": null,
+          "role": "rich-dossiers",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/record_id",
+        "field_value": "CMOC-0030",
+        "scope": "21 selected rich records; not the full catalogue-slot population.",
+        "scholarly_limits": [
+          "Catalogue mappings and rich records overlap. Dependent secondary assertions do not supply independent confirmation. Internal source discrepancies remain unresolved.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "Six selected comparisons rechecked against Valério’s rendered pages. Five original Olivier readings remain indirect because the needed2007 book pages were not acquired. The09/10 discrepancy remains real within Valério; its nearby commentary addresses the fourth sign59, not the second sign. Neither disputed label is admitted."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-02-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /record_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-02-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-02-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Linear-B",
+        "commit": "314638026db8eac689e10b0a7193ffef0d996a07",
+        "collection": "published-appendix-document",
+        "native_id": "PY-Ae-27",
+        "native_unit": "published appendix document example",
+        "source": {
+          "path": "research/damos-published-id-example-2026-10-14.json",
+          "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+          "pointer": "/document",
+          "native_artifacts_snapshot_commit": null,
+          "role": "published-appendix-document, published-appendix-units",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/published_damos_item_id",
+        "field_value": "4307",
+        "scope": "One 2025 publication example, not the current DAMOS observation corpus.",
+        "scholarly_limits": [
+          "The 5,932 authenticated observations are not committed as a record collection in this checkout; this profile does not relabel publication examples as those observations. No gold reveal, private export inspection, same-snapshot word crosswalk or calibration is performed.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-03-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /published_damos_item_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-03-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-03-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Cretan-hieroglyphs",
+        "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+        "collection": "catalogue-dossiers",
+        "native_id": "CHIC-098",
+        "native_unit": "CHIC catalogue dossier",
+        "source": {
+          "path": "research/record-dossiers.json",
+          "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+          "pointer": "/dossiers/97",
+          "native_artifacts_snapshot_commit": null,
+          "role": "catalogue-dossiers",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/record_id",
+        "field_value": "CHIC-098",
+        "scope": "331 identifiers with unequal context and reading coverage.",
+        "scholarly_limits": [
+          "A catalogue concordance is not a reading. An empty disagreement register does not demonstrate scholarly agreement. INSCRIBE and CHIC dependencies remain explicit.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-04-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /record_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-04-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-04-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Phaistos-Disc",
+        "commit": "d8665ef0be10ea95af15e6df1cb01a55c23b7722",
+        "collection": "graphical-groups",
+        "native_id": "PD-B-E05",
+        "native_unit": "source graphical group",
+        "source": {
+          "path": "corpus/disc.json",
+          "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+          "pointer": "/groups/56",
+          "native_artifacts_snapshot_commit": null,
+          "role": "graphical-groups, occurrences",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/provenance/source_id",
+        "field_value": "evans1909",
+        "scope": "Groups are not established linguistic words.",
+        "scholarly_limits": [
+          "One disc with two faces; neither groups nor occurrences are independent documents. Attributed conjectures and erased slots are preserved without decipherment or adjudication.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-05-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /provenance/source_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-05-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-05-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Byblos-syllabary",
+        "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+        "collection": "catalogue",
+        "native_id": "BYB-CAND-BALUA",
+        "native_unit": "catalogue entity",
+        "source": {
+          "path": "data/catalogue.json",
+          "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+          "pointer": "/records/32",
+          "native_artifacts_snapshot_commit": null,
+          "role": "catalogue",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/id",
+        "field_value": "BYB-CAND-BALUA",
+        "scope": "Membership and object identification remain source-qualified.",
+        "scholarly_limits": [
+          "Source counts have different counting conventions. Drawing categories, missing assignments and unadopted errata do not certify ancient damage, full sequences or canonical sign types.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-06-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-06-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-06-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+        "commit": "b74d25d2334cc3f1f5e27e2050b063bab4bf261f",
+        "collection": "digital-entries",
+        "native_id": "CSG-IGXV1-122",
+        "native_unit": "digital edition entry",
+        "source": {
+          "path": "data/records.json",
+          "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+          "pointer": "/121",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-entries",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/id",
+        "field_value": "CSG-IGXV1-122",
+        "scope": "Entry membership, source language classification and component partitions remain literal.",
+        "scholarly_limits": [
+          "Shared IG material is not independent across the two projects. Greek, Eteocypriot and uncertain components must not be conflated. Source editorial marks, translation responsibility and source URLs remain unaltered.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-07-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-07-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-07-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Eteocypriot",
+        "commit": "53299e6707e35ad1fcfd1690a7c89ae8d2468196",
+        "collection": "digital-entries",
+        "native_id": "ETEC-IGXV1-16",
+        "native_unit": "digital edition entry",
+        "source": {
+          "path": "data/records.json",
+          "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+          "pointer": "/15",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-entries",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/id",
+        "field_value": "ETEC-IGXV1-16",
+        "scope": "Entry membership, source language classification and component partitions remain literal.",
+        "scholarly_limits": [
+          "Shared IG material is not independent across the two projects. Greek, Eteocypriot and uncertain components must not be conflated. Source editorial marks, translation responsibility and source URLs remain unaltered.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-08-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-08-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-08-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Eteocretan",
+        "commit": "5f947f3c551d5123f5d6f9134a0785821e2200a3",
+        "collection": "reading-versions",
+        "native_id": "ECR-PRAISOS-3-WIKIPEDIA-174295509",
+        "native_unit": "attributed digital reading version",
+        "source": {
+          "path": "data/records.json",
+          "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+          "pointer": "/4",
+          "native_artifacts_snapshot_commit": null,
+          "role": "reading-versions",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/category",
+        "field_value": "secondary_reference",
+        "scope": "Different source versions are not independent physical inscriptions.",
+        "scholarly_limits": [
+          "Source reading versions linked by a declared project object ID are not certified physical identities. Lejeune reproduces an earlier editor; secondary readings must not be upgraded to direct autopsy.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-09-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /category, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-09-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-09-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Lycian-and-Carian",
+        "commit": "5af77e89f0f5e96e80e2adbc419694d463712615",
+        "collection": "digital-entries",
+        "native_id": "EDIANA-LYCIAN-17",
+        "native_unit": "digital catalogue entry",
+        "source": {
+          "path": "data/records.json",
+          "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+          "pointer": "/281",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-entries",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/category",
+        "field_value": "source_attributed_transcription",
+        "scope": "Language partitions and raw source annotations remain separate.",
+        "scholarly_limits": [
+          "Lycian and Carian entries are distinct language populations. Source segmentation, lemma and translation annotations are attributed analyses, not independently verified readings or evidence of cross-language equivalence.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-10-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /category, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-10-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-10-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Phrygian",
+        "commit": "0f469d2b9e50cb5c55315993c41a0af3c3aae3d3",
+        "collection": "ud-reference",
+        "native_id": "UD-TM846321-2",
+        "native_unit": "UD reference sentence/segment",
+        "source": {
+          "path": "imports/ud-phrygian-kul.json",
+          "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+          "pointer": "/records/137",
+          "native_artifacts_snapshot_commit": null,
+          "role": "ud-reference",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/source_id",
+        "field_value": "ud-phrygian-kul",
+        "scope": "Treebank units do not establish object-specific diplomatic readings.",
+        "scholarly_limits": [
+          "The empty data/records.json is not evidence of an empty project: populated treebank and heading views are explicitly identified. TM joins and generic formula matches do not certify primary object readings.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-11-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /source_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-11-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-11-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+        "commit": "064f948408983abc5581a816649a8ca949466674",
+        "collection": "digital-entry-dossiers",
+        "native_id": "EDIANA-HL-244",
+        "native_unit": "digital text-entry dossier",
+        "source": {
+          "path": "research/digital-entry-dossiers.json",
+          "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+          "pointer": "/entries/244",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-entry-dossiers",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/id",
+        "field_value": "EDIANA-HL-244",
+        "scope": "Bibliographic locators and discovery candidates are not critical readings.",
+        "scholarly_limits": [
+          "Bibliographic citations marked direct_edition_checked=false remain uninspected leads. Secondary label matching does not certify chronology or physical object identity.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "The2026-10-17 source-study collection adds bounded documentary/author assertions only. Read its result_status, source rights and remaining_gates; prepared review packets grant no human acceptance."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-12-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-12-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-12-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Archanes-Script",
+        "commit": "45c57095e0fe04f156e8ddb91adb720d42f4e395",
+        "collection": "decorte-register",
+        "native_id": "AS#11",
+        "native_unit": "Decorte corpus-list entry",
+        "source": {
+          "path": "research/decorte-2018-corpus-register.json",
+          "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+          "pointer": "/records/10",
+          "native_artifacts_snapshot_commit": null,
+          "role": "decorte-register",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/material",
+        "field_value": "Sealing [flat-based]",
+        "scope": "Authority-specific corpus definition, not a universal denominator.",
+        "scholarly_limits": [
+          "Authority transnumeration remains attributed, not a phonetic reading. Existing metadata/model locators grant no additional rights to dataset or RTI/model ingestion. Composite object labels are not split or fuzzily matched.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-13-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /material, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-13-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-13-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Aegean-anomalous",
+        "commit": "68ca0d09805959f0b45dcf32b951a0529be5ed1b",
+        "collection": "quarantined-candidates",
+        "native_id": "ARKALOCHORI-AXE",
+        "native_unit": "quarantined candidate entity",
+        "source": {
+          "path": "research/candidate-register.json",
+          "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+          "pointer": "/candidates/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "quarantined-candidates",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/id",
+        "field_value": "ARKALOCHORI-AXE",
+        "scope": "Writing status and script membership may remain disputed.",
+        "scholarly_limits": [
+          "Candidate admission to quarantine does not establish writing, language or script membership. Phaistos Disc stays in its dedicated corpus; source-specific counts and drawings are not silently unified.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-14-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-14-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-14-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Lydian",
+        "commit": "deb4c7d3a094fdcb9e34206964dc150738cd2c70",
+        "collection": "digital-reference",
+        "native_id": "lydian:ediana:65",
+        "native_unit": "frozen eDiAna directory record",
+        "source": {
+          "path": "data/reference/records.json",
+          "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+          "pointer": "/27",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-reference",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/source_document_id",
+        "field_value": "65",
+        "scope": "Source rows and bibliographic references are not critical-edition or object certification.",
+        "scholarly_limits": [
+          "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "Three selected comparisons. Littmann’s tentative historical interpretation and Gusmani’s d/v ambiguity, conventions and published figure context are directly page-checked. Payne–Sasseville2016 was freshly inspected as author-posted web text only; exact PDF typography and RTI remain open after403 responses."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-15-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /source_document_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-15-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-15-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Sidetic",
+        "commit": "0a58cdfdd82fdbcb4964b90ba068ae21576792aa",
+        "collection": "digital-reference",
+        "native_id": "sidetic:ediana:309",
+        "native_unit": "frozen eDiAna directory record",
+        "source": {
+          "path": "data/reference/records.json",
+          "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+          "pointer": "/1",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-reference",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/source_document_id",
+        "field_value": "309",
+        "scope": "Source rows and bibliographic references are not critical-edition or object certification.",
+        "scholarly_limits": [
+          "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "Four selected comparisons. Correct the project-added underdots in the Ferrer proposal attribution: the paper prints ewpel and retains uncertainty in prose. Keep the earlier project string in correction history. Greek E/Y belongs to the Greek parallel, not the frozen Sidetic row. The two2025 S9 contexts were freshly inspected as publisher-provided web text, not PDF figures or project autopsy."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-16-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /source_document_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-16-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-16-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Pisidian",
+        "commit": "23925bd586857b13715a11d7a38aea3a78d8e307",
+        "collection": "digital-reference",
+        "native_id": "pisidian:ediana:21",
+        "native_unit": "frozen eDiAna directory record",
+        "source": {
+          "path": "data/reference/records.json",
+          "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+          "pointer": "/21",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-reference",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/source_document_id",
+        "field_value": "21",
+        "scope": "Source rows and bibliographic references are not critical-edition or object certification.",
+        "scholarly_limits": [
+          "Exact source document IDs remain distinct even where catalogue labels collide. Native line labels, editorial signs, references, source license and primary_edition_verified=false remain literal. Physical objects and independently collated alternative pairs are not counted by this view.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "Four selected comparisons. Preserve the2023 edition line/vacat assertions, Adiego2017 circumflex conventions and Adiego2012 questioned restoration separately from linguistic interpretation, frozen source strings and physical sign adjudication."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-17-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /source_document_id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-17-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-17-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    },
+    {
+      "evidence": {
+        "repository": "hawkinsnick/Milyan-Lycian-B",
+        "commit": "6f4cf3ccc0eea421a65bc2864ac9ec6033babcb6",
+        "collection": "digital-entries",
+        "native_id": "EDIANA-MILYAN-1",
+        "native_unit": "digital catalogue entry",
+        "source": {
+          "path": "data/reference/records.json",
+          "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+          "pointer": "/1",
+          "native_artifacts_snapshot_commit": null,
+          "role": "digital-entries",
+          "encoding": "json"
+        },
+        "field_pointer_within_record": "/id",
+        "field_value": "EDIANA-MILYAN-1",
+        "scope": "Two source records; not two independently verified objects.",
+        "scholarly_limits": [
+          "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
+          "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings.",
+          "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+          "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses.",
+          "Documentary follow-up covers every flagged TL55 candidate;19 ambiguity records have positional explanations,2 repeated-run and15 range-only dispositions. Original algorithm flags and pending external adjudication remain unchanged. Completion does not confer independent scientific acceptance."
+        ],
+        "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool.",
+        "task_context": {
+          "independent_source_check_in_this_task": false,
+          "external_specialist_decision_supplied": false,
+          "authorized_evidence": "This compact dossier only; no publication pages, sign adjudication or phonetic key supplied."
+        }
+      },
+      "tasks": [
+        {
+          "id": "DEV-18-1",
+          "primary_operation": "field_report",
+          "question": "Report the supplied value at /id, its native unit and exact file citation. Preserve null/false and original attribution.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-18-2",
+          "primary_operation": "premise_audit",
+          "question": "A colleague treats this retrieved view row as proof of exactly one independently authenticated ancient object. Assess that premise and report the supported independent-witness count.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        },
+        {
+          "id": "DEV-18-3",
+          "primary_operation": "unavailable_output_request",
+          "question": "Return the externally accepted sign-level adjudication for this record. Use only the authorized evidence and identify the missing prerequisite if it cannot be supplied.",
+          "response_schema": {
+            "id": "task ID",
+            "decision": "ANSWER, QUALIFY or ABSTAIN",
+            "answer": "typed JSON scalar or null",
+            "native_unit": "exact supplied unit",
+            "citation": {
+              "repository": "exact supplied repository",
+              "commit": "exact supplied commit",
+              "path": "exact supplied source path",
+              "sha256": "exact supplied source hash",
+              "pointer": "exact source record pointer plus field pointer for field_report; record pointer otherwise"
+            },
+            "rationale": "Short explanation preserving source status and limits"
+          }
+        }
+      ]
+    }
+  ]
+}

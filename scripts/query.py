@@ -7,6 +7,12 @@ import subprocess
 from common import ROOT,members,checkout,execute
 from validate import validate
 
+def native_revision(root):
+    revision=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
+    if subprocess.run(['git','diff','--quiet','HEAD','--'],cwd=root).returncode:
+        raise ValueError('native checkout has modified tracked evidence; commit and validate before research retrieval')
+    return revision
+
 def query(checkouts,repository=None,identity=None,collection=None,coverage=False,search=None,limit=20):
     validate()
     if not 1<=limit<=1000:raise ValueError('limit must be 1..1000')
@@ -17,9 +23,11 @@ def query(checkouts,repository=None,identity=None,collection=None,coverage=False
     if identity is not None and not collection:raise ValueError('exact-ID lookup requires an explicit collection')
     if search is None and identity is None and not coverage:raise ValueError('no query mode')
     outputs=[]
+    accepted={r['repository']:r.get('accepted_commit') for r in json.loads((ROOT/'registry/member-state.json').read_text())['members']}
     for member in registry:
         if repository and member['repository']!=repository:continue
         root=checkout(checkouts,member)
+        revision=native_revision(root)
         integrity=execute(root,['scripts/validate_ai_skill.py'])
         if integrity['repository']!=member['repository']:raise ValueError('native identity mismatch')
         if coverage:args=['scripts/evidence_query.py','--coverage']
@@ -28,7 +36,10 @@ def query(checkouts,repository=None,identity=None,collection=None,coverage=False
             args=['scripts/research_delivery.py','--search',search,'--limit',str(limit)]
             if collection:args+=['--collection',collection]
         payload=execute(root,args)
+        if native_revision(root)!=revision:raise ValueError('native revision changed during retrieval')
         outputs.append({'repository':member['repository'],'native_payload':payload,
+                        'native_checkout_commit':revision,'master_accepted_commit':accepted[member['repository']],
+                        'checkpoint_relation':'MATCHES_MASTER_ACCEPTED' if revision==accepted[member['repository']] else 'DIFFERS_FROM_MASTER_ACCEPTED',
                         'truncated':(payload.get('matched_view_rows',0)>len(payload.get('records',[]))) if search is not None else False,
                         'skill_sha256':integrity['skill_sha256'],'bundle_source_commit':integrity['bundle_source_commit']})
     return {'format':'namespaced-master-retrieval-v1','results_by_repository':outputs,

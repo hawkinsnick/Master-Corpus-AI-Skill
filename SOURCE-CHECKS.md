@@ -56,3 +56,7 @@ A deliberately fresh acquisition uses `--live`; adding `--write` records new rec
 ## Fixed source batch and Tiryns review packet
 
 The [22 October completion record](research/2026-10-22/README.md) assigns outcomes to all six existing comparison cases and twelve assertions. Five primary-edition sides remain inaccessible; the internal source discrepancy remains unresolved. The [Tiryns packet](research/2026-10-22/TIRYNS-REVIEW-PACKET.md) is ready for independent review; no review has been received.
+
+## Adversarial academic review preparation
+
+The [25 October review and repairs](references/hostile-review-2026-10-25.md) cover all eighteen declared retrieval profiles, expanded digital-source checks and partial-text dependence screening. A fresh Linear B paper download and appendix check succeeded; earlier access failures remain historical. The development exercise is compact-evidence conformance, not independently validated academic accuracy. All43 inherited scholarly closure packages remain open or mitigated under their original criteria.
