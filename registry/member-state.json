@@ -7,17 +7,17 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
-      "accepted_commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40",
+      "observed_commit": "6cfb743b08659c67e4101dec16c13dc6b2c19161",
+      "accepted_commit": "6cfb743b08659c67e4101dec16c13dc6b2c19161",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "4666790e62844d1f191bd8802db7f1aaab6833935202ee54de937085d11fb68b",
-      "bundle_sha256": "7db3d19da3f9ff181477f5fea31994c3485489c4748d12a49a51882980e7f3cf",
-      "bundle_source_commit": "e33b8561e6ec5b66a1c3d32f8ed4110def7f4e26",
-      "indexed_artifact_entries_checked": 242
+      "skill_sha256": "4d2db7ac34099e25c0d0d0a54735b8aca4484f7d9c877d2cbf56edc369933297",
+      "bundle_sha256": "91395daf7ca911326df499d12620334a636221a66bec1056f9e468a36eba2631",
+      "bundle_source_commit": "fb2e78c9abf4fed07644525360714162b6c87f61",
+      "indexed_artifact_entries_checked": 247
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -49,17 +49,17 @@
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
-      "observed_commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
-      "accepted_commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540",
+      "observed_commit": "a27a01329e78789c7d627131bc46bfde24c074bc",
+      "accepted_commit": "a27a01329e78789c7d627131bc46bfde24c074bc",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "cretan-hieroglyphic-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "f7126d9e2b48cecdcd0c3b53d515d79d5a023056a4a7535b98eca59a9c1bc9ed",
-      "bundle_sha256": "caed5f99fa71a65494e04fc92a6b67f9e56398fdb09b828208a111c8da5bbd51",
-      "bundle_source_commit": "eebb2a7f3711113f2ae47990ed8303bd63ec9f5c",
-      "indexed_artifact_entries_checked": 56
+      "skill_sha256": "8ea62f7a70f4bff6f99515fdabb73ca76b89f7237bbe4b8a4910c7593fa959a4",
+      "bundle_sha256": "4b50c858319036a00862e844d6034bfcafec8794b36fc3c07e78cf76ac4191c6",
+      "bundle_source_commit": "86fcef6c4f8cded2c2d7545c54662cf48638f205",
+      "indexed_artifact_entries_checked": 60
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -77,17 +77,17 @@
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
-      "observed_commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
-      "accepted_commit": "16ffb1a32044c92cbd69d991adffc7be797621f5",
+      "observed_commit": "4fdf5d4106b5409b5854148bd086b7cabce6d530",
+      "accepted_commit": "4fdf5d4106b5409b5854148bd086b7cabce6d530",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "byblos-syllabary-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "c89457844b19351cf4653c5d5bf09033b6ec4a2c9a49ea8a3cfc3472cdd086a8",
-      "bundle_sha256": "8cad4cc772ad65bdb08336a4f727db09d780070531ae943dcb5e374512981d68",
-      "bundle_source_commit": "d2b01d679472d45027c9c99edcbeebbbe6927f23",
-      "indexed_artifact_entries_checked": 75
+      "skill_sha256": "0a15420dfa7150061757a14a0257a2b02d06b6e6a8d8b83263ffecfc4a3504f9",
+      "bundle_sha256": "6282f1d5ae58be9e69bc2c84eda1300890e61f093adc3b8fe614c3390822149e",
+      "bundle_source_commit": "70fdbe9ec3bba891b10767ebaad110aa5a1414cb",
+      "indexed_artifact_entries_checked": 79
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",

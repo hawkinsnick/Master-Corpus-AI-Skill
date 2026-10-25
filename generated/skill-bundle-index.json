@@ -63,7 +63,7 @@
     },
     {
       "path": "MEMBER-STATUS.md",
-      "sha256": "683eca32b9fe2b903233eccb30861bc457c1b3569bc8e2f68b34f9cb00fa27db",
+      "sha256": "f80ffe082513af3862832780164a1d6030fc4934fe39214f3732b2b9e3d904f0",
       "bytes": 5779
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "path": "migration/member-checkpoints.json",
-      "sha256": "5acf19f7f975712863208e209b8f515a36a9c874771ef203630d4c52c5fc05a2",
+      "sha256": "2f7233561067ec0921dd8bada965ba1e123152e737e22aa7c55916b07d5baf0c",
       "bytes": 2371
     },
     {
@@ -203,7 +203,7 @@
     },
     {
       "path": "registry/member-state.json",
-      "sha256": "633e941480a8e0fa1d2a372725e64acb5472e10de89182592df848ef166551ec",
+      "sha256": "7bfff6eba8bdd8b78a9d19bebc4b0490e2ba19c0ba0df247100df4975f15606b",
       "bytes": 13841
     },
     {
@@ -499,7 +499,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "bc0259bfdcefb2e7bfdeba86836eb4ea0a3950fbc416bf38889ea1b059cc9900",
+    "sha256": "9eed912c21edfcc31ca67ded6e2d794f165dc63bcedd1cf72e3f190da15d00b5",
     "bytes": 104209
   }
 }

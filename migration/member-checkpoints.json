@@ -3,7 +3,7 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "commit": "da2e98ae29605cfd2a6be5908aba8b320ff6ad40"
+      "commit": "6cfb743b08659c67e4101dec16c13dc6b2c19161"
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -15,7 +15,7 @@
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
-      "commit": "4e5704e62c966220ef7b85feaa8205c61a3f3540"
+      "commit": "a27a01329e78789c7d627131bc46bfde24c074bc"
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
@@ -23,7 +23,7 @@
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
-      "commit": "16ffb1a32044c92cbd69d991adffc7be797621f5"
+      "commit": "4fdf5d4106b5409b5854148bd086b7cabce6d530"
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
