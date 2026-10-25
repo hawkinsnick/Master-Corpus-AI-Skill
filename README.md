@@ -1,5 +1,7 @@
 # Master Corpus AI Skill
 
+[25 October scoped closures](references/scoped-closures-2026-10-25.md): five tested controls completed, with 38 original entries and five explicit scientific follow-ups still open.
+
 [24 October academic execution review](references/academic-remediation-2026-10-24.md): all 43 remaining criteria checked, plus a tested Milyan source-row union and a source-qualified MY Zf 2 caution. No new scholarly closure claimed.
 
 [Implemented academic remediation](references/academic-remediation.md): rejected Linear A routes, explicit legacy-case dispositions, and a pinned Cypriot source-entry union that prevents additive duplicate-view counts.

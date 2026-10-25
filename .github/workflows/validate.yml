@@ -74,3 +74,27 @@ jobs:
       - run: python scripts/prepare_source_union.py --checkouts .research-checkouts --output research/remediation/cypriot-source-union.json --check
 
       - run: python scripts/prepare_milyan_union.py --checkouts .research-checkouts --output research/remediation/milyan-source-union.json --check
+
+  scoped-closures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Acquire pinned closure and union inputs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import concurrent.futures,json,re,subprocess
+          rows=json.loads(Path('research/remediation/closure-control-inputs-2026-10-25.json').read_text())['members']
+          assert len(rows)==len({x['repository'] for x in rows})==7
+          def acquire(m):
+              assert re.fullmatch(r'hawkinsnick/[A-Za-z0-9-]+',m['repository'])
+              assert re.fullmatch('[a-f0-9]{40}',m['commit'])
+              target=Path('.closure-checkouts')/m['repository'].split('/')[-1]
+              subprocess.run(['git','clone','--quiet','--no-checkout','https://github.com/'+m['repository']+'.git',str(target)],check=True)
+              subprocess.run(['git','checkout','--quiet','--detach',m['commit']],cwd=target,check=True)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(acquire,rows))
+          PY
+      - run: python scripts/check_scoped_closures.py --checkouts .closure-checkouts

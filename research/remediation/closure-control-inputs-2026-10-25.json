@@ -1,0 +1,34 @@
+{
+  "format": "scoped-closure-replay-inputs-v1",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "commit": "fb2e78c9abf4fed07644525360714162b6c87f61"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "commit": "86fcef6c4f8cded2c2d7545c54662cf48638f205"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "commit": "70fdbe9ec3bba891b10767ebaad110aa5a1414cb"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "commit": "148e335c3f68c790b5850fea75c7fa37835d971c"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "commit": "2b7f2f29fb160a7ac6f788a5c6b064f8e29fb80b"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "d0f87ce131d4a905f6de5e9bfd4c612849a4f4ea"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "b0ee68112c25f89891bd2ba05c5830d816608975"
+    }
+  ],
+  "scope": "Three new native controls plus four frozen union inputs; not a new corpus coverage or expert-acceptance inventory."
+}

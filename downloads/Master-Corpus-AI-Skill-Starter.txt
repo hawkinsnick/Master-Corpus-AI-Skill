@@ -189,6 +189,10 @@ Read `references/academic-remediation-2026-10-24.md` for the current 43-item exe
 
 For Linear A MY Zf 2 retrieve the linked `source-context-cautions` record and preserve its text-only consultation limits and attributed uncertainty. Do not upgrade a caution, missing checksum, uninspected bibliographic lead or controlled source union to a reading correction, expert acceptance or completed academic validation. The 43 original scholarly closure criteria remain in force.
 
+## Report scoped controls separately from open scientific requirements
+
+Read `references/scoped-closures-2026-10-25.md` and the current native ledger before quoting an open count. Five additional controls have closed scope: reference exclusions, paired material representation, Byblos lookup exclusions and the two registered source unions. Report 38 unclosed original entries and five attached open scientific follow-ups separately. Preserve null material/locators, excluded memberships and exact unit boundaries. Do not report these controls as recovered source evidence, adjudicated scholarship or expert acceptance. Historical 43-item reviews are not a current original-entry counter.
+
 
 ===== registry/corpus-projects.json =====
 {
