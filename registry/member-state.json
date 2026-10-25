@@ -245,16 +245,16 @@
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
-      "observed_commit": "243793efe04daaf494795cfb989231b4cd3d64ca",
-      "accepted_commit": "243793efe04daaf494795cfb989231b4cd3d64ca",
+      "observed_commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+      "accepted_commit": "d10422059983583056ea9b91d68dcb66e767cabe",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "milyan-corpus-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
       "skill_sha256": "ceb86ca2bd155f3026fc3de6f2212017469d3ca7c8547884fccaea5fbebe7712",
-      "bundle_sha256": "3180894eef34b35e2fc0df2bceaed08576780a8a2b33e66eaa1ec9b4bbc2b108",
-      "bundle_source_commit": "79baedd10c76bfd6596a481523de6d6088ac8cd3",
+      "bundle_sha256": "0babb05f1d113357a40f4a0241f38fe36ec8a02f4adeaf8d88639de9ba0361e0",
+      "bundle_source_commit": "243793efe04daaf494795cfb989231b4cd3d64ca",
       "indexed_artifact_entries_checked": 80
     }
   ],
