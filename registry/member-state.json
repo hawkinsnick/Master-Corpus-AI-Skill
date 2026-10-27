@@ -7,17 +7,17 @@
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
-      "accepted_commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
+      "observed_commit": "4df6f803ee189f5fccbe3c0b2ce859dc63e77b97",
+      "accepted_commit": "4df6f803ee189f5fccbe3c0b2ce859dc63e77b97",
       "status": "VALIDATED",
       "validator_sha256": "db1b6f6adc00bf492d7df6e34e28114e4f3f93a354bfa2e6fe561e7cbc201398",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
-      "bundle_sha256": "1d5cd7b66e58ed9a03028e1da7f13318d1a8e49eb02e8e13db095c61bc963d15",
-      "bundle_source_commit": "34fd855ea40eb85fb896ccf631383a3e92118188",
-      "indexed_artifact_entries_checked": 248
+      "skill_sha256": "95012e94ffd0051394067167152f383e8ea4fab81a0092e6cc72de8485600681",
+      "bundle_sha256": "81a03a018764b07b75acadc5f5a2a3ce75782991452c22c657c4887cd9c153d2",
+      "bundle_source_commit": "1715ad3a8cf971b698c8265dba75deaffe143956",
+      "indexed_artifact_entries_checked": 250
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",

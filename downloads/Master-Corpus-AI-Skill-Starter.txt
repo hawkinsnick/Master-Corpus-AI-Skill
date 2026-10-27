@@ -217,6 +217,8 @@ Read `references/nonreview-work-2026-10-27.md` and the frozen inputs in `researc
 
 For machine-readable source citations, emit one exact JSON pointer per reference. Do not put ranges, semicolon lists, prose headings or several pointers into a `pointer` field. For text use `locator_type: text_contains` and a literal `locator` instead. Bind each reference to bytes actually present at the stated commit; verify with `git show COMMIT:PATH` and SHA-256. A working-tree file absent from that commit cannot be cited as committed evidence. Disclose uncommitted execution context separately from source evidence. Use the master `scripts/verify_response_refs.py` when available; a passing citation check establishes byte/locus binding, not bibliographic truth.
 
+For the later live SigLA source drift, follow the linked native inspection in `references/nonreview-work-2026-10-27.md`. Preserve its unchanged source hash gate, distinguish source-map keys from ancient objects, and require a separately versioned field comparison before ingesting the changed serialization. Historical study replay must execute its pinned adapter, not current packaging code.
+
 
 ===== registry/corpus-projects.json =====
 {
@@ -1237,17 +1239,17 @@ For machine-readable source citations, emit one exact JSON pointer per reference
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
-      "accepted_commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
+      "observed_commit": "4df6f803ee189f5fccbe3c0b2ce859dc63e77b97",
+      "accepted_commit": "4df6f803ee189f5fccbe3c0b2ce859dc63e77b97",
       "status": "VALIDATED",
       "validator_sha256": "db1b6f6adc00bf492d7df6e34e28114e4f3f93a354bfa2e6fe561e7cbc201398",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
-      "bundle_sha256": "1d5cd7b66e58ed9a03028e1da7f13318d1a8e49eb02e8e13db095c61bc963d15",
-      "bundle_source_commit": "34fd855ea40eb85fb896ccf631383a3e92118188",
-      "indexed_artifact_entries_checked": 248
+      "skill_sha256": "95012e94ffd0051394067167152f383e8ea4fab81a0092e6cc72de8485600681",
+      "bundle_sha256": "81a03a018764b07b75acadc5f5a2a3ce75782991452c22c657c4887cd9c153d2",
+      "bundle_source_commit": "1715ad3a8cf971b698c8265dba75deaffe143956",
+      "indexed_artifact_entries_checked": 250
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
@@ -1500,7 +1502,7 @@ This is a byte-bound engineering snapshot. Scheduled refreshes run every five mi
 
 | Corpus | Observed main | Last validated revision | Status |
 |---|---|---|---|
-| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [8be77c5e94a7](https://github.com/hawkinsnick/Linear-A/tree/8be77c5e94a714d50bac95ee13afc5519f499fe3) | [8be77c5e94a7](https://github.com/hawkinsnick/Linear-A/tree/8be77c5e94a714d50bac95ee13afc5519f499fe3) | VALIDATED |
+| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [4df6f803ee18](https://github.com/hawkinsnick/Linear-A/tree/4df6f803ee189f5fccbe3c0b2ce859dc63e77b97) | [4df6f803ee18](https://github.com/hawkinsnick/Linear-A/tree/4df6f803ee189f5fccbe3c0b2ce859dc63e77b97) | VALIDATED |
 | [Cypro-Minoan](https://github.com/hawkinsnick/Cypro-Minoan) | [d8ce3b944449](https://github.com/hawkinsnick/Cypro-Minoan/tree/d8ce3b9444490f98eec6cd8503d9a8ac7c70d886) | [d8ce3b944449](https://github.com/hawkinsnick/Cypro-Minoan/tree/d8ce3b9444490f98eec6cd8503d9a8ac7c70d886) | VALIDATED |
 | [Linear-B](https://github.com/hawkinsnick/Linear-B) | [4503dcc81822](https://github.com/hawkinsnick/Linear-B/tree/4503dcc81822ba29d5b605cb7d73b72aeeb848a2) | [4503dcc81822](https://github.com/hawkinsnick/Linear-B/tree/4503dcc81822ba29d5b605cb7d73b72aeeb848a2) | VALIDATED |
 | [Cretan-hieroglyphs](https://github.com/hawkinsnick/Cretan-hieroglyphs) | [45a9efd2a082](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/45a9efd2a082aa69bf535266c46bd5facc9da82d) | [45a9efd2a082](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/45a9efd2a082aa69bf535266c46bd5facc9da82d) | VALIDATED |

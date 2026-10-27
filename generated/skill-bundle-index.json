@@ -68,7 +68,7 @@
     },
     {
       "path": "MEMBER-STATUS.md",
-      "sha256": "0e2d609f88390e0088c7660680bf312faf26457c9fdbcd566a5a27898709f0c1",
+      "sha256": "2cca42d9d2a1ae4ed7766058360a2bf64660cdb42e145ebe45dcb99abe00ad95",
       "bytes": 5779
     },
     {
@@ -113,8 +113,8 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "32d539bc4ccee4a3daeedf0b3ac399898d336568f8b1062519edeaf3b59528b1",
-      "bytes": 15729
+      "sha256": "35514a9139cb694414f6c31ebc11ee1ee5c76e14ad484485a56982f12dd6e315",
+      "bytes": 16123
     },
     {
       "path": "SOURCE-CHECKS.md",
@@ -153,7 +153,7 @@
     },
     {
       "path": "migration/member-checkpoints.json",
-      "sha256": "e10052c8120bb24245742ddaf142e5cb857d1ce2472528477837d7e9607f7c61",
+      "sha256": "7d0af64d6e6b0b00f2de60e4e2153a84b60cfeebe58958f7cbf784254f98513b",
       "bytes": 2371
     },
     {
@@ -198,8 +198,8 @@
     },
     {
       "path": "references/nonreview-work-2026-10-27.md",
-      "sha256": "0d72156c143466b21183ca0c9db9f8add1d76bc6e1fec7b2c51314de253103a6",
-      "bytes": 16575
+      "sha256": "922d5d01f821b2c4ca5f04ef21cb8d66e4d131544a77262aa62500a5c2e11832",
+      "bytes": 17953
     },
     {
       "path": "references/pre-expert-standing-order.md",
@@ -218,7 +218,7 @@
     },
     {
       "path": "registry/member-state.json",
-      "sha256": "1275c40fa468a8a26fc19ce63e2e129cd73bb12218157db5c2d5d639b80fbb89",
+      "sha256": "70c4dd398cbd5a72d5fd6907bdc9a86ccb3711b7322bf757843b117022e6b05c",
       "bytes": 13841
     },
     {
@@ -480,6 +480,11 @@
       "path": "research/2026-10-27/inputs.json",
       "sha256": "2f82484bb18fe912c4c889d93303c56d2b5c9e000520d64cd30d8a168badf3a1",
       "bytes": 2591
+    },
+    {
+      "path": "research/2026-10-27/late-source-followup.json",
+      "sha256": "79c986325a1d50e567c373c040adab494f2a0600ad277329b4567aef3dbc7ed5",
+      "bytes": 17865
     },
     {
       "path": "research/2026-10-27/package-audit.json",
@@ -769,7 +774,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "51fc7059a97aad93cbe863917a114b2651db84da97f03520430550f128f8dd40",
-    "bytes": 107111
+    "sha256": "c8050725191033a53a2fdb25219080403f7f7736c57234976a9d0e090f59ca44",
+    "bytes": 107505
   }
 }

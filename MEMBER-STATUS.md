@@ -4,7 +4,7 @@ This is a byte-bound engineering snapshot. Scheduled refreshes run every five mi
 
 | Corpus | Observed main | Last validated revision | Status |
 |---|---|---|---|
-| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [8be77c5e94a7](https://github.com/hawkinsnick/Linear-A/tree/8be77c5e94a714d50bac95ee13afc5519f499fe3) | [8be77c5e94a7](https://github.com/hawkinsnick/Linear-A/tree/8be77c5e94a714d50bac95ee13afc5519f499fe3) | VALIDATED |
+| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [4df6f803ee18](https://github.com/hawkinsnick/Linear-A/tree/4df6f803ee189f5fccbe3c0b2ce859dc63e77b97) | [4df6f803ee18](https://github.com/hawkinsnick/Linear-A/tree/4df6f803ee189f5fccbe3c0b2ce859dc63e77b97) | VALIDATED |
 | [Cypro-Minoan](https://github.com/hawkinsnick/Cypro-Minoan) | [d8ce3b944449](https://github.com/hawkinsnick/Cypro-Minoan/tree/d8ce3b9444490f98eec6cd8503d9a8ac7c70d886) | [d8ce3b944449](https://github.com/hawkinsnick/Cypro-Minoan/tree/d8ce3b9444490f98eec6cd8503d9a8ac7c70d886) | VALIDATED |
 | [Linear-B](https://github.com/hawkinsnick/Linear-B) | [4503dcc81822](https://github.com/hawkinsnick/Linear-B/tree/4503dcc81822ba29d5b605cb7d73b72aeeb848a2) | [4503dcc81822](https://github.com/hawkinsnick/Linear-B/tree/4503dcc81822ba29d5b605cb7d73b72aeeb848a2) | VALIDATED |
 | [Cretan-hieroglyphs](https://github.com/hawkinsnick/Cretan-hieroglyphs) | [45a9efd2a082](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/45a9efd2a082aa69bf535266c46bd5facc9da82d) | [45a9efd2a082](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/45a9efd2a082aa69bf535266c46bd5facc9da82d) | VALIDATED |

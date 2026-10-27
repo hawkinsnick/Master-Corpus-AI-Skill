@@ -1,0 +1,439 @@
+{
+  "format": "late-source-and-historical-replay-followup-v1",
+  "date": "2026-10-27",
+  "repository": "hawkinsnick/Linear-A",
+  "source_commit": "287b7ade1f150e8d0ceca7adc9cc5c8746cc4700",
+  "artifact_commit": "ecd72618694dd54beb4eb408d3d8bf9eece92015",
+  "native_skill_validation": {
+    "format": "corpus-ai-skill-function-check-v1",
+    "repository": "hawkinsnick/Linear-A",
+    "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+    "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+    "skill_name": "linear-a-research",
+    "skill_version": "0.3.1",
+    "skill_sha256": "f392e1385d6c1a31f700420d4ae8cbfe338db4b80b59dd987025d205b7406f79",
+    "bundle_source_commit": "287b7ade1f150e8d0ceca7adc9cc5c8746cc4700",
+    "bundle_sha256": "1b06d06b66b5acfda58ab295baee709cda4b6a0764dcc6e7cc7e32fd3a84e887",
+    "indexed_artifact_entries_checked": 250,
+    "unique_indexed_paths_checked": 249,
+    "lookups": [
+      {
+        "collection": "source-documents",
+        "id": "ARKH 1a",
+        "native_unit": "SigLA source document entry",
+        "provenance": {
+          "path": "research/sigla-source-documents.jsonl",
+          "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+          "pointer": "/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "source-documents",
+          "encoding": "jsonl"
+        }
+      },
+      {
+        "collection": "critical-pilot",
+        "id": "HT 15",
+        "native_unit": "selected critical pilot entry",
+        "provenance": {
+          "path": "research/critical-pilot.json",
+          "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+          "pointer": "/entries/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "critical-pilot, legacy-cases",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "legacy-cases",
+        "id": "U001",
+        "native_unit": "legacy project queue case",
+        "provenance": {
+          "path": "research/critical-pilot.json",
+          "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+          "pointer": "/cases/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "critical-pilot, legacy-cases",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "attribution-audit",
+        "id": "U001",
+        "native_unit": "bounded legacy-case attribution audit",
+        "provenance": {
+          "path": "research/legacy-case-attribution.json",
+          "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+          "pointer": "/cases/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "current ten-case attribution audit",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "attribution-review",
+        "id": "U001",
+        "native_unit": "bounded documentary attribution review task",
+        "provenance": {
+          "path": "research/attribution-review.json",
+          "sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+          "pointer": "/cases/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "bounded attribution review",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "source-study",
+        "id": "LA-KNZD46-SCRIPT-ASSIGNMENT-20261017",
+        "native_unit": "bounded source-acquisition or scholarly-argument study",
+        "provenance": {
+          "path": "research/source-study-2026-10-17.json",
+          "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+          "pointer": "",
+          "native_artifacts_snapshot_commit": null,
+          "role": "bounded directly consulted source study",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "reading-comparisons",
+        "id": "LA-PKZB21-FIRST-SIGN-20261018",
+        "native_unit": "bounded documentary follow-up case",
+        "provenance": {
+          "path": "research/reading-comparison-2026-10-18.json",
+          "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+          "pointer": "",
+          "native_artifacts_snapshot_commit": null,
+          "role": "bounded documentary follow-up",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "pkzb21-page-access",
+        "id": "LA-PKZB21-PAGE-ACCESS-20261018",
+        "native_unit": "bounded source access or structure inspection",
+        "provenance": {
+          "path": "research/pkzb21-page-access-2026-10-18.json",
+          "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+          "pointer": "",
+          "native_artifacts_snapshot_commit": null,
+          "role": "bounded source access or structure check",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "edition-route-decisions",
+        "id": "ARKH 1a",
+        "native_unit": "source-entry edition target decision",
+        "provenance": {
+          "path": "research/academic-remediation.json",
+          "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+          "pointer": "/route_decisions/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "current exact-ID route rejection and legacy case disposition",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "case-dispositions",
+        "id": "U001",
+        "native_unit": "legacy queue admission/disposition",
+        "provenance": {
+          "path": "research/academic-remediation.json",
+          "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+          "pointer": "/case_dispositions/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "current exact-ID route rejection and legacy case disposition",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "source-context-cautions",
+        "id": "LA-MYZF2-SOURCE-CONTEXT-20261024",
+        "native_unit": "attributed source-context caution",
+        "provenance": {
+          "path": "research/myzf2-source-context-2026-10-24.json",
+          "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+          "pointer": "",
+          "native_artifacts_snapshot_commit": null,
+          "role": "attributed record-level scholarly caution; text-only source consultation",
+          "encoding": "json"
+        }
+      },
+      {
+        "collection": "closure-controls",
+        "id": "HT 113 ter",
+        "native_unit": "source reference-gap disposition",
+        "provenance": {
+          "path": "research/closure-controls.json",
+          "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+          "pointer": "/records/0",
+          "native_artifacts_snapshot_commit": null,
+          "role": "scoped exclusions and unresolved-source representation controls",
+          "encoding": "json"
+        }
+      }
+    ],
+    "missing_id_rejected": true,
+    "scholarly_acceptance_granted": false,
+    "empirical_model_accuracy_established": false,
+    "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+  },
+  "historical_replay": {
+    "members": 18,
+    "saved_exercises": 5,
+    "status": "PASS_UNCHANGED_HISTORICAL_RECEIPTS_WITH_PINNED_ADAPTER"
+  },
+  "current_federation_integration_tests": {
+    "passed": 5,
+    "skipped": 0,
+    "checkouts": "All eighteen current validated native artifacts, with the follow-up source inputs in Linear-A."
+  },
+  "source_change": {
+    "format": "sigla-live-source-change-inspection-v1",
+    "date": "2026-10-27",
+    "url": "https://sigla.phis.me/database.js",
+    "access": "Ordinary unauthenticated HTTP GET, HTTP200; source bytes inspected locally, not redistributed.",
+    "bytes": 2199743,
+    "sha256": "0c4ef69f5de4cc3d9382cca782c1cf47e2ca1be40696bcfc8e97514f9b0781dd",
+    "frozen_sha256": "cc624f148fd84c94fd2910b0adf92ecace25f52f9175664122bdf8384a8f1b9d",
+    "live_source_map_keys": 827,
+    "frozen_source_document_ids": 802,
+    "added_source_map_keys": [
+      "GO Wc 3",
+      "GO Wc 3 latus",
+      "HT Wc 3024",
+      "KE Wc 2a",
+      "KE Wc 2b",
+      "KH 87",
+      "KH Wc 2059+frr",
+      "KH Wc 2063",
+      "KH Wc 2074",
+      "KH Wc 2079",
+      "KH Wc 2088+frr",
+      "KH Wc 2095",
+      "KH Wc 2121",
+      "KH Wc 2122",
+      "KH Wc 2124",
+      "KN Wa 50",
+      "KN Wa 51",
+      "KN Wc 42a",
+      "KN Wc 42b",
+      "KN Wc 48a",
+      "KN Wc 48b",
+      "MY Zf 2_AB ai",
+      "PE Wy 5",
+      "PH Wa 52",
+      "PK Wy 22",
+      "PYR Wc 4a",
+      "PYR Wc 4b",
+      "SA We 3",
+      "SA We 4"
+    ],
+    "missing_frozen_source_ids": [
+      "KH 97",
+      "MY Zf 2",
+      "`KE Wc 2a",
+      "`KE Wc 2b"
+    ],
+    "duplicate_map_keys": 0,
+    "schema_observation": "Live map values directly have tag0/5 fields; frozen decoder requires tag0/1 wrapper followed by tag0/5 document. Live first-document child field shapes also differ. No new schema-to-field semantic mapping adopted.",
+    "frozen_replay_outcome": "REJECTED_SOURCE_DIGEST_DRIFT_AS_DESIGNED",
+    "new_readings_or_coordinates_admitted": 0,
+    "live_records_ingested": 0,
+    "current_source_declared_equivalent_to_frozen": false,
+    "scientific_approval_granted": false,
+    "next_requirement": "Inspect current published application serializers and applicable source terms, establish a separately versioned decoder, then compare source-specific identity, slot and coordinate changes before any admission."
+  },
+  "remaining_live_source_lane": "BLOCKED_SOURCE_DIGEST_AND_SCHEMA_CHANGE_NO_ADMISSION",
+  "initial_publication_snapshot_unchanged": true,
+  "original_academic_ledger_unchanged": true,
+  "subsequent_workflow_fix": {
+    "source_commit": "1715ad3a8cf971b698c8265dba75deaffe143956",
+    "artifact_commit": "4df6f803ee189f5fccbe3c0b2ce859dc63e77b97",
+    "native_skill_validation": {
+      "format": "corpus-ai-skill-function-check-v1",
+      "repository": "hawkinsnick/Linear-A",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+      "skill_name": "linear-a-research",
+      "skill_version": "0.3.1",
+      "skill_sha256": "95012e94ffd0051394067167152f383e8ea4fab81a0092e6cc72de8485600681",
+      "bundle_source_commit": "1715ad3a8cf971b698c8265dba75deaffe143956",
+      "bundle_sha256": "81a03a018764b07b75acadc5f5a2a3ce75782991452c22c657c4887cd9c153d2",
+      "indexed_artifact_entries_checked": 250,
+      "unique_indexed_paths_checked": 249,
+      "lookups": [
+        {
+          "collection": "source-documents",
+          "id": "ARKH 1a",
+          "native_unit": "SigLA source document entry",
+          "provenance": {
+            "path": "research/sigla-source-documents.jsonl",
+            "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+            "pointer": "/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "source-documents",
+            "encoding": "jsonl"
+          }
+        },
+        {
+          "collection": "critical-pilot",
+          "id": "HT 15",
+          "native_unit": "selected critical pilot entry",
+          "provenance": {
+            "path": "research/critical-pilot.json",
+            "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+            "pointer": "/entries/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "critical-pilot, legacy-cases",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "legacy-cases",
+          "id": "U001",
+          "native_unit": "legacy project queue case",
+          "provenance": {
+            "path": "research/critical-pilot.json",
+            "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "critical-pilot, legacy-cases",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-audit",
+          "id": "U001",
+          "native_unit": "bounded legacy-case attribution audit",
+          "provenance": {
+            "path": "research/legacy-case-attribution.json",
+            "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "current ten-case attribution audit",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "attribution-review",
+          "id": "U001",
+          "native_unit": "bounded documentary attribution review task",
+          "provenance": {
+            "path": "research/attribution-review.json",
+            "sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+            "pointer": "/cases/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded attribution review",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-study",
+          "id": "LA-KNZD46-SCRIPT-ASSIGNMENT-20261017",
+          "native_unit": "bounded source-acquisition or scholarly-argument study",
+          "provenance": {
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded directly consulted source study",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "reading-comparisons",
+          "id": "LA-PKZB21-FIRST-SIGN-20261018",
+          "native_unit": "bounded documentary follow-up case",
+          "provenance": {
+            "path": "research/reading-comparison-2026-10-18.json",
+            "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded documentary follow-up",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "pkzb21-page-access",
+          "id": "LA-PKZB21-PAGE-ACCESS-20261018",
+          "native_unit": "bounded source access or structure inspection",
+          "provenance": {
+            "path": "research/pkzb21-page-access-2026-10-18.json",
+            "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "bounded source access or structure check",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "edition-route-decisions",
+          "id": "ARKH 1a",
+          "native_unit": "source-entry edition target decision",
+          "provenance": {
+            "path": "research/academic-remediation.json",
+            "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+            "pointer": "/route_decisions/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "current exact-ID route rejection and legacy case disposition",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "case-dispositions",
+          "id": "U001",
+          "native_unit": "legacy queue admission/disposition",
+          "provenance": {
+            "path": "research/academic-remediation.json",
+            "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+            "pointer": "/case_dispositions/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "current exact-ID route rejection and legacy case disposition",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "source-context-cautions",
+          "id": "LA-MYZF2-SOURCE-CONTEXT-20261024",
+          "native_unit": "attributed source-context caution",
+          "provenance": {
+            "path": "research/myzf2-source-context-2026-10-24.json",
+            "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+            "pointer": "",
+            "native_artifacts_snapshot_commit": null,
+            "role": "attributed record-level scholarly caution; text-only source consultation",
+            "encoding": "json"
+          }
+        },
+        {
+          "collection": "closure-controls",
+          "id": "HT 113 ter",
+          "native_unit": "source reference-gap disposition",
+          "provenance": {
+            "path": "research/closure-controls.json",
+            "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+            "pointer": "/records/0",
+            "native_artifacts_snapshot_commit": null,
+            "role": "scoped exclusions and unresolved-source representation controls",
+            "encoding": "json"
+          }
+        }
+      ],
+      "missing_id_rejected": true,
+      "scholarly_acceptance_granted": false,
+      "empirical_model_accuracy_established": false,
+      "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+    },
+    "historical_integration_tests": {
+      "passed": 5,
+      "skipped": 0
+    },
+    "hosted_historical_workflow": {
+      "url": "https://github.com/hawkinsnick/Linear-A/actions/runs/40511678540",
+      "conclusion": "success"
+    },
+    "change": "The workflow integration-test step also uses its exact historical implementation; current integration is tested separately against current inputs."
+  }
+}
