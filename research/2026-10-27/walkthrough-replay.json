@@ -1,0 +1,337 @@
+{
+  "format": "executed-eighteen-member-walkthroughs-v1",
+  "date": "2026-10-27",
+  "inputs": "inputs.json",
+  "rows": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "critical-pilot",
+      "id": "HT 34",
+      "native_checkout_commit": "6c4320999cce6b7c36c1f8a5ed6c3071f5e8a593",
+      "source_ref": {
+        "path": "research/critical-pilot.json",
+        "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+        "pointer": "/entries/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "critical-pilot, legacy-cases",
+        "encoding": "json"
+      },
+      "record_sha256": "c6c68616e59647ca2783c1029fa801e72d103d97cc9de2c4bb65a1017967cc90",
+      "linked_records_checked": 2,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "selected critical pilot entry"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "rich-dossiers",
+      "id": "CMOC-0032",
+      "native_checkout_commit": "52fa6feb8dd835cf2ee659dc58cd7885b6b69c48",
+      "source_ref": {
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/7",
+        "native_artifacts_snapshot_commit": null,
+        "role": "rich-dossiers",
+        "encoding": "json"
+      },
+      "record_sha256": "64f66d09edadfa03760a18848db61f8c5e2cd08274d3082d16585e30be004f20",
+      "linked_records_checked": 4,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "rich-record dossier"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "source-study",
+      "id": "LB-ANNOTATION-ACQUISITION-20261017",
+      "native_checkout_commit": "0f2feca03820db295419ee2301826b79d6016085",
+      "source_ref": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      },
+      "record_sha256": "3fb8468afc6e14701191097cb618d028f20b994b38fa5cd0769a4d528524d2af",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded source-acquisition or scholarly-argument study"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "catalogue-dossiers",
+      "id": "CHIC-252",
+      "native_checkout_commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+      "source_ref": {
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/251",
+        "native_artifacts_snapshot_commit": null,
+        "role": "catalogue-dossiers",
+        "encoding": "json"
+      },
+      "record_sha256": "ede126b6126a59b1cc83b15ecc2d7c8d01ffafcfebec333dc2d647894cf486a7",
+      "linked_records_checked": 7,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "CHIC catalogue dossier"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "graphical-groups",
+      "id": "PD-A-E15",
+      "native_checkout_commit": "f997ed39f6eceeb997b03c22c2b2d838965bb209",
+      "source_ref": {
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/16",
+        "native_artifacts_snapshot_commit": null,
+        "role": "graphical-groups, occurrences",
+        "encoding": "json"
+      },
+      "record_sha256": "a9793a32ee8bfa2f687314e8ceb086eb423f14f2a6e02420ee358b504818ce59",
+      "linked_records_checked": 7,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "source graphical group"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "survey-count-assertions",
+      "id": "BYB-G",
+      "native_checkout_commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+      "source_ref": {
+        "path": "research/core-count-assertions.json",
+        "sha256": "726f301aa984f9b11084f04922ab6633879733ee050967c9516d9e0508beeee4",
+        "pointer": "/entries/6",
+        "native_artifacts_snapshot_commit": null,
+        "role": "survey-count-assertions",
+        "encoding": "json"
+      },
+      "record_sha256": "7e9e264f62c70126185d40b41f125ea0f51b5b78c6cc6f9188e8ffe7cb7afdf3",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "survey count assertion"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "digital-entries",
+      "id": "CSG-IGXV1-408",
+      "native_checkout_commit": "10aeb079cb45f4a8bd6863f7c2d6196b4e8c7f54",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/589",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "record_sha256": "f4e89d78295940869c1ab0c065df66d8657deecf432afe3218dc16b495d83db3",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "digital edition entry"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "digital-entries",
+      "id": "ETEC-IGXV1-16",
+      "native_checkout_commit": "d247e3008402f665e1969dbf67a4a588b2e9844f",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "record_sha256": "5359daf03a187713757b523b777ffc5bc7c496581393f959c8d87cea6c7d7ee5",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "digital edition entry"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "reading-versions",
+      "id": "ECR-PRAISOS-2-CONWAY-127",
+      "native_checkout_commit": "aa093fb68c4551ff4375bddfcf13e040929c9d33",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/9",
+        "native_artifacts_snapshot_commit": null,
+        "role": "reading-versions",
+        "encoding": "json"
+      },
+      "record_sha256": "f68bffe96992fbb2589c904846341c303298879f99c12b9f9b46b8b548c892e9",
+      "linked_records_checked": 2,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "attributed digital reading version"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "digital-entries",
+      "id": "EDIANA-LYCIAN-182",
+      "native_checkout_commit": "ada2228a82efddcdecfb91eb3c889110a960a3de",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+        "pointer": "/446",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "record_sha256": "e6874cc0f201c696fbb1024391350fc1d594fe69abf6254e10b8cdeccd0d95ea",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "digital catalogue entry"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "p1-source-followup",
+      "id": "PHR-TM1002268-ROLE",
+      "native_checkout_commit": "b3904e9150a3e90a84f700b5a13497f200ea540f",
+      "source_ref": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
+        "encoding": "json"
+      },
+      "record_sha256": "710c47fcf1cad6c905cce7ba435786608c9c0620d5ffa55d04d24ca1a8158909",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded source/identity follow-up disposition"
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "visual-source-routes",
+      "id": "HL-VISUAL-SOURCE-ROUTES-20261019",
+      "native_checkout_commit": "08fd4d6664d525b5c67994d2015261a76d0bc5f6",
+      "source_ref": {
+        "path": "research/visual-source-routes-2026-10-19.json",
+        "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded visual/public-route source inspection",
+        "encoding": "json"
+      },
+      "record_sha256": "83489127c2d34cd49d5b0f1dc86b12529097d3c4aebd80f4e23d11f023a5179a",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded source-route inspection"
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "attribution-review",
+      "id": "ARC-DIS-001",
+      "native_checkout_commit": "46892d6efddb9dcfb89f7c77ef336b3e8b876ef5",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "44104ee3dd06abf2419f293ac3e7ff028ac55203d22da303a12e81132fc541fc",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "record_sha256": "f044356716a0d3974fee50d43bcde566fe8ecf0f95d397522f93dc22d34e87d4",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded documentary attribution review task"
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "attribution-review",
+      "id": "ANO-DIS-003",
+      "native_checkout_commit": "15ba1035b9a5897d1de957b2e1982dc04e311948",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+        "pointer": "/cases/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "record_sha256": "dc14f78faa5f085d755699f5ba4befe643a6246be3bcb1e143e1f947d7555e1b",
+      "linked_records_checked": 0,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded documentary attribution review task"
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "attribution-review",
+      "id": "LYD-GUSMANI1975-LW59",
+      "native_checkout_commit": "d4b07a26f225e5ae165eaa5f7374c139eeadefd0",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
+        "pointer": "/cases/12",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "record_sha256": "a3fb6ce6372fbf11a6cb9090e904245e74435684f98460e7c1292994aaec3ac6",
+      "linked_records_checked": 1,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded documentary attribution review task"
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "attribution-review",
+      "id": "SID-S9-2025-PIGBE",
+      "native_checkout_commit": "d5b2145d731d66c5054e18886acb23038a399522",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "240abb1d8bd4bf5a6b3cbba678d9d3bf1e19088e1f191a9a82c7153a0ac7080b",
+        "pointer": "/cases/8",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "record_sha256": "c6dc515f319e671561a8be0af634ef99dfbd05be3a290713b5ba9f6517b2fd53",
+      "linked_records_checked": 1,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded documentary attribution review task"
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "attribution-review",
+      "id": "PIS-ADIEGO2012-N37",
+      "native_checkout_commit": "50c9b238c9d260db29f2d9fdd5d220cd0c2f5bcf",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
+        "pointer": "/cases/26",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "record_sha256": "c1a8dd87d0f558e9fe92209664ae46766599daf3beb8ebfb9f90ff25def912a2",
+      "linked_records_checked": 1,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "bounded documentary attribution review task"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "digital-entries",
+      "id": "EDIANA-MILYAN-1",
+      "native_checkout_commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+      "source_ref": {
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "record_sha256": "42d87ee8d4c264b54a4defc51982a17d1d1abb533ed9a61d6861151aca923202",
+      "linked_records_checked": 105,
+      "status": "PASS_ACTUAL_MASTER_CLI",
+      "native_unit": "digital catalogue entry"
+    }
+  ],
+  "totals": {
+    "walkthroughs_executed": 18,
+    "passed": 18
+  },
+  "master_checkpoint_relation_note": "Native input commits are pinned; later master acceptance may change checkpoint_relation without changing source assertions. That display field is checked by master query but not frozen into this study receipt.",
+  "claims": "Exact source output and linked assertions only. No model accuracy, scholarly correctness or user productivity measurement."
+}

@@ -1,0 +1,193 @@
+{
+  "format": "six-workstream-publication-verification-v1",
+  "date": "2026-10-27",
+  "native_members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "source_commit": "34fd855ea40eb85fb896ccf631383a3e92118188",
+      "artifact_commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
+      "bundle_source_commit": "34fd855ea40eb85fb896ccf631383a3e92118188",
+      "skill_sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
+      "bundle_sha256": "1d5cd7b66e58ed9a03028e1da7f13318d1a8e49eb02e8e13db095c61bc963d15",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "source_commit": "6cca899fb4339cdbed18d5a019e68b4aa5ee35de",
+      "artifact_commit": "d8ce3b9444490f98eec6cd8503d9a8ac7c70d886",
+      "bundle_source_commit": "6cca899fb4339cdbed18d5a019e68b4aa5ee35de",
+      "skill_sha256": "9057b8c3769e27efc880507594858f7d4c30965e808a400a9dfc408631be11b5",
+      "bundle_sha256": "18ff2500a573c8a6a44e573341a3ace1c40caf2ed41ce0f763338316e6fbf4cf",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "source_commit": "cc151df470252f30d66ab3c4ba45708eba283546",
+      "artifact_commit": "4503dcc81822ba29d5b605cb7d73b72aeeb848a2",
+      "bundle_source_commit": "cc151df470252f30d66ab3c4ba45708eba283546",
+      "skill_sha256": "4e70acecfaadff683c15d48087fa8b8c3eafb43eabc3b7a13fcd88f4ff8fc969",
+      "bundle_sha256": "8191e9a5dac8f51cfd1479d12a7d5129bdbc5ec56872eb2c4843738a67e4c0fc",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "source_commit": "6c9d8c8c4f1b7345ec87dc96dc5ff51af30bfe1f",
+      "artifact_commit": "45a9efd2a082aa69bf535266c46bd5facc9da82d",
+      "bundle_source_commit": "6c9d8c8c4f1b7345ec87dc96dc5ff51af30bfe1f",
+      "skill_sha256": "3200e354ce09232bb81b9065eb04cf95970f6c8e9b9f0c72b5efd840c6d3053b",
+      "bundle_sha256": "1099d5878393f53f7a571ea695d534eb9520f42c4fb98998ae6c9fd200442f69",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "source_commit": "bd08bcbd27cd2af5db225d9d4cc880c5364fadd3",
+      "artifact_commit": "b9a0c04ce6890d67e68e1f2ed351a21028240d4d",
+      "bundle_source_commit": "bd08bcbd27cd2af5db225d9d4cc880c5364fadd3",
+      "skill_sha256": "bfaf65d3baee453547d391fc074c5663a70be917e9473388b4a0c220084513fa",
+      "bundle_sha256": "20ce1332bd7af01d230d8b08db07ad98047cbe123baef58d3ac473dbdf22b3f0",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "source_commit": "f75f7429cd279011c322cf7e8363fdb463eaeb39",
+      "artifact_commit": "18eea69843aef11d68aa9128c706f5e14cb11361",
+      "bundle_source_commit": "f75f7429cd279011c322cf7e8363fdb463eaeb39",
+      "skill_sha256": "c61d8936d88e4cc32f177e85124033e4aff94be5c75ce32725a57c67faf8b363",
+      "bundle_sha256": "f2e5d4b705ca1af5c99e0448f66df2453875ba943192b60469a04659a2464f93",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "source_commit": "42056fb730aed4978bb5e6494834847d2e25b6ff",
+      "artifact_commit": "f8f0e83b113eb45a82f1b6d7267982f090396e09",
+      "bundle_source_commit": "42056fb730aed4978bb5e6494834847d2e25b6ff",
+      "skill_sha256": "083d03b7cbb64971fd23e1166df78191557e67c5e899fad936d065ded4c99eda",
+      "bundle_sha256": "31a24d706499b7ecdf0c6a8d2ef860bbb52301acd3fe8afd7e2a1147cc00f381",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "source_commit": "3a7a1edcf12c1cd73ed9a9e919071d6bdd4a6587",
+      "artifact_commit": "dd5f2eee1d0c889f9c311d3819f65680b891b624",
+      "bundle_source_commit": "3a7a1edcf12c1cd73ed9a9e919071d6bdd4a6587",
+      "skill_sha256": "eeadb0e831681221f59b785b795e25ee61fd36e0081307fbb64538dd4b12f373",
+      "bundle_sha256": "c931fdbc14518d032365c9d35cc08d18c9cef0c58cf65b662c9251bd7f4c69f3",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "source_commit": "b0c4d6a6af888a03aad0c2e26c560678b001001d",
+      "artifact_commit": "307fea90e24c33eee59a2a6df68aebb79ab2e5cf",
+      "bundle_source_commit": "b0c4d6a6af888a03aad0c2e26c560678b001001d",
+      "skill_sha256": "ce3c19af7b4581e1e9f5ee81d31f2ab367ca8e41bbdaa4288afa9eeac4b785f4",
+      "bundle_sha256": "07620adaf81d9ad22a1d102892f7445f0098d5a722bcebd74dd5de3115adeab9",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "source_commit": "f2130f06ac7287059a9578accd26dfda8aa8703b",
+      "artifact_commit": "cbf322b302ce56c26c6b62abc128e95541a851b8",
+      "bundle_source_commit": "f2130f06ac7287059a9578accd26dfda8aa8703b",
+      "skill_sha256": "242bccd66423077979b9aad22c8e02106dedfd16805403e045436e8f31deb8eb",
+      "bundle_sha256": "b70456dd3ec89575f50f09a04949c5212b612cfc79f4f88db3508bd3afeb24b9",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "source_commit": "31caad6b522204b6120847b9332d44eb2cd9380e",
+      "artifact_commit": "08953db7918ad05e78f514762b4263badf691a31",
+      "bundle_source_commit": "31caad6b522204b6120847b9332d44eb2cd9380e",
+      "skill_sha256": "4e8a0058b1473f70c640d16a8991346c0134b90a2ec9e4e15a7be66df260325a",
+      "bundle_sha256": "4ced2c02b4459fb05475436073362fbc56f57427c156dc446af30d607a496e6d",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "source_commit": "37f5e16d6ee9b00f5e55f922b9b002bfaee1eac6",
+      "artifact_commit": "6ac77759893f0adf245b6d315d0ced2cec9f2503",
+      "bundle_source_commit": "37f5e16d6ee9b00f5e55f922b9b002bfaee1eac6",
+      "skill_sha256": "94953ae4e2102a46a47c91a5cdc5d747d16cef78fe216e8ca92b32c01dbe8789",
+      "bundle_sha256": "eef8593975a9fe15712fa746ed3a8bd7afa2462cdd76f6d1db7629afb6e6ccb3",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "source_commit": "c03a4418802d64d4895a1040edd0539f3ce1ba10",
+      "artifact_commit": "c28ddceffb944e23e7b2bc91a1155a6f02375d75",
+      "bundle_source_commit": "c03a4418802d64d4895a1040edd0539f3ce1ba10",
+      "skill_sha256": "406451704bbd4a1d185ff13372fe05c9644686749ac6857d85558fc40ecd8b4e",
+      "bundle_sha256": "392fea6e1e5a1e00aa164c190117ee038a041f25da4d200ae8de0e64e23352cb",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "source_commit": "efb98cb4a1ebcee5e3caf848bed32053eed7bf5e",
+      "artifact_commit": "08d1f78bc8d67be35ad25d9f061348bad9364430",
+      "bundle_source_commit": "efb98cb4a1ebcee5e3caf848bed32053eed7bf5e",
+      "skill_sha256": "df4db58e6ad317d6c7e63f737d6576982e908ae68281f8dc9e5e30dcd5c531ab",
+      "bundle_sha256": "e1313241cdca335d441b6a202a02292ce195cdf507a3d5d6a9fee0e1be92129c",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "source_commit": "737d7883a57cb786e91c41b109551604d228fb6d",
+      "artifact_commit": "9bc132c3512bd884272c0c98c38fbee2caa4a3fd",
+      "bundle_source_commit": "737d7883a57cb786e91c41b109551604d228fb6d",
+      "skill_sha256": "b9743024254439cca7c0a084c0b6b313c39c4556faa6b7a16ff71aa661f23103",
+      "bundle_sha256": "e376ba5246621e2017ba15c3a6bb7a01ecf1a39f3a28562e889c5c68b4890e05",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "source_commit": "c9d8e20edbf9179ae4ce03cb0e7f08289bc518ef",
+      "artifact_commit": "50b31294c16a65c1a948455208bab264817ff6ba",
+      "bundle_source_commit": "c9d8e20edbf9179ae4ce03cb0e7f08289bc518ef",
+      "skill_sha256": "6c295ed4d1c11bd9bd9807978a092be1e91b6faa9562ef08652aed733d188a58",
+      "bundle_sha256": "9ff06b864f9c1c6424a439cc7f0b768490529d91f6909e8a28108d89581c2431",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "source_commit": "18459468b82235bd8e6b8a2652b502ee37000de3",
+      "artifact_commit": "39196c4bafabcc318c59ace00ecdf259c390c4ef",
+      "bundle_source_commit": "18459468b82235bd8e6b8a2652b502ee37000de3",
+      "skill_sha256": "1fc784e91b641d131005501f84eedc7c783b8d03afe26d1380361005c9522f62",
+      "bundle_sha256": "adbd2b67acae7d9d4a914556bddf75e254dff5cee4e28ceaf2993074abd123ef",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "source_commit": "1a3e885d5985d6dc9f15b3ec939e2339a893e25a",
+      "artifact_commit": "30ff03bc3dd61a5080428ae7110e5f15b1b8e6c0",
+      "bundle_source_commit": "1a3e885d5985d6dc9f15b3ec939e2339a893e25a",
+      "skill_sha256": "5675c799dd9494e19fb5ade2b82cc073ef6cff2e7b3c23d46c72a4a35fea6236",
+      "bundle_sha256": "b7da3712248518941982974c22c1f59c1a4220963ac53ab1111e4d5bcfa96a4e",
+      "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+      "guide_included_in_local_research_package": true
+    }
+  ],
+  "master_tests": {
+    "passed": 82,
+    "failed": 0
+  },
+  "frozen_replay": "All six study receipts plus unchanged fresh-response citation failures replayed successfully at original inputs.",
+  "publication_note": "All eighteen native automatic bundle workflows advanced source commits to generated-artifact commits. Only generated bundle/starter files changed after source publication. The local duplicate publication was rejected by the expected-head lease; automatic published bundles were acquired and validated instead.",
+  "scientific_approval_granted": false
+}

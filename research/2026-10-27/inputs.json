@@ -1,0 +1,82 @@
+{
+  "format": "nonreview-work-inputs-v1",
+  "date": "2026-10-27",
+  "timezone": "America/Chicago",
+  "master_input_commit": "977e9d70fc9cf080f451a582d67d766ec4f251fa",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "commit": "6c4320999cce6b7c36c1f8a5ed6c3071f5e8a593"
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "commit": "52fa6feb8dd835cf2ee659dc58cd7885b6b69c48"
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "commit": "0f2feca03820db295419ee2301826b79d6016085"
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f"
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "commit": "f997ed39f6eceeb997b03c22c2b2d838965bb209"
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec"
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "commit": "10aeb079cb45f4a8bd6863f7c2d6196b4e8c7f54"
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "commit": "d247e3008402f665e1969dbf67a4a588b2e9844f"
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "commit": "aa093fb68c4551ff4375bddfcf13e040929c9d33"
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "ada2228a82efddcdecfb91eb3c889110a960a3de"
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "commit": "b3904e9150a3e90a84f700b5a13497f200ea540f"
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "commit": "08fd4d6664d525b5c67994d2015261a76d0bc5f6"
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "commit": "46892d6efddb9dcfb89f7c77ef336b3e8b876ef5"
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "commit": "15ba1035b9a5897d1de957b2e1982dc04e311948"
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "commit": "d4b07a26f225e5ae165eaa5f7374c139eeadefd0"
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "commit": "d5b2145d731d66c5054e18886acb23038a399522"
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "commit": "50c9b238c9d260db29f2d9fdd5d220cd0c2f5bcf"
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "d10422059983583056ea9b91d68dcb66e767cabe"
+    }
+  ],
+  "selection": "All eighteen registered members at live main and master-accepted revisions, verified through GitHub on 2026-10-27. Later publication revisions do not replace these study inputs.",
+  "independent_review": false
+}

@@ -1,0 +1,215 @@
+{
+  "format": "fresh-agent-development-walkthrough-v1",
+  "date": "2026-10-27",
+  "sessions": [
+    {
+      "session": "a",
+      "response_path": "forward-responses-a.json",
+      "sha256": "873813c59b3f538adb1593e326173297c45227b40df0080128465f604eeec726",
+      "citation_scoring": {
+        "references_checked": 11,
+        "passed": 11,
+        "failed": 0,
+        "results": [
+          {
+            "answer": 0,
+            "reference": 0,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Cretan-hieroglyphs",
+            "commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+            "path": "research/record-dossiers.json",
+            "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 0,
+            "reference": 1,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Cretan-hieroglyphs",
+            "commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+            "path": "research/closure-controls.json",
+            "sha256": "c19f1909ccf1a701dc2487fe230dbd6ecf15e1ba3c89828e05a19205936eb970",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 0,
+            "reference": 2,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Cretan-hieroglyphs",
+            "commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+            "path": "research/qualified-assertion-views.json",
+            "sha256": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 1,
+            "reference": 0,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Byblos-syllabary",
+            "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+            "path": "research/closure-controls.json",
+            "sha256": "39e8f309d6547606e2060dc972654a5073c958de9aaccce8d785105878b146e0",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 1,
+            "reference": 1,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Byblos-syllabary",
+            "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+            "path": "research/stele-a-type-table.json",
+            "sha256": "e166a364ccb6cede69f54f6499c8671885f6c6765ac333a2e3a36ab1244489b1",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 1,
+            "reference": 2,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Byblos-syllabary",
+            "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+            "path": "research/stele-a-type-table.json",
+            "sha256": "e166a364ccb6cede69f54f6499c8671885f6c6765ac333a2e3a36ab1244489b1",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 1,
+            "reference": 3,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Byblos-syllabary",
+            "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+            "path": "research/count-assignment-checkpoint-2026-10-14.json",
+            "sha256": "7c4c03ee487b880921e8bb516314679921fbdd0a5b799e4a2e59cf332d42336c",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 2,
+            "reference": 0,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Linear-B",
+            "commit": "0f2feca03820db295419ee2301826b79d6016085",
+            "path": "research/source-study-2026-10-17.json",
+            "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 2,
+            "reference": 1,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Linear-B",
+            "commit": "0f2feca03820db295419ee2301826b79d6016085",
+            "path": "research/damos-public-routes-2026-10-19.json",
+            "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 2,
+            "reference": 2,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Linear-B",
+            "commit": "0f2feca03820db295419ee2301826b79d6016085",
+            "path": "research/published-appendix-recheck-2026-10-25.json",
+            "sha256": "3aafca6d7e5c425f0691054252c5939b5fa4c89af8c9d44e8415127a134d8458",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 2,
+            "reference": 3,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Linear-B",
+            "commit": "0f2feca03820db295419ee2301826b79d6016085",
+            "path": "analysis/current-status.json",
+            "sha256": "42cf999eeb1c8e2ced271d6bdb95a288ceca54abc43c4c10f2bbd27bdd7a68ec",
+            "locator_type": "json_pointer"
+          }
+        ],
+        "bibliographic_truth_or_expert_approval_established": false
+      }
+    },
+    {
+      "session": "b",
+      "response_path": "forward-responses-b.json",
+      "sha256": "7301319047930bc05003bc27c4b50211fd0d5b1fbbebf0be67dbdad025616d70",
+      "citation_scoring": {
+        "references_checked": 10,
+        "passed": 2,
+        "failed": 8,
+        "results": [
+          {
+            "answer": 0,
+            "reference": 0,
+            "status": "FAIL_CITATION",
+            "error": "noncanonical array pointer"
+          },
+          {
+            "answer": 0,
+            "reference": 1,
+            "status": "FAIL_CITATION",
+            "error": "noncanonical array pointer"
+          },
+          {
+            "answer": 0,
+            "reference": 2,
+            "status": "FAIL_CITATION",
+            "error": "'source; '"
+          },
+          {
+            "answer": 0,
+            "reference": 3,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Milyan-Lycian-B",
+            "commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+            "path": "data/reference/ediana-milyan-source.json",
+            "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 1,
+            "reference": 0,
+            "status": "FAIL_CITATION",
+            "error": "'source; '"
+          },
+          {
+            "answer": 1,
+            "reference": 1,
+            "status": "PASS_EXACT_COMMITTED_LOCUS",
+            "repository": "hawkinsnick/Lycian-and-Carian",
+            "commit": "ada2228a82efddcdecfb91eb3c889110a960a3de",
+            "path": "data/raw/ediana/carian-408-581.json",
+            "sha256": "a422a3954599ab9fe47f0ba20000f9e24d067a9651065d0c78f41b9381189817",
+            "locator_type": "json_pointer"
+          },
+          {
+            "answer": 2,
+            "reference": 0,
+            "status": "FAIL_CITATION",
+            "error": "text citation requires typed text locator"
+          },
+          {
+            "answer": 2,
+            "reference": 1,
+            "status": "FAIL_CITATION",
+            "error": "text citation requires typed text locator"
+          },
+          {
+            "answer": 2,
+            "reference": 2,
+            "status": "FAIL_CITATION",
+            "error": "text citation requires typed text locator"
+          },
+          {
+            "answer": 2,
+            "reference": 3,
+            "status": "FAIL_CITATION",
+            "error": "path does not exist at cited commit"
+          }
+        ],
+        "bibliographic_truth_or_expert_approval_established": false
+      }
+    }
+  ],
+  "substantive_desk_assessment": "Six substantive conclusions agree with inspected native evidence; not blind or independent scholarly grading. Citation failures remain failures and raw responses are unchanged.",
+  "method": "Two fresh minimal-context agents used revised master instructions and real frozen native checkouts for three multi-source questions each. No expected answers were supplied. Agents were told not to consult the development regression receipt or evaluation responses. Exact model build/platform diversity unavailable. Task selection and grading by the authoring assistant; known topics, no independent holdout or preregistration. Some instruction-index rebuilds occurred during execution; temporary retry guidance was supplied.",
+  "instruction_fix": "Require atomic typed locators and bytes present at the cited commit; add verify_response_refs.py. No failed response repaired or retroactively rescored as a pass.",
+  "reading_adjudications_added": 0,
+  "independently_validated_model_accuracy": false
+}

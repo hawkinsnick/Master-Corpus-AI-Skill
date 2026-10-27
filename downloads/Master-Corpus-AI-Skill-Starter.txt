@@ -211,6 +211,12 @@ visible. Use expert acceptance and human benefit claims only when actual,
 attributable evidence supports them. Do not relabel unmet scholarly closure
 criteria as completed because software checks passed.
 
+## Execute the six workstreams without academic review
+
+Read `references/nonreview-work-2026-10-27.md` and the frozen inputs in `research/2026-10-27/inputs.json`. Use `scripts/replay_nonreview.py` to replay the itemized backlog, expanded eDiAna digital fidelity, short-text/source-lineage dispositions, full-record development regression, concrete package audit and eighteen CLI walkthroughs. Preserve the 38 original open entries and five follow-ups; executable subtasks do not satisfy missing external closure evidence. Distinguish digital annotation fidelity from linguistic gold and printed-source consultation. A short text match is not a physical join or independent witness. Treat unknown lineages as unknown, and keep field, source-row, entry and object units separate. Publicly exporting a native research package requires component-specific clearance; the separate noncommercial tools-only export includes no source payload. Report deterministic retrieval tests and fresh model development responses separately from independently validated academic accuracy or participant outcomes.
+
+For machine-readable source citations, emit one exact JSON pointer per reference. Do not put ranges, semicolon lists, prose headings or several pointers into a `pointer` field. For text use `locator_type: text_contains` and a literal `locator` instead. Bind each reference to bytes actually present at the stated commit; verify with `git show COMMIT:PATH` and SHA-256. A working-tree file absent from that commit cannot be cited as committed evidence. Disclose uncommitted execution context separately from source evidence. Use the master `scripts/verify_response_refs.py` when available; a passing citation check establishes byte/locus binding, not bibliographic truth.
+
 
 ===== registry/corpus-projects.json =====
 {
@@ -1231,255 +1237,255 @@ criteria as completed because software checks passed.
   "members": [
     {
       "repository": "hawkinsnick/Linear-A",
-      "observed_commit": "6c4320999cce6b7c36c1f8a5ed6c3071f5e8a593",
-      "accepted_commit": "6c4320999cce6b7c36c1f8a5ed6c3071f5e8a593",
+      "observed_commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
+      "accepted_commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "linear-a-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "dfb107ec6afba1857d5bb6a5db740d795bf440ed2c1c31d6ab0b9e18e6396013",
-      "bundle_sha256": "ac8d11ff535654feaa3bfbb6d819fa936481b60242c5bc6479693dbe6ae992a4",
-      "bundle_source_commit": "0c7c0de5f94b70249c0b344297197cd820b7a905",
-      "indexed_artifact_entries_checked": 247
+      "skill_sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
+      "bundle_sha256": "1d5cd7b66e58ed9a03028e1da7f13318d1a8e49eb02e8e13db095c61bc963d15",
+      "bundle_source_commit": "34fd855ea40eb85fb896ccf631383a3e92118188",
+      "indexed_artifact_entries_checked": 248
     },
     {
       "repository": "hawkinsnick/Cypro-Minoan",
-      "observed_commit": "52fa6feb8dd835cf2ee659dc58cd7885b6b69c48",
-      "accepted_commit": "52fa6feb8dd835cf2ee659dc58cd7885b6b69c48",
+      "observed_commit": "d8ce3b9444490f98eec6cd8503d9a8ac7c70d886",
+      "accepted_commit": "d8ce3b9444490f98eec6cd8503d9a8ac7c70d886",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "cypro-minoan-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "a666062cde141a4ba51dd4bbfa97248db1dadf37c4ce40ea6ea38a078c8dbbe1",
-      "bundle_sha256": "fc1e08891581925b5cd246d2d652eba4831ab94206617d5d128d777538ccdcce",
-      "bundle_source_commit": "c8044b5f891bc7a4c44928bdf24e8fc0972ab684",
-      "indexed_artifact_entries_checked": 84
+      "skill_sha256": "9057b8c3769e27efc880507594858f7d4c30965e808a400a9dfc408631be11b5",
+      "bundle_sha256": "18ff2500a573c8a6a44e573341a3ace1c40caf2ed41ce0f763338316e6fbf4cf",
+      "bundle_source_commit": "6cca899fb4339cdbed18d5a019e68b4aa5ee35de",
+      "indexed_artifact_entries_checked": 85
     },
     {
       "repository": "hawkinsnick/Linear-B",
-      "observed_commit": "0f2feca03820db295419ee2301826b79d6016085",
-      "accepted_commit": "0f2feca03820db295419ee2301826b79d6016085",
+      "observed_commit": "4503dcc81822ba29d5b605cb7d73b72aeeb848a2",
+      "accepted_commit": "4503dcc81822ba29d5b605cb7d73b72aeeb848a2",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "linear-b-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "7c571bf8638541318b8f8adc8c349cead078072af45d8336186205130c53f901",
-      "bundle_sha256": "f67cbc81f122cac24e460499204eff5c81d3d16e9e5a2092986cb544b139acb5",
-      "bundle_source_commit": "c08788adb8d497780d1a770a82de7ddcfb9228a7",
-      "indexed_artifact_entries_checked": 93
+      "skill_sha256": "4e70acecfaadff683c15d48087fa8b8c3eafb43eabc3b7a13fcd88f4ff8fc969",
+      "bundle_sha256": "8191e9a5dac8f51cfd1479d12a7d5129bdbc5ec56872eb2c4843738a67e4c0fc",
+      "bundle_source_commit": "cc151df470252f30d66ab3c4ba45708eba283546",
+      "indexed_artifact_entries_checked": 94
     },
     {
       "repository": "hawkinsnick/Cretan-hieroglyphs",
-      "observed_commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
-      "accepted_commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+      "observed_commit": "45a9efd2a082aa69bf535266c46bd5facc9da82d",
+      "accepted_commit": "45a9efd2a082aa69bf535266c46bd5facc9da82d",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "cretan-hieroglyphic-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "190f709f2fcf6268cfb19996e702426f68f86c5b3d3fbfde3a02fdf8bcc98361",
-      "bundle_sha256": "5ec69f68c9d27c8ea3e2d529b8f42c921c1fe4ee3a458073356aab7432b31237",
-      "bundle_source_commit": "cdae316579a6ce5d4bcff671ae19d6cc230921c0",
-      "indexed_artifact_entries_checked": 60
+      "skill_sha256": "3200e354ce09232bb81b9065eb04cf95970f6c8e9b9f0c72b5efd840c6d3053b",
+      "bundle_sha256": "1099d5878393f53f7a571ea695d534eb9520f42c4fb98998ae6c9fd200442f69",
+      "bundle_source_commit": "6c9d8c8c4f1b7345ec87dc96dc5ff51af30bfe1f",
+      "indexed_artifact_entries_checked": 61
     },
     {
       "repository": "hawkinsnick/Phaistos-Disc",
-      "observed_commit": "f997ed39f6eceeb997b03c22c2b2d838965bb209",
-      "accepted_commit": "f997ed39f6eceeb997b03c22c2b2d838965bb209",
+      "observed_commit": "b9a0c04ce6890d67e68e1f2ed351a21028240d4d",
+      "accepted_commit": "b9a0c04ce6890d67e68e1f2ed351a21028240d4d",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "phaistos-disc-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "395b98407f2ba6c917efaa24faaa56e8f0500359a5ec98c907aef6484b7ac269",
-      "bundle_sha256": "f2748f9a8ec6053f58929507a073ac8ec3d486bf5b3922d4eb4a622c6ffbab57",
-      "bundle_source_commit": "2b6c5ad8902d4fd67eef4cb51570a5cf3169559a",
-      "indexed_artifact_entries_checked": 34
+      "skill_sha256": "bfaf65d3baee453547d391fc074c5663a70be917e9473388b4a0c220084513fa",
+      "bundle_sha256": "20ce1332bd7af01d230d8b08db07ad98047cbe123baef58d3ac473dbdf22b3f0",
+      "bundle_source_commit": "bd08bcbd27cd2af5db225d9d4cc880c5364fadd3",
+      "indexed_artifact_entries_checked": 35
     },
     {
       "repository": "hawkinsnick/Byblos-syllabary",
-      "observed_commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
-      "accepted_commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+      "observed_commit": "18eea69843aef11d68aa9128c706f5e14cb11361",
+      "accepted_commit": "18eea69843aef11d68aa9128c706f5e14cb11361",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "byblos-syllabary-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "582058694f9ef5f80afd6f2d389b07beee71a8872dbe7fc8a8f962d24a9fe075",
-      "bundle_sha256": "c76b94d49cd2e96885b492500e5f6241b8d67459790d7daa2c999d8ba98e306c",
-      "bundle_source_commit": "d0da73e4497d5ec539c65c407b968123ece4bbae",
-      "indexed_artifact_entries_checked": 79
+      "skill_sha256": "c61d8936d88e4cc32f177e85124033e4aff94be5c75ce32725a57c67faf8b363",
+      "bundle_sha256": "f2e5d4b705ca1af5c99e0448f66df2453875ba943192b60469a04659a2464f93",
+      "bundle_source_commit": "f75f7429cd279011c322cf7e8363fdb463eaeb39",
+      "indexed_artifact_entries_checked": 80
     },
     {
       "repository": "hawkinsnick/Cypriot-syllabic-Greek",
-      "observed_commit": "10aeb079cb45f4a8bd6863f7c2d6196b4e8c7f54",
-      "accepted_commit": "10aeb079cb45f4a8bd6863f7c2d6196b4e8c7f54",
+      "observed_commit": "f8f0e83b113eb45a82f1b6d7267982f090396e09",
+      "accepted_commit": "f8f0e83b113eb45a82f1b6d7267982f090396e09",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "cypriot-syllabic-greek-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "6bb42104487d81ee65cee912f978bdda330c03558c579595f9f58011acdfa019",
-      "bundle_sha256": "2658660b7866c5cf8d9c27a48c15aeaf8156d8ec023b46515b7f6430e3cd8129",
-      "bundle_source_commit": "c70aeabb54153b54142bd3a348d825ca9867de5c",
-      "indexed_artifact_entries_checked": 42
+      "skill_sha256": "083d03b7cbb64971fd23e1166df78191557e67c5e899fad936d065ded4c99eda",
+      "bundle_sha256": "31a24d706499b7ecdf0c6a8d2ef860bbb52301acd3fe8afd7e2a1147cc00f381",
+      "bundle_source_commit": "42056fb730aed4978bb5e6494834847d2e25b6ff",
+      "indexed_artifact_entries_checked": 43
     },
     {
       "repository": "hawkinsnick/Eteocypriot",
-      "observed_commit": "d247e3008402f665e1969dbf67a4a588b2e9844f",
-      "accepted_commit": "d247e3008402f665e1969dbf67a4a588b2e9844f",
+      "observed_commit": "dd5f2eee1d0c889f9c311d3819f65680b891b624",
+      "accepted_commit": "dd5f2eee1d0c889f9c311d3819f65680b891b624",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "eteocypriot-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "a938d7bd0f7c814f1d83798f812440a36fbd6f9c0b44e6d2b9465bbd3ce65226",
-      "bundle_sha256": "ae3e99c308280e83467c5dcf38a4ae77625f0473d5a95f4fe4db57ce4aac304f",
-      "bundle_source_commit": "47684e0a995d6ad370587c28746677300a9aa215",
-      "indexed_artifact_entries_checked": 58
+      "skill_sha256": "eeadb0e831681221f59b785b795e25ee61fd36e0081307fbb64538dd4b12f373",
+      "bundle_sha256": "c931fdbc14518d032365c9d35cc08d18c9cef0c58cf65b662c9251bd7f4c69f3",
+      "bundle_source_commit": "3a7a1edcf12c1cd73ed9a9e919071d6bdd4a6587",
+      "indexed_artifact_entries_checked": 59
     },
     {
       "repository": "hawkinsnick/Eteocretan",
-      "observed_commit": "aa093fb68c4551ff4375bddfcf13e040929c9d33",
-      "accepted_commit": "aa093fb68c4551ff4375bddfcf13e040929c9d33",
+      "observed_commit": "307fea90e24c33eee59a2a6df68aebb79ab2e5cf",
+      "accepted_commit": "307fea90e24c33eee59a2a6df68aebb79ab2e5cf",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "eteocretan-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "f2bc85f4888b41c3e3febdbab177656a37749e251293c670749139eb1d4866dd",
-      "bundle_sha256": "cd1f5e5272bd5fef363695445c65f4946882f5847525f72ea0081508942f8bc8",
-      "bundle_source_commit": "d2112e1e9c153feb242361f61d756b8e4a74bdaa",
-      "indexed_artifact_entries_checked": 57
+      "skill_sha256": "ce3c19af7b4581e1e9f5ee81d31f2ab367ca8e41bbdaa4288afa9eeac4b785f4",
+      "bundle_sha256": "07620adaf81d9ad22a1d102892f7445f0098d5a722bcebd74dd5de3115adeab9",
+      "bundle_source_commit": "b0c4d6a6af888a03aad0c2e26c560678b001001d",
+      "indexed_artifact_entries_checked": 58
     },
     {
       "repository": "hawkinsnick/Lycian-and-Carian",
-      "observed_commit": "ada2228a82efddcdecfb91eb3c889110a960a3de",
-      "accepted_commit": "ada2228a82efddcdecfb91eb3c889110a960a3de",
+      "observed_commit": "cbf322b302ce56c26c6b62abc128e95541a851b8",
+      "accepted_commit": "cbf322b302ce56c26c6b62abc128e95541a851b8",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "lycian-and-carian-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "e32e5a7c511c4da45a3825df108a9b5f2d7bd9f7a3546adcc75cd3a92699ed22",
-      "bundle_sha256": "c698b402d0c7e83052a577035d99338a5deedabc642505c023e1110ddb8e1c99",
-      "bundle_source_commit": "dfba97715a2077094a485f33a159c96e4b37d21f",
-      "indexed_artifact_entries_checked": 37
+      "skill_sha256": "242bccd66423077979b9aad22c8e02106dedfd16805403e045436e8f31deb8eb",
+      "bundle_sha256": "b70456dd3ec89575f50f09a04949c5212b612cfc79f4f88db3508bd3afeb24b9",
+      "bundle_source_commit": "f2130f06ac7287059a9578accd26dfda8aa8703b",
+      "indexed_artifact_entries_checked": 38
     },
     {
       "repository": "hawkinsnick/Phrygian",
-      "observed_commit": "b3904e9150a3e90a84f700b5a13497f200ea540f",
-      "accepted_commit": "b3904e9150a3e90a84f700b5a13497f200ea540f",
+      "observed_commit": "08953db7918ad05e78f514762b4263badf691a31",
+      "accepted_commit": "08953db7918ad05e78f514762b4263badf691a31",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "phrygian-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "d4b3512977bf418efbb07596a27afa78d20260f8caeacac4960f97e9e4f18f08",
-      "bundle_sha256": "be20466b435a367320ef2e9444bded4df08d3f3347f3937a54de9690f299300b",
-      "bundle_source_commit": "e353caaac96b518b84a9157d582b9500234c4148",
-      "indexed_artifact_entries_checked": 69
+      "skill_sha256": "4e8a0058b1473f70c640d16a8991346c0134b90a2ec9e4e15a7be66df260325a",
+      "bundle_sha256": "4ced2c02b4459fb05475436073362fbc56f57427c156dc446af30d607a496e6d",
+      "bundle_source_commit": "31caad6b522204b6120847b9332d44eb2cd9380e",
+      "indexed_artifact_entries_checked": 70
     },
     {
       "repository": "hawkinsnick/Anatolian-Hieroglyphic",
-      "observed_commit": "08fd4d6664d525b5c67994d2015261a76d0bc5f6",
-      "accepted_commit": "08fd4d6664d525b5c67994d2015261a76d0bc5f6",
+      "observed_commit": "6ac77759893f0adf245b6d315d0ced2cec9f2503",
+      "accepted_commit": "6ac77759893f0adf245b6d315d0ced2cec9f2503",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "anatolian-hieroglyphic-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "d50413e84d0408a409bea1851bc4e04e5f0607b946d2c4a2225ad32a6e23a192",
-      "bundle_sha256": "f630329d4e7ea2de69c0b54231a382ebc073ad1929c3052eca9820cf6117b48b",
-      "bundle_source_commit": "f0956e7d52891bae4979f14e6350729b89d000bc",
-      "indexed_artifact_entries_checked": 62
+      "skill_sha256": "94953ae4e2102a46a47c91a5cdc5d747d16cef78fe216e8ca92b32c01dbe8789",
+      "bundle_sha256": "eef8593975a9fe15712fa746ed3a8bd7afa2462cdd76f6d1db7629afb6e6ccb3",
+      "bundle_source_commit": "37f5e16d6ee9b00f5e55f922b9b002bfaee1eac6",
+      "indexed_artifact_entries_checked": 63
     },
     {
       "repository": "hawkinsnick/Archanes-Script",
-      "observed_commit": "46892d6efddb9dcfb89f7c77ef336b3e8b876ef5",
-      "accepted_commit": "46892d6efddb9dcfb89f7c77ef336b3e8b876ef5",
+      "observed_commit": "c28ddceffb944e23e7b2bc91a1155a6f02375d75",
+      "accepted_commit": "c28ddceffb944e23e7b2bc91a1155a6f02375d75",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "archanes-script-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "f4d6db0aa46ccc6c74785b86422ae3e1dd6b0e2c37fcf769f886838ef1a1a1b1",
-      "bundle_sha256": "94ae19cb8b41c9ea5602af6b0a4183a02934649f83bcf022d045a7a0d605e587",
-      "bundle_source_commit": "98c47eefe9f2de1d109997bbfc3e29d8aedef5dc",
-      "indexed_artifact_entries_checked": 41
+      "skill_sha256": "406451704bbd4a1d185ff13372fe05c9644686749ac6857d85558fc40ecd8b4e",
+      "bundle_sha256": "392fea6e1e5a1e00aa164c190117ee038a041f25da4d200ae8de0e64e23352cb",
+      "bundle_source_commit": "c03a4418802d64d4895a1040edd0539f3ce1ba10",
+      "indexed_artifact_entries_checked": 42
     },
     {
       "repository": "hawkinsnick/Aegean-anomalous",
-      "observed_commit": "15ba1035b9a5897d1de957b2e1982dc04e311948",
-      "accepted_commit": "15ba1035b9a5897d1de957b2e1982dc04e311948",
+      "observed_commit": "08d1f78bc8d67be35ad25d9f061348bad9364430",
+      "accepted_commit": "08d1f78bc8d67be35ad25d9f061348bad9364430",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "aegean-anomalous-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "71c460205fdb6f941d2a8b45ef9bf984a21ed9cd79b834505283ce0043595066",
-      "bundle_sha256": "c84603b15c25026b46fa64b42867c1b655b7b2c0d1f6882249d8c349a0ecbae2",
-      "bundle_source_commit": "fee33dfd3478eb3131475d01b420c721092626df",
-      "indexed_artifact_entries_checked": 41
+      "skill_sha256": "df4db58e6ad317d6c7e63f737d6576982e908ae68281f8dc9e5e30dcd5c531ab",
+      "bundle_sha256": "e1313241cdca335d441b6a202a02292ce195cdf507a3d5d6a9fee0e1be92129c",
+      "bundle_source_commit": "efb98cb4a1ebcee5e3caf848bed32053eed7bf5e",
+      "indexed_artifact_entries_checked": 42
     },
     {
       "repository": "hawkinsnick/Lydian",
-      "observed_commit": "d4b07a26f225e5ae165eaa5f7374c139eeadefd0",
-      "accepted_commit": "d4b07a26f225e5ae165eaa5f7374c139eeadefd0",
+      "observed_commit": "9bc132c3512bd884272c0c98c38fbee2caa4a3fd",
+      "accepted_commit": "9bc132c3512bd884272c0c98c38fbee2caa4a3fd",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "lydian-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "18572f8b61984793a2b20529739547077018715d5bd2c39187eb713e72fda7a7",
-      "bundle_sha256": "127d29cccd6373d6ed090121efda0ec9751136877e0b26ed9aed94631a6de943",
-      "bundle_source_commit": "beed8f15f7028413822d410afb49396c7cb7454b",
-      "indexed_artifact_entries_checked": 65
+      "skill_sha256": "b9743024254439cca7c0a084c0b6b313c39c4556faa6b7a16ff71aa661f23103",
+      "bundle_sha256": "e376ba5246621e2017ba15c3a6bb7a01ecf1a39f3a28562e889c5c68b4890e05",
+      "bundle_source_commit": "737d7883a57cb786e91c41b109551604d228fb6d",
+      "indexed_artifact_entries_checked": 66
     },
     {
       "repository": "hawkinsnick/Sidetic",
-      "observed_commit": "d5b2145d731d66c5054e18886acb23038a399522",
-      "accepted_commit": "d5b2145d731d66c5054e18886acb23038a399522",
+      "observed_commit": "50b31294c16a65c1a948455208bab264817ff6ba",
+      "accepted_commit": "50b31294c16a65c1a948455208bab264817ff6ba",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "sidetic-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "d1aa40398a3a89f059269641977838f06b606be5204467a50cdc0d138429255d",
-      "bundle_sha256": "3c49a034fa02fc0d658228323010158618d2310fdd69ee57563c25034d0e6fee",
-      "bundle_source_commit": "a19c4b201bfaf39bc36b41301c9744e8f118b98f",
-      "indexed_artifact_entries_checked": 79
+      "skill_sha256": "6c295ed4d1c11bd9bd9807978a092be1e91b6faa9562ef08652aed733d188a58",
+      "bundle_sha256": "9ff06b864f9c1c6424a439cc7f0b768490529d91f6909e8a28108d89581c2431",
+      "bundle_source_commit": "c9d8e20edbf9179ae4ce03cb0e7f08289bc518ef",
+      "indexed_artifact_entries_checked": 80
     },
     {
       "repository": "hawkinsnick/Pisidian",
-      "observed_commit": "50c9b238c9d260db29f2d9fdd5d220cd0c2f5bcf",
-      "accepted_commit": "50c9b238c9d260db29f2d9fdd5d220cd0c2f5bcf",
+      "observed_commit": "39196c4bafabcc318c59ace00ecdf259c390c4ef",
+      "accepted_commit": "39196c4bafabcc318c59ace00ecdf259c390c4ef",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "pisidian-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "04bd4c26cf2b02e64abdb8d823ea43af90f44a649a228f1d0fa380420435c22a",
-      "bundle_sha256": "aa738154ce9a6381fa81622916116a1e9e0ef66003075a6852a4c404030054dd",
-      "bundle_source_commit": "25f703bebf3db6892d6f7e8fe713b2b311728629",
-      "indexed_artifact_entries_checked": 62
+      "skill_sha256": "1fc784e91b641d131005501f84eedc7c783b8d03afe26d1380361005c9522f62",
+      "bundle_sha256": "adbd2b67acae7d9d4a914556bddf75e254dff5cee4e28ceaf2993074abd123ef",
+      "bundle_source_commit": "18459468b82235bd8e6b8a2652b502ee37000de3",
+      "indexed_artifact_entries_checked": 63
     },
     {
       "repository": "hawkinsnick/Milyan-Lycian-B",
-      "observed_commit": "d10422059983583056ea9b91d68dcb66e767cabe",
-      "accepted_commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+      "observed_commit": "30ff03bc3dd61a5080428ae7110e5f15b1b8e6c0",
+      "accepted_commit": "30ff03bc3dd61a5080428ae7110e5f15b1b8e6c0",
       "status": "VALIDATED",
       "validator_sha256": "158bff1a8912081d79b2104d01742a4255bb7857401b2c65a865f24b09f4255f",
       "skill_name": "milyan-corpus-research",
       "skill_version": "0.3.1",
       "scope": "NATIVE_EVIDENCE_RETRIEVAL",
-      "skill_sha256": "ceb86ca2bd155f3026fc3de6f2212017469d3ca7c8547884fccaea5fbebe7712",
-      "bundle_sha256": "0babb05f1d113357a40f4a0241f38fe36ec8a02f4adeaf8d88639de9ba0361e0",
-      "bundle_source_commit": "243793efe04daaf494795cfb989231b4cd3d64ca",
-      "indexed_artifact_entries_checked": 80
+      "skill_sha256": "5675c799dd9494e19fb5ade2b82cc073ef6cff2e7b3c23d46c72a4a35fea6236",
+      "bundle_sha256": "b7da3712248518941982974c22c1f59c1a4220963ac53ab1111e4d5bcfa96a4e",
+      "bundle_source_commit": "1a3e885d5985d6dc9f15b3ec939e2339a893e25a",
+      "indexed_artifact_entries_checked": 81
     }
   ],
   "scholarly_acceptance_granted": false,
@@ -1494,24 +1500,24 @@ This is a byte-bound engineering snapshot. Scheduled refreshes run every five mi
 
 | Corpus | Observed main | Last validated revision | Status |
 |---|---|---|---|
-| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [6c4320999cce](https://github.com/hawkinsnick/Linear-A/tree/6c4320999cce6b7c36c1f8a5ed6c3071f5e8a593) | [6c4320999cce](https://github.com/hawkinsnick/Linear-A/tree/6c4320999cce6b7c36c1f8a5ed6c3071f5e8a593) | VALIDATED |
-| [Cypro-Minoan](https://github.com/hawkinsnick/Cypro-Minoan) | [52fa6feb8dd8](https://github.com/hawkinsnick/Cypro-Minoan/tree/52fa6feb8dd835cf2ee659dc58cd7885b6b69c48) | [52fa6feb8dd8](https://github.com/hawkinsnick/Cypro-Minoan/tree/52fa6feb8dd835cf2ee659dc58cd7885b6b69c48) | VALIDATED |
-| [Linear-B](https://github.com/hawkinsnick/Linear-B) | [0f2feca03820](https://github.com/hawkinsnick/Linear-B/tree/0f2feca03820db295419ee2301826b79d6016085) | [0f2feca03820](https://github.com/hawkinsnick/Linear-B/tree/0f2feca03820db295419ee2301826b79d6016085) | VALIDATED |
-| [Cretan-hieroglyphs](https://github.com/hawkinsnick/Cretan-hieroglyphs) | [ca90b9bebb2c](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f) | [ca90b9bebb2c](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f) | VALIDATED |
-| [Phaistos-Disc](https://github.com/hawkinsnick/Phaistos-Disc) | [f997ed39f6ec](https://github.com/hawkinsnick/Phaistos-Disc/tree/f997ed39f6eceeb997b03c22c2b2d838965bb209) | [f997ed39f6ec](https://github.com/hawkinsnick/Phaistos-Disc/tree/f997ed39f6eceeb997b03c22c2b2d838965bb209) | VALIDATED |
-| [Byblos-syllabary](https://github.com/hawkinsnick/Byblos-syllabary) | [f3cf5b9010ee](https://github.com/hawkinsnick/Byblos-syllabary/tree/f3cf5b9010ee27d51b44de3b5334e96504e162ec) | [f3cf5b9010ee](https://github.com/hawkinsnick/Byblos-syllabary/tree/f3cf5b9010ee27d51b44de3b5334e96504e162ec) | VALIDATED |
-| [Cypriot-syllabic-Greek](https://github.com/hawkinsnick/Cypriot-syllabic-Greek) | [10aeb079cb45](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/tree/10aeb079cb45f4a8bd6863f7c2d6196b4e8c7f54) | [10aeb079cb45](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/tree/10aeb079cb45f4a8bd6863f7c2d6196b4e8c7f54) | VALIDATED |
-| [Eteocypriot](https://github.com/hawkinsnick/Eteocypriot) | [d247e3008402](https://github.com/hawkinsnick/Eteocypriot/tree/d247e3008402f665e1969dbf67a4a588b2e9844f) | [d247e3008402](https://github.com/hawkinsnick/Eteocypriot/tree/d247e3008402f665e1969dbf67a4a588b2e9844f) | VALIDATED |
-| [Eteocretan](https://github.com/hawkinsnick/Eteocretan) | [aa093fb68c45](https://github.com/hawkinsnick/Eteocretan/tree/aa093fb68c4551ff4375bddfcf13e040929c9d33) | [aa093fb68c45](https://github.com/hawkinsnick/Eteocretan/tree/aa093fb68c4551ff4375bddfcf13e040929c9d33) | VALIDATED |
-| [Lycian-and-Carian](https://github.com/hawkinsnick/Lycian-and-Carian) | [ada2228a82ef](https://github.com/hawkinsnick/Lycian-and-Carian/tree/ada2228a82efddcdecfb91eb3c889110a960a3de) | [ada2228a82ef](https://github.com/hawkinsnick/Lycian-and-Carian/tree/ada2228a82efddcdecfb91eb3c889110a960a3de) | VALIDATED |
-| [Phrygian](https://github.com/hawkinsnick/Phrygian) | [b3904e9150a3](https://github.com/hawkinsnick/Phrygian/tree/b3904e9150a3e90a84f700b5a13497f200ea540f) | [b3904e9150a3](https://github.com/hawkinsnick/Phrygian/tree/b3904e9150a3e90a84f700b5a13497f200ea540f) | VALIDATED |
-| [Anatolian-Hieroglyphic](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [08fd4d6664d5](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/tree/08fd4d6664d525b5c67994d2015261a76d0bc5f6) | [08fd4d6664d5](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/tree/08fd4d6664d525b5c67994d2015261a76d0bc5f6) | VALIDATED |
-| [Archanes-Script](https://github.com/hawkinsnick/Archanes-Script) | [46892d6efddb](https://github.com/hawkinsnick/Archanes-Script/tree/46892d6efddb9dcfb89f7c77ef336b3e8b876ef5) | [46892d6efddb](https://github.com/hawkinsnick/Archanes-Script/tree/46892d6efddb9dcfb89f7c77ef336b3e8b876ef5) | VALIDATED |
-| [Aegean-anomalous](https://github.com/hawkinsnick/Aegean-anomalous) | [15ba1035b9a5](https://github.com/hawkinsnick/Aegean-anomalous/tree/15ba1035b9a5897d1de957b2e1982dc04e311948) | [15ba1035b9a5](https://github.com/hawkinsnick/Aegean-anomalous/tree/15ba1035b9a5897d1de957b2e1982dc04e311948) | VALIDATED |
-| [Lydian](https://github.com/hawkinsnick/Lydian) | [d4b07a26f225](https://github.com/hawkinsnick/Lydian/tree/d4b07a26f225e5ae165eaa5f7374c139eeadefd0) | [d4b07a26f225](https://github.com/hawkinsnick/Lydian/tree/d4b07a26f225e5ae165eaa5f7374c139eeadefd0) | VALIDATED |
-| [Sidetic](https://github.com/hawkinsnick/Sidetic) | [d5b2145d731d](https://github.com/hawkinsnick/Sidetic/tree/d5b2145d731d66c5054e18886acb23038a399522) | [d5b2145d731d](https://github.com/hawkinsnick/Sidetic/tree/d5b2145d731d66c5054e18886acb23038a399522) | VALIDATED |
-| [Pisidian](https://github.com/hawkinsnick/Pisidian) | [50c9b238c9d2](https://github.com/hawkinsnick/Pisidian/tree/50c9b238c9d260db29f2d9fdd5d220cd0c2f5bcf) | [50c9b238c9d2](https://github.com/hawkinsnick/Pisidian/tree/50c9b238c9d260db29f2d9fdd5d220cd0c2f5bcf) | VALIDATED |
-| [Milyan-Lycian-B](https://github.com/hawkinsnick/Milyan-Lycian-B) | [d10422059983](https://github.com/hawkinsnick/Milyan-Lycian-B/tree/d10422059983583056ea9b91d68dcb66e767cabe) | [d10422059983](https://github.com/hawkinsnick/Milyan-Lycian-B/tree/d10422059983583056ea9b91d68dcb66e767cabe) | VALIDATED |
+| [Linear-A](https://github.com/hawkinsnick/Linear-A) | [8be77c5e94a7](https://github.com/hawkinsnick/Linear-A/tree/8be77c5e94a714d50bac95ee13afc5519f499fe3) | [8be77c5e94a7](https://github.com/hawkinsnick/Linear-A/tree/8be77c5e94a714d50bac95ee13afc5519f499fe3) | VALIDATED |
+| [Cypro-Minoan](https://github.com/hawkinsnick/Cypro-Minoan) | [d8ce3b944449](https://github.com/hawkinsnick/Cypro-Minoan/tree/d8ce3b9444490f98eec6cd8503d9a8ac7c70d886) | [d8ce3b944449](https://github.com/hawkinsnick/Cypro-Minoan/tree/d8ce3b9444490f98eec6cd8503d9a8ac7c70d886) | VALIDATED |
+| [Linear-B](https://github.com/hawkinsnick/Linear-B) | [4503dcc81822](https://github.com/hawkinsnick/Linear-B/tree/4503dcc81822ba29d5b605cb7d73b72aeeb848a2) | [4503dcc81822](https://github.com/hawkinsnick/Linear-B/tree/4503dcc81822ba29d5b605cb7d73b72aeeb848a2) | VALIDATED |
+| [Cretan-hieroglyphs](https://github.com/hawkinsnick/Cretan-hieroglyphs) | [45a9efd2a082](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/45a9efd2a082aa69bf535266c46bd5facc9da82d) | [45a9efd2a082](https://github.com/hawkinsnick/Cretan-hieroglyphs/tree/45a9efd2a082aa69bf535266c46bd5facc9da82d) | VALIDATED |
+| [Phaistos-Disc](https://github.com/hawkinsnick/Phaistos-Disc) | [b9a0c04ce689](https://github.com/hawkinsnick/Phaistos-Disc/tree/b9a0c04ce6890d67e68e1f2ed351a21028240d4d) | [b9a0c04ce689](https://github.com/hawkinsnick/Phaistos-Disc/tree/b9a0c04ce6890d67e68e1f2ed351a21028240d4d) | VALIDATED |
+| [Byblos-syllabary](https://github.com/hawkinsnick/Byblos-syllabary) | [18eea69843ae](https://github.com/hawkinsnick/Byblos-syllabary/tree/18eea69843aef11d68aa9128c706f5e14cb11361) | [18eea69843ae](https://github.com/hawkinsnick/Byblos-syllabary/tree/18eea69843aef11d68aa9128c706f5e14cb11361) | VALIDATED |
+| [Cypriot-syllabic-Greek](https://github.com/hawkinsnick/Cypriot-syllabic-Greek) | [f8f0e83b113e](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/tree/f8f0e83b113eb45a82f1b6d7267982f090396e09) | [f8f0e83b113e](https://github.com/hawkinsnick/Cypriot-syllabic-Greek/tree/f8f0e83b113eb45a82f1b6d7267982f090396e09) | VALIDATED |
+| [Eteocypriot](https://github.com/hawkinsnick/Eteocypriot) | [dd5f2eee1d0c](https://github.com/hawkinsnick/Eteocypriot/tree/dd5f2eee1d0c889f9c311d3819f65680b891b624) | [dd5f2eee1d0c](https://github.com/hawkinsnick/Eteocypriot/tree/dd5f2eee1d0c889f9c311d3819f65680b891b624) | VALIDATED |
+| [Eteocretan](https://github.com/hawkinsnick/Eteocretan) | [307fea90e24c](https://github.com/hawkinsnick/Eteocretan/tree/307fea90e24c33eee59a2a6df68aebb79ab2e5cf) | [307fea90e24c](https://github.com/hawkinsnick/Eteocretan/tree/307fea90e24c33eee59a2a6df68aebb79ab2e5cf) | VALIDATED |
+| [Lycian-and-Carian](https://github.com/hawkinsnick/Lycian-and-Carian) | [cbf322b302ce](https://github.com/hawkinsnick/Lycian-and-Carian/tree/cbf322b302ce56c26c6b62abc128e95541a851b8) | [cbf322b302ce](https://github.com/hawkinsnick/Lycian-and-Carian/tree/cbf322b302ce56c26c6b62abc128e95541a851b8) | VALIDATED |
+| [Phrygian](https://github.com/hawkinsnick/Phrygian) | [08953db7918a](https://github.com/hawkinsnick/Phrygian/tree/08953db7918ad05e78f514762b4263badf691a31) | [08953db7918a](https://github.com/hawkinsnick/Phrygian/tree/08953db7918ad05e78f514762b4263badf691a31) | VALIDATED |
+| [Anatolian-Hieroglyphic](https://github.com/hawkinsnick/Anatolian-Hieroglyphic) | [6ac77759893f](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/tree/6ac77759893f0adf245b6d315d0ced2cec9f2503) | [6ac77759893f](https://github.com/hawkinsnick/Anatolian-Hieroglyphic/tree/6ac77759893f0adf245b6d315d0ced2cec9f2503) | VALIDATED |
+| [Archanes-Script](https://github.com/hawkinsnick/Archanes-Script) | [c28ddceffb94](https://github.com/hawkinsnick/Archanes-Script/tree/c28ddceffb944e23e7b2bc91a1155a6f02375d75) | [c28ddceffb94](https://github.com/hawkinsnick/Archanes-Script/tree/c28ddceffb944e23e7b2bc91a1155a6f02375d75) | VALIDATED |
+| [Aegean-anomalous](https://github.com/hawkinsnick/Aegean-anomalous) | [08d1f78bc8d6](https://github.com/hawkinsnick/Aegean-anomalous/tree/08d1f78bc8d67be35ad25d9f061348bad9364430) | [08d1f78bc8d6](https://github.com/hawkinsnick/Aegean-anomalous/tree/08d1f78bc8d67be35ad25d9f061348bad9364430) | VALIDATED |
+| [Lydian](https://github.com/hawkinsnick/Lydian) | [9bc132c3512b](https://github.com/hawkinsnick/Lydian/tree/9bc132c3512bd884272c0c98c38fbee2caa4a3fd) | [9bc132c3512b](https://github.com/hawkinsnick/Lydian/tree/9bc132c3512bd884272c0c98c38fbee2caa4a3fd) | VALIDATED |
+| [Sidetic](https://github.com/hawkinsnick/Sidetic) | [50b31294c16a](https://github.com/hawkinsnick/Sidetic/tree/50b31294c16a65c1a948455208bab264817ff6ba) | [50b31294c16a](https://github.com/hawkinsnick/Sidetic/tree/50b31294c16a65c1a948455208bab264817ff6ba) | VALIDATED |
+| [Pisidian](https://github.com/hawkinsnick/Pisidian) | [39196c4bafab](https://github.com/hawkinsnick/Pisidian/tree/39196c4bafabcc318c59ace00ecdf259c390c4ef) | [39196c4bafab](https://github.com/hawkinsnick/Pisidian/tree/39196c4bafabcc318c59ace00ecdf259c390c4ef) | VALIDATED |
+| [Milyan-Lycian-B](https://github.com/hawkinsnick/Milyan-Lycian-B) | [30ff03bc3dd6](https://github.com/hawkinsnick/Milyan-Lycian-B/tree/30ff03bc3dd61a5080428ae7110e5f15b1b8e6c0) | [30ff03bc3dd6](https://github.com/hawkinsnick/Milyan-Lycian-B/tree/30ff03bc3dd61a5080428ae7110e5f15b1b8e6c0) | VALIDATED |
 
 An accepted revision indicates the native functional checks passed. It does not establish accepted readings, decipherment, source independence, permissions or expert acceptance.
 

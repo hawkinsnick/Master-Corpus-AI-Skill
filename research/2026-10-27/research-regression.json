@@ -1,0 +1,4392 @@
+{
+  "format": "full-record-retrieval-development-regression-v1",
+  "date": "2026-10-27",
+  "inputs": "inputs.json",
+  "selection": "All declared collections. Select one row lexicographically maximizing null/false atoms, then editorial-marker-bearing strings, then serialized length. These are exposed, purposive development cases, not an unexposed representative academic sample.",
+  "cases": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "source-documents",
+      "id": "HT 123a",
+      "unit": "SigLA source document entry",
+      "provenance": {
+        "path": "research/sigla-source-documents.jsonl",
+        "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+        "pointer": "/49",
+        "native_artifacts_snapshot_commit": null,
+        "role": "source-documents",
+        "encoding": "jsonl"
+      },
+      "full_record_sha256": "e5a537c63fc860c241e3d69034ba8a396e21b8fdd6238340d1e49ee353edb68d",
+      "linked_records_checked": 1,
+      "linked_trace_sha256": "0da0e82f258016fbcbcd16b3b07df793ffd4af57896c073011133daa9551e743",
+      "source_null_atoms_preserved": 30,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 780,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "critical-pilot",
+      "id": "HT 34",
+      "unit": "selected critical pilot entry",
+      "provenance": {
+        "path": "research/critical-pilot.json",
+        "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+        "pointer": "/entries/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "critical-pilot, legacy-cases",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c6c68616e59647ca2783c1029fa801e72d103d97cc9de2c4bb65a1017967cc90",
+      "linked_records_checked": 2,
+      "linked_trace_sha256": "5c162887d479b9194c0c9f4234f12f76821e9119a8494d895181a6220cfe0b0a",
+      "source_null_atoms_preserved": 25,
+      "source_false_atoms_preserved": 3,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 3,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "legacy-cases",
+      "id": "U009",
+      "unit": "legacy project queue case",
+      "provenance": {
+        "path": "research/critical-pilot.json",
+        "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+        "pointer": "/cases/8",
+        "native_artifacts_snapshot_commit": null,
+        "role": "critical-pilot, legacy-cases",
+        "encoding": "json"
+      },
+      "full_record_sha256": "e3a5ce989e00dc24de5979b73b7af91c4ff1543f2bfc3190ef2428fabcce5b94",
+      "linked_records_checked": 2,
+      "linked_trace_sha256": "57b039ffb3780ab11e2480fc7fc294d836c92be500f6efc1bc144853148d8fa7",
+      "source_null_atoms_preserved": 3,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "U009",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "attribution-audit",
+      "id": "U006",
+      "unit": "bounded legacy-case attribution audit",
+      "provenance": {
+        "path": "research/legacy-case-attribution.json",
+        "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+        "pointer": "/cases/5",
+        "native_artifacts_snapshot_commit": null,
+        "role": "current ten-case attribution audit",
+        "encoding": "json"
+      },
+      "full_record_sha256": "4c7b2562af80265b4c18569796fd400b955208c7b7a3ab3a4f97d86d65fd2b93",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 6,
+      "literal_search": {
+        "term": "SU and KI are explicit a",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "attribution-review",
+      "id": "U001",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c000175d50665e2b7e94d2104d9db61a08ca9998d64fb39cff90551db31c8ec4",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "U001",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "source-study",
+      "id": "LA-KNZD46-SCRIPT-ASSIGNMENT-20261017",
+      "unit": "bounded source-acquisition or scholarly-argument study",
+      "provenance": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7aac8a3e3b3ef1555acefc7c14a59fc3cfcd26d46314234d14a4de77d364f163",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 11,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "reading-comparisons",
+      "id": "LA-PKZB21-FIRST-SIGN-20261018",
+      "unit": "bounded documentary follow-up case",
+      "provenance": {
+        "path": "research/reading-comparison-2026-10-18.json",
+        "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded documentary follow-up",
+        "encoding": "json"
+      },
+      "full_record_sha256": "3f026f5aa31e59609ac3eadb46dc4bef45cc4576ef52a8bf42240aaa7f4a404d",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 17,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "pkzb21-page-access",
+      "id": "LA-PKZB21-PAGE-ACCESS-20261018",
+      "unit": "bounded source access or structure inspection",
+      "provenance": {
+        "path": "research/pkzb21-page-access-2026-10-18.json",
+        "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source access or structure check",
+        "encoding": "json"
+      },
+      "full_record_sha256": "bd27c6ad035250476f86443b4af6f4f0170e5aebff3af1d3122f9ce46c0ee7ed",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 7,
+      "literal_search": {
+        "term": "Excavations at Palaikast",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "edition-route-decisions",
+      "id": "HT 113 ter",
+      "unit": "source-entry edition target decision",
+      "provenance": {
+        "path": "research/academic-remediation.json",
+        "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+        "pointer": "/route_decisions/31",
+        "native_artifacts_snapshot_commit": null,
+        "role": "current exact-ID route rejection and legacy case disposition",
+        "encoding": "json"
+      },
+      "full_record_sha256": "4f7f584063d4b5b7f47ef4c67a688fff938a81c0392b1f74e7c5e0ac9637dc7b",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 4,
+      "source_false_atoms_preserved": 4,
+      "literal_search": {
+        "term": "HT 113 ter",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "case-dispositions",
+      "id": "U010",
+      "unit": "legacy queue admission/disposition",
+      "provenance": {
+        "path": "research/academic-remediation.json",
+        "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+        "pointer": "/case_dispositions/9",
+        "native_artifacts_snapshot_commit": null,
+        "role": "current exact-ID route rejection and legacy case disposition",
+        "encoding": "json"
+      },
+      "full_record_sha256": "028f4b194034e9b8bb9f6134763e979873a7b7f1d3c6f84df6e7ef5c3c25c063",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 4,
+      "literal_search": {
+        "term": "U010",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "source-context-cautions",
+      "id": "LA-MYZF2-SOURCE-CONTEXT-20261024",
+      "unit": "attributed source-context caution",
+      "provenance": {
+        "path": "research/myzf2-source-context-2026-10-24.json",
+        "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "attributed record-level scholarly caution; text-only source consultation",
+        "encoding": "json"
+      },
+      "full_record_sha256": "1c1877c9128d9efba9481facfca2d2523598311db40461903bcd67a31c5b278e",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "The manuscript footnote ",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "closure-controls",
+      "id": "HT Wa 1147",
+      "unit": "source reference-gap disposition",
+      "provenance": {
+        "path": "research/closure-controls.json",
+        "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+        "pointer": "/records/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "scoped exclusions and unresolved-source representation controls",
+        "encoding": "json"
+      },
+      "full_record_sha256": "41e9d981070b691025856a9a72890a42a3d09b1543f5bdaebdb92d905f073726",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "HT Wa 1147",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "rich-dossiers",
+      "id": "CMOC-0032",
+      "unit": "rich-record dossier",
+      "provenance": {
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/7",
+        "native_artifacts_snapshot_commit": null,
+        "role": "rich-dossiers",
+        "encoding": "json"
+      },
+      "full_record_sha256": "64f66d09edadfa03760a18848db61f8c5e2cd08274d3082d16585e30be004f20",
+      "linked_records_checked": 4,
+      "linked_trace_sha256": "d00a2d6b037fccf9d50b320475c7c3ca3f1404e1273a37ce7c0a9e5864b7671a",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 73,
+      "literal_search": {
+        "term": "Musée du Louvre, Départe",
+        "matched_view_rows": 10,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "qualified-assertions",
+      "id": "CMOCC-0209-VALERIO2016-20261014-AI201-2",
+      "unit": "source occurrence assertion",
+      "provenance": {
+        "path": "research/qualified-assertion-views.json",
+        "sha256": "9812d2353c9b93304e2c0296a20558ca8b1221269c56b42f940e3ff72d1e56f4",
+        "pointer": "/assertions/27",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified-assertions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "d42bb1aaa97590ee253c443028148770c6c8e275af184f818d7460e2d53524f4",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 10,
+      "literal_search": {
+        "term": "printed pp. 527–528, 531",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "source-comparisons",
+      "id": "CM209-aii501-internal-comparison",
+      "unit": "qualified source comparison",
+      "provenance": {
+        "path": "research/source-reconciliation.json",
+        "sha256": "857d6bcb7232073fbbf4dfddf07b9c5b4a3329b388fe467a9e1e08d6a5903e4e",
+        "pointer": "/comparisons/5",
+        "native_artifacts_snapshot_commit": null,
+        "role": "source-comparisons",
+        "encoding": "json"
+      },
+      "full_record_sha256": "24af3fba775a5bffde8257f2b5e7c9a63fe750037fb82251c49ed8f3f5a6a3c1",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "printed pp. 532–533 (PDF",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "catalogue-mappings",
+      "id": "169",
+      "unit": "source catalogue-number mapping",
+      "provenance": {
+        "path": "catalogues/source-located-concordance.json",
+        "sha256": "a17030df57896320b3c2a9e7882ea5f6e5b7c2c6d018fe83f3f4c2f9cf3fae66",
+        "pointer": "/rows/168",
+        "native_artifacts_snapshot_commit": null,
+        "role": "catalogue-mappings",
+        "encoding": "json"
+      },
+      "full_record_sha256": "0f41575ddc2e57006ce87c114c9220fd63087112cc39dc52f5e3b84dec7bafee",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 8,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "attribution-review",
+      "id": "CMOCC-0026-VALERIO2016-source-sequence-2-comparison",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "b812c900449840a989c4ab278c40bbcdaa7cf81700f33f354e3119020f920a0a",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "9b79a0f11c59751918c9e5d4e25e5d1b0301f06f8526df260eb32cbc5d5aa0c1",
+      "linked_records_checked": 1,
+      "linked_trace_sha256": "7b5814a482cb636b10640d5499ec1698fdcb36325dc4a49d6076f630614edb5f",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "The comparison names bot",
+        "matched_view_rows": 5,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "source-collation-2026-10-15",
+      "id": "CM209-aii501-internal-comparison",
+      "unit": "selected source collation task",
+      "provenance": {
+        "path": "research/source-collation-2026-10-15.json",
+        "sha256": "061110c15f0611cda3bcd12bed95012c79e91fa1facc1f5dd066b585c7c80a57",
+        "pointer": "/cases/5",
+        "native_artifacts_snapshot_commit": null,
+        "role": "fresh bounded source collation; consultation modes differ by source",
+        "encoding": "json"
+      },
+      "full_record_sha256": "bd0e7546b194644c734f1591e147622f10f76dfd96c1b1bb00250ab799fd4ac1",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "At A.II.5.01 second posi",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "source-intake-2026-10-18",
+      "id": "CM-OLIVIER2007-INTAKE",
+      "unit": "source acquisition/identity follow-up task, not an inscription or independent witness",
+      "provenance": {
+        "path": "research/source-intake-2026-10-18.json",
+        "sha256": "21ce36e8ea07ffe2231d933802a51dd0c525938f8cb9a25539c5f75f92ba6886",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source intake and bibliographic identity",
+        "encoding": "json"
+      },
+      "full_record_sha256": "dbcd422b798214496b593d82e2280d39a0c1d913b75411cda7ef6d3830247be0",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "published-appendix-document",
+      "id": "PY-Ae-27",
+      "unit": "published appendix document example",
+      "provenance": {
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/document",
+        "native_artifacts_snapshot_commit": null,
+        "role": "published-appendix-document, published-appendix-units",
+        "encoding": "json"
+      },
+      "full_record_sha256": "8cd1dc9ddc6445e4d5b7c9d7018bfe921bf1aa16b05b5a561e657e8786dc57e3",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "p.10 XML lines 3,11–14",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "published-appendix-units",
+      "id": "pwid21195",
+      "unit": "published XML-ID unit",
+      "provenance": {
+        "path": "research/damos-published-id-example-2026-10-14.json",
+        "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+        "pointer": "/units/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "published-appendix-document, published-appendix-units",
+        "encoding": "json"
+      },
+      "full_record_sha256": "bb75fd9f7ff4726f2b5aebdfb91d8888b43c6a7ca8f903dcccd206cb131cead5",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "pwid21195",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "attribution-review",
+      "id": "LB-PUBLISHED-EXAMPLE",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "c090a75b7ceb145b7b12feb809d4ee9451d2c8ec3b0a0599a729e582a0134329",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "e25c53782b6ef9945ff230073adab2a0f0b1e2b53882935c10c00954328a6b4d",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "Aurora et al.2025 pp.10–",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "source-study",
+      "id": "LB-ANNOTATION-ACQUISITION-20261017",
+      "unit": "bounded source-acquisition or scholarly-argument study",
+      "provenance": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      },
+      "full_record_sha256": "3fb8468afc6e14701191097cb618d028f20b994b38fa5cd0769a4d528524d2af",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 14,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "live-damos-identities",
+      "id": "4220",
+      "unit": "live source identity/context projection",
+      "provenance": {
+        "path": "research/damos-live-pilot-2026-10-17.json",
+        "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+        "pointer": "/rows/22",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      },
+      "full_record_sha256": "b902ab9e70fe73fcabbf6f99f1929ea6dd61dd593e61147f2585912f1d6f7224",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 3,
+      "literal_search": {
+        "term": "4220",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "damos-supplied-structure",
+      "id": "LB-DAMOS-SUPPLIED-STRUCTURE-20261018",
+      "unit": "bounded source access or structure inspection",
+      "provenance": {
+        "path": "research/damos-supplied-structure-2026-10-18.json",
+        "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source access or structure check",
+        "encoding": "json"
+      },
+      "full_record_sha256": "24723192028ad09c7d93d8e833d39068927264d9e850704b224ca403849c7992",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "bounded-source-structure",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "damos-public-routes",
+      "id": "LB-DAMOS-PUBLIC-ROUTES-20261019",
+      "unit": "bounded source-route inspection",
+      "provenance": {
+        "path": "research/damos-public-routes-2026-10-19.json",
+        "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded visual/public-route source inspection",
+        "encoding": "json"
+      },
+      "full_record_sha256": "3ff849cfecdd91c6e393add16626d1517c773f0cef5dc3ce46f4b7b8d0092038",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 12,
+      "literal_search": {
+        "term": "Complete selected respon",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "catalogue-dossiers",
+      "id": "CHIC-252",
+      "unit": "CHIC catalogue dossier",
+      "provenance": {
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/251",
+        "native_artifacts_snapshot_commit": null,
+        "role": "catalogue-dossiers",
+        "encoding": "json"
+      },
+      "full_record_sha256": "ede126b6126a59b1cc83b15ecc2d7c8d01ffafcfebec333dc2d647894cf486a7",
+      "linked_records_checked": 7,
+      "linked_trace_sha256": "5f28831e2217e341c5b6626a07680b87deb9b7bb91dd1cec9aadc2298919563c",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 46,
+      "literal_search": {
+        "term": "Σ-K 2266",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "critical-readings",
+      "id": "CHIC-328-unlabelled-INSCRIBE",
+      "unit": "source reading assertion",
+      "provenance": {
+        "path": "corpus/critical-readings.json",
+        "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+        "pointer": "/12",
+        "native_artifacts_snapshot_commit": null,
+        "role": "critical-readings",
+        "encoding": "json"
+      },
+      "full_record_sha256": "22aced5259d8b478f48d508367ba518f5c25b463879c5d84040876adfd790585",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "CHIC-328-unlabelled-INSC",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "qualified-assertions",
+      "id": "CHIC-328-unlabelled-INSCRIBE",
+      "unit": "qualified source assertion",
+      "provenance": {
+        "path": "research/qualified-assertion-views.json",
+        "sha256": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+        "pointer": "/assertions/12",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified-assertions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "cb7088bc005ed2a9f9e097e6d6a0d82733044d4b55463da60226158cadf39c5d",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 3,
+      "source_false_atoms_preserved": 6,
+      "literal_search": {
+        "term": "Λ E-415",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "attribution-review",
+      "id": "CHIC-202-material",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "85fd397277ad2f94df4828442b4883c867de8d2433c6e3bc645830ed4fa1ff24",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c5b728851dadfde824914fc97eab2ba93cd71b5f1d746c709170c292bb1221c0",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "CHIC-202-material",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "closure-controls",
+      "id": "CHIC-202",
+      "unit": "unresolved paired material assertions",
+      "provenance": {
+        "path": "research/closure-controls.json",
+        "sha256": "c19f1909ccf1a701dc2487fe230dbd6ecf15e1ba3c89828e05a19205936eb970",
+        "pointer": "/records/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "scoped exclusions and unresolved-source representation controls",
+        "encoding": "json"
+      },
+      "full_record_sha256": "b6148f3191041c69c86ed637666d08d4cea669fb87a8798948964366714630f1",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 3,
+      "literal_search": {
+        "term": "CHIC-202",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "graphical-groups",
+      "id": "PD-A-E15",
+      "unit": "source graphical group",
+      "provenance": {
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/16",
+        "native_artifacts_snapshot_commit": null,
+        "role": "graphical-groups, occurrences",
+        "encoding": "json"
+      },
+      "full_record_sha256": "a9793a32ee8bfa2f687314e8ceb086eb423f14f2a6e02420ee358b504818ce59",
+      "linked_records_checked": 7,
+      "linked_trace_sha256": "18d00574bd7ce89c6eaa03873ae6866054516d919f3227f0a373a4f82705b099",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "PD-A-E15",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "occurrences",
+      "id": "PD-A-E24-S05",
+      "unit": "source sign-impression slot",
+      "provenance": {
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/occurrences/30",
+        "native_artifacts_snapshot_commit": null,
+        "role": "graphical-groups, occurrences",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7c094b45a49fa321d8eec520b126455f19f426507621235c46a8a160aa2fd9ad",
+      "linked_records_checked": 1,
+      "linked_trace_sha256": "885388d3582aa69136158080d97782ec7e2bb00eb1db3a45028c5bbc76271da1",
+      "source_null_atoms_preserved": 3,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "PD-A-E24-S05",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "attributed-claims",
+      "id": "PD-C007",
+      "unit": "apparatus claim",
+      "provenance": {
+        "path": "apparatus/claims.json",
+        "sha256": "8b94dc170ca025a8012da5dcb9cbe165d7019e75d83687cc0a535f27a04c43a7",
+        "pointer": "/6",
+        "native_artifacts_snapshot_commit": null,
+        "role": "attributed-claims",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7db7c9f7b1abdcb1eb56f99268173696d37723997577598db8c79fe2f3d04264",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "PD-C007",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "stroke-assertions",
+      "id": "PD-M002",
+      "unit": "source mark assertion",
+      "provenance": {
+        "path": "apparatus/stroke-assertions.json",
+        "sha256": "5450ca71fa1c900ede3c2f287ec3d4a7208eedcbdd5b8beffe311e54a037e72c",
+        "pointer": "/marks/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "stroke-assertions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "5e6da9caec3aeb2d3c72de0d8b660b7c8550efdde785bf7c162c99d41350da02",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 3,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "PD-M002",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "attribution-review",
+      "id": "PD-C002",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "8ff52e8a75046eb4a96b082092c08bf7589c7b06a9d0f04dbc8a3c30fa95bed6",
+        "pointer": "/cases/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7e78c1684d8c0fbdbff7e0c5bb3222d73e42e98d11c5086c87a0be98e2fb5253",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "PD-C002",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "catalogue",
+      "id": "BYB-CAND-UMM-O3A",
+      "unit": "catalogue entity",
+      "provenance": {
+        "path": "data/catalogue.json",
+        "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+        "pointer": "/records/33",
+        "native_artifacts_snapshot_commit": null,
+        "role": "catalogue",
+        "encoding": "json"
+      },
+      "full_record_sha256": "63399202b77ee1cb9b24811a6940d0fef7f2dc701d2ff2b84ed8177405b943b8",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 7,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "Schwartz’s author-hosted",
+        "matched_view_rows": 3,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "survey-count-assertions",
+      "id": "BYB-G",
+      "unit": "survey count assertion",
+      "provenance": {
+        "path": "research/core-count-assertions.json",
+        "sha256": "726f301aa984f9b11084f04922ab6633879733ee050967c9516d9e0508beeee4",
+        "pointer": "/entries/6",
+        "native_artifacts_snapshot_commit": null,
+        "role": "survey-count-assertions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7e9e264f62c70126185d40b41f125ea0f51b5b78c6cc6f9188e8ffe7cb7afdf3",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 4,
+      "source_false_atoms_preserved": 4,
+      "literal_search": {
+        "term": "BYB-G",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "attribution-review",
+      "id": "BYB-A-SIGN-COUNT",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "23774c05a07cb6f85b65e527584672b8ab12e4652b8dc65ad25bd4ec68752fd5",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "9ed9dfeb1df3b3e6062bf9cffc01d8cdd3e8e169f12dcd8619833ad717b01c0a",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "Dunand1930 pp.3–4 and th",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "closure-controls",
+      "id": "BYB-A-D1930-ordinal-032",
+      "unit": "printed ordinal membership lookup",
+      "provenance": {
+        "path": "research/closure-controls.json",
+        "sha256": "39e8f309d6547606e2060dc972654a5073c958de9aaccce8d785105878b146e0",
+        "pointer": "/records/31",
+        "native_artifacts_snapshot_commit": null,
+        "role": "scoped exclusions and unresolved-source representation controls",
+        "encoding": "json"
+      },
+      "full_record_sha256": "355ebf1f95f15f6dab44172562b5ef8361c0421b4baaffa40e59445cc3cc52e6",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 4,
+      "literal_search": {
+        "term": "p. 5, all rows I–XXXVIII",
+        "matched_view_rows": 123,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "digital-entries",
+      "id": "CSG-IGXV1-408",
+      "unit": "digital edition entry",
+      "provenance": {
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/589",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f4e89d78295940869c1ab0c065df66d8657deecf432afe3218dc16b495d83db3",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 11,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "Münzlegende des Königs T",
+        "matched_view_rows": 2,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "disagreement-register",
+      "id": "CSG-DIS-004",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "3117a86409cf852500fefe75e51664f512105ad74f0237557e45c9a652ebc62d",
+        "pointer": "/items/3",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "cb4e59af6da477dc5f5aef55a7ee6f0bff463fcb303b1913e91de376a0c6447b",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "CSG-DIS-004",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "attribution-review",
+      "id": "CSG-DIS-004",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "b0331a1795311e3a85d6d99aa88df511faf08410ef90282596e3aa2534809eb3",
+        "pointer": "/cases/3",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "dc6501f5a3e583d3c2ff0ac2e5ab736f0a2685987ff064a5a52c31ac05831887",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "CSG-DIS-004",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "digital-entries",
+      "id": "ETEC-IGXV1-16",
+      "unit": "digital edition entry",
+      "provenance": {
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "5359daf03a187713757b523b777ffc5bc7c496581393f959c8d87cea6c7d7ee5",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 5,
+      "source_false_atoms_preserved": 3,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 15,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "disagreement-register",
+      "id": "ECY-DIS-002",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
+        "pointer": "/items/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "5e35211ad2bec9c09f3211e8607b247c2a7d4449c74a7cdc6adf5abab836a3a9",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "ECY-DIS-002",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "attribution-review",
+      "id": "ECY-DIS-002",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+        "pointer": "/cases/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "e2a8a35cef8f8736c7b8b61597993e4014f98e855b31bf8d0efec466d25fed6c",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "Retain Masson1957 pp.66–",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "p1-source-followup",
+      "id": "ETE-IG150-QUARANTINE",
+      "unit": "bounded source/identity follow-up disposition",
+      "provenance": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
+        "encoding": "json"
+      },
+      "full_record_sha256": "cf1ca79c427a5202a15b6de573ce8270756973a1035c8398c1724ef3ae932bb2",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "ETE-IG150-QUARANTINE",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "reading-versions",
+      "id": "ECR-PRAISOS-2-CONWAY-127",
+      "unit": "attributed digital reading version",
+      "provenance": {
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/9",
+        "native_artifacts_snapshot_commit": null,
+        "role": "reading-versions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f68bffe96992fbb2589c904846341c303298879f99c12b9f9b46b8b548c892e9",
+      "linked_records_checked": 2,
+      "linked_trace_sha256": "64cd2d6413d4f6ebb907e922712c034e183346e195a38ccbc3da453b3fb202f8",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 81,
+      "literal_search": {
+        "term": "BSA 8, 1901–1902",
+        "matched_view_rows": 3,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "disagreement-register",
+      "id": "ECR-DIS-001",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "38bcaebd4a345f8bbf8835752188d5ebc32b69384b22e6dc451d1bd95b81ca23",
+        "pointer": "/items/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "ed4d853930669bc0c3413d1bf6f720e4ea332a348b3cb990369991d122aa6771",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "ECR-DIS-001",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "attribution-review",
+      "id": "ECR-DIS-003",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "c7649b96e32951448eb7d46eb4bba728441495c973974ad9b97983fcff71edc4",
+        "pointer": "/cases/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "0d9b8db9fb3f27bf8a9cf75970d4c644f0106b3d35ce393c0024323ded03552b",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "ECR-DIS-003",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "digital-entries",
+      "id": "EDIANA-LYCIAN-182",
+      "unit": "digital catalogue entry",
+      "provenance": {
+        "path": "data/records.json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+        "pointer": "/446",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "e6874cc0f201c696fbb1024391350fc1d594fe69abf6254e10b8cdeccd0d95ea",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 316,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 453,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "disagreement-register",
+      "id": "LC-DIS-002",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "b2f3be56ddd2759570fa885bbe205f771464119c6f2016232068fdc044b91418",
+        "pointer": "/items/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7ae7dd54788d530e823af869bfe3b1763b429e1ae6ab05fd80fc5fcf9d0dcacf",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "LC-DIS-002",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "attribution-review",
+      "id": "LC-DIS-002",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "9cdc66164e445bf9056a82878f16c6b5f13fec651b6b86d37d6183eb13a01f4e",
+        "pointer": "/cases/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "5e64b3e52a9afcd2cf5d8ae83c8f0d31eb96009cdf1e059055202e1a79068b90",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "LC-DIS-002",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "ud-reference",
+      "id": "UD-TM984535-1",
+      "unit": "UD reference sentence/segment",
+      "provenance": {
+        "path": "imports/ud-phrygian-kul.json",
+        "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+        "pointer": "/records/100",
+        "native_artifacts_snapshot_commit": null,
+        "role": "ud-reference",
+        "encoding": "json"
+      },
+      "full_record_sha256": "64a6a7ce681cf217ed830b089b5e85a943ec06f8cc0add04805882bd9804a566",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 34,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "titus-headings",
+      "id": "Phryg._Old-Phryg._W_11(?)",
+      "unit": "TITUS source heading",
+      "provenance": {
+        "path": "research/titus-heading-catalogue.json",
+        "sha256": "ffc91381b5a91c288039eee5c75175ee8fba979fead4ec05ce6191d48aa3f0e4",
+        "pointer": "/entries/33",
+        "native_artifacts_snapshot_commit": null,
+        "role": "titus-headings",
+        "encoding": "json"
+      },
+      "full_record_sha256": "729cfa6736d171d3b176ee6fbc839706d912bb18c0733b0a8172b98e58728fb0",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "primary-comparison-dossiers",
+      "id": "UD-TM1002268-1",
+      "unit": "bounded primary-comparison dossier",
+      "provenance": {
+        "path": "research/new-phrygian-primary-dossier.json",
+        "sha256": "757db8e72bde0bccd736e862f09c61d4e33ab3ee1afd83cfbe9aafb4bc3304a7",
+        "pointer": "/records/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "primary-comparison-dossiers",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f6a6897b6f1f99016744ed0510985763de4dd4bfb0200e5d16cd545aeb86f764",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "disagreement-register",
+      "id": "PHR-DIS-001",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "b6aa4e44a547fae7d3119b8071346a7582cd51a3cea2217d062e01dfb40dfc99",
+        "pointer": "/items/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "344abdd8fcd8e98d575a6fe0fc0df45057053ef840a4d5cef0d176e335806022",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "PHR-DIS-001",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "attribution-review",
+      "id": "PHR-DIS-002",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "6fa6224a7c4541d74553bbe1c59f7cd6e86b51d76d8bddaeefa9a44c90d9d2d0",
+        "pointer": "/cases/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "5df576477f39bd127261f8b2bc9476d674b61ffcbffa98d3c9c138293882444e",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "Güney–Yanık catalogue2 p",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "p1-source-followup",
+      "id": "PHR-TM1002268-ROLE",
+      "unit": "bounded source/identity follow-up disposition",
+      "provenance": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
+        "encoding": "json"
+      },
+      "full_record_sha256": "710c47fcf1cad6c905cce7ba435786608c9c0620d5ffa55d04d24ca1a8158909",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 4,
+      "literal_search": {
+        "term": "PHR-TM1002268-ROLE",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "digital-entry-dossiers",
+      "id": "EDIANA-HL-197",
+      "unit": "digital text-entry dossier",
+      "provenance": {
+        "path": "research/digital-entry-dossiers.json",
+        "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+        "pointer": "/entries/197",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entry-dossiers",
+        "encoding": "json"
+      },
+      "full_record_sha256": "b64fd2ababaceb0a7fc5f0acc86a8408bc854b8399cd0ed9ffe55c83fe933478",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 13,
+      "source_false_atoms_preserved": 8,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 287,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "edition-metadata-pilot",
+      "id": "KOCAOĞUZ",
+      "unit": "edition metadata pilot entry",
+      "provenance": {
+        "path": "research/edition-reconciliation-pilot.json",
+        "sha256": "4f6f42fe58fdfc556d662cebf1f4dd25d3deb27c11e4b9234f1ed533dd6c482d",
+        "pointer": "/records/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "edition-metadata-pilot",
+        "encoding": "json"
+      },
+      "full_record_sha256": "576fd85f2dd98a61cd92ad64446574b715c5e6155506e4ca20d4f6c24ebfa12e",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "disagreement-register",
+      "id": "AH-DIS-003",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "5a0d5b8ca7cfdd146eabbfac02e7e1cfbfdff8b2dfcbeeda1374fd00c78cde08",
+        "pointer": "/items/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "4f742ec9ad8099b59ab7e4f94d85869dd89af5176accc42c960b221655e2423b",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "AH-DIS-003",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "attribution-review",
+      "id": "AH-DIS-001",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "dbaf0d96958d0278c32970ff9db3acbfd496a5c095e62367f46bafd679866e06",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "e9b192c8de632ece27ef8451ec828d204fc20978e42bbca4d2fbb47928fd8246",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "AH-DIS-001",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "source-study",
+      "id": "HL-URBS-CITY-20261017",
+      "unit": "bounded source-acquisition or scholarly-argument study",
+      "provenance": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      },
+      "full_record_sha256": "1e4141a9e57f97d7b98d95d9344325cb1ccf185b2c924a4922522dd641372967",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 10,
+      "source_false_atoms_preserved": 12,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "city-source-assertions",
+      "id": "HL-CITY-T1-3",
+      "unit": "selected author-reported Table1 assertion",
+      "provenance": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455",
+        "pointer": "/attestation_assertions/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c851f9b1bb7c566c3336b18c5427820a0c7106ea34577a5a508c35404f02e01f",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 2,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "city-reference-crosswalk",
+      "id": "HL-CITY-REFERENCE-CROSSWALK-20261018",
+      "unit": "bounded documentary follow-up case",
+      "provenance": {
+        "path": "research/city-reference-crosswalk-2026-10-18.json",
+        "sha256": "9bb4718fd74ef41e8e3f6817b282b1ce7eb8ab1f30cd2a9d56dfe0821f06ba0f",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded documentary follow-up",
+        "encoding": "json"
+      },
+      "full_record_sha256": "35b76fbd91a2769ab9fe6f30f23afd2e55aac8772b7c585742d6a37e2dc9f297",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 17,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "city-edition-page-check",
+      "id": "HL-CITY-EDITION-PAGES-20261018",
+      "unit": "bounded source access or structure inspection",
+      "provenance": {
+        "path": "research/edition-page-check-2026-10-18.json",
+        "sha256": "0c9f11302fcd9180277b75e87714fea8ff06aa6b91b86d066364183fb1b9aa7e",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source access or structure check",
+        "encoding": "json"
+      },
+      "full_record_sha256": "1c789932ad669347cbc240aa8078b8b71b5f4dad44b9dadb55443394c4d2a123",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 14,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "visual-source-routes",
+      "id": "HL-VISUAL-SOURCE-ROUTES-20261019",
+      "unit": "bounded source-route inspection",
+      "provenance": {
+        "path": "research/visual-source-routes-2026-10-19.json",
+        "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded visual/public-route source inspection",
+        "encoding": "json"
+      },
+      "full_record_sha256": "83489127c2d34cd49d5b0f1dc86b12529097d3c4aebd80f4e23d11f023a5179a",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 21,
+      "source_false_atoms_preserved": 22,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "historical-visual-presentations",
+      "id": "GELB1939-GURUN-CONTEXT",
+      "unit": "page/plate presentation record",
+      "provenance": {
+        "path": "research/visual-source-routes-2026-10-19.json",
+        "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+        "pointer": "/records/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded visual/public-route source inspection",
+        "encoding": "json"
+      },
+      "full_record_sha256": "6188a6ce64e1cb49ea232a67ee9f4ce61ab9926780e544755bdedf22953010b9",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 3,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "p.29, nos.23–24",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "decorte-register",
+      "id": "AS#16",
+      "unit": "Decorte corpus-list entry",
+      "provenance": {
+        "path": "research/decorte-2018-corpus-register.json",
+        "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+        "pointer": "/records/15",
+        "native_artifacts_snapshot_commit": null,
+        "role": "decorte-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "d504562190b044235481c2e7c56473eda0b6cd0e8bb48bb9481c5bbea75467da",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "AS#16",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "inscribe-metadata",
+      "id": "AS#04",
+      "unit": "INSCRIBE metadata reconciliation",
+      "provenance": {
+        "path": "research/inscribe-object-reconciliation.json",
+        "sha256": "8f321a29845427305b75dfe09968ce454e4ba5b1ddaeefac6ef85f9cf974af32",
+        "pointer": "/records/3",
+        "native_artifacts_snapshot_commit": null,
+        "role": "inscribe-metadata",
+        "encoding": "json"
+      },
+      "full_record_sha256": "fcdd7f25cc18fa9e95d5bd8b21646160c9a4ecdbf1551edbb0e0d17449ca5c19",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "disagreement-register",
+      "id": "ARC-DIS-001",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "a6c2e18bdd1c34598bae64ba253cc5d515eaec0189d0e0fc7078c0c996586113",
+        "pointer": "/items/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "9f265e5c408521f499bdffefc25900fa2a4220df400f6c69862df4cde06c92ca",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "ARC-DIS-001",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "attribution-review",
+      "id": "ARC-DIS-001",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "44104ee3dd06abf2419f293ac3e7ff028ac55203d22da303a12e81132fc541fc",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f044356716a0d3974fee50d43bcde566fe8ecf0f95d397522f93dc22d34e87d4",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "Yule’s claimed15/listed1",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "quarantined-candidates",
+      "id": "ARKALOCHORI-AXE",
+      "unit": "quarantined candidate entity",
+      "provenance": {
+        "path": "research/candidate-register.json",
+        "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+        "pointer": "/candidates/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "quarantined-candidates",
+        "encoding": "json"
+      },
+      "full_record_sha256": "0c070fdc2f88224e32ef4134c0bd226ad9b7cda5fdc0b4c6e17702dad693d943",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "Χ2416",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "disagreement-register",
+      "id": "ANO-DIS-003",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+        "pointer": "/items/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "e6825f02b773bc90f4ea0f08bac505c4c27fc57ecc6c352e853f806f89366c24",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "ANO-DIS-003",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "attribution-review",
+      "id": "ANO-DIS-003",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+        "pointer": "/cases/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "dc14f78faa5f085d755699f5ba4befe643a6246be3bcb1e143e1f947d7555e1b",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "Compare specific graphic",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "digital-reference",
+      "id": "lydian:ediana:92",
+      "unit": "frozen eDiAna directory record",
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+        "pointer": "/90",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-reference",
+        "encoding": "json"
+      },
+      "full_record_sha256": "d17c6c13802d67a4b44cbbf97848d902341e70571c6f909ec91043c1760a08ea",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 13,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "disagreement-register",
+      "id": "LYD-DIS-002",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "28edecc9ceb7e9f65cf8a51f1d389c739c6f4898ba9b6226df349f2345a31772",
+        "pointer": "/items/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "da468acc476a1a7ac0042f1c91c9f1317c29f1faa14a72228f9643bb7055d191",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "LYD-DIS-002",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "attribution-review",
+      "id": "LYD-GUSMANI1975-LW59",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
+        "pointer": "/cases/12",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "a3fb6ce6372fbf11a6cb9090e904245e74435684f98460e7c1292994aaec3ac6",
+      "linked_records_checked": 1,
+      "linked_trace_sha256": "5456323c9f8eab41d63406f02fa3d37884f27b6b88d7938fbb48e9f225d6eac5",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "LYD-GUSMANI1975-LW59",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "source-collation-2026-10-15",
+      "id": "LYD-LW40-2016",
+      "unit": "selected source collation task",
+      "provenance": {
+        "path": "research/source-collation-2026-10-15.json",
+        "sha256": "3701c4f46088e451b9d4a352a7f99d8d588abe3aee6b27030fe0ba5a0db4ba67",
+        "pointer": "/cases/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "fresh bounded source collation; consultation modes differ by source",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c5cb27c5bd8494b671269fb9c91f3276f509085e6237e3a7c23f6a1f017ecdf8",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "Printed p.70 reads ẹšν̣",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "digital-reference",
+      "id": "sidetic:ediana:308",
+      "unit": "frozen eDiAna directory record",
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+        "pointer": "/10",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-reference",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f8980e9180dedde453dde3393b85bb75d398266cc33ff2df8e216f29b46c6ad5",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "· S9 (S I.2.5) (scriptio",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "disagreement-register",
+      "id": "SID-DIS-002",
+      "unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "71766e8a253694768ceed6a49c821bc4da161cb9e835ae6c6b9e7b66aae44063",
+        "pointer": "/items/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      },
+      "full_record_sha256": "6fe06c28b5f04fd65deb5f91635987ab83a3922d52418c5eb5bcd147b093cf13",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "SID-DIS-002",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "attribution-review",
+      "id": "SID-S9-2025-PIGBE",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "240abb1d8bd4bf5a6b3cbba678d9d3bf1e19088e1f191a9a82c7153a0ac7080b",
+        "pointer": "/cases/8",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c6dc515f319e671561a8be0af634ef99dfbd05be3a290713b5ba9f6517b2fd53",
+      "linked_records_checked": 1,
+      "linked_trace_sha256": "cae0c226b3a815815c64bcc084efca389edcf3d38d6eba6db78d730bbb2089ab",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "The authors propose pigb",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "source-collation-2026-10-15",
+      "id": "SID-S9-ABYDOS-COMPARISON",
+      "unit": "selected source collation task",
+      "provenance": {
+        "path": "research/source-collation-2026-10-15.json",
+        "sha256": "35d1e964000a42df59c572408c6b77e074e3e1b091ef793c45f0d0c99161a8a0",
+        "pointer": "/cases/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "fresh bounded source collation; consultation modes differ by source",
+        "encoding": "json"
+      },
+      "full_record_sha256": "6e8300a1269eaea5a58be5f8d7cd82147572d7dcf7c955267eb7dbb8fe416946",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 9,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "p1-source-followup",
+      "id": "SID-S6-DARGA-PLATES",
+      "unit": "bounded source/identity follow-up disposition",
+      "provenance": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "1f4f62bc2ab8b6e2e2764bc753df074687b80cb55f551bafe3e470a8f5af213e",
+        "pointer": "/cases/3",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
+        "encoding": "json"
+      },
+      "full_record_sha256": "b5f5513ea0232e4c4fd193a2319c6da0fb4665eb16b127e6674a90dc830cc202",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 3,
+      "literal_search": {
+        "term": "Levha I–II/PDF11–12",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "source-intake-2026-10-18",
+      "id": "SID-BRIXHE-NEUMANN1988-INTAKE",
+      "unit": "source acquisition/identity follow-up task, not an inscription or independent witness",
+      "provenance": {
+        "path": "research/source-intake-2026-10-18.json",
+        "sha256": "a1919eb40081340524a246309791d90d5bd38999be97d42795c277fa348472cd",
+        "pointer": "/cases/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded source intake and bibliographic identity",
+        "encoding": "json"
+      },
+      "full_record_sha256": "1790e00d089e38a5e7be47f18484cd52d2cb091625d125215ea3d792c91ce061",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 3,
+      "source_false_atoms_preserved": 4,
+      "literal_search": {
+        "term": "Günter Neumann",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "ferrer2025-appendix-comparison",
+      "id": "FERRER2025-S14-1",
+      "unit": "editorial appendix line/group comparison, not an inscription or independent witness",
+      "provenance": {
+        "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+        "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1",
+        "pointer": "/comparisons/30",
+        "native_artifacts_snapshot_commit": null,
+        "role": "Direct Ferrer PDF and appendix comparison",
+        "encoding": "json"
+      },
+      "full_record_sha256": "a9aaa45838677cff346d160b3c320e33bfd916d147b204949ceab236a8bd824c",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 0,
+      "literal_search": {
+        "term": "FERRER2025-S14-1",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "ferrer2025-reading-assertions",
+      "id": "FERRER2025-APP-ISTORUOR",
+      "unit": "source-attributed selected name proposal; not independent witness or physical object",
+      "provenance": {
+        "path": "research/ferrer2025-reading-assertions.json",
+        "sha256": "094d5f94a620f0472470c5aef2beca657132be37d5d046aa9ed1981cd0b2af22",
+        "pointer": "/assertions/4",
+        "native_artifacts_snapshot_commit": null,
+        "role": "selected attributed edition assertions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f980e990e9f20530537dd9f55ec86a073723d12e52d92f9c9289cee491e1d283",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 3,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "digital-reference",
+      "id": "pisidian:ediana:53",
+      "unit": "frozen eDiAna directory record",
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+        "pointer": "/53",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-reference",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f80285d9c6c355d12f16ab10cbfc572011072d3bef6cf19adf36ccc4ac34b7f5",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "S 04 (Değirmenözü)",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "attribution-review",
+      "id": "PIS-ADIEGO2012-N37",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
+        "pointer": "/cases/26",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c1a8dd87d0f558e9fe92209664ae46766599daf3beb8ebfb9f90ff25def912a2",
+      "linked_records_checked": 1,
+      "linked_trace_sha256": "8517635d309c0e0d96519ebb013b124a8126e33733ca4d7418a0dd29cdb00208",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "The author proposes trea",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "source-collation-2026-10-15",
+      "id": "PIS-KESME2-AMBIGUITIES",
+      "unit": "selected source collation task",
+      "provenance": {
+        "path": "research/source-collation-2026-10-15.json",
+        "sha256": "53c1013222b4a113d815a959a910ed565d4357deb3e6e2eab079fb5232946d9e",
+        "pointer": "/cases/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "fresh bounded source collation; consultation modes differ by source",
+        "encoding": "json"
+      },
+      "full_record_sha256": "46c3abe44bbaa36944e2999bcf9649f0bfde1cce1597eae3a56876de6a2e30fd",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "On pp.2–3, Adiego explic",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "digital-entries",
+      "id": "EDIANA-MILYAN-1",
+      "unit": "digital catalogue entry",
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "42d87ee8d4c264b54a4defc51982a17d1d1abb533ed9a61d6861151aca923202",
+      "linked_records_checked": 105,
+      "linked_trace_sha256": "0c7f96180e77db2a001821aadcc96d346b7edb4096a52cee1b85b65275356470",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 2,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "source-text-rows",
+      "id": "EDIANA-MILYAN-0-ROW-2",
+      "unit": "digital source text row",
+      "provenance": {
+        "path": "data/reference/lines.json",
+        "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+        "pointer": "/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "source-text-rows",
+        "encoding": "json"
+      },
+      "full_record_sha256": "86e043e6429a9f26212bba0cb1aa92e7d46902028e0a28afcec21b25f72dd054",
+      "linked_records_checked": 1,
+      "linked_trace_sha256": "ff5a2c5c2cd0f6a2f922b984a74e8db3f15ff3438cb84cecf1b3c18bcc3ea689",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 3,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 114,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "qualified-tl55-rows",
+      "id": "EDIANA-MILYAN-0-ROW-4",
+      "unit": "qualified source-label comparison row",
+      "provenance": {
+        "path": "research/tl55-qualified-collation.json",
+        "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+        "pointer": "/rows/3",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified-tl55-rows",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7af10c90fa083bb8a9a89c0a5d8918d65262907c275856302949756c851458c6",
+      "linked_records_checked": 10,
+      "linked_trace_sha256": "3d92ac3bcc05682761ee62144b953765c951e1c8c9a85d26ad6216beeb298445",
+      "source_null_atoms_preserved": 1,
+      "source_false_atoms_preserved": 21,
+      "literal_search": {
+        "term": "?",
+        "matched_view_rows": 9,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "selected-tl55-issues",
+      "id": "MIL-TL055-S2005-LINE4-PL",
+      "unit": "selected source-comparison issue",
+      "provenance": {
+        "path": "research/schuerr2005-tl55-collation.json",
+        "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+        "pointer": "/issues/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "selected-tl55-issues",
+        "encoding": "json"
+      },
+      "full_record_sha256": "ba79c0c642defd084e47c1b9f8fb63f84287831635adc841810513b19bea360d",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "ḷijanuwa",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl55-apparatus-review",
+      "id": "S2005-A9-01",
+      "unit": "first-pass apparatus review entry",
+      "provenance": {
+        "path": "research/tl55-first-pass-review.json",
+        "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+        "pointer": "/apparatus_entries/72",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl55-apparatus-review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "91bac02e9d51932e8c27e4707723c9a4a8126358711d0b04e42cdad09a9c406b",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "S2005-A9-01",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "attribution-review",
+      "id": "S2005-A9-01",
+      "unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+        "pointer": "/cases/73",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "618dc8ee763339e861431611ecd0c671c0fa7d64e15152ea604825149f373d4b",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "This is Schürr’s attribu",
+        "matched_view_rows": 74,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl55-sign-alignments",
+      "id": "TL55-BREAK-EDIANA-MILYAN-0-ROW-2-U198",
+      "unit": "candidate encoded-glyph comparison record",
+      "provenance": {
+        "path": "research/tl55-sign-alignment.json",
+        "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+        "pointer": "/alignments/1404",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified glyph comparison and exact source-position metadata",
+        "encoding": "json"
+      },
+      "full_record_sha256": "de4a8fc251fd6f8e4a410558e97601b2e112508c76367821dd78648606011099",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 2,
+      "literal_search": {
+        "term": "TL55-BREAK-EDIANA-MILYAN",
+        "matched_view_rows": 4,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl55-documentary-sign-review",
+      "id": "TL55-REVIEW-37",
+      "unit": "completed documentary comparison case",
+      "provenance": {
+        "path": "research/tl55-documentary-sign-review.json",
+        "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+        "pointer": "/cases/36",
+        "native_artifacts_snapshot_commit": null,
+        "role": "completed documentary comparison with retained non-unique ranges",
+        "encoding": "json"
+      },
+      "full_record_sha256": "ed2fbed9b834c8a0a9c7e414cf60622eeb924839dfa6ca6ffdb0a313710a032d",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "TL55-REVIEW-37",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl44-label-routes",
+      "id": "EDIANA-MILYAN-1-ROW-100",
+      "unit": "existing digital row to proposed printed label/page route",
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/rows/98",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      },
+      "full_record_sha256": "101b15f5b4177efaf56e1821bf551babd22900dd8af5d4f4fa2cb47c8c2463b8",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 3,
+      "literal_search": {
+        "term": "· 65",
+        "matched_view_rows": 2,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl44-source-issues",
+      "id": "TL44C-BOUNDARY-64-65",
+      "unit": "selected documentary boundary observation",
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/issues/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      },
+      "full_record_sha256": "a4347daf033f2e941ceeaf3a3af2242e0bde5775c69470a700a590131ea877f9",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "Right column, end of nor",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl44-modern-editions",
+      "id": "TL44C-SCHUERR-2016",
+      "unit": "modern edition bibliographic target",
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/editions/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      },
+      "full_record_sha256": "ace1f80e9ed613e9645fb0611df58f564fc27f174733d01f50d9974690e65f96",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 2,
+      "source_false_atoms_preserved": 5,
+      "literal_search": {
+        "term": "Diether Schürr",
+        "matched_view_rows": 2,
+        "returned_limit": 1,
+        "truncated": true
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl44-boundary-contexts",
+      "id": "TL44-C40-MARKER-1",
+      "unit": "qualified documentary boundary context",
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/markers/3",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      },
+      "full_record_sha256": "835581f8426e7592d10386704215299034325993e98ba08786d03f672ca700f9",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 4,
+      "literal_search": {
+        "term": "udi : slãmati : zrbblã :",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "tl44-span-accounting",
+      "id": "EDIANA-MILYAN-1-ROW-101",
+      "unit": "frozen digital row code-point partition",
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/rows/99",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      },
+      "full_record_sha256": "80a015ce14c137d63f58602d6d9a3175c59b7fb88fa89b3d479ac7f19733e207",
+      "linked_records_checked": 0,
+      "linked_trace_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_null_atoms_preserved": 0,
+      "source_false_atoms_preserved": 1,
+      "literal_search": {
+        "term": "· 66",
+        "matched_view_rows": 1,
+        "returned_limit": 1,
+        "truncated": false
+      },
+      "unsupported_inference": "REFUSED_UNSUPPORTED_INFERENCE",
+      "missing_id": "REJECTED",
+      "checks": [
+        "EXACT_FULL_RECORD_AND_LOCUS",
+        "EXACT_LINKED_RECORDS",
+        "LITERAL_SEARCH_AND_LIMIT",
+        "NULL_AND_FALSE_PRESERVED",
+        "UNSUPPORTED_INFERENCE_REJECTED",
+        "MISSING_ID_REJECTED"
+      ],
+      "status": "PASS_DECLARED_DEVELOPMENT_CONTRACT",
+      "cases_executed": 6
+    }
+  ],
+  "totals": {
+    "members": 18,
+    "collections": 104,
+    "nonempty_collections": 104,
+    "contract_checks": 624,
+    "linked_records_checked": 146,
+    "null_atoms_preserved": 185,
+    "false_atoms_preserved": 862
+  },
+  "walkthroughs": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "collection": "critical-pilot",
+      "id": "HT 34",
+      "unit": "selected critical pilot entry",
+      "source_ref": {
+        "path": "research/critical-pilot.json",
+        "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+        "pointer": "/entries/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "critical-pilot, legacy-cases",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c6c68616e59647ca2783c1029fa801e72d103d97cc9de2c4bb65a1017967cc90",
+      "expected_linked_records": 2,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Linear-A",
+        "--collection",
+        "critical-pilot",
+        "--id",
+        "HT 34"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "collection": "rich-dossiers",
+      "id": "CMOC-0032",
+      "unit": "rich-record dossier",
+      "source_ref": {
+        "path": "research/record-dossiers.json",
+        "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+        "pointer": "/dossiers/7",
+        "native_artifacts_snapshot_commit": null,
+        "role": "rich-dossiers",
+        "encoding": "json"
+      },
+      "full_record_sha256": "64f66d09edadfa03760a18848db61f8c5e2cd08274d3082d16585e30be004f20",
+      "expected_linked_records": 4,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Cypro-Minoan",
+        "--collection",
+        "rich-dossiers",
+        "--id",
+        "CMOC-0032"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "collection": "source-study",
+      "id": "LB-ANNOTATION-ACQUISITION-20261017",
+      "unit": "bounded source-acquisition or scholarly-argument study",
+      "source_ref": {
+        "path": "research/source-study-2026-10-17.json",
+        "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded directly consulted source study",
+        "encoding": "json"
+      },
+      "full_record_sha256": "3fb8468afc6e14701191097cb618d028f20b994b38fa5cd0769a4d528524d2af",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Linear-B",
+        "--collection",
+        "source-study",
+        "--id",
+        "LB-ANNOTATION-ACQUISITION-20261017"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "collection": "catalogue-dossiers",
+      "id": "CHIC-252",
+      "unit": "CHIC catalogue dossier",
+      "source_ref": {
+        "path": "research/record-dossiers.json",
+        "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+        "pointer": "/dossiers/251",
+        "native_artifacts_snapshot_commit": null,
+        "role": "catalogue-dossiers",
+        "encoding": "json"
+      },
+      "full_record_sha256": "ede126b6126a59b1cc83b15ecc2d7c8d01ffafcfebec333dc2d647894cf486a7",
+      "expected_linked_records": 7,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Cretan-hieroglyphs",
+        "--collection",
+        "catalogue-dossiers",
+        "--id",
+        "CHIC-252"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "collection": "graphical-groups",
+      "id": "PD-A-E15",
+      "unit": "source graphical group",
+      "source_ref": {
+        "path": "corpus/disc.json",
+        "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+        "pointer": "/groups/16",
+        "native_artifacts_snapshot_commit": null,
+        "role": "graphical-groups, occurrences",
+        "encoding": "json"
+      },
+      "full_record_sha256": "a9793a32ee8bfa2f687314e8ceb086eb423f14f2a6e02420ee358b504818ce59",
+      "expected_linked_records": 7,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Phaistos-Disc",
+        "--collection",
+        "graphical-groups",
+        "--id",
+        "PD-A-E15"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "collection": "survey-count-assertions",
+      "id": "BYB-G",
+      "unit": "survey count assertion",
+      "source_ref": {
+        "path": "research/core-count-assertions.json",
+        "sha256": "726f301aa984f9b11084f04922ab6633879733ee050967c9516d9e0508beeee4",
+        "pointer": "/entries/6",
+        "native_artifacts_snapshot_commit": null,
+        "role": "survey-count-assertions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "7e9e264f62c70126185d40b41f125ea0f51b5b78c6cc6f9188e8ffe7cb7afdf3",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Byblos-syllabary",
+        "--collection",
+        "survey-count-assertions",
+        "--id",
+        "BYB-G"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "collection": "digital-entries",
+      "id": "CSG-IGXV1-408",
+      "unit": "digital edition entry",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+        "pointer": "/589",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f4e89d78295940869c1ab0c065df66d8657deecf432afe3218dc16b495d83db3",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Cypriot-syllabic-Greek",
+        "--collection",
+        "digital-entries",
+        "--id",
+        "CSG-IGXV1-408"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "collection": "digital-entries",
+      "id": "ETEC-IGXV1-16",
+      "unit": "digital edition entry",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+        "pointer": "/15",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "5359daf03a187713757b523b777ffc5bc7c496581393f959c8d87cea6c7d7ee5",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Eteocypriot",
+        "--collection",
+        "digital-entries",
+        "--id",
+        "ETEC-IGXV1-16"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "collection": "reading-versions",
+      "id": "ECR-PRAISOS-2-CONWAY-127",
+      "unit": "attributed digital reading version",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+        "pointer": "/9",
+        "native_artifacts_snapshot_commit": null,
+        "role": "reading-versions",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f68bffe96992fbb2589c904846341c303298879f99c12b9f9b46b8b548c892e9",
+      "expected_linked_records": 2,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Eteocretan",
+        "--collection",
+        "reading-versions",
+        "--id",
+        "ECR-PRAISOS-2-CONWAY-127"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "collection": "digital-entries",
+      "id": "EDIANA-LYCIAN-182",
+      "unit": "digital catalogue entry",
+      "source_ref": {
+        "path": "data/records.json",
+        "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+        "pointer": "/446",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "e6874cc0f201c696fbb1024391350fc1d594fe69abf6254e10b8cdeccd0d95ea",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Lycian-and-Carian",
+        "--collection",
+        "digital-entries",
+        "--id",
+        "EDIANA-LYCIAN-182"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "collection": "p1-source-followup",
+      "id": "PHR-TM1002268-ROLE",
+      "unit": "bounded source/identity follow-up disposition",
+      "source_ref": {
+        "path": "research/p1-source-followup-2026-10-16.json",
+        "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "p1-source-followup",
+        "encoding": "json"
+      },
+      "full_record_sha256": "710c47fcf1cad6c905cce7ba435786608c9c0620d5ffa55d04d24ca1a8158909",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Phrygian",
+        "--collection",
+        "p1-source-followup",
+        "--id",
+        "PHR-TM1002268-ROLE"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "collection": "visual-source-routes",
+      "id": "HL-VISUAL-SOURCE-ROUTES-20261019",
+      "unit": "bounded source-route inspection",
+      "source_ref": {
+        "path": "research/visual-source-routes-2026-10-19.json",
+        "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded visual/public-route source inspection",
+        "encoding": "json"
+      },
+      "full_record_sha256": "83489127c2d34cd49d5b0f1dc86b12529097d3c4aebd80f4e23d11f023a5179a",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Anatolian-Hieroglyphic",
+        "--collection",
+        "visual-source-routes",
+        "--id",
+        "HL-VISUAL-SOURCE-ROUTES-20261019"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "collection": "attribution-review",
+      "id": "ARC-DIS-001",
+      "unit": "bounded documentary attribution review task",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "44104ee3dd06abf2419f293ac3e7ff028ac55203d22da303a12e81132fc541fc",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "f044356716a0d3974fee50d43bcde566fe8ecf0f95d397522f93dc22d34e87d4",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Archanes-Script",
+        "--collection",
+        "attribution-review",
+        "--id",
+        "ARC-DIS-001"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "collection": "attribution-review",
+      "id": "ANO-DIS-003",
+      "unit": "bounded documentary attribution review task",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+        "pointer": "/cases/2",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "dc14f78faa5f085d755699f5ba4befe643a6246be3bcb1e143e1f947d7555e1b",
+      "expected_linked_records": 0,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Aegean-anomalous",
+        "--collection",
+        "attribution-review",
+        "--id",
+        "ANO-DIS-003"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "collection": "attribution-review",
+      "id": "LYD-GUSMANI1975-LW59",
+      "unit": "bounded documentary attribution review task",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
+        "pointer": "/cases/12",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "a3fb6ce6372fbf11a6cb9090e904245e74435684f98460e7c1292994aaec3ac6",
+      "expected_linked_records": 1,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Lydian",
+        "--collection",
+        "attribution-review",
+        "--id",
+        "LYD-GUSMANI1975-LW59"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "collection": "attribution-review",
+      "id": "SID-S9-2025-PIGBE",
+      "unit": "bounded documentary attribution review task",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "240abb1d8bd4bf5a6b3cbba678d9d3bf1e19088e1f191a9a82c7153a0ac7080b",
+        "pointer": "/cases/8",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c6dc515f319e671561a8be0af634ef99dfbd05be3a290713b5ba9f6517b2fd53",
+      "expected_linked_records": 1,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Sidetic",
+        "--collection",
+        "attribution-review",
+        "--id",
+        "SID-S9-2025-PIGBE"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "collection": "attribution-review",
+      "id": "PIS-ADIEGO2012-N37",
+      "unit": "bounded documentary attribution review task",
+      "source_ref": {
+        "path": "research/attribution-review.json",
+        "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
+        "pointer": "/cases/26",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      },
+      "full_record_sha256": "c1a8dd87d0f558e9fe92209664ae46766599daf3beb8ebfb9f90ff25def912a2",
+      "expected_linked_records": 1,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Pisidian",
+        "--collection",
+        "attribution-review",
+        "--id",
+        "PIS-ADIEGO2012-N37"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "collection": "digital-entries",
+      "id": "EDIANA-MILYAN-1",
+      "unit": "digital catalogue entry",
+      "source_ref": {
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "/1",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      },
+      "full_record_sha256": "42d87ee8d4c264b54a4defc51982a17d1d1abb533ed9a61d6861151aca923202",
+      "expected_linked_records": 105,
+      "command": [
+        "python",
+        "scripts/query.py",
+        "--checkouts",
+        "CHECKOUT_PARENT",
+        "--repository",
+        "hawkinsnick/Milyan-Lycian-B",
+        "--collection",
+        "digital-entries",
+        "--id",
+        "EDIANA-MILYAN-1"
+      ],
+      "learning_goal": "Retrieve the full attributed record, retain uncertainty and linked assertions, and state why its native unit cannot be promoted to independent physical evidence."
+    }
+  ],
+  "model_responses_scored": 0,
+  "academic_accuracy_established": false,
+  "boundary": "Tests execute deterministic native retrieval interfaces, not an LLM. Fresh agent walkthrough responses are a separately identified development exercise. No linguistic gold or specialist acceptance is implied."
+}

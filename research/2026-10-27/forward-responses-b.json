@@ -1,0 +1,141 @@
+{
+  "answers": [
+    {
+      "question": "Can I add the Milyan reference rows in Lycian-and-Carian and Milyan-Lycian-B to obtain twice as many independent attestations?",
+      "finding": "No. Direct traversal finds 9 rows in Lycian-and-Carian record EDIANA-MILYAN-0 and 105 in EDIANA-MILYAN-1. Milyan-Lycian-B has 114 reference rows: TL55=9, TL44c=34, TL44d=71. All 114 corresponding text strings match exactly by source record and source-row index. Summing produces 228 repository representations of 114 nonempty digital source-text rows, not 228 independent attestations. There are two shared digital catalogue entries and three source sections. The Milyan frozen source was copied byte-for-byte from Lycian-and-Carian commit 8ae31f14326b5162271ed699a53343d2c0b657b7, data/raw/ediana/milyan-1-0.json. Source independence and certified physical joins are not established.",
+      "decision": "ANSWER",
+      "source_refs": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "ada2228a82efddcdecfb91eb3c889110a960a3de",
+          "path": "data/records.json",
+          "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+          "pointer": "/451 and /452"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+          "path": "data/reference/lines.json",
+          "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+          "pointer": "/0 through /113"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+          "path": "research/reference-manifest.json",
+          "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+          "pointer": "/source; /coverage; /limits"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+          "path": "data/reference/ediana-milyan-source.json",
+          "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+          "pointer": "/TL 55 (Antiphellos)/1"
+        }
+      ],
+      "limits": [
+        "114 is a nonempty digital source-text-row denominator; three empty heading rows are excluded.",
+        "Reported monuments, provisional targets, source sections, digital entries and physical lines are different units.",
+        "No live eDiAna retrieval or primary-edition collation was performed.",
+        "The manifest records zero canonical verified readings, zero new certified physical joins and zero independent reviews."
+      ]
+    },
+    {
+      "question": "Do source '?' characters in eDiAna morphology annotations establish independently validated linguistic gold?",
+      "finding": "No. Exact native record EDIANA-CARIAN-400, row E.Sa 1, 1, has text 'šarkbiom zidks mδane'. Its morphology array is ['nom sg', 'nom/dat sg', '3sg pret ind act ?']; its translation array also contains 'PN / a title ?'. The same morphology string occurs in the frozen raw eDiAna sentence_total HTML, in the third badge-success cell. This establishes source attribution and faithful retention of uncertainty, not independent adjudication. The row's analysis_eligible=true and whole_unmarked_source_string token flags do not certify its linguistic annotations. Native provenance identifies eDiAna corpus=carian, docid=400, URL https://www.ediana.gwi.uni-muenchen.de/corpus.php?corpus=carian&docid=400, raw group /E.Sa 1, raw row 1. The raw row's ref array and native principal_editions array are empty.",
+      "decision": "ANSWER",
+      "source_refs": [
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "ada2228a82efddcdecfb91eb3c889110a960a3de",
+          "path": "data/records.json",
+          "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+          "pointer": "/0/source; /0/lines/0; /0/lines/0/annotations/morphology/2"
+        },
+        {
+          "repository": "hawkinsnick/Lycian-and-Carian",
+          "commit": "ada2228a82efddcdecfb91eb3c889110a960a3de",
+          "path": "data/raw/ediana/carian-408-581.json",
+          "sha256": "a422a3954599ab9fe47f0ba20000f9e24d067a9651065d0c78f41b9381189817",
+          "pointer": "/E.Sa 1/1/sentence_total"
+        }
+      ],
+      "limits": [
+        "The question mark remains source uncertainty; its detailed linguistic interpretation was not adjudicated.",
+        "No primary print source, original object or external expert decision was inspected.",
+        "Source fidelity is distinct from linguistic correctness and independent gold validation."
+      ]
+    },
+    {
+      "question": "May I publicly redistribute a native research_delivery package under one uniform project license?",
+      "finding": "No blanket permission follows from packaging. Milyan-Lycian-B's native guide explicitly says packaging grants no redistribution rights and native component terms continue to govern. A freshly constructed in-memory native package contains 34 listed components plus its manifest; the conservative package audit classifies 27 components unresolved for public redistribution. That is lack of audit clearance, not a finding of unlawful use. Project-original software uses PolyForm Noncommercial 1.0.0; project-original content generally uses CC BY-NC 4.0; eDiAna reference components and specified comparison adaptations retain CC BY-SA 4.0; underlying editions and images retain separate rights. A separate tools-only export was built and verified entirely in memory: three exact scripts, five terms/notice files and a generated manifest, with no native source/data payload. Its software is offered for noncommercial use under PolyForm Noncommercial 1.0.0, retaining the required copyright notice. Tools-export SHA-256: dd154f5414fe9bd883cdfd73bc503cda2bb564b31194ef48abb1568891180059.",
+      "decision": "QUALIFY",
+      "source_refs": [
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "pointer": "Build a local research package"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+          "path": "LICENSING.md",
+          "sha256": "ceffbd9d0b2d7d3ed13f1a43b30f580cb897cb0874ed9140062fa208f923019b",
+          "pointer": "Project-original software; Third-party and public-domain material; Source component exception"
+        },
+        {
+          "repository": "hawkinsnick/Milyan-Lycian-B",
+          "commit": "d10422059983583056ea9b91d68dcb66e767cabe",
+          "path": "LICENSE-CODE",
+          "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+          "pointer": "entire file"
+        },
+        {
+          "repository": "hawkinsnick/Master-Corpus-AI-Skill",
+          "commit": "977e9d70fc9cf080f451a582d67d766ec4f251fa",
+          "path": "scripts/package_audit.py",
+          "sha256": "b7540f42070eb9e435ac9ca150365fb4684793cae61a07b8f7d676e2056f1a2b",
+          "pointer": "TOOLS; TERMS; component; tools_export; verify_export"
+        }
+      ],
+      "tools_export_components": [
+        "scripts/evidence_query.py",
+        "scripts/research_delivery.py",
+        "scripts/validate_ai_skill.py",
+        "LICENSE",
+        "LICENSE-CODE",
+        "LICENSE-CONTENT.md",
+        "LICENSING.md",
+        "NOTICE",
+        "tools-export-manifest.json"
+      ],
+      "limits": [
+        "No package was published or saved.",
+        "The tools-only export grants no source permissions and requires native evidence separately under its own terms.",
+        "This inspection reports repository policies, not independent legal adjudication."
+      ]
+    }
+  ],
+  "checkout_integrity": {
+    "Lycian-and-Carian": "ada2228a82efddcdecfb91eb3c889110a960a3de; tracked checkout clean before and after; matches accepted master checkpoint",
+    "Milyan-Lycian-B": "d10422059983583056ea9b91d68dcb66e767cabe; tracked checkout clean before and after; matches accepted master checkpoint"
+  },
+  "commands_executed": [
+    "cat repos/Master-Corpus-AI-Skill/SKILL.md",
+    "ls frozen",
+    "cat repos/Master-Corpus-AI-Skill/registry/corpus-projects.json",
+    "Python read-only inspection of master manifest, migration origin, member state/status, synchronization and comparability guides, nonreview/remediation guides, and selected native skill/authority/bundle files",
+    "git -C frozen/{Lycian-and-Carian,Milyan-Lycian-B,Linear-A} rev-parse HEAD and git status --porcelain",
+    "Python read-only inspection of selected reference manifests, source crosswalks, dependency registers and research-delivery guides",
+    "rg --files frozen repos/Master-Corpus-AI-Skill | rg 'tools-only|delivery-policy|public-export|milyan.*union|ediana.*fidelity'",
+    "rg --files repos/Master-Corpus-AI-Skill | rg 'export|package'",
+    "rg -n 'redistribut|tools.only|export|license' repos/Master-Corpus-AI-Skill/references/nonreview-work-2026-10-27.md",
+    "cat repos/Master-Corpus-AI-Skill/scripts/package_audit.py",
+    "PYTHONDONTWRITEBYTECODE=1 Python: traverse exact native rows; compare all 114 Milyan row strings by source ID and source_row; print raw Carian HTML; calculate source-file SHA-256 values; read LICENSE-CODE and LICENSING.md; call tools_export and verify_export in memory",
+    "PYTHONDONTWRITEBYTECODE=1 Python: call native research_delivery.package in memory; inspect ZIP manifest and all 34 component names; apply package_audit.component; recheck native HEAD/status and accepted checkpoint"
+  ],
+  "excluded_material": "Did not consult research/2026-10-27/research-regression.json or evaluation response artifacts. No files were saved or repositories modified."
+}

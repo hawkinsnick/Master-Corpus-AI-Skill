@@ -1,0 +1,3280 @@
+{
+  "format": "concrete-package-component-audit-v1",
+  "date": "2026-10-27",
+  "inputs": "publication-verification.json",
+  "members": [
+    {
+      "repository": "hawkinsnick/Linear-A",
+      "commit": "8be77c5e94a714d50bac95ee13afc5519f499fe3",
+      "local_research_package_sha256": "85eff62944c08c94e9491816ef0c3c587e34ebdd5da439d35418ffb9755c8e1b",
+      "components": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "eb621059d0e2d381ead371b1e1d728caaf4d62c0665ba6b6d5879b463e9daf41",
+          "bytes": 5489,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+          "bytes": 444,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+          "bytes": 969,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb7fd2c0ef8a56a8f3c32d0c590abe270e32dc1a61ff3456f980eecb60920982",
+          "bytes": 1149,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "SOURCE-POLICY.md",
+          "sha256": "07a5223aabef60c798cb2ed9fe98a0ef44032dc05ad9731e66c71de733abf317",
+          "bytes": 2951,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "83458919f009ac4bb19c3496fab82781a8abfc7bfa6ef2639de55dfedafd8469",
+          "bytes": 50704,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "0f880c9fa4fa11ab9047428c3d0222cd309a34c424acd654a5f9efdfdd9d2416",
+          "bytes": 14849,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/CRITICAL-EVIDENCE-QUERIES.md",
+          "sha256": "9f910d0ceffac046986a10a94b83f73fd25544ab63f606d4a56425e7ca280b14",
+          "bytes": 4112,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "69e500c8391b89d54763965b40b66b5e32047b1874f5540bef8a16e71ad3e0b5",
+          "bytes": 2930,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/PRE-EXPERT-HANDOFF.md",
+          "sha256": "9c0549ea82fa40adc8450353f2dbf52b0eac752c1bbc6764e0a20d601cd75d69",
+          "bytes": 12568,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/academic-remediation.json",
+          "sha256": "3a3346747d7b98a40a0407719aad821d9c38ff857c6883684566b41361b3b67d",
+          "bytes": 491627,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "809818901d0a9f90e0f387568ec1c0730604af4d3c56ed851ef93b6be46ddfeb",
+          "bytes": 10046,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/closure-controls.json",
+          "sha256": "3991150b3320474050dc95ece9ff7ad1d4a625f7c191e9d0b7057188d7f0460c",
+          "bytes": 12184,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "90a355db40418f401308eaa4e30636922b7e723a7b6d728c5495f6ec17cfe89d",
+          "bytes": 841583,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/critical-pilot.json",
+          "sha256": "a944aecf6395ca71393d55301ceb8848ab857fe76d4cd57190178766c3c1801e",
+          "bytes": 128173,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "5b6e7d8f634d39b98dce003ae928e5a7e96be2d47f8396416533ee16839d3166",
+          "bytes": 11826,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/legacy-case-attribution.json",
+          "sha256": "7866e7e17328e7819797adf4a10182df1c7c3feb7a04f28921108ece5fa9bf84",
+          "bytes": 28803,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/legacy-case-source-searches.json",
+          "sha256": "e08e4e61fa1d152abbfef7ee16f5ea3e6b4bc1b44fabd87ced29fba54c8f18bf",
+          "bytes": 5653,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/myzf2-source-context-2026-10-24.json",
+          "sha256": "8e9b19fb0ae2ebe1cb9809fdd58532ecaa4a8859cb192f2837e9e5fff5cc8d72",
+          "bytes": 2453,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/pkzb21-page-access-2026-10-18.json",
+          "sha256": "370f40a67d417f5149ae97881cfa3f14f3552cc55fdefa518388a99e51bab2f7",
+          "bytes": 1802,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/reading-comparison-2026-10-18.json",
+          "sha256": "e9ecb553cfc885f44a699e1e003e6c40d2e260fdc3601648acbaa043eaed2fae",
+          "bytes": 7403,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/sigla-source-documents.jsonl",
+          "sha256": "9643a3b7f794fe13b94526dadbe9421faa0eb5488233ba2618054944eba3a10b",
+          "bytes": 1116387,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-study-2026-10-17.json",
+          "sha256": "e8702f7fa5710717dfdcb226c6eefd6a11c60a6605a9fc1d151a3077949cdd6e",
+          "bytes": 6755,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "2c54b3904c3015cdb66891f69a5c4f122eb5984b5877db353842c4c609797d5b",
+          "bytes": 1824,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "eb621059d0e2d381ead371b1e1d728caaf4d62c0665ba6b6d5879b463e9daf41"
+        },
+        {
+          "path": "THIRD-PARTY-NOTICES.md",
+          "sha256": "0e792c0a09a4b639442e360ff3f5941de06418f4d325ba0b3464a920f6593c34"
+        },
+        {
+          "path": "docs/LINEARA-XYZ-REFERENCE.md",
+          "sha256": "a58e8a6227b58709d4b649a99d7b66ac49b43d9588a3d85939cbe580fb21ffd1"
+        }
+      ],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 23,
+      "tools_export": {
+        "sha256": "54d027a303747842d4d1a37319e9708e68558e08e1169cfc4d76b8f0b8879fb8",
+        "bytes": 42301,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Cypro-Minoan",
+      "commit": "d8ce3b9444490f98eec6cd8503d9a8ac7c70d886",
+      "local_research_package_sha256": "9a1ceac5f6d1d65725b8af4cb629af56c94fb3db3fb1e52a016e2244e25ed732",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+          "bytes": 444,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "29d8d224a0edadb87345f77f4635b57d73771e330d428ba633bfbed244f9570b",
+          "bytes": 1534,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "bd509c492df5fca42d4c0041fd1ec92d43e7bd6a5051196c550ef48744549953",
+          "bytes": 3052,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e5cae5cefcaaaf0f491598b3793beb874def98c83b544b1be6726145196efe54",
+          "bytes": 1605,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "9057b8c3769e27efc880507594858f7d4c30965e808a400a9dfc408631be11b5",
+          "bytes": 19937,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "5c262e402429732dc118a406581df3f890d9142bf2b91f18151de7c8059d89a2",
+          "bytes": 11035,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "bibliography/sources.json",
+          "sha256": "9f6127c1fa835472103ce297917419026d0c2cce438f0a1ed4aef877950d48a7",
+          "bytes": 19014,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "catalogues/source-located-concordance.json",
+          "sha256": "a17030df57896320b3c2a9e7882ea5f6e5b7c2c6d018fe83f3f4c2f9cf3fae66",
+          "bytes": 92192,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "51b220c0cef190c01bf7b9a7a77fda5c45949f4d8d5fac361c00decdadf0262f",
+          "bytes": 2926,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/UNCOVERED-RECORD-REVIEW.md",
+          "sha256": "b1af5c314d7ec395f9359aa850bfee7f0328a7286ce815fa566d8ef039dc626e",
+          "bytes": 4637,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "b812c900449840a989c4ab278c40bbcdaa7cf81700f33f354e3119020f920a0a",
+          "bytes": 7856,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "f51bbccbe82157988cabed5250712851da41cdc4fe21eecd8697aa9e79d59d3a",
+          "bytes": 580846,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "4c5f1ad9ba8d3e7f8656f6d5f701d4d42e9aad9ce64f39dd2fd7dd035e342bef",
+          "bytes": 8578,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/identity-reconciliation-v2.json",
+          "sha256": "04bd47c9aaccd3fb382fb5c09daf1f69c1e79e27fbdb2c28387faf1715fe7380",
+          "bytes": 29455,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/qualified-assertion-views.json",
+          "sha256": "9812d2353c9b93304e2c0296a20558ca8b1221269c56b42f940e3ff72d1e56f4",
+          "bytes": 97835,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/record-dossiers.json",
+          "sha256": "b0fd6f1c0c03699d1219d7654287d64a973f54295f0293c7eee3e058fcc1d640",
+          "bytes": 309837,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/reference-reconciliation-v2.json",
+          "sha256": "a7b1d042c904263998c55713142e1162daa624c6853dbea8516373b6ed3c064f",
+          "bytes": 26938,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-check-CMOC-0209-2026-10-14.json",
+          "sha256": "ebdbf37edd2240fdf32108607cee6b8d9de77903893be6e10c83058d0c77fcb7",
+          "bytes": 3518,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-collation-2026-10-15.json",
+          "sha256": "061110c15f0611cda3bcd12bed95012c79e91fa1facc1f5dd066b585c7c80a57",
+          "bytes": 11779,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-intake-2026-10-18.json",
+          "sha256": "21ce36e8ea07ffe2231d933802a51dd0c525938f8cb9a25539c5f75f92ba6886",
+          "bytes": 4402,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "sha256": "857d6bcb7232073fbbf4dfddf07b9c5b4a3329b388fe467a9e1e08d6a5903e4e",
+          "bytes": 5226,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "343e40e7cf0e12ee84387dc0b82b7d916822d04a0188047feab92d1a267deb02",
+          "bytes": 1815,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 20,
+      "tools_export": {
+        "sha256": "e9eca40d33a902096bc73ecd60def953bec16135c32010ea95ec25bd699fd0bf",
+        "bytes": 43892,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Linear-B",
+      "commit": "4503dcc81822ba29d5b605cb7d73b72aeeb848a2",
+      "local_research_package_sha256": "1159f75c70f9966931a322aa35a7c2a3acfe91b4596f70cdd8dced2dda13c6f2",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+          "bytes": 444,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+          "bytes": 969,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1272b63e1437e4434a90b774d209aac88209e79ee4e1aa7e9fd2e140cfb671fa",
+          "bytes": 1131,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "4e70acecfaadff683c15d48087fa8b8c3eafb43eabc3b7a13fcd88f4ff8fc969",
+          "bytes": 20213,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "265979c8c9f92bc6bbab1eb1a5aac07defd00ccf8a1cd8612e403ae777ed29f2",
+          "bytes": 10832,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "c90efa26da29fb3edc84f78dccd95821fb6b827378bb7bbdb44a085705778d97",
+          "bytes": 2981,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/PRE-EXPERT-HANDOFF.md",
+          "sha256": "a062e5d730b968b7906310b8d0ab2505feebcdeaf6bb29ba153033419c633e8b",
+          "bytes": 3074,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "c090a75b7ceb145b7b12feb809d4ee9451d2c8ec3b0a0599a729e582a0134329",
+          "bytes": 3230,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/blind-field-policy.json",
+          "sha256": "4512d63c836c02270ce56d31572c4f8443c3eba8f2522de6c3cca1497caf0ac8",
+          "bytes": 1396,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "21ca12a41aa97e926cc59dfa5580ae3cb84ce7b1bfbbb8356afcaaa6940c05f6",
+          "bytes": 29794,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/damos-authority-v1.json",
+          "sha256": "5e371c0f7cb43b09c37b456aad4d56b6d9ec1ed38df28090392425ef01f59a18",
+          "bytes": 1094,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/damos-live-pilot-2026-10-17.json",
+          "sha256": "cd77adef2d0a2816573b4910058e48c51268ce2d6e47f9f515145823eddb7c60",
+          "bytes": 41102,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/damos-public-routes-2026-10-19.json",
+          "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+          "bytes": 5920,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/damos-published-id-example-2026-10-14.json",
+          "sha256": "4a467cb56f2b02e05421f764edf841f3b8b7035d7c0d52cf46bfeebb1928f188",
+          "bytes": 5034,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/damos-supplied-structure-2026-10-18.json",
+          "sha256": "ffb950a462837236e85f0c4b3f0862e2214a981087317f820dd2d784c2807ef0",
+          "bytes": 1959,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/deep-evidence-manifest.json",
+          "sha256": "410b9cbbef2d0e55e2cd6428ba644f0cd5383ff89d204ea8f83f392a3a007ff5",
+          "bytes": 1090,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/document-identity-lineage.json",
+          "sha256": "a7674548c769241aeab64cc6c46f05fa2c9f2c19d8b3c569b8551d09bd7eeb9b",
+          "bytes": 1746,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "13a1f459f62fb33cbe166aa6bbd5d852ffb5670ffc01134adc1b88ab52f99b1f",
+          "bytes": 7905,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/kn-fp13-object-concordance.json",
+          "sha256": "bdd1a7d2ddce5b1dfc0d427ef492cba0131728259f8e5e6ccec90a3ace060a36",
+          "bytes": 4104,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-access-delivery-2026-10-12.json",
+          "sha256": "ef20df987c21cdf3dfeeaeaf9cf13e5bea4615dcaf6866ac8fdb064ba9b7e5c6",
+          "bytes": 5032,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-study-2026-10-17.json",
+          "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+          "bytes": 7019,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "b0599ca604506d81f4d9f93b7bc1a9bb261b9ab122509b0ceb6d7a847b91e4fa",
+          "bytes": 1841,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [
+        {
+          "path": "docs/RIGHTS-AND-LICENSING.md",
+          "sha256": "65809050c553a152a8f4ddbff5de54af11bcf8db820211ee53ffd1cc31354ddc"
+        }
+      ],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 21,
+      "tools_export": {
+        "sha256": "866fb86de375e7358faa5d8345d2dd6c8c0f47b9d83115a72a2da71c9388c5a0",
+        "bytes": 42283,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Cretan-hieroglyphs",
+      "commit": "45a9efd2a082aa69bf535266c46bd5facc9da82d",
+      "local_research_package_sha256": "62003eed856a6afd5e44a518d9ee1941f3f505b55e5680ccdb86f6eddae7629a",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+          "bytes": 444,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
+          "bytes": 969,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "c349123e8aa740fce50e2dc66260cad8095f730d6d192574694dc0c289bf342c",
+          "bytes": 483,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "3200e354ce09232bb81b9065eb04cf95970f6c8e9b9f0c72b5efd840c6d3053b",
+          "bytes": 14981,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "c9bb8b2c7cd3ca47925f464d2fff7a5116ec0bcd6862b8c5671fa82523c70355",
+          "bytes": 8295,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "bibliography/sources.json",
+          "sha256": "49ae50b30c0bf5e91281842e73dc9c0ce1ba1ce77915a6854f1de4b3d9e3e4a4",
+          "bytes": 3498,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "corpus/critical-readings.json",
+          "sha256": "cf3442bf8031e9d59dacf2fc6b853d9b029df4732d81b77d7a94efc3c1e9f69b",
+          "bytes": 10207,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "860c086c0576a24bef93daa0e07bb388de649e4e2cc59c5cbbde18ce0abd0b82",
+          "bytes": 2939,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "85fd397277ad2f94df4828442b4883c867de8d2433c6e3bc645830ed4fa1ff24",
+          "bytes": 5089,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/closure-controls.json",
+          "sha256": "c19f1909ccf1a701dc2487fe230dbd6ecf15e1ba3c89828e05a19205936eb970",
+          "bytes": 2275,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "36650f50ff00396054f4a5bfe48a657f6f2037639adb65eacdc808e720a935ff",
+          "bytes": 716451,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreements.json",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "bytes": 3,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "11688eee62bcd8eaed2415ab7cba608123777bf86556ca07a7fbed2ea5d1d933",
+          "bytes": 6533,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/hy-primary-concordance-2026-10-13.json",
+          "sha256": "53189fe04dab6b94be4051a688cbe15aaf47fa56448dcc64a3cfd3c45880c8c0",
+          "bytes": 90653,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/qualified-assertion-views.json",
+          "sha256": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+          "bytes": 43574,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/record-dossiers.json",
+          "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+          "bytes": 708854,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/reference-reconciliation-v2.json",
+          "sha256": "a9397e546c324edd4e98ad6cd072778fed4566bfef0b1e4fb22c854dab7a3b0a",
+          "bytes": 16411,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "sha256": "b5f68545c018b160f6435ddc04c09de34a99f64f5fa8887e4594bbe38d8e5601",
+          "bytes": 2945,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "1812540842625a2da45638cde7e33895aa0603bf2cbac036f5208a62edf4c4ab",
+          "bytes": 1821,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 18,
+      "tools_export": {
+        "sha256": "ad1f524554a4cd256bb5e2cc1ca838ff352e944129a637ac0e0c20b1455b5398",
+        "bytes": 41644,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Phaistos-Disc",
+      "commit": "b9a0c04ce6890d67e68e1f2ed351a21028240d4d",
+      "local_research_package_sha256": "4aae88ecaff0f29d0eee19fb6706cad1c8105d30e2aa3160b8059650c133caf0",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+          "bytes": 386,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb",
+          "bytes": 918,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "bfaf65d3baee453547d391fc074c5663a70be917e9473388b4a0c220084513fa",
+          "bytes": 11715,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "ac301114a479f5fc0a7a761afaf9d527605a23323a63a82cee24d9c036f41d77",
+          "bytes": 7842,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "apparatus/claims.json",
+          "sha256": "8b94dc170ca025a8012da5dcb9cbe165d7019e75d83687cc0a535f27a04c43a7",
+          "bytes": 2930,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "apparatus/stroke-assertions.json",
+          "sha256": "5450ca71fa1c900ede3c2f287ec3d4a7208eedcbdd5b8beffe311e54a037e72c",
+          "bytes": 5356,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "apparatus/witness-lineage.json",
+          "sha256": "9e6a161b637dcf01f287b4e7c3c3ff448f31caeb4b33cdb9c34ff02095ccc834",
+          "bytes": 1375,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "corpus/disc.json",
+          "sha256": "fdc0cd3aa4ec78acc67fb1db65941a975a656ddfc9bab66313edf9b32b4d89ee",
+          "bytes": 63422,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "8043f2ea3cb5afde1171ae38a3432decfed47d469af08c6775d0d62197b102ee",
+          "bytes": 2932,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "8ff52e8a75046eb4a96b082092c08bf7589c7b06a9d0f04dbc8a3c30fa95bed6",
+          "bytes": 6045,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "3c8d018d10c8bcffdb309b0f654bbcea5b108fc311feeaa62aea061482405d60",
+          "bytes": 74575,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/count-assertions.json",
+          "sha256": "a8a2d0c510b10d2d6382201ffe2563155443dbf75870da01cef6b43679d01f97",
+          "bytes": 728,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "4cdd57c203b301fdb0a603d441ffcd6a3278b9b7d48b65128814b4f8b3e5cd71",
+          "bytes": 5780,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/transcription-policy-v1.json",
+          "sha256": "67a5471f9c720e8e197656b8352cc6b5e558a8f7f376cd222775cec1048ad144",
+          "bytes": 1020,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "bb4bb982546d65a4c1e979de9dc59003d0d9af88b85bed3e2e27a054e5dcc08e",
+          "bytes": 1851,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "reviews/review-packet-v1.json",
+          "sha256": "695c427dcde98e479ff0ad4cd12909735bf2c8c034a0b13d2aabdf4afa3d1a2b",
+          "bytes": 34474,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "sources/sources.json",
+          "sha256": "ca56bc3067ef3b0967270a3d2c153c92db3306e413e7280549c71937801c4ad3",
+          "bytes": 6651,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 17,
+      "tools_export": {
+        "sha256": "6423bc28c41fb1ca80feb9036d38a69eb2bee9a84bc2fe31d444d7ed76b74856",
+        "bytes": 41809,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Byblos-syllabary",
+      "commit": "18eea69843aef11d68aa9128c706f5e14cb11361",
+      "local_research_package_sha256": "b006b2e1b6b80fe5b778d3e1b8abc3f6798e8fd90d84f83bbb91b62914f0da16",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb",
+          "bytes": 918,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "c61d8936d88e4cc32f177e85124033e4aff94be5c75ce32725a57c67faf8b363",
+          "bytes": 15527,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "873c2e168218c8bfc8c138824345e2153fd6d49d9c1d4e08af128e5ebe69ee5b",
+          "bytes": 8198,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/catalogue.json",
+          "sha256": "cfbe9ad6fbfb40b14cc0df3f5a53022a30aa3bbb0b7cfc87a2c10f5546fa0fb9",
+          "bytes": 45235,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/sources.json",
+          "sha256": "596703acb537138aa385ff1b6220846831e1478703c929e8e31a2409524f38fb",
+          "bytes": 41428,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "e8608bb1c02b1f025f3eda9148f58dcba01b71135158203867d7b95c530ca2c2",
+          "bytes": 2939,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RIGHTS.md",
+          "sha256": "252c527ccbc35f0a9ac330408a48611b437bb6e0a61f5f436ce004be70aa9cbe",
+          "bytes": 2812,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "23774c05a07cb6f85b65e527584672b8ab12e4652b8dc65ad25bd4ec68752fd5",
+          "bytes": 12862,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/closure-controls.json",
+          "sha256": "39e8f309d6547606e2060dc972654a5073c958de9aaccce8d785105878b146e0",
+          "bytes": 65815,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "90b0825e7a42136893635a19c5cec358e52dd152f8363dbf5e2c703502cb4b55",
+          "bytes": 217171,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/core-count-assertions.json",
+          "sha256": "726f301aa984f9b11084f04922ab6633879733ee050967c9516d9e0508beeee4",
+          "bytes": 14880,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/core-counting-unit-ledger.json",
+          "sha256": "18c085ad53926cc1bdb2136ac2aae4446b2958b5b1140b654a0a594d7ae84d89",
+          "bytes": 1672,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/count-assignment-checkpoint-2026-10-14.json",
+          "sha256": "7c4c03ee487b880921e8bb516314679921fbdd0a5b799e4a2e59cf332d42336c",
+          "bytes": 3832,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/count-assignment-partition.json",
+          "sha256": "8b713dc92ab7510c50014929ee1ce90c9ad04ed5203c189344ffe37e30e42790",
+          "bytes": 13051,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/dhorme-1946-source-audit.json",
+          "sha256": "ff6afb17a2d184e41a7b56214143fcd2d9443b6e75527048d57f07fc3b11cf3f",
+          "bytes": 15786,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/dhorme-1946-source-joins.json",
+          "sha256": "acec92c805a4c54ea8073e1cb197aba31f74770d164df4858d914d6d1ab5720f",
+          "bytes": 15935,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "cfb0c611870b47a8b651f7146798c77c1f8c217a256ac895f28d74c8a92bf8fa",
+          "bytes": 6684,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-comparison-audit.json",
+          "sha256": "99396fe22d46ad0bf975386795b37e765d4337e7d46eeb13dbd9d043b8e79107",
+          "bytes": 19512,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/stele-a-count-comparison.json",
+          "sha256": "9aa4f58fa81a0e7d641b4c4c526a994118cafdd05c9a3382f6a8f9ba8a731db5",
+          "bytes": 1882,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "500305c73348566614d9d96e6385730b90ec1d3c3f322cf4eb7abda0a02506ab",
+          "bytes": 1840,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [
+        {
+          "path": "docs/RIGHTS.md",
+          "sha256": "252c527ccbc35f0a9ac330408a48611b437bb6e0a61f5f436ce004be70aa9cbe"
+        }
+      ],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 21,
+      "tools_export": {
+        "sha256": "02c4acb659b5e72f53fbf23e096fccec87685ae36d34eee896110e6f909cbc06",
+        "bytes": 41750,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Cypriot-syllabic-Greek",
+      "commit": "f8f0e83b113eb45a82f1b6d7267982f090396e09",
+      "local_research_package_sha256": "24b602899b58bb58c2dd11a130e439c09976024d66bf4a16eb75d27ff9f5cd47",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+          "bytes": 386,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "bb405a27ffb974a3105578f8419100b397c2f178b0b5babd3318ea19c7ee6744",
+          "bytes": 2103,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "083d03b7cbb64971fd23e1166df78191557e67c5e899fad936d065ded4c99eda",
+          "bytes": 12090,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "74d3b2da4efa7787df9d687d689a2a15ec1b3e6286e669ac12c7f4d31d29e733",
+          "bytes": 6364,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/records.json",
+          "sha256": "378c386a534fad4a3ceb4f18dc243ed1b5c3c205dc3cfb2cc92099d145f45c8e",
+          "bytes": 2035765,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/source-defects.json",
+          "sha256": "4144d494832d0668efd44b1a1c3c7b361bd97ec7a6c7fdb080bf5d6051d79b8d",
+          "bytes": 661,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "2a77208df48f8e4c075ab1ea1105242e36b3e3fc39b926e91c28cce23cd85661",
+          "bytes": 2944,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "b0331a1795311e3a85d6d99aa88df511faf08410ef90282596e3aa2534809eb3",
+          "bytes": 4391,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "d0496a67df450b31098a4836daca6067475119d03d921c6a315d40893ea712f1",
+          "bytes": 1336897,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "3117a86409cf852500fefe75e51664f512105ad74f0237557e45c9a652ebc62d",
+          "bytes": 1203,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "e3aab01e02787ddaaa5299213004b70082660cb3a130c38fc17f1fa1e00c60ef",
+          "bytes": 4139,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "a0694a44aa5b8ffba883b1c88ce911424e59f625f3273cfdbdbe993abb93112d",
+          "bytes": 1097,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "a5b15b499b6eee08f6e909bb660c3cbd60d9465a5e533bc8a1829abdb2f1442a",
+          "bytes": 1557,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "1a8f47d79b8689306eb6481c293c8a2c6b452bc0df43f50c2973cf41a0f2b745",
+          "bytes": 1825,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 14,
+      "tools_export": {
+        "sha256": "350eca3246728960993c7b1008b573068e8384840a5820497b76e8b8fe050309",
+        "bytes": 43004,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Eteocypriot",
+      "commit": "dd5f2eee1d0c889f9c311d3819f65680b891b624",
+      "local_research_package_sha256": "f5a5197150031c9dc4e7b9cb140c7041d62050f7731a99927fb11507f9631008",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+          "bytes": 386,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "b911212958897c77085bdaef0f69796f59a83ef797447c951cac98d99224dbb1",
+          "bytes": 2660,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "eeadb0e831681221f59b785b795e25ee61fd36e0081307fbb64538dd4b12f373",
+          "bytes": 13134,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "d92b03ba970f314e42436965481549ea88a3bbee75e6c954e6a09b5612512215",
+          "bytes": 7548,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/records.json",
+          "sha256": "bee8648f4be6d544f9445d08848fdade1e754fe80e486bdb62fd330e8a78d013",
+          "bytes": 142613,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/source-defects.json",
+          "sha256": "4144d494832d0668efd44b1a1c3c7b361bd97ec7a6c7fdb080bf5d6051d79b8d",
+          "bytes": 661,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "4c5d2ba660e9e3850f19af3046b96239798e4042ee0c5fe28b1248ca88839a15",
+          "bytes": 2933,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "c856b5ee573f302f2485f2ae587b339124c780bdadc8bd78617ee9563ac6aba2",
+          "bytes": 4800,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/coin-source-comparison.json",
+          "sha256": "f7b67551f836796f4f8af096356c545dd8741021b609aed80471cc43bfa1513a",
+          "bytes": 8067,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "1cc2dec42ce480f6300983c267b91798fdd70f84b00f247098526d8f90eeab81",
+          "bytes": 45678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "4d5b04b7fab3c7ac4fda70629cc0b76176ae1994195f6537733e8e6ab1c3c29d",
+          "bytes": 1171,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "4be5ba995fc04abbb5b6e986edda4e155fa8c45d7b0bf74fea9698ae8c81355a",
+          "bytes": 5382,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/p1-source-followup-2026-10-16.json",
+          "sha256": "42e7c54d3f8a537b6c85506f03d4ea2fd8605ad25d9b889445942f85c5dd61ad",
+          "bytes": 2426,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "4a9107445ebaa0eda49a70bd7efbfeb3b80c28963df6b08b7f69bddd3f46c36b",
+          "bytes": 1028,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-concordance-register.json",
+          "sha256": "b542b727cd3839aa03cf909c447e885f3dc79bc9906e477a3135fe2685916eef",
+          "bytes": 37732,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "bd206242027f2a3ed083ff47233c423cd6c8a62b7b0299a9b2afbbca825d57de",
+          "bytes": 1236,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "7b6062bc835d131b2a497949c60bed5e0d9d96b7be0f1dabe82a48d557553bca",
+          "bytes": 1812,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 17,
+      "tools_export": {
+        "sha256": "16d17e442e6d08ea37dd11e16c716db60351ab1f9db4743831a508949ec75a2f",
+        "bytes": 43550,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Eteocretan",
+      "commit": "307fea90e24c33eee59a2a6df68aebb79ab2e5cf",
+      "local_research_package_sha256": "6cf490b094a44b520b53537c6f83c3facd4c4a6a929fc29be61da31c2d74fc55",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "5abeed8801e0a4a528efb27f35cc14998789d6f0f7f851ca38fa28283372b2a4",
+          "bytes": 386,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "f2477f7571ac5a27da4b1203a530571570d3b5dab30eea14efbe0572dcc14ba4",
+          "bytes": 3866,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "ce3c19af7b4581e1e9f5ee81d31f2ab367ca8e41bbdaa4288afa9eeac4b785f4",
+          "bytes": 16710,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "6c192921d0807b50cb9b82a3b4d5a84139da932855ecd9ba71d2e9e0b7eaa76c",
+          "bytes": 6762,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/records.json",
+          "sha256": "1195e8a2a823a875b4770d9770a6ed2204beab0318c596164322195a0e52cbf8",
+          "bytes": 113351,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "5aee0f94029d527366cfd3d2264fc972b65d4cf55098752af4e42cb11e1009f0",
+          "bytes": 2957,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "c7649b96e32951448eb7d46eb4bba728441495c973974ad9b97983fcff71edc4",
+          "bytes": 5735,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "4431be9d721f33b31861885af5fdfacf6fa0d18c21da41cb69f765f8f72fc021",
+          "bytes": 53027,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "38bcaebd4a345f8bbf8835752188d5ebc32b69384b22e6dc451d1bd95b81ca23",
+          "bytes": 1616,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/dreros-source-genealogy.json",
+          "sha256": "7c544abc7df7e44a41c56b611545850157a942abc0fdaccde634d263fbeed7bb",
+          "bytes": 1869,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/dreros1-lejeune-critical-witness.json",
+          "sha256": "b2f460b6f20d5292271e9eafc14b133dc795191e56a0e75adeae28ec4f624bb0",
+          "bytes": 1529,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "a15f265e8d0f2e5852b3d6b213f55105f1e67ff5cca0dc8a98c4e71171d11ac7",
+          "bytes": 4993,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/praisos-guarducci-number-concordance.json",
+          "sha256": "4d99b3f7abf2c1aa1d57e8a28b7c5e2478fc1636b4daa7fe1f69fa1b01d9f822",
+          "bytes": 2630,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "f018cb263ef107bc7d8fcc9cdc785dfe30ff6f63c8cc5c9d1d208402a99413e9",
+          "bytes": 2264,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "a089f2ebe43cd1a59b748bc18130eee2453b23b3bcf8704c034a7d6aa7b245f3",
+          "bytes": 1967,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "044554617c1c074c1ffa993e5b39603e07c26c9ad34aab6fa1b541dbb111eee2",
+          "bytes": 1811,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 16,
+      "tools_export": {
+        "sha256": "7c95890769081e177f16f5109e3ba631e00ad9c9c8297f66d59246ff318c27df",
+        "bytes": 44755,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Lycian-and-Carian",
+      "commit": "cbf322b302ce56c26c6b62abc128e95541a851b8",
+      "local_research_package_sha256": "80a0cfc00308be9bcc869efecf089cceb447921a7b8c6cd1b3c3b02fd2b471e7",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "eaee4c2a291fdbcc39e37e1d674962020cf904124db5c0b71d1215e9549bfc55",
+          "bytes": 2733,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "242bccd66423077979b9aad22c8e02106dedfd16805403e045436e8f31deb8eb",
+          "bytes": 11961,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "8515535f46494e069d37e896c07e8202833758220ed36099fe05abafb88ee231",
+          "bytes": 6309,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/records.json",
+          "sha256": "8695b36b906fad403330eb8c1c79a1e4938723d69ff56ec4929d6691f06ac247",
+          "bytes": 3947594,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/source-lock.json",
+          "sha256": "4761c0ef330d6c4852d939a33ce8b7ebf6386b2526295fca48c71ba09e026481",
+          "bytes": 5770,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "6b29cbf5c8cf5d853c8e33ea7ee25f418942a1d88b46c24f8e974365ed27a64f",
+          "bytes": 3026,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "9cdc66164e445bf9056a82878f16c6b5f13fec651b6b86d37d6183eb13a01f4e",
+          "bytes": 4750,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "51da864d5f4e229687cd0cb5e5c6419695744a3105d38ff244c857f008e9b768",
+          "bytes": 646008,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "b2f3be56ddd2759570fa885bbe205f771464119c6f2016232068fdc044b91418",
+          "bytes": 1438,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "80ddb4edc3256addaae6f2b5f917d838445a50abef4184f9e9119590b893d522",
+          "bytes": 4079,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "140667eeff39cdfaba590299f140318f86f268142e3bd11b1bdc280a8450cd56",
+          "bytes": 1602,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "8b342d8f00368b27b8a269ddc28eaecd17a01dab5cd924bd67977c8597376c80",
+          "bytes": 1640,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "0a087a67b0d7afe5391ba9f56d9e3f65d7b394101f3f846d522d00cf465caa6e",
+          "bytes": 1798,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 14,
+      "tools_export": {
+        "sha256": "ebbc90e22181fe964563240e42049257891da817f4c3b64ad228b486708cb45f",
+        "bytes": 43567,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Phrygian",
+      "commit": "08953db7918ad05e78f514762b4263badf691a31",
+      "local_research_package_sha256": "16877a369540da309bd2263e44ac63940736f1603258635b708840968ffafbbf",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "a342cfc8b7007832870b799fe6d55e72342f67ebf8d3c598bb8fb2a13b19b93a",
+          "bytes": 1760,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "4e8a0058b1473f70c640d16a8991346c0134b90a2ec9e4e15a7be66df260325a",
+          "bytes": 19183,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "9847ef220f94e8c767fe24024d2bfb38d744f863695f6606ac28d8c5d2639f57",
+          "bytes": 9344,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "01571cb5139884262d2449473bc418307c63b317eacc4b4ab4ea8c785d220614",
+          "bytes": 2962,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/SOURCE-RECONCILIATION.md",
+          "sha256": "acf1cf4889750c6315d720f54d26f78e94f2985d5e18ebc46680feabbe056c26",
+          "bytes": 9993,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "imports/ud-phrygian-kul.json",
+          "sha256": "f5f829534c479ee65af5adc554978a2e54cb0ea5c7a93eccbfa992a25da8696c",
+          "bytes": 101726,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "6fa6224a7c4541d74553bbe1c59f7cd6e86b51d76d8bddaeefa9a44c90d9d2d0",
+          "bytes": 4167,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "0055f68dff7eade6f4bceefb597b4fcf66fedf06363fcdb617ece3f15ded3c4f",
+          "bytes": 228484,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "b6aa4e44a547fae7d3119b8071346a7582cd51a3cea2217d062e01dfb40dfc99",
+          "bytes": 1443,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "0dc78ba481de4939f2a360290380aa38d4b980ae5ba9700b654b191c4da613b1",
+          "bytes": 7031,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/g12-primary-edition.json",
+          "sha256": "598c31ce7c9fe814b2f52315ab56de3011e2487fb308186e2a7328071a5bcee6",
+          "bytes": 2470,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/k01-catalogue-concordance.json",
+          "sha256": "398cfd866b4be23844475ef8034e995feea9d2f7d2e57cfee26050e00f02f0d0",
+          "bytes": 12265,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/new-phrygian-primary-dossier.json",
+          "sha256": "757db8e72bde0bccd736e862f09c61d4e33ab3ee1afd83cfbe9aafb4bc3304a7",
+          "bytes": 6181,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/p1-source-followup-2026-10-16.json",
+          "sha256": "b7ce69142f693e27456116ec794ecf0eb1ad4097a656a9d7eaffa13c5788da1a",
+          "bytes": 5079,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "46ea1df17129876bc4bfdd267fb4b50a5162e3bb729f9712b7525dd1c7dafa0b",
+          "bytes": 3585,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-dependence-graph.json",
+          "sha256": "987a28e2f11c90e5e44a50945af64be9b92eca03711400dd7754564de18b45a6",
+          "bytes": 2958,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/subcorpus-source-genealogy.json",
+          "sha256": "45a455605ddd77bf39ed2d555a4ebc3182acb128da6efa36cc9fffd719307ce6",
+          "bytes": 2302,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/titus-heading-catalogue.json",
+          "sha256": "ffc91381b5a91c288039eee5c75175ee8fba979fead4ec05ce6191d48aa3f0e4",
+          "bytes": 125980,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "2bcff9737e061f6df786e78a182a46a3e591c894f7dae4556deec980f3ac1e48",
+          "bytes": 1827,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [
+        {
+          "path": "docs/RIGHTS.md",
+          "sha256": "070c325b7131ababf4bc61247f9c4c1e05f0897a68d9801e1860cc1bf0ac6d59"
+        }
+      ],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 20,
+      "tools_export": {
+        "sha256": "d194743df218308ef9dde3a25ab48707404eaac67fb1bc9f402868adf927cf67",
+        "bytes": 42585,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Anatolian-Hieroglyphic",
+      "commit": "6ac77759893f0adf245b6d315d0ced2cec9f2503",
+      "local_research_package_sha256": "aab3a4d2135e7142659e7e72373b7e8a7ec49c79ce0a818313bf9a9e68e0f5f1",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+          "bytes": 908,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+          "bytes": 1581,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+          "bytes": 850,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "94953ae4e2102a46a47c91a5cdc5d747d16cef78fe216e8ca92b32c01dbe8789",
+          "bytes": 13422,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "f57551f13380da9c4a1cf4479de3cac97d451b0886e132bdfd3bf15447d67cc7",
+          "bytes": 12586,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/sources.json",
+          "sha256": "6cb2bde6c110e794adc90fe58f30ce817b33d4b37db4c90d2fef5537c48f3b37",
+          "bytes": 1514,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "699224620f406d7e14a5f37847e182106d269aefa03a1286b98d8f9235bf3e5a",
+          "bytes": 2979,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "dbaf0d96958d0278c32970ff9db3acbfd496a5c095e62367f46bafd679866e06",
+          "bytes": 4458,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/city-reference-crosswalk-2026-10-18.json",
+          "sha256": "9bb4718fd74ef41e8e3f6817b282b1ce7eb8ab1f30cd2a9d56dfe0821f06ba0f",
+          "bytes": 9872,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "5642a2a8abb9cd1b4ed681b83e8b30a1887214f19912e7d963ed90bfa58cc794",
+          "bytes": 432067,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/digital-entry-dossiers.json",
+          "sha256": "eb5147717bd072fd6d922c37f81f58693e215f9ce3ebf8187b0f721f17c3fdbf",
+          "bytes": 545735,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "5a0d5b8ca7cfdd146eabbfac02e7e1cfbfdff8b2dfcbeeda1374fd00c78cde08",
+          "bytes": 1136,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/edition-page-check-2026-10-18.json",
+          "sha256": "0c9f11302fcd9180277b75e87714fea8ff06aa6b91b86d066364183fb1b9aa7e",
+          "bytes": 3726,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/edition-reconciliation-pilot.json",
+          "sha256": "4f6f42fe58fdfc556d662cebf1f4dd25d3deb27c11e4b9234f1ed533dd6c482d",
+          "bytes": 2452,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "22f8020003deddcda9368c6e385eb516fa328df61942bf81719038ec81eb28d1",
+          "bytes": 8322,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/expert-review-packet.json",
+          "sha256": "f7382bd1067bf1a2b737a1931e4d8a16a9d8a6580943c559a0603186e25dea7d",
+          "bytes": 500,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "22ab0c875e806ba332c9da5e7ed67b0aff0e74638e972e93a7ddbfb465c675f8",
+          "bytes": 1603,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage.json",
+          "sha256": "346bf0d80f0fdfc4f62c8b5c894fcb04c7089a3c021e2c762c47caa0365f3023",
+          "bytes": 641,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-study-2026-10-17.json",
+          "sha256": "057e4bf11de5d7e60f1de105e9a4de61851264dd673946796b8d5903dfaf5455",
+          "bytes": 7878,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/visual-source-routes-2026-10-19.json",
+          "sha256": "a130893e6ae913a108a0df10ecf23d13b431f7df00a734a29993b0ee44bfe52b",
+          "bytes": 8431,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "82f10abda277af1c1a39a74de1ceea36c9d20477e35198194c4325b1ef35af84",
+          "bytes": 1866,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 20,
+      "tools_export": {
+        "sha256": "07e0446eea237349050d2632bd97a775263a2eefc77f031bfbfadba17407a03b",
+        "bytes": 40928,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Archanes-Script",
+      "commit": "c28ddceffb944e23e7b2bc91a1155a6f02375d75",
+      "local_research_package_sha256": "cde7c0b69a3e831fe2e86528d931d04fd6310dbeb6bbec5bd0d4d0b017c804ad",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+          "bytes": 908,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+          "bytes": 1581,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+          "bytes": 850,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "406451704bbd4a1d185ff13372fe05c9644686749ac6857d85558fc40ecd8b4e",
+          "bytes": 9565,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "6fa27296883ab6c28402a44bda8a72b6a5d674528285ed044fb3833c7866303f",
+          "bytes": 7696,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "d88757393e5b8ff3810b1e401b1cb0f97832379a3cfd6efa14a89904eb30d9f8",
+          "bytes": 2960,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "44104ee3dd06abf2419f293ac3e7ff028ac55203d22da303a12e81132fc541fc",
+          "bytes": 6280,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/authority-delta-register.json",
+          "sha256": "91d07718d3be220b3ca015dfd587f55f5ba58a901ce5a2b94cb2e790077e4204",
+          "bytes": 1830,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "23806b0cc3e799f39d42a9bf02d0a7a49e38775291fb31ac74371a0dc3c5a0d4",
+          "bytes": 21558,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/decorte-2018-corpus-register.json",
+          "sha256": "bfafdb3eb7f01d18de4bf18944ddfcf8be66bea2a7d699ea0d91836a75e402d9",
+          "bytes": 4267,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "a6c2e18bdd1c34598bae64ba253cc5d515eaec0189d0e0fc7078c0c996586113",
+          "bytes": 1280,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "f7751f2e8d3ca383e8fa98301da9e4da701c7df70a4cb334bdf54baa5b85f6ad",
+          "bytes": 5644,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/expert-review-packet.json",
+          "sha256": "788cb27ea26cea2a30e4f3af8ded42889f401289978098b5bfa6abe874dbb65e",
+          "bytes": 519,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/inscribe-object-reconciliation.json",
+          "sha256": "8f321a29845427305b75dfe09968ce454e4ba5b1ddaeefac6ef85f9cf974af32",
+          "bytes": 3341,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "55f301b0bd8233e8c383f17e5758a279e74a4cb86269976cd165fba1286763a9",
+          "bytes": 1055,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/sign-occurrence-register.json",
+          "sha256": "930fbbdba4f8ca626651b861ef0ab13c06c554a4247ef5888c74d23926d58132",
+          "bytes": 5090,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/signary-authority-register.json",
+          "sha256": "31f8b97d70f46724ce8c0abd78d862b38abb35cce658ba2f1a18c50cae645f9a",
+          "bytes": 2285,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "02aa8e55bfde0c3692a2b52e8303201f6b7cc77cd4fdb38c7125995797f44701",
+          "bytes": 1354,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "49b102e6c316fbe45e95eb117401132d810408687ae0dbf09bd1a16a3a6df3db",
+          "bytes": 1856,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 18,
+      "tools_export": {
+        "sha256": "c051f673ae4f3013c80805d2c3f2944b4e1a2e76ce45f5d246dd174c966eb9e0",
+        "bytes": 40921,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Aegean-anomalous",
+      "commit": "08d1f78bc8d67be35ad25d9f061348bad9364430",
+      "local_research_package_sha256": "0de85948fd745c6fbb5a403becf8bbf2d4bdb5ce7136be338b1321b8b47bbca9",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+          "bytes": 908,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+          "bytes": 1581,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+          "bytes": 850,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "df4db58e6ad317d6c7e63f737d6576982e908ae68281f8dc9e5e30dcd5c531ab",
+          "bytes": 9608,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "3a5811a204bd5f417565eb323efd0c3b3b41cca5c4abf110e6bb5fd8d636936e",
+          "bytes": 7389,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "2185ca2084088847542668a279a04e6cc4481565d018f94eaa940b0a8bbfc14a",
+          "bytes": 2961,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/admission-policy.json",
+          "sha256": "7b3453f963bae73e7faf66557f73c32b42a472c702cde5b4928fee37b9625a12",
+          "bytes": 913,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/arkalochori-conservation-packet.json",
+          "sha256": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
+          "bytes": 1940,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+          "bytes": 5804,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/candidate-register.json",
+          "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+          "bytes": 3022,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/classification-history.json",
+          "sha256": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
+          "bytes": 1991,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "5b2313b064b07a960052c60458ce6c96894b6b8d2d3465e63c68f5269fb28e3f",
+          "bytes": 17784,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/counting-convention-register.json",
+          "sha256": "6fd9e9b4fba629c8b1657b8ac8734c924307d752241d6e22b3aa718aa2751066",
+          "bytes": 2105,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+          "bytes": 1242,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "d08524a1a6a835f98e90f7eae971bb6b92f99bff3e89b8402d2e610b75c2b11f",
+          "bytes": 5446,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/expert-review-packet.json",
+          "sha256": "b232e3d6838789866cc6330580e337dd288f22cd444ac52cb44e31d7a99db2f5",
+          "bytes": 562,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/malia-evidence-packet.json",
+          "sha256": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+          "bytes": 7891,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "6f514f4ae4903ad8a0ba66b3adf74395e175f53625feeffc3360e82bcc9bc506",
+          "bytes": 1128,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "a53385f4ca46d74b80f3a373bb1612621d33229dbc1cd05c4f079eff477ea3a0",
+          "bytes": 1467,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-quality-register.json",
+          "sha256": "46f4a8c35efa37b1f123f7d70beb84aa962c750ee2a9abf12711063674900ea0",
+          "bytes": 919,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "9fc5d698faed717c5718e3ed3a645d8467a5464f6af60485c266aab3af19bc8f",
+          "bytes": 1895,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 20,
+      "tools_export": {
+        "sha256": "55ded6e0f99aad894a66a3c5c3c9c0ed699c4e2720258603b8ebf8e959cb6a0a",
+        "bytes": 40922,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Lydian",
+      "commit": "9bc132c3512bd884272c0c98c38fbee2caa4a3fd",
+      "local_research_package_sha256": "93a6c00f98fd3fe7bac74fd06448630301eafc5f8b3d09097150d0db43f86aa4",
+      "components": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "3f7ccb9afb09c7c765d7cf5fd575d92090742d60116d7dc55c9bd08e2ee5ecb3",
+          "bytes": 1565,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e416022d6486fe418616787da0e08468cb87abd3da740a804ec00fd56f7101f6",
+          "bytes": 868,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "b9743024254439cca7c0a084c0b6b313c39c4556faa6b7a16ff71aa661f23103",
+          "bytes": 15995,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "efcd4a5e10c0ce9b0f338a0b1a91aa0517ce4524f0f95cb22cea7e24f28c9500",
+          "bytes": 8929,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/reference/records.json",
+          "sha256": "22dd7797a67fe5ad941608145060b4acdd041330853d63329482db1d1f3a57e9",
+          "bytes": 152492,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/EXPERT-REVIEW.md",
+          "sha256": "dacd7e3a728b7bfc106408d664bcc2a28bc47f50683a99f123a9cb3b49d1d4ee",
+          "bytes": 3664,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "af8816ab6aa27363eaf53c7b9e4901c16661800fa86c9a1051a212e491181983",
+          "bytes": 2960,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/admission-policy.json",
+          "sha256": "175399b744d600673163ec4350b272dc10a54f2246f9e26f9bdb1a7857afc1d0",
+          "bytes": 543,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "62044b50761e37d7232d98594aa5612f7fe431702282c1453348f7df1e2b9e48",
+          "bytes": 39404,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "51449a55011486cb2662334abd438d19edaf218f635c93a70b7201d7e7df04b9",
+          "bytes": 186066,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "28edecc9ceb7e9f65cf8a51f1d389c739c6f4898ba9b6226df349f2345a31772",
+          "bytes": 1347,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "ca1b49486dd0dc5e0caec0b772757566c0cb70ce8d41489c2c0f2103b6467dab",
+          "bytes": 6426,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "e4d69114a20f6bfd928c0e7bf58180e711ead29d2560c45e28e7e2738e77821e",
+          "bytes": 2195,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-checks.json",
+          "sha256": "3f5f81168c775d924e9cfce25880bbe5cb1966c1c2234467d135986233d5c5e0",
+          "bytes": 50124,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-collation-2026-10-15.json",
+          "sha256": "3701c4f46088e451b9d4a352a7f99d8d588abe3aee6b27030fe0ba5a0db4ba67",
+          "bytes": 13606,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-issues.json",
+          "sha256": "57aef5059b7d19a6f5512f7cb19b4181b938696f1be87fa426c2896a47c1fe49",
+          "bytes": 1362,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "26ad1e57fe2653e5e9b64627cdb5c863d6b7d374ae356f89949a28e3d89f3a12",
+          "bytes": 1721,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-register.json",
+          "sha256": "5e5b43347d15c74121e6837933b0b1a95e89f0136c0b4f8d38d0cef504460dd3",
+          "bytes": 495,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-worklist.json",
+          "sha256": "f3a1b8fa205f3d89af43e8668f097b26a386ca3d2d8cd6cecca31f61a437936e",
+          "bytes": 92210,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/README.md",
+          "sha256": "7dcce8837c931f1d48a4c40cffb7985802a812e39028f602a0733a2abc225a0b",
+          "bytes": 11206,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "82583170451eba0457e868fe5ee1aa451674da15e7a83cd05b57299812ada415",
+          "bytes": 1929,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "3f7ccb9afb09c7c765d7cf5fd575d92090742d60116d7dc55c9bd08e2ee5ecb3"
+        },
+        {
+          "path": "research/rights-evidence.json",
+          "sha256": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca"
+        },
+        {
+          "path": "THIRD-PARTY-NOTICES.md",
+          "sha256": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e"
+        }
+      ],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 22,
+      "tools_export": {
+        "sha256": "98e2c5f1a857b042957f3aa15aa628e1abbbab6e0395f0315c8fe0e628fec24f",
+        "bytes": 41690,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Sidetic",
+      "commit": "50b31294c16a65c1a948455208bab264817ff6ba",
+      "local_research_package_sha256": "b8ef4896b536b4d048bd1b74d6ce4225d658dd64c82cbef65fb028d0542d90ab",
+      "components": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "6d140b300c53b2768777acdfb9c41c903f5bdfda7cfc971f87bdef8dabca99b0",
+          "bytes": 1890,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e31cea6cc45e6ae97447e910c9f9269b47e437efa690bc373df41bf55c5d18ae",
+          "bytes": 1767,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "6c295ed4d1c11bd9bd9807978a092be1e91b6faa9562ef08652aed733d188a58",
+          "bytes": 18707,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "6e62ef08eef5ed7901266197f015caaeab8d2da9742a4cf30c20ddd51f068c4f",
+          "bytes": 13184,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/reference/records.json",
+          "sha256": "f7f3c7784191302bbe50eaf2bacbfb035973ba8932ece865d2ff859dac93edde",
+          "bytes": 12776,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/EXPERT-REVIEW.md",
+          "sha256": "fc5f320ed2264c5faa45439d3a6a128afe5f3d8b49d102e6937146162ccb86dd",
+          "bytes": 5214,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "df87cf9d435bd44c0b17a0954b9f0ee2b7e4ef2e68c86572c5a3cfe1d678b463",
+          "bytes": 2958,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/admission-policy.json",
+          "sha256": "175399b744d600673163ec4350b272dc10a54f2246f9e26f9bdb1a7857afc1d0",
+          "bytes": 543,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "240abb1d8bd4bf5a6b3cbba678d9d3bf1e19088e1f191a9a82c7153a0ac7080b",
+          "bytes": 10271,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "7c9195ed94fe25b50b8c780c472385e186c54557fa3cbe2287aa1cccd2e427b2",
+          "bytes": 45701,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/disagreement-register.json",
+          "sha256": "71766e8a253694768ceed6a49c821bc4da161cb9e835ae6c6b9e7b66aae44063",
+          "bytes": 1514,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "6ecec7cf7f71f36be9976d47ee06ee7bc6cf3aa429fd265104a0c78ade3c85ce",
+          "bytes": 10372,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/ferrer2025-pdf-comparison-2026-10-18.json",
+          "sha256": "487f4e5544232a5ab2d9a754d656cfc25d57e659d7ac5e2d38e668821345eda1",
+          "bytes": 22260,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/ferrer2025-reading-assertions.json",
+          "sha256": "094d5f94a620f0472470c5aef2beca657132be37d5d046aa9ed1981cd0b2af22",
+          "bytes": 11679,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/legacy-2025-concordance.json",
+          "sha256": "0633f7a57e7e0cd2d0cf80cb97c9eb389eea2cc8d977cd5a2e798a8e255c542f",
+          "bytes": 3523,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/p1-source-followup-2026-10-16.json",
+          "sha256": "1f4f62bc2ab8b6e2e2764bc753df074687b80cb55f551bafe3e470a8f5af213e",
+          "bytes": 7634,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/rights-source-matrix.json",
+          "sha256": "41a716d0346f5ace38380abee9451062aada3b796a9b0f713cd543a8f510a88a",
+          "bytes": 1686,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/sign-model-disagreement-2025.json",
+          "sha256": "f1b7a0970aec1a3224e2d7f70148e125c587eb66b9092a8708909038d6fc28a4",
+          "bytes": 1704,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-checks.json",
+          "sha256": "e50deb8ed5eb6a01d1501ff373e4be08bbd614934d20424775a01870a21fc08b",
+          "bytes": 9795,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-collation-2026-10-15.json",
+          "sha256": "35d1e964000a42df59c572408c6b77e074e3e1b091ef793c45f0d0c99161a8a0",
+          "bytes": 27252,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-intake-2026-10-18.json",
+          "sha256": "a1919eb40081340524a246309791d90d5bd38999be97d42795c277fa348472cd",
+          "bytes": 10612,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-issues.json",
+          "sha256": "2fd2e11f36cb618fe9bf42d0b0ad742dc4009356e10d4e3e51ba6200586879ea",
+          "bytes": 1032,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-lineage-register.json",
+          "sha256": "52eb4384d6dfc10e2bfe61afbca33946bafd9803a3e37217a4f170f19fa10b08",
+          "bytes": 1987,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-register.json",
+          "sha256": "4c0b2e073b7c605a8ba1da614fab05ac9d1c6ebca133aacbc64cbebba9b9267c",
+          "bytes": 496,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-worklist.json",
+          "sha256": "79eb737c1d67db89a12d03fc5fb20623cd55ce117446662d0a619960e856f95a",
+          "bytes": 7308,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/README.md",
+          "sha256": "1a424f3a4f52d693ac1783c64e51a48f8a6d15fbe997ad244a46e37e849f6881",
+          "bytes": 1442,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "cfe8e0370807f5710a3dcb5b4940094e1ac814b8d41fe649a7d9770830301866",
+          "bytes": 1929,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "6d140b300c53b2768777acdfb9c41c903f5bdfda7cfc971f87bdef8dabca99b0"
+        },
+        {
+          "path": "research/rights-evidence.json",
+          "sha256": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca"
+        },
+        {
+          "path": "THIRD-PARTY-NOTICES.md",
+          "sha256": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e"
+        }
+      ],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 28,
+      "tools_export": {
+        "sha256": "f47a6c862c1fdff288903475b813ed1a003eeed6a8f7f86700b566053dd1d36b",
+        "bytes": 42591,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Pisidian",
+      "commit": "39196c4bafabcc318c59ace00ecdf259c390c4ef",
+      "local_research_package_sha256": "f8b2e99950e84829379539a2c4802f85ef5f9c5ec984141d943498b6d825eb4a",
+      "components": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "6daff2528007b5a79fead00b31fedcf4158d0de3c2b635138b74a2f9834749a3",
+          "bytes": 1538,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+          "bytes": 324,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "24b4bfcf2de2f729b7ebce80c8011e7d75f82f5626a63bdcf333b28f8a2a2802",
+          "bytes": 762,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
+          "bytes": 2487,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "5e71f5147b8a84063c4ae297301b22acc17095ac6cb6cdf73abd0d5df627b5f0",
+          "bytes": 870,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "1fc784e91b641d131005501f84eedc7c783b8d03afe26d1380361005c9522f62",
+          "bytes": 14269,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "6bb3edc890d65e5ee7db0033398badc142b896ec4f77c852e90506cee3261bb8",
+          "bytes": 7800,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/reference/records.json",
+          "sha256": "db85d4d2cbf009f5ce5fe3e8c468861c7299995317c3d977730cfacb5d29df0d",
+          "bytes": 53589,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/EXPERT-REVIEW.md",
+          "sha256": "339d2af8a03078405d023cac9bb109d31b9c1c52304a5ad410fe77046772d820",
+          "bytes": 3966,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "ba4139c6eaf5a7ea07262b65c30da5ed41511c54fd1ad4be7e96a54a93dda2ae",
+          "bytes": 2960,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/admission-policy.json",
+          "sha256": "175399b744d600673163ec4350b272dc10a54f2246f9e26f9bdb1a7857afc1d0",
+          "bytes": 543,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "e26bef600ff990bc69c272fe2d8f38b4ada2b390dde89c726e9e2c457a004e45",
+          "bytes": 28458,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "6e3b1e0c1ae608adaa14038bc51912020e4e1542ec20b47534e4a2525e1b5044",
+          "bytes": 100028,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "c96b16305f4403a179d09e516c52489b33d56e51561d7f5a5278a4cf94ece65a",
+          "bytes": 5262,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-checks.json",
+          "sha256": "b6add789bd9f6a5ad36269274a99c4818cf20a466d10d6a7573242b27b70f827",
+          "bytes": 36619,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-collation-2026-10-15.json",
+          "sha256": "53c1013222b4a113d815a959a910ed565d4357deb3e6e2eab079fb5232946d9e",
+          "bytes": 10736,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-issues.json",
+          "sha256": "c6a7bc889fa15a797d4a90978cd3a5a26d3eeea82f50b0bc1233d92528ffe521",
+          "bytes": 947,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-register.json",
+          "sha256": "bb91a0edbd9cffa134befb40b45104665c91e703a32ac0711791d9ee05569905",
+          "bytes": 508,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-worklist.json",
+          "sha256": "f2c4905dddfb5fbfb26740c7040d2f7fa19baf19d3717c847fa022a49594b153",
+          "bytes": 54797,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/README.md",
+          "sha256": "e8bb45495ba1c75f145b25648c5da2202b802ec2635bd88d0d9eee77b17e51ac",
+          "bytes": 5461,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "b03218fcc635e310f062fafbfa66a7b2d2ef4e626a1d5d78ae3d535e36deac2d",
+          "bytes": 1930,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [
+        {
+          "path": "DATA-LICENSE-MATRIX.md",
+          "sha256": "6daff2528007b5a79fead00b31fedcf4158d0de3c2b635138b74a2f9834749a3"
+        },
+        {
+          "path": "research/rights-evidence.json",
+          "sha256": "ce6f4be255c3d2baa00ab36f095593475a290983df86bda4e77ed1e735cc92ca"
+        },
+        {
+          "path": "THIRD-PARTY-NOTICES.md",
+          "sha256": "76341c288bdae02976c4d1218f51365e3bc6514c59713d3133cb6d04ebc6f68e"
+        }
+      ],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 19,
+      "tools_export": {
+        "sha256": "7021eacd2597e981075f03a573ddb01c9c25268ca949e82d2202bbbc050eafeb",
+        "bytes": 41694,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    },
+    {
+      "repository": "hawkinsnick/Milyan-Lycian-B",
+      "commit": "30ff03bc3dd61a5080428ae7110e5f15b1b8e6c0",
+      "local_research_package_sha256": "e122a87a4a1adeda10f3fa6f0dd5a5e4474bd9b58dac4975f430c666a2c93a38",
+      "components": [
+        {
+          "path": "LICENSE",
+          "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+          "bytes": 582,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+          "bytes": 444,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSE-CONTENT.md",
+          "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
+          "bytes": 1267,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "LICENSING.md",
+          "sha256": "ceffbd9d0b2d7d3ed13f1a43b30f580cb897cb0874ed9140062fa208f923019b",
+          "bytes": 4696,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
+          "bytes": 1216,
+          "redistribution_disposition": "CONTROLLING_TERMS_OR_NOTICE_DOCUMENT"
+        },
+        {
+          "path": "ai-skill/SKILL.md",
+          "sha256": "5675c799dd9494e19fb5ade2b82cc073ef6cff2e7b3c23d46c72a4a35fea6236",
+          "bytes": 21899,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "analysis/research-delivery.json",
+          "sha256": "bd4b2c129684fee2d45e028c0a5bf5b275657f4463a0122e7147b7a11bba95e6",
+          "bytes": 16997,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/reference/lines.json",
+          "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+          "bytes": 110279,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "data/reference/records.json",
+          "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+          "bytes": 5402,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/METHODOLOGY.md",
+          "sha256": "3bafeba0679354b180bf48897cb802aa2748925b292ec9fa5e28a7a262500a2b",
+          "bytes": 1122,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/NONREVIEW-WORK.md",
+          "sha256": "76fbe468ed40366e1cfd370b778fe291d30b66be8d2a3afe58597a42c0887b84",
+          "bytes": 3025,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/RESEARCH-DELIVERY.md",
+          "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+          "bytes": 4065,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/TL44-SOURCE-CHECKPOINT.md",
+          "sha256": "6442f8666e55ae1b9e6968497e05bb31c94ddf4d4d2a44bb6480bc2bcd29f53c",
+          "bytes": 4981,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/TL55-DOCUMENTARY-COMPLETION.md",
+          "sha256": "6ae71692843c53ca7fc8e823d51c6a31380971bc81c9bb9d441aca14df1adfc5",
+          "bytes": 4240,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "docs/TL55-SIGN-COMPARISON.md",
+          "sha256": "fc347a5b0757cf927e8fbf3d800ab744b312f00c5c912eac0e630def67abda79",
+          "bytes": 7634,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/attribution-review.json",
+          "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+          "bytes": 70819,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/collection-work-ledger.json",
+          "sha256": "b41b94a949220138597d6fb1beb9de177d71a9a1e9723e17ba4c94eb6ff02fed",
+          "bytes": 157734,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/evidence-query-profile.json",
+          "sha256": "4f51864456b81e1f5f6b0a34fc9973234d5f034dd71d348e6920b21a80eb9cac",
+          "bytes": 12545,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/primary-edition-locator-control.json",
+          "sha256": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
+          "bytes": 4083,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/reference-manifest.json",
+          "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+          "bytes": 2187,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+          "bytes": 11230,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
+          "bytes": 2880,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/tl44-boundary-documentary-review.json",
+          "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+          "bytes": 125647,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/tl44-source-checkpoint.json",
+          "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+          "bytes": 79617,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/tl55-count-reconciliation-2026-10-14.json",
+          "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
+          "bytes": 2539,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/tl55-documentary-sign-review.json",
+          "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+          "bytes": 146982,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+          "bytes": 47051,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/tl55-qualified-collation.json",
+          "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+          "bytes": 77217,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "research/tl55-sign-alignment.json",
+          "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+          "bytes": 964708,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/collection-packet.json",
+          "sha256": "252132c17b5920f134acf5367e041780b1c8ef77208f0318da3bd8ae19c1e395",
+          "bytes": 2077,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/tl55-independent-review.json",
+          "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
+          "bytes": 3690,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "review/tl55-sign-adjudication.json",
+          "sha256": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
+          "bytes": 35101,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        },
+        {
+          "path": "scripts/evidence_query.py",
+          "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+          "bytes": 11289,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/research_delivery.py",
+          "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+          "bytes": 10514,
+          "redistribution_disposition": "PROJECT_SOFTWARE_POLYFORM_NONCOMMERCIAL_1.0.0"
+        },
+        {
+          "path": "scripts/test_research_delivery.py",
+          "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+          "bytes": 5678,
+          "redistribution_disposition": "UNRESOLVED_FOR_PUBLIC_REDISTRIBUTION"
+        }
+      ],
+      "rights_authorities": [],
+      "public_release_decision": "BLOCK_LOCAL_RESEARCH_PACKAGE_PENDING_COMPONENT_REVIEW",
+      "unresolved_public_components": 28,
+      "tools_export": {
+        "sha256": "352b8c7e66d1e031d4b8523ed4771c676e39e0df9221004706553a1d5385dfe0",
+        "bytes": 44883,
+        "components": 8,
+        "scope": "Eight exact code/terms files plus generated manifest; noncommercial only, no native source payload."
+      },
+      "local_research_permission_or_legality_adjudicated": false
+    }
+  ],
+  "totals": {
+    "packages_opened": 18,
+    "components_checked": 482,
+    "unresolved_public_components": 356,
+    "tools_exports_built_and_verified": 18
+  },
+  "policy": "No blanket corpus license inferred. Existing native packages remain local-research packages; unresolved means no public-export clearance in this audit, not a finding of unlawful acquisition or use. Exact-source code is offered only under native software terms. GORILA and all native source content excluded from tools exports. Full-data public packages still require source-specific attribution/terms and permission where necessary.",
+  "archives_published": false
+}

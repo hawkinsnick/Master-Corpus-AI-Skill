@@ -1,0 +1,502 @@
+{
+  "format": "nonreview-backlog-disposition-v1",
+  "date": "2026-10-27",
+  "inputs": "inputs.json",
+  "register": {
+    "path": "corpus-factory/academic-defect-register-2026-10-23.json",
+    "sha256": "59e3f4d9893b6edb1c22e04b3fe777f669a6c02735b2408101583316f3adebdf"
+  },
+  "ledger": {
+    "path": "corpus-factory/academic-remediation-status.json",
+    "sha256": "a9288eb65dff021fb6f51e0f0e7afea6afe0003eb4563db9fa59a7ae109e5081"
+  },
+  "totals": {
+    "original_open": 38,
+    "scientific_followups": 5,
+    "new_scholarly_closures": 0
+  },
+  "classification_method": "Explicit desk classification of each unchanged closure criterion; executable subtasks do not imply that the whole item can close without new evidence.",
+  "items": [
+    {
+      "id": "ACD-001",
+      "title": "Linear A alternatives lack established same-locus witness pairs",
+      "scope": "Linear-A",
+      "ledger_status": "MITIGATED_OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Trace each queued alternative to two page-level assertions; preserve dependence and shared-locus uncertainty.",
+      "remaining_closure_evidence": "Inspect both actual editions and obtain an attributable disposition before admitting a pair.",
+      "original_closure_criteria": "Every admitted pair has two inspected source assertions, a justified shared locus, explicit dependence and review disposition.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-005",
+      "title": "Historical candidate selection prevents confirmatory interpretation",
+      "scope": "Linear-A",
+      "ledger_status": "OPEN",
+      "dependency_class": "EVALUATION",
+      "executable_without_academic_review": "Freeze new task/source commitments and preserve untouched outputs, failures and exposure logs.",
+      "remaining_closure_evidence": "Unexposed cases and an independently checked confirmatory design.",
+      "original_closure_criteria": "An auditable unexposed evaluation is executed and reported, including failures and the original selected family.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-006",
+      "title": "Prospective cohort input independence remains unauthenticated",
+      "scope": "Linear-A",
+      "ledger_status": "OPEN",
+      "dependency_class": "EVALUATION",
+      "executable_without_academic_review": "Serialize exposure histories for all 24 labels and replay eligibility decisions.",
+      "remaining_closure_evidence": "Authenticated cohort history and independent verification of scoring eligibility.",
+      "original_closure_criteria": "All 24 labels have exposure dispositions and a defensible eligible cohort under a prospectively frozen decision; scoring gate is independently checked.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-007",
+      "title": "Structural statistic does not discriminate linguistic explanations",
+      "scope": "Linear-A",
+      "ledger_status": "OPEN",
+      "dependency_class": "METHOD",
+      "executable_without_academic_review": "Execute declared competing/control models and explicitly retain structural-only claims in the absence of discrimination.",
+      "remaining_closure_evidence": "Evidence supporting any stronger linguistic inference; software success alone is insufficient.",
+      "original_closure_criteria": "Published competing-model/control results support the actual claimed inference, or the release retains a structural-only interpretation.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-008",
+      "title": "Bootstrap clusters lack authenticated physical independence",
+      "scope": "Linear-A",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Run separately labelled cluster sensitivity scenarios; never overwrite identity with heuristic joins.",
+      "remaining_closure_evidence": "Authority-backed physical-unit crosswalk.",
+      "original_closure_criteria": "Authority-backed cluster mapping and declared sensitivity results are published; heuristic joins stay separate from canonical identity.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-009",
+      "title": "Source composition and sparse groups limit generalization",
+      "scope": "Linear-A",
+      "ledger_status": "OPEN",
+      "dependency_class": "METHOD",
+      "executable_without_academic_review": "Enumerate inclusion strata, missingness and sensitivity analyses within evidenced populations.",
+      "remaining_closure_evidence": "Source coverage sufficient for the proposed generalization.",
+      "original_closure_criteria": "Declared inclusion strata and sensitivity results cover the target population; no claim that the existing diagnostic destroyed or independently confirmed the pattern.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-010",
+      "title": "Linear B known-answer linguistic gold and scoring are missing",
+      "scope": "Linear-B",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_EVALUATION",
+      "executable_without_academic_review": "Freeze aligned prediction/gold schema and leakage checks; test rejection of absent gold.",
+      "remaining_closure_evidence": "Lawfully accessible aligned linguistic gold and source-qualified scoring.",
+      "original_closure_criteria": "Frozen predictions, admitted gold, leakage checks, per-case scores and error analysis are published.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-011",
+      "title": "Linear B degraded and graphical controls remain unavailable",
+      "scope": "Linear-B",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Build reproducible degradation code using explicitly labelled synthetic controls.",
+      "remaining_closure_evidence": "Source-bound graphical controls with applicable permission and a frozen experimental design.",
+      "original_closure_criteria": "The frozen degradation experiment is executed on source-bound controls and reports failures separately from textual calibration.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-012",
+      "title": "Eight rich Cypro-Minoan records have no encoded occurrences",
+      "scope": "Cypro-Minoan",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Give each of the eight records a source/locus and occurrence-coverage disposition.",
+      "remaining_closure_evidence": "Actual source access for occurrence encoding or evidence supporting exclusion.",
+      "original_closure_criteria": "Each listed record has source-bound occurrence coverage or an evidenced unavailable/out-of-scope disposition; denominator remains the selected rich layer.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-013",
+      "title": "Cypro-Minoan source strata do not establish witness independence",
+      "scope": "Cypro-Minoan",
+      "ledger_status": "OPEN",
+      "dependency_class": "DEPENDENCE",
+      "executable_without_academic_review": "Enumerate source-specific assertions, units and known dependence; retain unknowns.",
+      "remaining_closure_evidence": "Evidence sufficient to assert independence for any selected witnesses.",
+      "original_closure_criteria": "An analysis declares admissible units, dependence groups, coverage and uncertainty; the three-assertion Tiryns check remains bounded.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-014",
+      "title": "Cretan Hieroglyphic readings cover only six catalogue entries",
+      "scope": "Cretan-hieroglyphs",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Publish per-entry reading coverage and exact unavailable-source exclusions.",
+      "remaining_closure_evidence": "Accessible source-bound readings for any additional transcription claim.",
+      "original_closure_criteria": "All units included in a transcription claim have source-bound readings; coverage denominators distinguish versions, catalogue entries and objects.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-016",
+      "title": "Byblos has no verified complete sequence layer",
+      "scope": "Byblos-syllabary",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Bind sequence, layout and uncertainty to precise inspected source loci.",
+      "remaining_closure_evidence": "Source-supported complete sequences and review required by the admission policy.",
+      "original_closure_criteria": "Each sequence claimed as complete has exact source/locus, coverage and reviewed uncertainty; admission gates pass for the claimed subset.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-018",
+      "title": "Byblos layout, direction and count conventions remain disputed",
+      "scope": "Byblos-syllabary",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Expose parallel source-specific directions, layouts and counts without pooling incompatible conventions.",
+      "remaining_closure_evidence": "Actual source assertions for every conflict; adjudication only if a resolved value is claimed.",
+      "original_closure_criteria": "Each named conflict has a recorded adjudication or parallel source-specific representation with no pooled incompatible counts.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-019",
+      "title": "Cypriot Greek index is not a classified world Greek corpus",
+      "scope": "Cypriot-syllabic-Greek",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Implement explicit included/excluded/unknown source-class filters and bounded denominators.",
+      "remaining_closure_evidence": "Authenticated source classification for whole-population linguistic claims.",
+      "original_closure_criteria": "Analyses use a justified source-interpreted subset and disclose excluded/unknown classes; whole-corpus claims require an authenticated denominator.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-020",
+      "title": "Eteocypriot component attribution is not linguistic gold",
+      "scope": "Eteocypriot",
+      "ledger_status": "OPEN",
+      "dependency_class": "SPECIALIST",
+      "executable_without_academic_review": "Package Greek parallels and uncertain component assignments without promoting them to gold.",
+      "remaining_closure_evidence": "Attributable component-level linguistic decisions with inspected loci.",
+      "original_closure_criteria": "Component-level decisions retain uncertainty and Greek parallels, supported by actual inspected loci and attributable review.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-022",
+      "title": "Eteocretan reading versions remain analytically unadmitted",
+      "scope": "Eteocretan",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Trace historical reading versions to exact loci and list nonadmitted rows.",
+      "remaining_closure_evidence": "Review and source evidence required by native admission.",
+      "original_closure_criteria": "Admitted rows have recorded source/locus and review; coverage and exclusions distinguish historical editions, secondary references and uncertain candidates.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-023",
+      "title": "Lycian/Carian digital entries do not certify physical units",
+      "scope": "Lycian-and-Carian",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Preserve digital entries and candidate object relations as different units.",
+      "remaining_closure_evidence": "Authority-backed object relations for any physical-population claim.",
+      "original_closure_criteria": "Every unit in a physical-population claim has an evidenced object relation and disposition; digital snapshot totals remain separately labelled.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-024",
+      "title": "Milyan apparatus comparisons lack full independent alternative pairs",
+      "scope": "Milyan-Lycian-B",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Trace apparatus alternatives to both real loci and document shared upstream editions.",
+      "remaining_closure_evidence": "Source-supported pair and reviewer decision before scholarly admission.",
+      "original_closure_criteria": "Each admitted pair has two actual loci, dependence status and reviewer decision; documentary apparatus rows are not counted as independent witnesses.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-026",
+      "title": "Phrygian record-specific edition lineage is missing for 159 groups",
+      "scope": "Phrygian",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Resolve or explicitly exclude each of the 159 missing edition-lineage groups.",
+      "remaining_closure_evidence": "Inspected exact source joins and required review for admitted records.",
+      "original_closure_criteria": "All admitted records have exact joins and review dispositions; the other 159 are individually resolved or explicitly excluded.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-027",
+      "title": "Selected Phrygian comparisons have narrower support than object readings",
+      "scope": "Phrygian",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Expand bounded edition comparisons, recording restorations and line-fold transformations.",
+      "remaining_closure_evidence": "Actual consulted pages for each expanded claim; generic parallels remain contextual.",
+      "original_closure_criteria": "Case receipts identify text, restoration, line-fold transforms, access and uncertainty; no upgrade from generic parallel to object reading.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-028",
+      "title": "Anatolian identity/bibliography spine lacks a reading and object concordance",
+      "scope": "Anatolian-Hieroglyphic",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Build text/object/bibliography crosswalks only where exact source evidence exists.",
+      "remaining_closure_evidence": "Missing text/object sources and component permissions.",
+      "original_closure_criteria": "Claims bind exact text/object units, sources and uncertainty; missing metadata and rights-limited readings remain declared.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-029",
+      "title": "Archanes face-level occurrence and object mapping is incomplete",
+      "scope": "Archanes-Script",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Represent each face as covered, unavailable or excluded, preserving source geometry.",
+      "remaining_closure_evidence": "Accessible source-bound face geometry and object relations.",
+      "original_closure_criteria": "Every face claimed as covered has source-bound geometry/occurrence and object relations or an explicit exclusion.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-030",
+      "title": "Archanes script membership and sign interpretation need adjudication",
+      "scope": "Archanes-Script",
+      "ledger_status": "OPEN",
+      "dependency_class": "SPECIALIST",
+      "executable_without_academic_review": "Prepare attributable sign/membership dossiers with conflicts and uncertainty.",
+      "remaining_closure_evidence": "Case-specific expert decisions; engineering parity is insufficient.",
+      "original_closure_criteria": "Recorded case-specific decisions identify reviewer expertise, inspected sources, uncertainty and conflicts; engineering parity grants no scholarly acceptance.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-031",
+      "title": "Aegean anomalous geometry and segmentation lack authoritative access",
+      "scope": "Aegean-anomalous",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Keep historical segmentations and counts separate; record source-access outcomes.",
+      "remaining_closure_evidence": "Authoritative inspectable geometry for asserted boundaries.",
+      "original_closure_criteria": "Each asserted sign boundary is source-bound and reviewable; incompatible historical counts stay source-specific until adjudicated.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-032",
+      "title": "Lydian row-level source admission remains unresolved",
+      "scope": "Lydian",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Apply Lydian row-level source-admission checks and preserve reference-only exclusions.",
+      "remaining_closure_evidence": "Inspected source evidence meeting the native admission policy.",
+      "original_closure_criteria": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-033",
+      "title": "Sidetic row-level source admission remains unresolved",
+      "scope": "Sidetic",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Apply Sidetic row-level source-admission checks and preserve reference-only exclusions.",
+      "remaining_closure_evidence": "Inspected source evidence meeting the native admission policy.",
+      "original_closure_criteria": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-034",
+      "title": "Pisidian row-level source admission remains unresolved",
+      "scope": "Pisidian",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Apply Pisidian row-level source-admission checks and preserve reference-only exclusions.",
+      "remaining_closure_evidence": "Inspected source evidence meeting the native admission policy.",
+      "original_closure_criteria": "Every admitted record meets the native admission policy with inspected source evidence; remaining records retain reference-only status.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-035",
+      "title": "Phaistos ordinal and fine-detail certification is incomplete",
+      "scope": "Phaistos-Disc",
+      "ledger_status": "OPEN",
+      "dependency_class": "SPECIALIST",
+      "executable_without_academic_review": "Validate packet completeness, exact slot/group targets and absence of fabricated assessments.",
+      "remaining_closure_evidence": "Attributable supported assessments for required Phaistos slots and groups.",
+      "original_closure_criteria": "All required slots/groups have attributable supported assessments, including uncertainty; acceptance validator evaluates actual evidence.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-036",
+      "title": "Phaistos final release lacks accepted external review",
+      "scope": "Phaistos-Disc",
+      "ledger_status": "OPEN",
+      "dependency_class": "SPECIALIST",
+      "executable_without_academic_review": "Exercise release rejection when external acceptance is absent.",
+      "remaining_closure_evidence": "Verified external-review receipt satisfying native acceptance conditions.",
+      "original_closure_criteria": "A verified receipt and complete native acceptance conditions permit the gate; submitting a form alone is insufficient.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-037",
+      "title": "AI evaluation has no unexposed representative academic task set",
+      "scope": "Master-Corpus-AI-Skill",
+      "ledger_status": "OPEN",
+      "dependency_class": "EVALUATION",
+      "executable_without_academic_review": "Run harder full-record retrieval development tasks, preserving source hashes and exposure limits.",
+      "remaining_closure_evidence": "Unexposed representative academic task selection for an academic-accuracy claim.",
+      "original_closure_criteria": "The evaluation reports exposure, exclusions, task/source hashes, uncertainty and per-case outputs against a predeclared target population.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-038",
+      "title": "AI pilot has no independent source-qualified grading",
+      "scope": "Master-Corpus-AI-Skill",
+      "ledger_status": "OPEN",
+      "dependency_class": "SPECIALIST",
+      "executable_without_academic_review": "Publish transparent field-level scoring and preserve raw model outputs.",
+      "remaining_closure_evidence": "Independent source-qualified grades and expertise/conflict disclosures.",
+      "original_closure_criteria": "Completed grades identify expertise, source access and conflicts, with adjudication/uncertainty and no substitution of packet ID matching for bibliographic truth.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-039",
+      "title": "AI pilot lacks exact build identification and platform diversity",
+      "scope": "Master-Corpus-AI-Skill",
+      "ledger_status": "OPEN",
+      "dependency_class": "EVALUATION",
+      "executable_without_academic_review": "Record all observable build/platform metadata and explicitly mark unknown builds.",
+      "remaining_closure_evidence": "Additional actually available model families/platforms; historical unknowns cannot be reconstructed.",
+      "original_closure_criteria": "New results identify available versions and limitations, separate platforms/families and preserve raw outputs; unavailable historical build data remain unknown.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-040",
+      "title": "Researcher workflow benefit and effort have not been measured",
+      "scope": "Master-Corpus-AI-Skill",
+      "ledger_status": "OPEN",
+      "dependency_class": "PARTICIPANTS",
+      "executable_without_academic_review": "Implement timing/error collection and equal-evidence baseline tooling.",
+      "remaining_closure_evidence": "Actual consenting researcher participants and measured outcomes.",
+      "original_closure_criteria": "Actual participant outcomes, timing, failures, corrections and uncertainty are reported against the declared baseline.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-041",
+      "title": "Dependence scan does not resolve semantic or partial source overlap",
+      "scope": "All 18 members",
+      "ledger_status": "OPEN",
+      "dependency_class": "DEPENDENCE",
+      "executable_without_academic_review": "Screen short fields and source lineage; assign source-specific or unknown dependence without automatic object merges.",
+      "remaining_closure_evidence": "Evidence needed for semantic identity beyond the inspected source families.",
+      "original_closure_criteria": "Each analyzed unit has an explicit dependence disposition; unknown relations remain unknown and sensitivity analyses handle them.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-042",
+      "title": "Component rights constrain a unified redistribution package",
+      "scope": "All 18 members",
+      "ledger_status": "OPEN",
+      "dependency_class": "RIGHTS",
+      "executable_without_academic_review": "Audit every concrete package member; exclude unresolved components from public redistribution.",
+      "remaining_closure_evidence": "Attributable component terms or permission for any newly included protected source.",
+      "original_closure_criteria": "Every redistributed component has attributable applicable terms/permission and compliant scope; excluded protected content is not reconstructed through derivatives.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-043",
+      "title": "Combined physical population and comparable sign units remain undefined",
+      "scope": "All 18 members",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Retain null combined counts and require explicit unit/dependence crosswalks.",
+      "remaining_closure_evidence": "Authenticated common denominator before any aggregate physical/sign claim.",
+      "original_closure_criteria": "Any reported aggregate has a defensible denominator and unit crosswalk with dependence controls; otherwise aggregate fields remain null.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-049",
+      "title": "Five Cypro-Minoan comparison sides still lack direct primary pages",
+      "scope": "Cypro-Minoan",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Attempt lawful access for the five missing primary sides; preserve individual failure receipts.",
+      "remaining_closure_evidence": "Actual inspected primary-page comparisons for all five sides.",
+      "original_closure_criteria": "Each of the five primary sides has an actual inspected-source receipt and comparison outcome; inaccessible pages remain unresolved, and doubt/lacuna are preserved.",
+      "criteria_changed": false
+    },
+    {
+      "id": "ACD-050",
+      "title": "Cypro-Minoan internal 09/10 source discrepancy remains unresolved",
+      "scope": "Cypro-Minoan",
+      "ledger_status": "OPEN",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Preserve both 09/10 assertions and exclude them from single-label gold.",
+      "remaining_closure_evidence": "Attributable correction only if resolving the source discrepancy.",
+      "original_closure_criteria": "An attributable decision resolves the discrepancy or both source-specific values remain explicitly unresolved and excluded from single-label gold.",
+      "criteria_changed": false
+    }
+  ],
+  "followups": [
+    {
+      "id": "FUP-003",
+      "parent": "ACD-003",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "The 23 original edition locators remain missing; recovering them requires source evidence.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control.",
+      "dependency_class": "SOURCE_ACCESS",
+      "executable_without_academic_review": "Search the 23 exact entry identifiers against inspectable edition routes; retain exclusions.",
+      "remaining_closure_evidence": "Actual verified edition locators, not search-result suggestions."
+    },
+    {
+      "id": "FUP-015",
+      "parent": "ACD-015",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Material and physical identity remain unadjudicated for CHIC-202/252.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control.",
+      "dependency_class": "SPECIALIST",
+      "executable_without_academic_review": "Preserve both material assertions and their independent provenance.",
+      "remaining_closure_evidence": "Attributable material/object adjudication for CHIC-202/252."
+    },
+    {
+      "id": "FUP-017",
+      "parent": "ACD-017",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Ordinal 32 discrepancy and eight unassigned positions remain unresolved; no erratum adopted.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control.",
+      "dependency_class": "SOURCE_AND_SPECIALIST",
+      "executable_without_academic_review": "Keep ordinal 32 and eight unassigned positions excluded from unambiguous lookup.",
+      "remaining_closure_evidence": "Inspect source/erratum evidence before resolving membership."
+    },
+    {
+      "id": "FUP-021",
+      "parent": "ACD-021",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Control covers this frozen source-entry union only; broader independence and physical identity claims remain unsupported.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control.",
+      "dependency_class": "DEPENDENCE",
+      "executable_without_academic_review": "Keep the source-entry union bounded and preserve per-view components.",
+      "remaining_closure_evidence": "Additional object/independence evidence for broader claims."
+    },
+    {
+      "id": "FUP-025",
+      "parent": "ACD-025",
+      "status": "OPEN_SCIENTIFIC_FOLLOWUP",
+      "remaining_requirement": "Control covers this identical-cache source-row union only; readings and independent witnesses remain unvalidated.",
+      "required_for": "A stronger source-completeness, adjudicated-reading/object or independent-validation claim; not a condition of using the scoped control.",
+      "dependency_class": "DEPENDENCE",
+      "executable_without_academic_review": "Keep the exact-cache source-row union bounded and preserve access paths.",
+      "remaining_closure_evidence": "Reading/object/witness evidence beyond cache identity."
+    }
+  ],
+  "by_dependency_class": {
+    "DEPENDENCE": 2,
+    "EVALUATION": 4,
+    "METHOD": 2,
+    "PARTICIPANTS": 1,
+    "RIGHTS": 1,
+    "SOURCE_ACCESS": 8,
+    "SOURCE_AND_EVALUATION": 1,
+    "SOURCE_AND_SPECIALIST": 14,
+    "SPECIALIST": 5
+  }
+}

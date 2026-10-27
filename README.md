@@ -1,5 +1,7 @@
 # Master Corpus AI Skill
 
+[Executed six-workstream update and eighteen reproducible walkthroughs](references/nonreview-work-2026-10-27.md). The original academic closure criteria remain unchanged.
+
 [25 October scoped closures](references/scoped-closures-2026-10-25.md): five tested controls completed, with 38 original entries and five explicit scientific follow-ups still open.
 
 [24 October academic execution review](references/academic-remediation-2026-10-24.md): all 43 remaining criteria checked, plus a tested Milyan source-row union and a source-qualified MY Zf 2 caution. No new scholarly closure claimed.

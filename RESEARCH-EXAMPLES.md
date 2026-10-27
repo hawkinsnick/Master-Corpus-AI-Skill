@@ -1,5 +1,7 @@
 # Research examples for the corpus collection
 
+[Executed six-workstream update and eighteen reproducible walkthroughs](references/nonreview-work-2026-10-27.md). The original academic closure criteria remain unchanged.
+
 These exercises show how to use the master and individual skills to investigate a focused research question: assemble a critical apparatus, test the stability of a pattern, expose circular reasoning or identify evidence that would discriminate hypotheses. They are **proposed research workflows, not executed studies or reported discoveries**. Availability of the required inputs must be checked against the current native corpus. No example promises a complete dataset, primary-edition access or a resolved interpretation.
 
 Complete [the user guide setup](USER-GUIDE.md#set-up-your-first-session) first. The prompts below assume the master instructions, selected individual skill and a declared evidence packet are accessible. For saved executions and numerical acceptance criteria, use [the separate worked demonstrations](WORKED-EXAMPLES.md).

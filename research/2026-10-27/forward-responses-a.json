@@ -1,0 +1,148 @@
+{
+  "answers": [
+    {
+      "question": "In Cretan-hieroglyphs, what material can I report for CHIC-252?",
+      "finding": "Report an unresolved material disagreement: CHIC1996, printed p. 252, #252 material caption, says “Ivoire” (ivory); INSCRIBE-CH, General information / Material, says “Animal bone”. The catalogue dossier repeats the latter as source-reported metadata, not an adjudicated material identification. Its linked closure control explicitly sets resolved_material=null and single_material_value_admitted=false. The association uses the CHIC heading, CMS II.1,393 and inventory stem 2266 (HM 2266 versus Σ-K 2266), without independent physical-identity certification.",
+      "decision": "QUALIFY",
+      "source_refs": [
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+          "path": "research/record-dossiers.json",
+          "sha256": "a5e755b75a06e8b6e7ce8e9a283ef15e90f3f4909e431c02306608580dfb09bf",
+          "pointer": "/dossiers/251"
+        },
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+          "path": "research/closure-controls.json",
+          "sha256": "c19f1909ccf1a701dc2487fe230dbd6ecf15e1ba3c89828e05a19205936eb970",
+          "pointer": "/records/1"
+        },
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "commit": "ca90b9bebb2c9cb19ef92f76bedeec1eb3bbc91f",
+          "path": "research/qualified-assertion-views.json",
+          "sha256": "6defe086bd86e195b0b248163861d68ec5fd4c68c1e5338275c4a6509210dbfd",
+          "pointer": "/assertions/7/source_disagreements/0"
+        }
+      ],
+      "limits": [
+        "The repository records prior primary-page and digital-page inspection; I retrieved those records rather than inspecting the original pages anew.",
+        "The dependent digital readings and primary numerical matches do not adjudicate material or establish independent witnesses.",
+        "Material adjudication and independent physical-identity certification remain absent. No images or models were redistributed; upstream component terms remain applicable."
+      ],
+      "commands_executed": [
+        "python repos/Master-Corpus-AI-Skill/scripts/query.py --checkouts frozen --repository hawkinsnick/Cretan-hieroglyphs --coverage",
+        "python repos/Master-Corpus-AI-Skill/scripts/query.py --checkouts frozen --repository hawkinsnick/Cretan-hieroglyphs --id CHIC-252 --collection catalogue-dossiers",
+        "python repos/Master-Corpus-AI-Skill/scripts/query.py --checkouts frozen --repository hawkinsnick/Cretan-hieroglyphs --id CHIC-252 --collection closure-controls",
+        "git -C frozen/Cretan-hieroglyphs rev-parse HEAD",
+        "git -C frozen/Cretan-hieroglyphs status --porcelain --untracked-files=no"
+      ]
+    },
+    {
+      "question": "In Byblos-syllabary, can printed ordinal 32 be used as an unambiguous sign-type lookup?",
+      "finding": "No. Coverage discovery exposes catalogue, survey-count-assertions, attribution-review and closure-controls collections. The exact closure-controls record BYB-A-D1930-ordinal-032 preserves two printed memberships, VIII and XIX, at Dunand1930 p. 5 (numbering convention p. 4). The actual type-table rows list 32 under VIII and XIX; XIX also preserves a parenthetical marker at 32. The control sets unambiguous_printed_type=null and source_table_lookup_admitted=false, with exclusion_reason=CONFLICTING_PRINTED_MEMBERSHIPS. The suggested 32-to-92 correction has not been adopted.",
+      "decision": "ANSWER",
+      "source_refs": [
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+          "path": "research/closure-controls.json",
+          "sha256": "39e8f309d6547606e2060dc972654a5073c958de9aaccce8d785105878b146e0",
+          "pointer": "/records/31"
+        },
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+          "path": "research/stele-a-type-table.json",
+          "sha256": "e166a364ccb6cede69f54f6499c8671885f6c6765ac333a2e3a36ab1244489b1",
+          "pointer": "/rows/7"
+        },
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+          "path": "research/stele-a-type-table.json",
+          "sha256": "e166a364ccb6cede69f54f6499c8671885f6c6765ac333a2e3a36ab1244489b1",
+          "pointer": "/rows/18"
+        },
+        {
+          "repository": "hawkinsnick/Byblos-syllabary",
+          "commit": "f3cf5b9010ee27d51b44de3b5334e96504e162ec",
+          "path": "research/count-assignment-checkpoint-2026-10-14.json",
+          "sha256": "7c4c03ee487b880921e8bb516314679921fbdd0a5b799e4a2e59cf332d42336c",
+          "pointer": "/candidate_32_to_92_correction_adopted"
+        }
+      ],
+      "limits": [
+        "This concerns Dunand1930 stele A printed numbering, not a corpus-wide ordinal namespace.",
+        "Printed memberships are source assertions, not certified ancient occurrences, canonical sign identities or verified sequences.",
+        "The original printed page was not freshly inspected in this run."
+      ],
+      "commands_executed": [
+        "python repos/Master-Corpus-AI-Skill/scripts/query.py --checkouts frozen --repository hawkinsnick/Byblos-syllabary --coverage",
+        "python repos/Master-Corpus-AI-Skill/scripts/query.py --checkouts frozen --repository hawkinsnick/Byblos-syllabary --id BYB-A-D1930-ordinal-032 --collection closure-controls",
+        "rg -n '32|VIII|XIX' frozen/Byblos-syllabary/research/count-assignment-partition.json frozen/Byblos-syllabary/research/count-assignment-checkpoint-2026-10-14.json",
+        "Python json/pathlib traversal of research/stele-a-type-table.json, selecting rows labelled VIII and XIX; SHA-256 calculated with hashlib.sha256",
+        "git -C frozen/Byblos-syllabary rev-parse HEAD",
+        "git -C frozen/Byblos-syllabary status --porcelain --untracked-files=no"
+      ]
+    },
+    {
+      "question": "Does Linear-B source-study record LB-ANNOTATION-ACQUISITION-20261017 establish that linguistic calibration has been executed?",
+      "finding": "No. The source-study record explicitly says calibration_executed=false. It acquired 26 live identity records, comprising 25 selected pilot records and one published example, while same-snapshot word crosswalk, linked linguistic annotations and certified graphical baseline remain unacquired. Later evidence preserves that distinction: the 19 October public-route inspection did not deliver a linked annotation package or same-snapshot crosswalk. The 25 October printed-appendix recheck confirmed three document fields and seven publication-local units (five lexical words, one logogram, one numeral), but explicitly retained calibration_executed=false, linguistic_gold_acquired=false and same_version_word_crosswalk_verified=false.",
+      "decision": "ANSWER",
+      "source_refs": [
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "commit": "0f2feca03820db295419ee2301826b79d6016085",
+          "path": "research/source-study-2026-10-17.json",
+          "sha256": "94fac24c9b47ce88b117f581021d781e3ec8065d88ff18412f7c7d5e4d08045d",
+          "pointer": ""
+        },
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "commit": "0f2feca03820db295419ee2301826b79d6016085",
+          "path": "research/damos-public-routes-2026-10-19.json",
+          "sha256": "dd327cd5924759b13ef4a441221a66d06894bce21737e64bd3cc7fe16635cf5d",
+          "pointer": ""
+        },
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "commit": "0f2feca03820db295419ee2301826b79d6016085",
+          "path": "research/published-appendix-recheck-2026-10-25.json",
+          "sha256": "3aafca6d7e5c425f0691054252c5939b5fa4c89af8c9d44e8415127a134d8458",
+          "pointer": ""
+        },
+        {
+          "repository": "hawkinsnick/Linear-B",
+          "commit": "0f2feca03820db295419ee2301826b79d6016085",
+          "path": "analysis/current-status.json",
+          "sha256": "42cf999eeb1c8e2ced271d6bdb95a288ceca54abc43c4c10f2bbd27bdd7a68ec",
+          "pointer": "/scientific_results"
+        }
+      ],
+      "limits": [
+        "Publication facts, public endpoint availability and identity consistency are not aligned linguistic gold or executed calibration.",
+        "The study review status is PREPARED_NOT_REVIEWED; source authorship does not establish project participation or acceptance.",
+        "The inspected records do not establish global absence of annotations from every DĀMOS route.",
+        "This run inspected frozen native records, not private authenticated payloads or the original publication afresh."
+      ],
+      "commands_executed": [
+        "python repos/Master-Corpus-AI-Skill/scripts/query.py --checkouts frozen --repository hawkinsnick/Linear-B --id LB-ANNOTATION-ACQUISITION-20261017 --collection source-study",
+        "cat frozen/Linear-B/research/published-appendix-recheck-2026-10-25.json",
+        "cat frozen/Linear-B/analysis/current-status.json",
+        "Python json/pathlib read of research/damos-public-routes-2026-10-19.json; SHA-256 of cited later files calculated with hashlib.sha256",
+        "git -C frozen/Linear-B rev-parse HEAD",
+        "git -C frozen/Linear-B status --porcelain --untracked-files=no"
+      ]
+    }
+  ],
+  "method_limits": [
+    "All three native HEAD revisions matched the master accepted checkpoints. Tracked worktrees were clean before and after retrieval, with unchanged HEADs.",
+    "Read-only retrieval only; no files saved or repository modifications made.",
+    "No fresh operational-validation or scholarly-validation claim is made; validation scripts were not run.",
+    "The forbidden research-regression file and evaluation responses were not consulted.",
+    "Some initial combined instruction/coverage output was terminal-truncated; decisive record payloads and later evidence were retrieved separately."
+  ]
+}

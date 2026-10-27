@@ -1,5 +1,7 @@
 # Research follow-up: fixes and remaining decisions
 
+[Executed six-workstream update and eighteen reproducible walkthroughs](references/nonreview-work-2026-10-27.md). The original academic closure criteria remain unchanged.
+
 This follow-up addresses the open items in [Research Results](RESEARCH-RESULTS.md). The original pilot, expected answers and scores remain unchanged. The new work uses the same [frozen native revisions](research/2026-10-21/native-revisions.json); current main branches may have advanced.
 
 | Item | Work completed | Current limit |

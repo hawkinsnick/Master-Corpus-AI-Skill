@@ -1,5 +1,7 @@
 # Researcher's user guide: from question to inspectable evidence
 
+[Executed six-workstream update and eighteen reproducible walkthroughs](references/nonreview-work-2026-10-27.md). The original academic closure criteria remain unchanged.
+
 Use the Corpus AI to assemble, question and document evidence for a research argument. Start with a narrow question, supply the relevant corpus files, and ask for an auditable result. You remain responsible for source consultation, philological judgment and the argument you submit.
 
 **Start without programming:** download the starter, select one corpus, upload a small evidence packet, and use the first-session prompt below. A GitHub URL alone does not give every AI assistant access to the repository.

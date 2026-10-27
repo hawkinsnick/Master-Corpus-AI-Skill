@@ -1,5 +1,7 @@
 # Cross-corpus research walkthroughs
 
+[Executed six-workstream update and eighteen reproducible walkthroughs](references/nonreview-work-2026-10-27.md). The original academic closure criteria remain unchanged.
+
 A comparison starts with a question that needs evidence from more than one project. The master helps you select the projects, retrieve their records separately and decide which parts of the question the available evidence can answer.
 
 These five walkthroughs are research designs with copyable prompts, not completed analyses or reported findings. They do not assume that every requested field or sample is already available. Each gives you a useful first task and a concrete output to take into further research.
