@@ -184,10 +184,15 @@
     }
   ],
   "master_tests": {
-    "passed": 82,
+    "passed": 84,
     "failed": 0
   },
   "frozen_replay": "All six study receipts plus unchanged fresh-response citation failures replayed successfully at original inputs.",
   "publication_note": "All eighteen native automatic bundle workflows advanced source commits to generated-artifact commits. Only generated bundle/starter files changed after source publication. The local duplicate publication was rejected by the expected-head lease; automatic published bundles were acquired and validated instead.",
-  "scientific_approval_granted": false
+  "scientific_approval_granted": false,
+  "hosted_replay_followup": {
+    "initial_run": "https://github.com/hawkinsnick/Master-Corpus-AI-Skill/actions/runs/40510238976",
+    "initial_failure": "The master link checker descended into separately acquired .nonreview-checkouts and interpreted native placeholder links as broken master links.",
+    "repair": "Limit link validation to the declared master source inventory; preserve broken-master-link rejection. Add two regression tests. Frozen study receipts are unchanged."
+  }
 }

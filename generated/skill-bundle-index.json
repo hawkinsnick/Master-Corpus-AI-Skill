@@ -218,7 +218,7 @@
     },
     {
       "path": "registry/member-state.json",
-      "sha256": "379e22e826805cd3814839c4a1340f04cd7200e215d14ba7b8233de867e698fa",
+      "sha256": "1275c40fa468a8a26fc19ce63e2e129cd73bb12218157db5c2d5d639b80fbb89",
       "bytes": 13841
     },
     {
@@ -493,8 +493,8 @@
     },
     {
       "path": "research/2026-10-27/publication-verification.json",
-      "sha256": "742f4364b2a35aa3c1d5abd5accb880a1e24cb9a2b0a8ef106604ad6a4f299d5",
-      "bytes": 10704
+      "sha256": "55fc1d1873478ba7d8cc0011d2d2b885c8d179619c9b0af8c55eb72570f80c93",
+      "bytes": 11192
     },
     {
       "path": "research/2026-10-27/research-regression.json",
@@ -678,8 +678,8 @@
     },
     {
       "path": "scripts/validate.py",
-      "sha256": "6c200d9246cb889c76bb2c5b9b0ee20d82e392421f8497c44b2f193c2a20bac3",
-      "bytes": 5461
+      "sha256": "ffe3d3d6f58d6001b3353f562639022d3a82eabe964cb1c20080db48bb6ee15d",
+      "bytes": 5543
     },
     {
       "path": "scripts/validate_evaluation_v2.py",
@@ -718,8 +718,8 @@
     },
     {
       "path": "tests/test_nonreview_controls.py",
-      "sha256": "75c7cac23c297702cd2be3754bd46fd9164da0e7c230b9990f1a42e52c1416e5",
-      "bytes": 4654
+      "sha256": "f6f29e9b93f9422a9766905dc1e39f53cc8ea06bfc28f87725c9559f0af8c091",
+      "bytes": 5584
     },
     {
       "path": "tests/test_provider_source_check.py",
@@ -769,7 +769,7 @@
   ],
   "starter": {
     "path": "downloads/Master-Corpus-AI-Skill-Starter.txt",
-    "sha256": "f0155c54bb57dec4f19ade8eefe2cc4137389a601dbcd6ad858ecf5cad6e8930",
+    "sha256": "51fc7059a97aad93cbe863917a114b2651db84da97f03520430550f128f8dd40",
     "bytes": 107111
   }
 }

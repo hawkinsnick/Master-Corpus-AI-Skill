@@ -62,3 +62,20 @@ class CommittedCitationControls(unittest.TestCase):
         from verify_response_refs import verify
         ref={**self.ref,'path':'guide.md','sha256':digest((self.root/'guide.md').read_bytes()),'locator_type':'text_contains','locator':'Exact source heading'};ref.pop('pointer')
         self.assertEqual(verify(ref,self.parent,self.parent)['locator_type'],'text_contains')
+
+class MasterSourceLinkScope(unittest.TestCase):
+    def test_separate_native_documentation_is_not_master_source(self):
+        import tempfile
+        from unittest.mock import patch
+        from validate import links
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);native=root/'.nonreview-checkouts'/'Member';native.mkdir(parents=True)
+            (native/'guide.md').write_text('[native placeholder](?)')
+            with patch('validate.source_files',return_value={'README.md':b'# Master\n'}):links(root)
+    def test_broken_master_source_link_still_rejected(self):
+        import tempfile
+        from unittest.mock import patch
+        from validate import links
+        with tempfile.TemporaryDirectory() as folder:
+            with patch('validate.source_files',return_value={'README.md':b'[broken](missing.md)'}):
+                with self.assertRaises(ValueError):links(Path(folder))

@@ -6,12 +6,14 @@ from pathlib import Path
 import re
 import subprocess
 from common import ROOT,EXCLUDED,local,members,checkout,execute,sha
-from build_starter import build
+from build_starter import build,source_files
 
 def links(root=ROOT):
-    for path in Path(root).rglob('*.md'):
-        if any(part in ('.git','.checkouts','__pycache__') for part in path.relative_to(root).parts):continue
-        for link in re.findall(r'\]\(([^\s)]+)\)',path.read_text()):
+    # Validate the master source inventory, never separately acquired native repositories.
+    for relative,raw in source_files(root).items():
+        if not relative.endswith('.md'):continue
+        path=Path(root)/relative
+        for link in re.findall(r'\]\(([^\s)]+)\)',raw.decode()):
             if re.match(r'(?:https?://|mailto:|#)',link):continue
             target=link.split('#',1)[0]
             resolved=(path.parent/target).resolve()
